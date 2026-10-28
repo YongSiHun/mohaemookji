@@ -251,7 +251,7 @@
         },
         {
           "id": "western_98bbac6cb6b0",
-          "name": "카초 에 페페",
+          "name": "카초 에 페페(치즈 후추 파스타)",
           "flavors": [
             "savory",
             "rich"
@@ -267,7 +267,7 @@
         },
         {
           "id": "western_4a2ced987d52",
-          "name": "푸타네스카",
+          "name": "푸타네스카(올리브 케이퍼 토마토 파스타)",
           "flavors": [
             "sour",
             "umami"
@@ -288,7 +288,7 @@
         },
         {
           "id": "western_7ca553c8fa05",
-          "name": "스파게티 알레 세피에",
+          "name": "스파게티 알레 세피에(오징어 먹물 파스타)",
           "flavors": [
             "rich",
             "umami"
@@ -360,6 +360,102 @@
           ],
           "seasonings": [
             "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_a218be80649a",
+          "name": "파스타 알라 네라노(주키니 치즈 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "주키니",
+            "프로볼로네 치즈",
+            "바질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_508db0ae030a",
+          "name": "파스타 알 피스타키오(피스타치오 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "피스타치오",
+            "파르메산 치즈",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_c1882ae5df66",
+          "name": "파스타 알 리모네 에 리코타(레몬 리코타 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "리코타 치즈",
+            "레몬",
+            "바질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_1f9a5edd2a26",
+          "name": "새우 주키니 파스타",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "주키니",
+            "새우",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_6587bb53afd6",
+          "name": "터키 테트라치니(칠면조 크림 파스타구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "칠면조",
+            "양송이버섯",
+            "생크림",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
             "소금",
             "후추"
           ]
@@ -450,6 +546,344 @@
             "화이트와인",
             "소금"
           ]
+        },
+        {
+          "id": "western_49bd8a5ffb84",
+          "name": "리시 에 비시(완두콩 쌀요리)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "완두콩",
+            "판체타",
+            "양파",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_d092a6db893b",
+          "name": "리소토 알 라디키오(라디키오 리소토)",
+          "flavors": [
+            "bitter",
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "라디키오",
+            "양파",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "레드와인"
+          ]
+        },
+        {
+          "id": "western_393f3ccd7de2",
+          "name": "리소토 알 네로 디 세피아(오징어먹물 리소토)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "오징어",
+            "양파"
+          ],
+          "seasonings": [
+            "오징어먹물",
+            "올리브유",
+            "화이트와인",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_cc399e29da97",
+          "name": "리소토 아스파라기(아스파라거스 리소토)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "아스파라거스",
+            "양파",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "화이트와인"
+          ]
+        },
+        {
+          "id": "western_ad7b87b1a8f2",
+          "name": "단호박 리소토",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "단호박",
+            "양파",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_aee531643df6",
+          "name": "비트 리소토",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "비트",
+            "양파",
+            "염소치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "화이트와인"
+          ]
+        },
+        {
+          "id": "western_1144592e8492",
+          "name": "아란치니(속을 채운 밥 튀김)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "소고기",
+            "토마토",
+            "완두콩",
+            "모차렐라 치즈",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_28cc546dcbb3",
+          "name": "아로스 드 마리스쿠(포르투갈식 해물밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "새우",
+            "홍합",
+            "조개",
+            "토마토",
+            "고수"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_9a391110632e",
+          "name": "아로스 드 파투(포르투갈식 오리밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "오리고기",
+            "초리소",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_dea365a87c86",
+          "name": "아로스 네그로(오징어먹물 쌀요리)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "오징어",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "오징어먹물",
+            "올리브유",
+            "소금",
+            "화이트와인"
+          ]
+        },
+        {
+          "id": "western_cc4c1017156c",
+          "name": "파에야 발렌시아나(닭고기 토끼고기 파에야)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "토끼고기",
+            "그린빈",
+            "흰강낭콩"
+          ],
+          "seasonings": [
+            "올리브유",
+            "사프란",
+            "파프리카가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_71d67f8b16bb",
+          "name": "파에야 베르두라스(채소 파에야)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "아티초크",
+            "그린빈",
+            "파프리카",
+            "토마토"
+          ],
+          "seasonings": [
+            "올리브유",
+            "사프란",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_4fe3c2e90f36",
+          "name": "유베치(발칸식 채소 쌀구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "가지",
+            "파프리카",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_6a6478486a8e",
+          "name": "잠발라야(케이준식 고기 해물밥)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "소시지",
+            "새우",
+            "토마토",
+            "셀러리"
+          ],
+          "seasonings": [
+            "케이준시즈닝",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_3155def6a533",
+          "name": "더티 라이스(닭간을 넣은 케이준 볶음밥)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭간",
+            "돼지고기",
+            "양파",
+            "피망"
+          ],
+          "seasonings": [
+            "케이준시즈닝",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_3223d382e26f",
+          "name": "라이스 푸딩",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "쌀",
+            "우유",
+            "생크림"
+          ],
+          "seasonings": [
+            "설탕",
+            "계피가루",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_bc588af11aaa",
+          "name": "갈리시아식 조개밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "바지락",
+            "피망",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "파프리카가루"
+          ]
         }
       ]
     },
@@ -536,7 +970,7 @@
         },
         {
           "id": "western_9564fad97732",
-          "name": "뵈프 부르기뇽",
+          "name": "뵈프 부르기뇽(레드와인 소고기 스튜)",
           "flavors": [
             "savory",
             "umami"
@@ -674,6 +1108,543 @@
           "seasonings": [
             "우스터소스",
             "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_ea16ee6a8dd5",
+          "name": "포토푀(소고기와 뿌리채소 맑은 찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "리크",
+            "순무",
+            "셀러리"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎",
+            "정향"
+          ]
+        },
+        {
+          "id": "western_4b94da2a0dfe",
+          "name": "다우브 프로방살(프로방스 소고기 와인찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "양파",
+            "토마토",
+            "오렌지껍질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레드와인",
+            "소금",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_cf11ae3da319",
+          "name": "카르보나드 플라망드(소고기 맥주찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "빵"
+          ],
+          "seasonings": [
+            "버터",
+            "흑맥주",
+            "머스터드",
+            "흑설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_60ab9db4bc88",
+          "name": "아시 파르망티에(소고기 감자 파이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_1dc10623054a",
+          "name": "스테이크 오 푸아브르(후추 크림 스테이크)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "통후추",
+            "소금",
+            "브랜디"
+          ]
+        },
+        {
+          "id": "western_214ebba32a33",
+          "name": "스테이크 프리트(스테이크와 감자튀김)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_7accb48d7602",
+          "name": "비프 타르타르(프랑스식 생고기 무침)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "계란노른자",
+            "샬롯",
+            "케이퍼",
+            "피클"
+          ],
+          "seasonings": [
+            "머스터드",
+            "우스터소스",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_ca8b72d79b9e",
+          "name": "코지두 아 포르투게자(포르투갈식 고기 채소찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "소시지",
+            "양배추",
+            "당근",
+            "감자"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_cecc42adcdbd",
+          "name": "알본디가스(스페인식 미트볼 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "계란",
+            "토마토",
+            "빵가루"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_b0f53e47e1c3",
+          "name": "자우어브라텐(새콤한 소고기 로스트)",
+          "flavors": [
+            "sour",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "당근",
+            "건포도"
+          ],
+          "seasonings": [
+            "와인식초",
+            "레드와인",
+            "설탕",
+            "소금",
+            "정향"
+          ]
+        },
+        {
+          "id": "western_874ad6b1b593",
+          "name": "린더룰라덴(소고기 베이컨 피클 말이찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "베이컨",
+            "양파",
+            "피클"
+          ],
+          "seasonings": [
+            "머스터드",
+            "소금",
+            "후추",
+            "레드와인"
+          ]
+        },
+        {
+          "id": "western_4760b57af9d2",
+          "name": "쾨니히스베르거 클롭세(케이퍼 크림 미트볼)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "계란",
+            "빵",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "케이퍼",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_aba9eb44ee63",
+          "name": "타펠슈피츠(오스트리아 소고기 맑은 찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "리크",
+            "셀러리"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_47b56869436b",
+          "name": "피티판나(잘게 썬 고기 감자볶음)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_a4f0fb658074",
+          "name": "카리알란파이스티(핀란드식 소고기 돼지고기찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "통후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_7d1ce1e8014e",
+          "name": "스비치코바(소고기 뿌리채소 크림찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "셀러리악",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "머스터드"
+          ]
+        },
+        {
+          "id": "western_d17436bc7586",
+          "name": "미티테이(루마니아식 고기구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "타임",
+            "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_05dcebf2e6b5",
+          "name": "체바피(발칸식 다진 고기구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "양고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_110776a8dd5d",
+          "name": "컨트리 프라이드 스테이크(흰 소스를 곁들인 소고기 튀김)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "소고기",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_99750ae1b0e1",
+          "name": "비프 팟로스트",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "당근",
+            "양파",
+            "셀러리"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_869551a35eb7",
+          "name": "아일랜드 비프 스튜",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "기네스맥주",
+            "소금",
+            "후추",
+            "버터"
+          ]
+        },
+        {
+          "id": "western_b43bff551b6a",
+          "name": "비프 앤 에일 파이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "양송이버섯",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "에일맥주",
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_1705999b9ed6",
+          "name": "스테이크 앤 키드니 파이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "소콩팥",
+            "양파",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "우스터소스"
+          ]
+        },
+        {
+          "id": "western_d5686857ed97",
+          "name": "기로바르라키아(쌀 미트볼 레몬 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "쌀",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_b11de1f45105",
+          "name": "그레몰라타 소고기 스튜",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "양파",
+            "토마토",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬제스트",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_cf06b49a7901",
+          "name": "폴페토네(이탈리아식 고기 롤)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "계란",
+            "빵가루",
+            "햄",
+            "치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_b715b63db946",
+          "name": "브라촐레(치즈 속 소고기말이찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "파르메산 치즈",
+            "빵가루",
+            "토마토"
+          ],
+          "seasonings": [
+            "올리브유",
             "소금",
             "후추"
           ]
@@ -948,6 +1919,28 @@
             "버터",
             "계피가루"
           ]
+        },
+        {
+          "id": "western_319278472f9e",
+          "name": "프란세지냐(고기 치즈 소스 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "식빵",
+            "소고기",
+            "햄",
+            "소시지",
+            "치즈",
+            "토마토"
+          ],
+          "seasonings": [
+            "버터",
+            "맥주",
+            "소금",
+            "고춧가루"
+          ]
         }
       ]
     },
@@ -1044,6 +2037,58 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_86c3f1dfac47",
+          "name": "스코치 에그(고기로 감싼 계란튀김)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "소시지살",
+            "밀가루",
+            "빵가루"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_e4a3ea440ca9",
+          "name": "일 플로탕트(커스터드 위 머랭)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라빈"
+          ]
+        },
+        {
+          "id": "western_f61a403ee630",
+          "name": "세미프레도(반쯤 얼린 크림 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "계란",
+            "생크림",
+            "아몬드"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라익스트랙"
+          ]
         }
       ]
     },
@@ -1127,7 +2172,7 @@
         },
         {
           "id": "western_037418bb6c57",
-          "name": "비시수아즈",
+          "name": "비시수아즈(차가운 감자 대파 수프)",
           "flavors": [
             "cool",
             "light",
@@ -1198,6 +2243,394 @@
             "후추",
             "넛메그"
           ]
+        },
+        {
+          "id": "western_33cfb53261ed",
+          "name": "알리고(치즈를 섞은 으깬 감자)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "톰치즈",
+            "생크림",
+            "마늘"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_b136e13dcb9b",
+          "name": "파르망티에 감자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_65fdb123e381",
+          "name": "폼 안나(겹겹이 감자 버터구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_e6397e1e98bf",
+          "name": "폼 뒤셰스(모양을 낸 감자 퓌레구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_81cba036cb3d",
+          "name": "폼 도핀(감자 슈 반죽 튀김)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_d7521d6f52a0",
+          "name": "폼 퓌레(프랑스식 으깬 감자)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_8902e5e314cd",
+          "name": "그라탱 도피누아(치즈 없는 감자 크림구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "우유",
+            "생크림",
+            "마늘"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_0410cd11f16f",
+          "name": "파타타스 브라바스(매콤한 소스 감자튀김)",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "감자",
+            "토마토",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카가루",
+            "소금",
+            "식초"
+          ]
+        },
+        {
+          "id": "western_2b584889cba9",
+          "name": "파타타스 알리올리(마늘 마요네즈 감자)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "마늘",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_cfe00db3f4a0",
+          "name": "카르토펠주페(독일식 감자 소시지 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "소시지",
+            "리크",
+            "당근"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "마조람"
+          ]
+        },
+        {
+          "id": "western_7cf501b64208",
+          "name": "카르토펠크뇌델(감자 경단)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "감자전분",
+            "계란"
+          ],
+          "seasonings": [
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_e41f167d6046",
+          "name": "리비코헨(독일식 감자전)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "감자",
+            "양파",
+            "계란",
+            "밀가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_a31e0fbf4fde",
+          "name": "카르토펠그라탱 미트볼",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "소고기",
+            "생크림",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_c64ef03154ec",
+          "name": "그뢰스틀(고기와 감자 팬볶음)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "소고기",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "캐러웨이"
+          ]
+        },
+        {
+          "id": "western_03c3af228b59",
+          "name": "로스티(스위스식 감자 팬구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_60b30b1269b7",
+          "name": "얀손스 프레스텔세(감자 스프랫 크림구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "양파",
+            "절인스프랫",
+            "생크림",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_9eead38c939f",
+          "name": "브린조베 할루슈키(감자 경단 치즈 무침)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "밀가루",
+            "브린자 치즈",
+            "베이컨"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_9ee7b3e7bdd4",
+          "name": "버블 앤 스퀴크(감자 양배추 팬구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "양배추",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_263c9e6ca8ca",
+          "name": "칠리 치즈 프라이",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "소고기",
+            "강낭콩",
+            "체더 치즈"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_9ab49f736c0d",
+          "name": "푸틴(그레이비 치즈 감자튀김)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "치즈커드",
+            "소고기육수",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_e9a21efee32d",
+          "name": "포테이토 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "감자",
+            "강력분",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
         }
       ]
     },
@@ -1226,7 +2659,7 @@
         },
         {
           "id": "shakshuka",
-          "name": "샥슈카",
+          "name": "샥슈카(토마토소스 계란요리)",
           "flavors": [
             "spicy",
             "rich"
@@ -1284,7 +2717,7 @@
         },
         {
           "id": "western_b8235745202a",
-          "name": "미네스트로네",
+          "name": "미네스트로네(이탈리아식 채소 수프)",
           "flavors": [
             "light",
             "umami"
@@ -1304,7 +2737,7 @@
         },
         {
           "id": "western_3451931d56e6",
-          "name": "가스파초",
+          "name": "가스파초(차가운 토마토 수프)",
           "flavors": [
             "cool",
             "refreshing",
@@ -1321,6 +2754,122 @@
             "올리브유",
             "셰리식초",
             "소금"
+          ]
+        },
+        {
+          "id": "western_126cecda5de0",
+          "name": "파파 알 포모도로(토마토 빵 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토마토",
+            "빵",
+            "마늘",
+            "바질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_d291fa0c4f79",
+          "name": "아쿠아코타(토스카나 채소 계란 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토마토",
+            "양파",
+            "셀러리",
+            "계란",
+            "빵"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_31b2529c055a",
+          "name": "콩피 토마토",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "토마토",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "설탕",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_afb05d862b51",
+          "name": "살모레호(토마토 빵 냉수프)",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "토마토",
+            "빵",
+            "마늘",
+            "계란",
+            "하몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "셰리식초"
+          ]
+        },
+        {
+          "id": "western_d9fdb1cbc845",
+          "name": "라이스 스터프트 토마토",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토마토",
+            "쌀",
+            "마늘",
+            "바질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_ba99ac5ff56d",
+          "name": "그리스식 예미스타(쌀을 채운 토마토와 파프리카)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토마토",
+            "파프리카",
+            "쌀",
+            "양파",
+            "민트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
           ]
         }
       ]
@@ -1364,6 +2913,25 @@
             "계피가루",
             "넛메그"
           ]
+        },
+        {
+          "id": "western_f05b1ee7425a",
+          "name": "호박 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "단호박",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "설탕",
+            "계피가루",
+            "베이킹소다"
+          ]
         }
       ]
     },
@@ -1390,7 +2958,7 @@
         },
         {
           "id": "western_78a86587b2f8",
-          "name": "비스크",
+          "name": "비스크(갑각류를 갈아 끓인 수프)",
           "flavors": [
             "rich",
             "umami"
@@ -1407,6 +2975,81 @@
             "소금",
             "후추",
             "브랜디"
+          ]
+        },
+        {
+          "id": "western_daa6b70af18f",
+          "name": "감바스 아 라 플란차(새우 철판구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "굵은소금"
+          ]
+        },
+        {
+          "id": "western_fbc52ad7233b",
+          "name": "슈림프 크리올(토마토 소스 새우찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "토마토",
+            "양파",
+            "피망",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "케이준시즈닝",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_c235bae330fc",
+          "name": "슈림프 앤 그리츠(새우와 옥수수죽)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "새우",
+            "그리츠",
+            "베이컨",
+            "우유",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_8ea0f36a9e5f",
+          "name": "새우 사가나키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "토마토",
+            "페타 치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "오레가노"
           ]
         }
       ]
@@ -1432,6 +3075,46 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_2fb8736cfb03",
+          "name": "파스타 에 파졸리(파스타와 콩 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쇼트파스타",
+            "흰강낭콩",
+            "토마토",
+            "셀러리",
+            "당근"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_4c256058195d",
+          "name": "파스타 에 체치(파스타와 병아리콩 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쇼트파스타",
+            "병아리콩",
+            "토마토",
+            "마늘",
+            "로즈메리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -1440,7 +3123,7 @@
       "recipes": [
         {
           "id": "western_0fc5f1b051bb",
-          "name": "아마트리차나",
+          "name": "아마트리차나(돼지고기 토마토 파스타)",
           "flavors": [
             "rich",
             "umami"
@@ -1455,6 +3138,47 @@
             "올리브유",
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "western_6e99453a5f08",
+          "name": "파스타 콘 레 사르데(정어리 펜넬 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "부카티니",
+            "정어리",
+            "펜넬",
+            "건포도",
+            "잣"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "사프란"
+          ]
+        },
+        {
+          "id": "western_e0a2a6036525",
+          "name": "파스티치오(그리스식 미트소스 파스타구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "부카티니",
+            "소고기",
+            "토마토",
+            "우유",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "계피가루",
+            "넛메그"
           ]
         }
       ]
@@ -1498,6 +3222,26 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_4c174cde3d09",
+          "name": "파스타 알 페스토 로쏘(선드라이토마토 페스토 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "펜네",
+            "선드라이토마토",
+            "아몬드",
+            "파르메산 치즈",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -1506,7 +3250,7 @@
       "recipes": [
         {
           "id": "western_9b9d1155c92c",
-          "name": "알라 노르마",
+          "name": "알라 노르마(가지 토마토 파스타)",
           "flavors": [
             "sour",
             "umami"
@@ -1521,6 +3265,43 @@
             "올리브유",
             "소금",
             "바질"
+          ]
+        },
+        {
+          "id": "western_8a2a9a932d0d",
+          "name": "라구 나폴레타노(나폴리 고기 토마토 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "리가토니",
+            "소고기",
+            "돼지갈비",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "레드와인"
+          ]
+        },
+        {
+          "id": "western_566ebc4cbd2f",
+          "name": "파스타 알라 그리치아(관찰레 치즈 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "리가토니",
+            "관찰레",
+            "페코리노 치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
           ]
         }
       ]
@@ -1556,7 +3337,7 @@
       "recipes": [
         {
           "id": "western_fcac4ea30024",
-          "name": "카넬로니",
+          "name": "카넬로니(속을 채운 원통 파스타)",
           "flavors": [
             "savory",
             "rich"
@@ -1599,7 +3380,7 @@
         },
         {
           "id": "western_fe5b6394d0d0",
-          "name": "토르텔리니",
+          "name": "토르텔리니(고리를 닮은 속 채운 파스타)",
           "flavors": [
             "savory",
             "rich"
@@ -1618,7 +3399,7 @@
         },
         {
           "id": "western_c0597c36eb9a",
-          "name": "타르트 플랑베",
+          "name": "타르트 플랑베(얇은 알자스식 양파 피자)",
           "flavors": [
             "savory",
             "rich"
@@ -1636,7 +3417,7 @@
         },
         {
           "id": "western_4cad143c818a",
-          "name": "키슈 로렌",
+          "name": "키슈 로렌(베이컨 계란 크림 타르트)",
           "flavors": [
             "savory",
             "rich"
@@ -1713,7 +3494,7 @@
         },
         {
           "id": "western_6e72d6cba7ae",
-          "name": "더치 베이비",
+          "name": "더치 베이비(오븐에 부풀려 구운 팬케이크)",
           "flavors": [
             "sweet",
             "savory"
@@ -1859,6 +3640,833 @@
             "소금",
             "바닐라익스트랙"
           ]
+        },
+        {
+          "id": "western_45f3c246d518",
+          "name": "토르텔리 디 주카(단호박 속 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "단호박",
+            "아마레티",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "세이지"
+          ]
+        },
+        {
+          "id": "western_9cee5b1b5035",
+          "name": "카손첼리(고기 속 버터 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "소고기",
+            "돼지고기",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "세이지"
+          ]
+        },
+        {
+          "id": "western_f3a9c9fe75ed",
+          "name": "스페츨레(독일식 계란 반죽 면)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_3b744c7b32af",
+          "name": "말타셴(독일식 고기 만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "돼지고기",
+            "소고기",
+            "시금치"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_115744ea8da8",
+          "name": "구제르(치즈 슈)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_bb4356fa6cf5",
+          "name": "피에로기 루스키에(감자 치즈 만두)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "트바루크 치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_8f16662c91c5",
+          "name": "피에로기 미엥셈(고기 속 만두)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "돼지고기",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_d5e960b9c4cb",
+          "name": "피에로기 카푸스타(양배추 버섯 만두)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "사워크라우트",
+            "말린버섯",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_361afd76a50e",
+          "name": "코니시 패스티(고기 감자 파이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "감자",
+            "스웨드",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_393bbe89a8d8",
+          "name": "요크셔푸딩",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_b82f725f94a3",
+          "name": "크럼펫(구멍이 많은 팬구이 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_13916242c4c4",
+          "name": "비스킷",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "버터밀크"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_ae333c7ed4f5",
+          "name": "소다 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "버터밀크"
+          ],
+          "seasonings": [
+            "소금",
+            "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_156569fccb00",
+          "name": "체더 치즈 스콘",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "체더 치즈",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_0f946eb1b9c1",
+          "name": "크랜베리 스콘",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "크랜베리",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_8081386dcce4",
+          "name": "슈톨렌(말린 과일 독일 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "이스트",
+            "건포도",
+            "아몬드",
+            "오렌지필"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "럼"
+          ]
+        },
+        {
+          "id": "western_c43a3916d51a",
+          "name": "파네 디 파스쿠아(부활절 달걀빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "레몬제스트"
+          ]
+        },
+        {
+          "id": "western_acfdc4d7f0a4",
+          "name": "페타 시금치 머핀",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "페타 치즈",
+            "시금치"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_fd17d6f06906",
+          "name": "아일랜드 뱀브랙(건과일 차 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "건포도",
+            "홍차",
+            "계란"
+          ],
+          "seasonings": [
+            "설탕",
+            "베이킹파우더",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_9ec980dd356e",
+          "name": "웰시 케이크(팬에 굽는 건포도 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "건포도"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_2dd2bf1f27d3",
+          "name": "콜라치(과일 잼 치즈빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "계란",
+            "이스트",
+            "크림치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "과일잼"
+          ]
+        },
+        {
+          "id": "western_9422688eb00f",
+          "name": "포가차(치즈를 넣은 작은 짭짤한 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "사워크림",
+            "계란",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "western_d8787871ef7e",
+          "name": "파르메산 크래커",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_89f7e51c8004",
+          "name": "파리 브레스트(프랄린 크림 슈)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "아몬드",
+            "헤이즐넛"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_6ac2f83aa4da",
+          "name": "에클레어(긴 모양 커스터드 슈)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "초콜릿"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_990805f202a3",
+          "name": "프로피트롤(아이스크림을 채운 슈)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "바닐라아이스크림",
+            "초콜릿",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_218a25180e61",
+          "name": "크로캉부슈(캐러멜로 쌓은 슈)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_6f95f5e0efe0",
+          "name": "플랑 파리지앵(구운 커스터드 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "생크림",
+            "계란",
+            "전분"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_c3cad404ef4a",
+          "name": "갈레트 브르통(두꺼운 버터 쿠키)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_e1e7d92e3512",
+          "name": "크레프 쉬제트(오렌지 소스 크레페)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "오렌지"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "그랑마르니에"
+          ]
+        },
+        {
+          "id": "western_9f0f286b8140",
+          "name": "초콜릿 가나슈 타르트",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "초콜릿",
+            "생크림",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_ae9bc9a7b458",
+          "name": "크로스타타(잼을 채운 이탈리아 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "살구잼"
+          ]
+        },
+        {
+          "id": "western_ccc163c15690",
+          "name": "카놀리(리코타 크림 튀김 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "리코타 치즈",
+            "초콜릿칩"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터",
+            "마르살라와인",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_89c5041dd98b",
+          "name": "스폴리아텔레(리코타를 채운 겹겹이 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "리코타 치즈",
+            "세몰리나",
+            "오렌지필"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_57417d81d2f9",
+          "name": "슈바르츠발트 케이크(체리 초콜릿 생크림 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "코코아가루",
+            "계란",
+            "체리",
+            "생크림"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터",
+            "키르슈"
+          ]
+        },
+        {
+          "id": "western_57a9af726b01",
+          "name": "린처 토르테(견과 잼 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "헤이즐넛가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "라즈베리잼",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_41c7cf8c2c48",
+          "name": "린처 쿠키(잼 샌드 쿠키)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "아몬드가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "라즈베리잼"
+          ]
+        },
+        {
+          "id": "western_39c39cdca136",
+          "name": "아펠슈트루델(얇은 반죽 사과말이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "사과",
+            "건포도",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_964a6f0c9251",
+          "name": "카이저슈마른(잘게 찢은 팬케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "건포도"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_f06da3bbf927",
+          "name": "스트룹와플(캐러멜 시럽 와플 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "시럽",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_cbafdd585bac",
+          "name": "올리볼런(네덜란드식 건포도 도넛)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "이스트",
+            "계란",
+            "건포도"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_ec9845682484",
+          "name": "베이크웰 타르트(잼 아몬드 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "아몬드가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "라즈베리잼"
+          ]
+        },
+        {
+          "id": "western_f10e2c9444d1",
+          "name": "트리클 타르트(시럽 빵가루 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "빵가루",
+            "레몬"
+          ],
+          "seasonings": [
+            "버터",
+            "골든시럽"
+          ]
+        },
+        {
+          "id": "western_8597bbd49fe7",
+          "name": "키슈 플로랑틴(시금치 치즈 키슈)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "시금치",
+            "계란",
+            "생크림",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -1945,6 +4553,25 @@
           ],
           "seasonings": [
             "트러플오일",
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_fc1ee71452f5",
+          "name": "탈리아텔레 포르치니",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "탈리아텔레",
+            "포르치니버섯",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
             "버터",
             "소금",
             "후추"
@@ -2256,7 +4883,7 @@
         },
         {
           "id": "western_3657893245fb",
-          "name": "칼초네",
+          "name": "칼초네(반으로 접은 피자)",
           "flavors": [
             "savory",
             "rich"
@@ -2275,7 +4902,7 @@
         },
         {
           "id": "western_733fd96275e5",
-          "name": "스트롬볼리",
+          "name": "스트롬볼리(속을 채워 만 피자빵)",
           "flavors": [
             "salty",
             "savory"
@@ -2294,7 +4921,7 @@
         },
         {
           "id": "western_d083be1ca935",
-          "name": "피살라디에르",
+          "name": "피살라디에르(양파 앤초비 타르트)",
           "flavors": [
             "salty",
             "umami"
@@ -2331,6 +4958,483 @@
           "seasonings": [
             "올리브유",
             "소금"
+          ]
+        },
+        {
+          "id": "western_ef68481fae24",
+          "name": "바게트",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "western_a69facdc1d43",
+          "name": "치아바타",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "소금",
+            "올리브유"
+          ]
+        },
+        {
+          "id": "western_2436cc6027ff",
+          "name": "브리오슈",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "계란",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_fb70535f1a6a",
+          "name": "밀크 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_5d5938ef159d",
+          "name": "캄파뉴",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "통밀가루",
+            "호밀가루",
+            "사워도우스타터"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "western_d86e39480114",
+          "name": "베이글",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "몰트시럽"
+          ]
+        },
+        {
+          "id": "western_5715aea381f9",
+          "name": "프레첼",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_b35de5292c38",
+          "name": "잉글리시 머핀",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "옥수수가루"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_f86d8baf8e45",
+          "name": "올리브 포카치아",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트",
+            "올리브",
+            "로즈메리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_ce6775ea3c91",
+          "name": "호두 깜빠뉴",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "호밀가루",
+            "호두",
+            "사워도우스타터"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "western_28b726aa15de",
+          "name": "무화과 깜빠뉴",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "호밀가루",
+            "말린무화과",
+            "호두",
+            "사워도우스타터"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "western_4f331fc0ce26",
+          "name": "크루아상",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_580b285e07c5",
+          "name": "팽 오 쇼콜라(초콜릿 크루아상)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "초콜릿"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_d29922c9f851",
+          "name": "팽 오 레쟁(건포도 커스터드 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "건포도",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_460d99052a81",
+          "name": "퀸아망(캐러멜 버터 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_62443d473797",
+          "name": "시나몬롤",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_683c0eb7946b",
+          "name": "시나몬 스월 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_01c1d9e53a4f",
+          "name": "바브카(초콜릿 마블 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "계란",
+            "이스트",
+            "초콜릿"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_0d138ef31eeb",
+          "name": "할라(땋은 계란빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "식용유",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_7d17fd0dddd7",
+          "name": "파네토네(과일을 넣은 이탈리아 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "계란",
+            "이스트",
+            "건포도",
+            "오렌지필"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_82be12e03213",
+          "name": "판도로(별 모양 이탈리아 빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_e08dcdcfcd50",
+          "name": "프루츠 데니시",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "딸기",
+            "키위",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_b96cf60c4d44",
+          "name": "잉글리시 티케이크",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "이스트",
+            "건포도"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_d3f2c3197b56",
+          "name": "핫크로스번(십자 무늬 건포도빵)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "강력분",
+            "우유",
+            "계란",
+            "건포도",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "계피가루"
+          ]
+        },
+        {
+          "id": "western_5817c7d6ec48",
+          "name": "그리시니(이탈리아식 막대 빵)",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_d46664692483",
+          "name": "에피 브레드(베이컨을 넣은 이삭 모양 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "강력분",
+            "이스트",
+            "베이컨"
+          ],
+          "seasonings": [
+            "소금",
+            "머스터드"
           ]
         }
       ]
@@ -2429,6 +5533,27 @@
             "버터",
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "western_b70a49e1a0ed",
+          "name": "포보이 샌드위치(새우튀김 바게트 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바게트",
+            "새우",
+            "상추",
+            "토마토",
+            "피클"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "핫소스",
+            "식용유",
+            "소금"
           ]
         }
       ]
@@ -2530,6 +5655,46 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_1abc3b86f3d4",
+          "name": "마르미타코(참치 감자 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "참치",
+            "감자",
+            "피망",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_845cee6f7841",
+          "name": "참치 패티",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "참치",
+            "감자",
+            "계란",
+            "빵가루",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
         }
       ]
     },
@@ -2591,6 +5756,22 @@
             "버터",
             "소금"
           ]
+        },
+        {
+          "id": "western_12092fb4ae57",
+          "name": "타르트 타탱(뒤집어 굽는 사과 캐러멜 파이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "사과",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터"
+          ]
         }
       ]
     },
@@ -2614,6 +5795,46 @@
             "식초",
             "설탕",
             "소금"
+          ]
+        },
+        {
+          "id": "western_4ebdba3688a5",
+          "name": "가르뷔르(양배추 오리 콩 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "양배추",
+            "흰강낭콩",
+            "감자",
+            "오리콩피",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_baf5670c567a",
+          "name": "골롬프키(고기와 쌀을 넣은 양배추말이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "양배추",
+            "돼지고기",
+            "쌀",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
           ]
         }
       ]
@@ -2660,6 +5881,26 @@
             "식초",
             "식용유"
           ]
+        },
+        {
+          "id": "western_6de7252579eb",
+          "name": "바르슈치(폴란드식 비트 맑은 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "비트",
+            "당근",
+            "셀러리",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식초",
+            "월계수잎"
+          ]
         }
       ]
     },
@@ -2704,6 +5945,46 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_64bb185c4a48",
+          "name": "렌테하스 콘 초리소(렌틸콩 초리소 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "렌틸콩",
+            "초리소",
+            "당근",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_ed7b738aef74",
+          "name": "린젠 아인토프(렌틸콩 소시지 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "렌틸콩",
+            "소시지",
+            "당근",
+            "셀러리",
+            "감자"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "와인식초"
+          ]
         }
       ]
     },
@@ -2726,6 +6007,44 @@
           "seasonings": [
             "올리브유",
             "레몬즙",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_6dad4b6a61ba",
+          "name": "코시도 마드릴레뇨(고기와 병아리콩 찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "소고기",
+            "돼지고기",
+            "초리소",
+            "양배추"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_e614daff0aaf",
+          "name": "레비타다(병아리콩 오븐찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "양파",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
             "소금",
             "후추"
           ]
@@ -2834,7 +6153,7 @@
       "recipes": [
         {
           "id": "western_cade6e200042",
-          "name": "판차넬라",
+          "name": "판차넬라(빵 토마토 샐러드)",
           "flavors": [
             "refreshing",
             "light"
@@ -2850,6 +6169,179 @@
             "올리브유",
             "와인식초",
             "소금"
+          ]
+        },
+        {
+          "id": "western_bb05d882630e",
+          "name": "카네데를리(빵 경단)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "우유",
+            "계란",
+            "스펙",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_366aea11d8cc",
+          "name": "아소르다(포르투갈식 마늘 빵 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "마늘",
+            "고수",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_aebaa8a4c4e9",
+          "name": "비파나(포르투갈식 돼지고기 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "돼지고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "화이트와인",
+            "파프리카가루",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_989e14b220c6",
+          "name": "판 콘 토마테(토마토를 바른 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "토마토",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_09d52772f1b7",
+          "name": "젬멜크뇌델(빵 경단)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "빵",
+            "우유",
+            "계란",
+            "양파",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_ed7661c05544",
+          "name": "스카겐 토스트(새우 딜 마요네즈 토스트)",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "빵",
+            "새우",
+            "딜",
+            "레몬"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "버터",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_75386a569fe0",
+          "name": "웰시 레어빗(치즈 소스 토스트)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "체더 치즈",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "머스터드",
+            "우스터소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_72c37109f1c6",
+          "name": "클래식 스터핑",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "셀러리",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "세이지"
+          ]
+        },
+        {
+          "id": "western_c47108447044",
+          "name": "버섯 브레드 푸딩",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "빵",
+            "양송이버섯",
+            "계란",
+            "우유",
+            "그뤼에르치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
           ]
         }
       ]
@@ -2897,7 +6389,7 @@
         },
         {
           "id": "western_9f620ce87e8d",
-          "name": "코코뱅",
+          "name": "코코뱅(레드와인 닭고기 스튜)",
           "flavors": [
             "savory",
             "umami"
@@ -2934,6 +6426,344 @@
             "소금",
             "후추",
             "로즈메리"
+          ]
+        },
+        {
+          "id": "western_a79754bc163d",
+          "name": "블랑케트 드 풀레(닭고기 크림 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "당근",
+            "양송이버섯",
+            "리크",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_1956a0b2531c",
+          "name": "풀레 바스케즈(닭고기 파프리카 토마토찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마토",
+            "파프리카",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_4eb50a77439d",
+          "name": "풀레 샤쇠르(닭고기 버섯 와인찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양송이버섯",
+            "토마토",
+            "샬롯"
+          ],
+          "seasonings": [
+            "버터",
+            "화이트와인",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_e9227a978a28",
+          "name": "풀레 오 시드르(사과주 크림 닭찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "사과",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "사과주",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_499bc6522e5c",
+          "name": "폴로 알 아히요(마늘 닭고기구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "마늘",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "화이트와인",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_43858bd67df6",
+          "name": "헝가리 치킨 파프리카시(파프리카 사워크림 닭찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양파",
+            "파프리카",
+            "사워크림"
+          ],
+          "seasonings": [
+            "파프리카가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_cbe456c1303b",
+          "name": "치킨 팟파이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "당근",
+            "완두콩",
+            "셀러리",
+            "우유",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "버터",
+            "밀가루",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_c981b51bd775",
+          "name": "검보(오크라 고기 해물 스튜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "소시지",
+            "새우",
+            "오크라",
+            "셀러리",
+            "밀가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "케이준시즈닝",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_eff87168d754",
+          "name": "서던 프라이드 치킨",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "버터밀크",
+            "밀가루"
+          ],
+          "seasonings": [
+            "파프리카가루",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_c107b6c026cc",
+          "name": "치킨 앤 와플",
+          "flavors": [
+            "sweet",
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "메이플시럽",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_f3522cd56455",
+          "name": "내슈빌 핫치킨",
+          "flavors": [
+            "spicy",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "버터밀크",
+            "밀가루"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "파프리카가루",
+            "흑설탕",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_277ea866cf59",
+          "name": "아브골레모노(계란 레몬 닭 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "쌀",
+            "계란",
+            "레몬"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_d6ccbe55451a",
+          "name": "코클리키 수프(닭고기 리크 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "리크",
+            "쌀",
+            "푸룬"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_9d06701119cf",
+          "name": "멀리가토니 수프(커리 닭고기 렌틸 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "렌틸콩",
+            "사과",
+            "당근",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "카레가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_89bc7f5c490c",
+          "name": "치킨 카차토레(사냥꾼식 닭고기 토마토찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마토",
+            "양파",
+            "양송이버섯",
+            "올리브"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레드와인",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_63889548a990",
+          "name": "치킨 디종(머스터드 크림 닭찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "디종머스터드",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_fd132e308fdc",
+          "name": "치킨 헌터 파이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "표고버섯",
+            "베이컨",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "버터",
+            "화이트와인",
+            "소금",
+            "후추"
           ]
         }
       ]
@@ -2973,6 +6803,25 @@
             "양파",
             "우유",
             "감자"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_3a0a54883208",
+          "name": "브로콜리 체더 캐서롤",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "브로콜리",
+            "체더 치즈",
+            "우유",
+            "빵가루"
           ],
           "seasonings": [
             "버터",
@@ -3024,6 +6873,42 @@
             "베이킹소다",
             "소금"
           ]
+        },
+        {
+          "id": "western_74c2cae4a826",
+          "name": "테린 드 레귐(층층이 채소 테린)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "당근",
+            "주키니",
+            "그린빈",
+            "계란",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_f726ad8e89d0",
+          "name": "카로트 글라세(버터에 조린 당근)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "당근"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
         }
       ]
     },
@@ -3049,6 +6934,83 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_050d521d6602",
+          "name": "세타스 알 아히요(마늘 버섯볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양송이버섯",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "화이트와인"
+          ]
+        },
+        {
+          "id": "western_46bb45436372",
+          "name": "리코타 시금치 스터프트 머쉬룸",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양송이버섯",
+            "리코타 치즈",
+            "시금치",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_790296995803",
+          "name": "소시지 스터프트 머쉬룸",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양송이버섯",
+            "소시지",
+            "양파",
+            "빵가루",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_edb8a17c4c8e",
+          "name": "웰링턴 버섯 파이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양송이버섯",
+            "포르토벨로버섯",
+            "시금치",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "타임"
+          ]
         }
       ]
     },
@@ -3072,6 +7034,44 @@
             "버터",
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "western_b9347a268342",
+          "name": "서코태시(옥수수 콩 채소볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수",
+            "리마콩",
+            "파프리카",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_e75866bdf3b9",
+          "name": "크림드 콘",
+          "flavors": [
+            "sweet",
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "옥수수",
+            "우유",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "설탕"
           ]
         }
       ]
@@ -3143,6 +7143,25 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_83d9dcaa6dbd",
+          "name": "아메이조아스 아 불랴웅 파투(마늘 고수 조개찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바지락",
+            "마늘",
+            "고수"
+          ],
+          "seasonings": [
+            "올리브유",
+            "화이트와인",
+            "레몬즙",
+            "소금"
+          ]
         }
       ]
     },
@@ -3169,6 +7188,26 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_121e23e04df0",
+          "name": "부리드(마늘 소스를 넣은 생선 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "리크",
+            "당근",
+            "계란노른자",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
         }
       ]
     },
@@ -3192,6 +7231,24 @@
             "버터",
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "western_53a4b56314b5",
+          "name": "프티 푸아 아 라 프랑세즈(상추 완두콩 찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "완두콩",
+            "상추",
+            "작은양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "설탕"
           ]
         }
       ]
@@ -3225,7 +7282,7 @@
       "recipes": [
         {
           "id": "western_ebec79e10885",
-          "name": "카술레",
+          "name": "카술레(흰콩과 고기를 끓인 요리)",
           "flavors": [
             "savory",
             "umami"
@@ -3242,6 +7299,101 @@
             "후추",
             "타임"
           ]
+        },
+        {
+          "id": "western_098f05a7a753",
+          "name": "파바다 아스투리아나(흰강낭콩 소시지 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "흰강낭콩",
+            "초리소",
+            "모르시야",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "사프란"
+          ]
+        },
+        {
+          "id": "western_9e036d3cc23e",
+          "name": "타브체 그라브체(발칸식 콩 오븐구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "흰강낭콩",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "파프리카가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_986d8c7715e1",
+          "name": "베이크드 빈즈",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "흰강낭콩",
+            "토마토",
+            "베이컨",
+            "양파"
+          ],
+          "seasonings": [
+            "흑설탕",
+            "머스터드",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_9e3574d914d5",
+          "name": "보스턴 베이크드 빈즈",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "흰강낭콩",
+            "베이컨",
+            "양파"
+          ],
+          "seasonings": [
+            "당밀",
+            "머스터드",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_ee0b8a975505",
+          "name": "파솔라다(그리스식 흰콩 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "흰강낭콩",
+            "토마토",
+            "당근",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -3250,7 +7402,7 @@
       "recipes": [
         {
           "id": "western_52dfa7b79faf",
-          "name": "오리 콩피",
+          "name": "오리 콩피(기름에 천천히 익힌 오리)",
           "flavors": [
             "savory",
             "umami"
@@ -3273,7 +7425,7 @@
       "recipes": [
         {
           "id": "western_45b85ead46ba",
-          "name": "라따뚜이",
+          "name": "라따뚜이(프랑스식 채소 스튜)",
           "flavors": [
             "savory",
             "umami"
@@ -3309,6 +7461,88 @@
             "올리브유",
             "소금",
             "바질"
+          ]
+        },
+        {
+          "id": "western_bd171a064e09",
+          "name": "티안 프로방살(프로방스 채소 오븐구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "가지",
+            "주키니",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_776f4fe0b63c",
+          "name": "에스칼리바다(구운 가지 파프리카 무침)",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "가지",
+            "파프리카",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "셰리식초"
+          ]
+        },
+        {
+          "id": "western_81e141490852",
+          "name": "무사카(가지와 고기 감자 오븐구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "감자",
+            "소고기",
+            "토마토",
+            "우유",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "계피가루",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_75f2acb93ee5",
+          "name": "카포나타(새콤달콤한 가지 채소볶음)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "가지",
+            "셀러리",
+            "토마토",
+            "올리브",
+            "케이퍼"
+          ],
+          "seasonings": [
+            "올리브유",
+            "식초",
+            "설탕",
+            "소금"
           ]
         }
       ]
@@ -3415,6 +7649,45 @@
             "후추",
             "식용유"
           ]
+        },
+        {
+          "id": "western_57a98f64f8a2",
+          "name": "치킨 프란체세(레몬 계란옷 닭고기)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "계란",
+            "밀가루",
+            "레몬"
+          ],
+          "seasonings": [
+            "버터",
+            "화이트와인",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_cc2e5ebca7d2",
+          "name": "치킨 플로랑틴(시금치 크림 닭고기)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "시금치",
+            "생크림",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -3441,6 +7714,65 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_405e114c89dc",
+          "name": "아이리시 램 스튜",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "감자",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_2df22e5d8cc1",
+          "name": "란캐셔 핫팟(양고기 감자 오븐찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "감자",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "우스터소스"
+          ]
+        },
+        {
+          "id": "western_018fdb9d0e75",
+          "name": "스콧치 브로스(보리 양고기 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "보리",
+            "당근",
+            "리크",
+            "양배추"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
         }
       ]
     },
@@ -3449,7 +7781,7 @@
       "recipes": [
         {
           "id": "western_bdae973f6a1b",
-          "name": "오소부코",
+          "name": "오소부코(송아지 정강이찜)",
           "flavors": [
             "savory",
             "umami"
@@ -3511,6 +7843,28 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_9395f13a0c71",
+          "name": "노르웨이식 생선 수프",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "대구",
+            "연어",
+            "새우",
+            "리크",
+            "당근",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "레몬즙"
+          ]
         }
       ]
     },
@@ -3535,6 +7889,104 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_8d6de7929744",
+          "name": "그라블락스(허브 절임 연어)",
+          "flavors": [
+            "salty",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "연어",
+            "딜"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_3d38e3d039f5",
+          "name": "로히케이토(핀란드식 연어 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "연어",
+            "감자",
+            "리크",
+            "당근",
+            "생크림",
+            "딜"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_35f10de663f2",
+          "name": "연어 케이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "감자",
+            "계란",
+            "빵가루",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_9dabb5e5bb55",
+          "name": "피스타치오 크러스트 연어",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "피스타치오",
+            "빵가루"
+          ],
+          "seasonings": [
+            "머스터드",
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_be53be5b3512",
+          "name": "연어 앙크루트(페이스트리에 싼 연어구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "시금치",
+            "크림치즈",
+            "퍼프페이스트리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -3543,7 +7995,7 @@
       "recipes": [
         {
           "id": "western_44cf7b9a0062",
-          "name": "아쿠아파차",
+          "name": "아쿠아파차(토마토 국물 생선요리)",
           "flavors": [
             "savory",
             "umami"
@@ -3585,6 +8037,26 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "western_d098261e2d92",
+          "name": "코킬레 해산물 그라탱",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "홍합",
+            "새우",
+            "대구",
+            "생크림",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -3623,6 +8095,81 @@
           ],
           "seasonings": [
             "머스터드"
+          ]
+        },
+        {
+          "id": "western_0c7396640c36",
+          "name": "스뫼레브뢰드 청어(청어 오픈 샌드위치)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "호밀빵",
+            "절인청어",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_4e2d514acb71",
+          "name": "스뫼레브뢰드 로스트비프(소고기 오픈 샌드위치)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "호밀빵",
+            "로스트비프",
+            "피클",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "레물라드소스",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_217b44f1c57b",
+          "name": "스뫼레브뢰드 훈제연어(연어 오픈 샌드위치)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "호밀빵",
+            "훈제연어",
+            "오이",
+            "딜"
+          ],
+          "seasonings": [
+            "크림치즈",
+            "레몬즙",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_0e95828aff0b",
+          "name": "비프 패티 멜트",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "호밀빵",
+            "소고기",
+            "양파",
+            "스위스치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
           ]
         }
       ]
@@ -3819,7 +8366,7 @@
         },
         {
           "id": "western_9cf9e43d6421",
-          "name": "슬로피 조",
+          "name": "슬로피 조(다진 고기 토마토소스 샌드위치)",
           "flavors": [
             "savory",
             "umami"
@@ -3858,6 +8405,44 @@
             "케첩",
             "머스터드"
           ]
+        },
+        {
+          "id": "western_74f6516bb567",
+          "name": "클램 롤(조개튀김 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "핫도그번",
+            "조갯살",
+            "밀가루",
+            "상추"
+          ],
+          "seasonings": [
+            "타르타르소스",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_a87169c7ce3e",
+          "name": "랍스터 롤",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "핫도그번",
+            "랍스터",
+            "셀러리"
+          ],
+          "seasonings": [
+            "버터",
+            "마요네즈",
+            "레몬즙",
+            "소금"
+          ]
         }
       ]
     },
@@ -3884,6 +8469,44 @@
             "소금",
             "식용유"
           ]
+        },
+        {
+          "id": "western_284be75f9486",
+          "name": "커리부어스트(커리 케첩 소시지)",
+          "flavors": [
+            "spicy",
+            "sweet",
+            "umami"
+          ],
+          "ingredients": [
+            "소시지",
+            "토마토"
+          ],
+          "seasonings": [
+            "케첩",
+            "카레가루",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_a7dd19c8e07e",
+          "name": "토드 인 더 홀(소시지 요크셔푸딩구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소시지",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -3908,6 +8531,77 @@
             "후추",
             "세이지"
           ]
+        },
+        {
+          "id": "western_97de6fef4a9a",
+          "name": "치즈 스트로(바삭한 치즈 스틱)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "퍼프페이스트리",
+            "체더 치즈",
+            "계란"
+          ],
+          "seasonings": [
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_7e4ac9310bdd",
+          "name": "생토노레(슈와 캐러멜 크림 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "퍼프페이스트리",
+            "밀가루",
+            "계란",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_899567ba6fc6",
+          "name": "밀푀유(겹겹이 바삭한 커스터드 파이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "퍼프페이스트리",
+            "우유",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_0214682508c9",
+          "name": "갈레트 데 루아(아몬드 크림 파이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "퍼프페이스트리",
+            "아몬드가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "럼"
+          ]
         }
       ]
     },
@@ -3931,6 +8625,24 @@
             "버터",
             "소금",
             "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_9beee4ffad87",
+          "name": "바노피 파이(바나나 캐러멜 파이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "바나나",
+            "비스킷",
+            "연유",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
           ]
         }
       ]
@@ -3972,6 +8684,24 @@
           "seasonings": [
             "설탕",
             "버터"
+          ]
+        },
+        {
+          "id": "western_9f8d88775c26",
+          "name": "자허토르테(살구 잼 초콜릿 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "초콜릿",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "살구잼"
           ]
         }
       ]
@@ -4021,6 +8751,76 @@
             "버터",
             "소금",
             "꿀"
+          ]
+        },
+        {
+          "id": "western_95fcfa0d733b",
+          "name": "오페라 케이크(커피 초콜릿 아몬드 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드가루",
+            "계란",
+            "초콜릿",
+            "생크림",
+            "커피"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_c91b5a824941",
+          "name": "다쿠아즈(아몬드 머랭 크림 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드가루",
+            "계란흰자",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_82e496e8ec82",
+          "name": "마카롱",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드가루",
+            "계란흰자",
+            "생크림",
+            "초콜릿"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_78990cf7be58",
+          "name": "토르타 카프레제(밀가루 없는 아몬드 초콜릿 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드가루",
+            "초콜릿",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
           ]
         }
       ]
@@ -4107,6 +8907,23 @@
             "설탕",
             "바닐라빈"
           ]
+        },
+        {
+          "id": "western_5113115ce2b4",
+          "name": "초콜릿 레이어 아이스크림",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "생크림",
+            "우유",
+            "초콜릿"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라익스트랙"
+          ]
         }
       ]
     },
@@ -4126,6 +8943,58 @@
           ],
           "seasonings": [
             "설탕",
+            "바닐라익스트랙"
+          ]
+        },
+        {
+          "id": "western_ee7843972503",
+          "name": "젤라토",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "생크림",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라빈"
+          ]
+        },
+        {
+          "id": "western_b9bbba18c09a",
+          "name": "부디노(이탈리아식 초콜릿 푸딩)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "생크림",
+            "초콜릿",
+            "전분"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        },
+        {
+          "id": "western_62020bc3b92c",
+          "name": "에그노그 푸딩",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "계란",
+            "생크림"
+          ],
+          "seasonings": [
+            "설탕",
+            "넛메그",
             "바닐라익스트랙"
           ]
         }
@@ -4175,6 +9044,24 @@
             "버터",
             "소금"
           ]
+        },
+        {
+          "id": "western_11e791da8c9d",
+          "name": "레몬 머랭 파이",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "레몬",
+            "밀가루",
+            "계란",
+            "전분"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
         }
       ]
     },
@@ -4219,6 +9106,3163 @@
           ],
           "seasonings": [
             "설탕",
+            "버터",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "케일": {
+      "name": "케일",
+      "recipes": [
+        {
+          "id": "western_32e11c0972e1",
+          "name": "리볼리타(토스카나 채소 빵 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "케일",
+            "흰강낭콩",
+            "빵",
+            "토마토",
+            "당근",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_c0173d4c12a0",
+          "name": "칼두 베르드(케일 감자 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "케일",
+            "감자",
+            "양파",
+            "초리소"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "지티": {
+      "name": "지티",
+      "recipes": [
+        {
+          "id": "western_31cdcfbf8035",
+          "name": "파스타 알라 제노베제(소고기 양파 라구 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "지티",
+            "소고기",
+            "양파",
+            "당근",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "화이트와인"
+          ]
+        }
+      ]
+    },
+    "오레키에테": {
+      "name": "오레키에테",
+      "recipes": [
+        {
+          "id": "western_e89867735e8b",
+          "name": "오레키에테 콘 치메 디 라파(순무잎 오레키에테 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "오레키에테",
+            "순무잎",
+            "앤초비",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "페페론치노"
+          ]
+        },
+        {
+          "id": "western_de3aebcc0af0",
+          "name": "오레키에테 소시지 브로콜리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "오레키에테",
+            "소시지",
+            "브로콜리",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "페페론치노"
+          ]
+        }
+      ]
+    },
+    "파파르델레": {
+      "name": "파파르델레",
+      "recipes": [
+        {
+          "id": "western_73edb98d3870",
+          "name": "파파르델레 오리 라구",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "파파르델레",
+            "오리고기",
+            "토마토",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "레드와인"
+          ]
+        },
+        {
+          "id": "western_551dd3323c72",
+          "name": "파파르델레 멧돼지 라구",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "파파르델레",
+            "멧돼지고기",
+            "토마토",
+            "양파",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "레드와인",
+            "주니퍼베리"
+          ]
+        }
+      ]
+    },
+    "메밀파스타": {
+      "name": "메밀파스타",
+      "recipes": [
+        {
+          "id": "western_eb0396949277",
+          "name": "피초케리(메밀 파스타와 감자 양배추)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "메밀파스타",
+            "감자",
+            "양배추",
+            "폰티나 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "마늘"
+          ]
+        }
+      ]
+    },
+    "스페츨레": {
+      "name": "스페츨레",
+      "recipes": [
+        {
+          "id": "western_db8ebd178277",
+          "name": "카제스페츨레(치즈 스페츨레)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스페츨레",
+            "에멘탈 치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "감자뇨키": {
+      "name": "감자뇨키",
+      "recipes": [
+        {
+          "id": "western_6d259dfb2e32",
+          "name": "뇨키 알라 소렌티나(토마토 치즈 뇨키)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자뇨키",
+            "토마토",
+            "모차렐라 치즈",
+            "바질"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_6e37f73106f4",
+          "name": "뇨키 고르곤졸라",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자뇨키",
+            "고르곤졸라 치즈",
+            "생크림",
+            "호두"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_36f39079eeb7",
+          "name": "뇨키 페스토",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자뇨키",
+            "바질",
+            "잣",
+            "마늘",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "세몰리나": {
+      "name": "세몰리나",
+      "recipes": [
+        {
+          "id": "western_6af0ef0598d0",
+          "name": "뇨키 알라 로마나(세몰리나 치즈 구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "세몰리나",
+            "우유",
+            "계란노른자",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_92e354453a4e",
+          "name": "쿨루르조네스(감자 민트 속 만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "세몰리나",
+            "감자",
+            "페코리노 치즈",
+            "민트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_17c76fe242af",
+          "name": "파네 카라사우(사르데냐 얇은 바삭한 빵)",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "세몰리나",
+            "이스트"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        }
+      ]
+    },
+    "말로레두스": {
+      "name": "말로레두스",
+      "recipes": [
+        {
+          "id": "western_a0e9c17c5894",
+          "name": "말로레두스(사르데냐 소시지 파스타)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "말로레두스",
+            "소시지",
+            "토마토",
+            "양파",
+            "페코리노 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "사프란"
+          ]
+        }
+      ]
+    },
+    "프레골라": {
+      "name": "프레골라",
+      "recipes": [
+        {
+          "id": "western_c861f1964fa6",
+          "name": "프레골라 해산물 스튜",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "프레골라",
+            "바지락",
+            "홍합",
+            "토마토",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "화이트와인"
+          ]
+        }
+      ]
+    },
+    "송아지고기": {
+      "name": "송아지고기",
+      "recipes": [
+        {
+          "id": "western_d0be6ad07325",
+          "name": "블랑케트 드 보(송아지고기 크림 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "송아지고기",
+            "당근",
+            "양송이버섯",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_70be993d46b0",
+          "name": "비너 슈니첼(송아지고기 커틀릿)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "송아지고기",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "식용유",
+            "소금",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_f464a68b6d53",
+          "name": "취리허 게슈네첼테스(송아지고기 버섯 크림볶음)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "송아지고기",
+            "양송이버섯",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "화이트와인"
+          ]
+        },
+        {
+          "id": "western_04eb179718f8",
+          "name": "비텔로 톤나토(참치 소스를 곁들인 송아지고기)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "송아지고기",
+            "참치",
+            "계란",
+            "케이퍼"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_f3f280e39edf",
+          "name": "살팀보카(프로슈토 세이지 송아지고기구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "송아지고기",
+            "프로슈토",
+            "세이지"
+          ],
+          "seasonings": [
+            "버터",
+            "화이트와인",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "토끼고기": {
+      "name": "토끼고기",
+      "recipes": [
+        {
+          "id": "western_9eb72a639141",
+          "name": "라팽 아 라 무타르드(토끼고기 머스터드찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "토끼고기",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "디종머스터드",
+            "화이트와인",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_95393619dead",
+          "name": "코네호 알 아히요(마늘 토끼고기구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토끼고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "화이트와인",
+            "소금",
+            "타임"
+          ]
+        }
+      ]
+    },
+    "사워크라우트": {
+      "name": "사워크라우트",
+      "recipes": [
+        {
+          "id": "western_63ef4b1abb5f",
+          "name": "슈크루트 가르니(사워크라우트와 돼지고기 모둠찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "사워크라우트",
+            "돼지고기",
+            "소시지",
+            "감자"
+          ],
+          "seasonings": [
+            "화이트와인",
+            "주니퍼베리",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_e46a1e28e77b",
+          "name": "자우어크라우트 수프",
+          "flavors": [
+            "sour",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "사워크라우트",
+            "감자",
+            "소시지",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_7e2149eab723",
+          "name": "비고스(폴란드식 양배추 고기찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "사워크라우트",
+            "양배추",
+            "돼지고기",
+            "소시지",
+            "말린버섯"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "western_9f8676ab4270",
+          "name": "사르말레(루마니아식 양배추 고기말이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "사워크라우트",
+            "돼지고기",
+            "쌀",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "파프리카가루",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "염장돼지고기": {
+      "name": "염장돼지고기",
+      "recipes": [
+        {
+          "id": "western_f5125cb2f8b5",
+          "name": "프티 살레 오 렁티유(소금절임 돼지고기 렌틸찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "염장돼지고기",
+            "렌틸콩",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎"
+          ]
+        }
+      ]
+    },
+    "오리콩피": {
+      "name": "오리콩피",
+      "recipes": [
+        {
+          "id": "western_a7dd404d5ea0",
+          "name": "콩피 드 카나르 파르망티에(오리고기 감자 파이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "오리콩피",
+            "감자",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "오리고기": {
+      "name": "오리고기",
+      "recipes": [
+        {
+          "id": "western_ef3fe15e1daa",
+          "name": "카나르 아 로랑주(오리고기 오렌지 소스구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "오리고기",
+            "오렌지"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "와인식초",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "오리가슴살": {
+      "name": "오리가슴살",
+      "recipes": [
+        {
+          "id": "western_a0d19934d77d",
+          "name": "마그레 드 카나르(오리가슴살 팬구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "오리가슴살",
+            "샬롯"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "발사믹식초",
+            "꿀"
+          ]
+        }
+      ]
+    },
+    "소안심": {
+      "name": "소안심",
+      "recipes": [
+        {
+          "id": "western_8d722400a934",
+          "name": "샤토브리앙(두툼한 안심 스테이크)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소안심",
+            "샬롯",
+            "레몬"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "타라곤",
+            "와인식초"
+          ]
+        },
+        {
+          "id": "western_7eeab7cb8d20",
+          "name": "튀르네도 로시니(푸아그라 안심 스테이크)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소안심",
+            "푸아그라",
+            "빵",
+            "트러플"
+          ],
+          "seasonings": [
+            "버터",
+            "마데이라와인",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "western_264991e0902f",
+          "name": "리에트(잘게 찢은 돼지고기 스프레드)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "돼지지방",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_64153d4c6e61",
+          "name": "파테 드 캉파뉴(프랑스식 고기 테린)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "돼지간",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "브랜디",
+            "타임"
+          ]
+        },
+        {
+          "id": "western_481d69e1f758",
+          "name": "카르느 드 포르쿠 아 알렌테자나(돼지고기 조개찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "바지락",
+            "감자",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카페이스트",
+            "화이트와인",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_6fbec1f80cd7",
+          "name": "수블라키(그리스식 고기꼬치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "오레가노"
+          ]
+        },
+        {
+          "id": "western_87250062fdfd",
+          "name": "예거 슈니첼(버섯 소스 커틀릿)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양송이버섯",
+            "생크림",
+            "빵가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_40fd9824be94",
+          "name": "치고이너 슈니첼(파프리카 소스 커틀릿)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "파프리카",
+            "토마토",
+            "양파",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_08867d5a3d55",
+          "name": "슈바인스브라텐(독일식 돼지고기 로스트)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "셀러리",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "캐러웨이",
+            "맥주"
+          ]
+        },
+        {
+          "id": "western_05d19529efe1",
+          "name": "덴마크 프리카델러(돼지고기 미트볼)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "계란",
+            "우유",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_ef26a33fc5c6",
+          "name": "세게딘 굴라시(돼지고기 양배추 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "사워크라우트",
+            "양파",
+            "사워크림"
+          ],
+          "seasonings": [
+            "소금",
+            "파프리카가루",
+            "캐러웨이",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_552bffc8a5cc",
+          "name": "포르케타(허브 돼지고기 말이구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘",
+            "펜넬씨",
+            "로즈메리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "식용달팽이": {
+      "name": "식용달팽이",
+      "recipes": [
+        {
+          "id": "western_30fbf0a20374",
+          "name": "에스카르고 부르고뉴(마늘버터 달팽이구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "식용달팽이",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "가리비": {
+      "name": "가리비",
+      "recipes": [
+        {
+          "id": "western_f4e7247d53e5",
+          "name": "코키유 생자크(가리비 크림 그라탱)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "가리비",
+            "양송이버섯",
+            "샬롯",
+            "생크림",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "화이트와인"
+          ]
+        }
+      ]
+    },
+    "서대": {
+      "name": "서대",
+      "recipes": [
+        {
+          "id": "western_c7cd292896f5",
+          "name": "솔 뫼니에르(서대 버터구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "서대",
+            "밀가루",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "파프리카": {
+      "name": "파프리카",
+      "recipes": [
+        {
+          "id": "western_3219a784fb76",
+          "name": "피페라드(파프리카 토마토 계란볶음)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "파프리카",
+            "토마토",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "에스펠레트고추가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_7896c3c071f3",
+          "name": "퇴르퇴트 파프리카(고기와 쌀을 넣은 파프리카찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "파프리카",
+            "돼지고기",
+            "쌀",
+            "토마토"
+          ],
+          "seasonings": [
+            "소금",
+            "파프리카가루",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_429b7973a884",
+          "name": "레초(파프리카 토마토 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "파프리카",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "파프리카가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_3b1d0f27548c",
+          "name": "페페로나타(파프리카 토마토볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "파프리카",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "셀러리악": {
+      "name": "셀러리악",
+      "recipes": [
+        {
+          "id": "western_fee8f4b04c10",
+          "name": "셀러리악 퓌레",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "셀러리악",
+            "감자",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "엔다이브": {
+      "name": "엔다이브",
+      "recipes": [
+        {
+          "id": "western_04df8371b887",
+          "name": "엔다이브 그라탱",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "엔다이브",
+            "햄",
+            "우유",
+            "밀가루",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        }
+      ]
+    },
+    "리크": {
+      "name": "리크",
+      "recipes": [
+        {
+          "id": "western_1a425e177c6a",
+          "name": "리크 그라탱",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "리크",
+            "생크림",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "콜리플라워": {
+      "name": "콜리플라워",
+      "recipes": [
+        {
+          "id": "western_531f0de9b787",
+          "name": "콜리플라워 그라탱",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "콜리플라워",
+            "우유",
+            "밀가루",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        }
+      ]
+    },
+    "주키니": {
+      "name": "주키니",
+      "recipes": [
+        {
+          "id": "western_1f9d50d964b2",
+          "name": "주키니 그라탱",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "주키니",
+            "계란",
+            "생크림",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_800603fd8d26",
+          "name": "피스토(스페인식 채소 토마토볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "주키니",
+            "가지",
+            "피망",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_2df8d0ffe352",
+          "name": "주키니 브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "주키니",
+            "밀가루",
+            "계란",
+            "호두"
+          ],
+          "seasonings": [
+            "식용유",
+            "설탕",
+            "계피가루",
+            "베이킹소다"
+          ]
+        },
+        {
+          "id": "western_f4a5d505e11d",
+          "name": "주키니 스카페체(민트 식초 주키니)",
+          "flavors": [
+            "sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "주키니",
+            "마늘",
+            "민트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "와인식초",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_9b450286e79d",
+          "name": "코로키타키아 예미스타(고기를 채운 주키니)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "주키니",
+            "소고기",
+            "쌀",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "그린빈": {
+      "name": "그린빈",
+      "recipes": [
+        {
+          "id": "western_06752d912c84",
+          "name": "아리코 베르 아망딘(아몬드 그린빈볶음)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "그린빈",
+            "아몬드"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_098c4e544af5",
+          "name": "그린빈 캐서롤",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "그린빈",
+            "양송이버섯",
+            "우유",
+            "양파",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "프로마주블랑": {
+      "name": "프로마주블랑",
+      "recipes": [
+        {
+          "id": "western_c1f31a2e9a27",
+          "name": "세르벨 드 카뉘(허브 생치즈 무침)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "프로마주블랑",
+            "샬롯",
+            "차이브",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "와인식초",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "병아리콩가루": {
+      "name": "병아리콩가루",
+      "recipes": [
+        {
+          "id": "western_d7fe912d659b",
+          "name": "소카(니스식 병아리콩 전)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩가루"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "염장대구": {
+      "name": "염장대구",
+      "recipes": [
+        {
+          "id": "western_f709307542b8",
+          "name": "바칼랴우 아 브라스(대구 감자 계란볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "염장대구",
+            "감자",
+            "계란",
+            "양파",
+            "올리브"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_6c2e59a921af",
+          "name": "바칼랴우 곰 나타스(대구 크림 그라탱)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "염장대구",
+            "감자",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_1f1f7868da52",
+          "name": "바칼랴우 아 고메스 드 사(대구 감자 계란구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "염장대구",
+            "감자",
+            "양파",
+            "계란",
+            "올리브"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_3e44f36a3f7b",
+          "name": "바칼랴우 아 라가레이루(올리브유 대구 오븐구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "염장대구",
+            "감자",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_5acd432d7379",
+          "name": "토르티야 데 바칼라오(대구 계란 오믈렛)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "염장대구",
+            "계란",
+            "양파",
+            "풋고추"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "문어": {
+      "name": "문어",
+      "recipes": [
+        {
+          "id": "western_548fe38ca318",
+          "name": "폴부 아 라가레이루(문어 감자 오븐구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "문어",
+            "감자",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_60d155da21f1",
+          "name": "풀포 아 라 가예가(갈리시아식 문어 감자)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "문어",
+            "감자"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카가루",
+            "굵은소금"
+          ]
+        }
+      ]
+    },
+    "강낭콩": {
+      "name": "강낭콩",
+      "recipes": [
+        {
+          "id": "western_1ad8545abec6",
+          "name": "페이조아다 아 트란스몬타나(돼지고기 강낭콩 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "강낭콩",
+            "돼지고기",
+            "초리소",
+            "양배추",
+            "당근"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "western_632ab529077f",
+          "name": "레드빈 앤 라이스",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "강낭콩",
+            "쌀",
+            "소시지",
+            "셀러리",
+            "양파"
+          ],
+          "seasonings": [
+            "케이준시즈닝",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "아몬드": {
+      "name": "아몬드",
+      "recipes": [
+        {
+          "id": "western_3a6a65dc28a3",
+          "name": "아호블랑코(아몬드 마늘 냉수프)",
+          "flavors": [
+            "cool",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드",
+            "빵",
+            "마늘",
+            "포도"
+          ],
+          "seasonings": [
+            "올리브유",
+            "셰리식초",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "오징어": {
+      "name": "오징어",
+      "recipes": [
+        {
+          "id": "western_70c6e2050d67",
+          "name": "칼라마레스 아 라 로마나(스페인식 오징어튀김)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "오징어",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "western_e852bc3cc027",
+          "name": "칼라마리 레몬구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "오징어",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "신선앤초비": {
+      "name": "신선앤초비",
+      "recipes": [
+        {
+          "id": "western_ea88795a3cf3",
+          "name": "보케로네스 엔 비나그레(앤초비 식초 절임)",
+          "flavors": [
+            "sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "신선앤초비",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "와인식초",
+            "올리브유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "소양": {
+      "name": "소양",
+      "recipes": [
+        {
+          "id": "western_e6959f6865a5",
+          "name": "칼로스 마드릴레뇨(스페인식 소양 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소양",
+            "초리소",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_a2883b4a2751",
+          "name": "초르바 데 부르타(루마니아 소양 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소양",
+            "당근",
+            "사워크림",
+            "계란노른자",
+            "마늘"
+          ],
+          "seasonings": [
+            "식초",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_a344ecf73f6f",
+          "name": "트리파 알라 로마나(토마토 소양 스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소양",
+            "토마토",
+            "양파",
+            "셀러리",
+            "페코리노 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "민트"
+          ]
+        }
+      ]
+    },
+    "소꼬리": {
+      "name": "소꼬리",
+      "recipes": [
+        {
+          "id": "western_1da693a171f5",
+          "name": "라보 데 토로(소꼬리 와인찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소꼬리",
+            "당근",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "레드와인",
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_f6d9f63b1585",
+          "name": "코다 알라 바치나라(토마토 소꼬리찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소꼬리",
+            "토마토",
+            "셀러리",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레드와인",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "짧은파스타": {
+      "name": "짧은파스타",
+      "recipes": [
+        {
+          "id": "western_926e3d3f5e36",
+          "name": "피데우아(해물 국수 파에야)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "짧은파스타",
+            "새우",
+            "홍합",
+            "오징어",
+            "토마토"
+          ],
+          "seasonings": [
+            "올리브유",
+            "사프란",
+            "파프리카가루",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "하몬": {
+      "name": "하몬",
+      "recipes": [
+        {
+          "id": "western_dd89633d3ddd",
+          "name": "크로케타스 데 하몬(하몬 크림 크로켓)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "하몬",
+            "우유",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "넛메그",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "양갈비": {
+      "name": "양갈비",
+      "recipes": [
+        {
+          "id": "western_8471fa5a1d77",
+          "name": "추레타스 데 코르데로(양갈비구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양갈비",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "로즈메리"
+          ]
+        },
+        {
+          "id": "western_a0d741e5f8d5",
+          "name": "허브 크러스트 양갈비",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양갈비",
+            "빵가루",
+            "파슬리",
+            "마늘"
+          ],
+          "seasonings": [
+            "머스터드",
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "피타빵": {
+      "name": "피타빵",
+      "recipes": [
+        {
+          "id": "western_66bb2ac18985",
+          "name": "지로스 피타(그리스식 고기 피타 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "피타빵",
+            "돼지고기",
+            "토마토",
+            "양파",
+            "요거트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금",
+            "오레가노"
+          ]
+        }
+      ]
+    },
+    "포도잎": {
+      "name": "포도잎",
+      "recipes": [
+        {
+          "id": "western_0a8ebbd5291c",
+          "name": "돌마데스(포도잎 쌀말이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "포도잎",
+            "쌀",
+            "양파",
+            "딜",
+            "민트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "필로페이스트리": {
+      "name": "필로페이스트리",
+      "recipes": [
+        {
+          "id": "western_379f63653116",
+          "name": "스파나코피타(시금치 치즈 파이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "필로페이스트리",
+            "시금치",
+            "페타 치즈",
+            "계란"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_b2e2fe3149a6",
+          "name": "티로피타(페타 치즈 파이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "필로페이스트리",
+            "페타 치즈",
+            "리코타 치즈",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "돼지족": {
+      "name": "돼지족",
+      "recipes": [
+        {
+          "id": "western_cb015b11ba99",
+          "name": "슈바인스학세(독일식 돼지족 오븐구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지족",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "캐러웨이",
+            "맥주"
+          ]
+        },
+        {
+          "id": "western_b7b07894f80c",
+          "name": "골롱카(폴란드식 돼지족구이)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지족",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "맥주",
+            "월계수잎"
+          ]
+        }
+      ]
+    },
+    "생소시지": {
+      "name": "생소시지",
+      "recipes": [
+        {
+          "id": "western_b66f5782fd1a",
+          "name": "브라트부어스트 양파볶음",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "생소시지",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "맥주"
+          ]
+        }
+      ]
+    },
+    "훈제돼지고기": {
+      "name": "훈제돼지고기",
+      "recipes": [
+        {
+          "id": "western_c1346077259e",
+          "name": "카슬러 자워크라우트(훈제 돼지고기 양배추찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "훈제돼지고기",
+            "사워크라우트",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "주니퍼베리"
+          ]
+        }
+      ]
+    },
+    "말린완두콩": {
+      "name": "말린완두콩",
+      "recipes": [
+        {
+          "id": "western_1ea568db4d44",
+          "name": "에르프젠주페(완두콩 돼지고기 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "말린완두콩",
+            "돼지고기",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "마조람"
+          ]
+        }
+      ]
+    },
+    "적양배추": {
+      "name": "적양배추",
+      "recipes": [
+        {
+          "id": "western_78b4f1043891",
+          "name": "로트콜(사과 적양배추 조림)",
+          "flavors": [
+            "sweet_sour",
+            "sour"
+          ],
+          "ingredients": [
+            "적양배추",
+            "사과",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "식초",
+            "설탕",
+            "소금",
+            "정향"
+          ]
+        }
+      ]
+    },
+    "옥수수가루": {
+      "name": "옥수수가루",
+      "recipes": [
+        {
+          "id": "western_1247d3147bc1",
+          "name": "치즈 폴렌타",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "파르메산 치즈",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_b3fa8141aa9a",
+          "name": "고르곤졸라 폴렌타",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "고르곤졸라 치즈",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "western_ce17a4afda90",
+          "name": "콘브레드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "베이킹파우더"
+          ]
+        }
+      ]
+    },
+    "라클레트 치즈": {
+      "name": "라클레트 치즈",
+      "recipes": [
+        {
+          "id": "western_fc22bba89471",
+          "name": "라클레트(녹인 치즈와 감자)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "라클레트 치즈",
+            "감자",
+            "피클"
+          ],
+          "seasonings": [
+            "후추"
+          ]
+        }
+      ]
+    },
+    "그뤼에르 치즈": {
+      "name": "그뤼에르 치즈",
+      "recipes": [
+        {
+          "id": "western_e73530ac0dd4",
+          "name": "치즈 퐁뒤",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "그뤼에르 치즈",
+            "에멘탈 치즈",
+            "빵",
+            "마늘"
+          ],
+          "seasonings": [
+            "화이트와인",
+            "키르슈",
+            "전분",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "호밀가루": {
+      "name": "호밀가루",
+      "recipes": [
+        {
+          "id": "western_4ca33ede3994",
+          "name": "핀란드식 카렐리안 파이",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "호밀가루",
+            "쌀",
+            "우유",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_3085c6f0f771",
+          "name": "호밀 사워도우",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "호밀가루",
+            "강력분",
+            "사워도우스타터"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        }
+      ]
+    },
+    "호밀발효액": {
+      "name": "호밀발효액",
+      "recipes": [
+        {
+          "id": "western_173f0efbb1c8",
+          "name": "주레크(호밀 발효 소시지 수프)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "호밀발효액",
+            "소시지",
+            "계란",
+            "감자"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "마조람"
+          ]
+        }
+      ]
+    },
+    "닭날개": {
+      "name": "닭날개",
+      "recipes": [
+        {
+          "id": "western_0997bafefeac",
+          "name": "버팔로윙",
+          "flavors": [
+            "spicy",
+            "sweet_sour",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭날개",
+            "셀러리"
+          ],
+          "seasonings": [
+            "핫소스",
+            "버터",
+            "식초",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "western_71ad4b0eed5d",
+          "name": "허니 머스터드 윙",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "닭날개",
+            "마늘"
+          ],
+          "seasonings": [
+            "꿀",
+            "머스터드",
+            "간장",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "돼지등갈비": {
+      "name": "돼지등갈비",
+      "recipes": [
+        {
+          "id": "western_e2c6f1c9cea4",
+          "name": "바비큐 폭립",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지등갈비"
+          ],
+          "seasonings": [
+            "바비큐소스",
+            "파프리카가루",
+            "흑설탕",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "소양지": {
+      "name": "소양지",
+      "recipes": [
+        {
+          "id": "western_86e80b82be1f",
+          "name": "스모크 브리스킷",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소양지"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "파프리카가루"
+          ]
+        }
+      ]
+    },
+    "돼지목살": {
+      "name": "돼지목살",
+      "recipes": [
+        {
+          "id": "western_d631803ef7d9",
+          "name": "풀드포크",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지목살",
+            "양파"
+          ],
+          "seasonings": [
+            "바비큐소스",
+            "흑설탕",
+            "소금",
+            "후추",
+            "파프리카가루"
+          ]
+        }
+      ]
+    },
+    "칠면조": {
+      "name": "칠면조",
+      "recipes": [
+        {
+          "id": "western_81cd2ea943f3",
+          "name": "로스트 터키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "칠면조",
+            "양파",
+            "당근",
+            "셀러리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "세이지"
+          ]
+        }
+      ]
+    },
+    "원형빵": {
+      "name": "원형빵",
+      "recipes": [
+        {
+          "id": "western_89315453f549",
+          "name": "머펄레타(올리브 절임 햄 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "원형빵",
+            "살라미",
+            "햄",
+            "프로볼로네 치즈",
+            "올리브"
+          ],
+          "seasonings": [
+            "올리브유",
+            "와인식초",
+            "오레가노"
+          ]
+        }
+      ]
+    },
+    "민물가재": {
+      "name": "민물가재",
+      "recipes": [
+        {
+          "id": "western_7039f86c7261",
+          "name": "크루피시 에투페(민물가재 진한 소스찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "민물가재",
+            "양파",
+            "셀러리",
+            "피망",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "케이준시즈닝",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "시금치": {
+      "name": "시금치",
+      "recipes": [
+        {
+          "id": "western_4ef744823153",
+          "name": "크림드 스피니치",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "시금치",
+            "생크림",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "넛메그"
+          ]
+        },
+        {
+          "id": "western_c166e03159d2",
+          "name": "스파나코리조(시금치 쌀요리)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "시금치",
+            "쌀",
+            "양파",
+            "딜"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "방울양배추": {
+      "name": "방울양배추",
+      "recipes": [
+        {
+          "id": "western_e320b099a2b2",
+          "name": "브뤼셀스프라우트 베이컨구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "방울양배추",
+            "베이컨",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "파스닙": {
+      "name": "파스닙",
+      "recipes": [
+        {
+          "id": "western_e977c69897d0",
+          "name": "허니 글레이즈드 파스닙",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "파스닙"
+          ],
+          "seasonings": [
+            "꿀",
+            "버터",
+            "소금",
+            "타임"
+          ]
+        }
+      ]
+    },
+    "고구마": {
+      "name": "고구마",
+      "recipes": [
+        {
+          "id": "western_fe3b38e354f5",
+          "name": "스위트포테이토 캐서롤",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "고구마",
+            "우유",
+            "계란",
+            "피칸"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "계피가루"
+          ]
+        }
+      ]
+    },
+    "콘브레드": {
+      "name": "콘브레드",
+      "recipes": [
+        {
+          "id": "western_2ab6e31e6ac3",
+          "name": "콘브레드 스터핑",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "콘브레드",
+            "셀러리",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "세이지"
+          ]
+        }
+      ]
+    },
+    "통밀가루": {
+      "name": "통밀가루",
+      "recipes": [
+        {
+          "id": "western_fd68f3e44d5e",
+          "name": "통밀 식빵",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "통밀가루",
+            "강력분",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "크루아상": {
+      "name": "크루아상",
+      "recipes": [
+        {
+          "id": "western_0f7e2c558751",
+          "name": "아몬드 크루아상",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "크루아상",
+            "아몬드가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "럼"
+          ]
+        },
+        {
+          "id": "western_64303cbe4501",
+          "name": "햄치즈 크루아상",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "크루아상",
+            "햄",
+            "그뤼에르 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "머스터드"
+          ]
+        }
+      ]
+    },
+    "밤": {
+      "name": "밤",
+      "recipes": [
+        {
+          "id": "western_4157ea392ad1",
+          "name": "몽블랑(밤 크림 머랭 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밤",
+            "생크림",
+            "계란흰자"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        }
+      ]
+    },
+    "체리": {
+      "name": "체리",
+      "recipes": [
+        {
+          "id": "western_cea9801cc41d",
+          "name": "클라푸티(체리 커스터드 구이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "체리",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        }
+      ]
+    },
+    "푸룬": {
+      "name": "푸룬",
+      "recipes": [
+        {
+          "id": "western_1df161fa71b4",
+          "name": "파 브르통(푸룬 커스터드 구이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "푸룬",
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "럼"
+          ]
+        }
+      ]
+    },
+    "배": {
+      "name": "배",
+      "recipes": [
+        {
+          "id": "western_3ad4a52178d4",
+          "name": "타르트 부르달루(배 아몬드 타르트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "배",
+            "밀가루",
+            "아몬드가루",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "바닐라아이스크림": {
+      "name": "바닐라아이스크림",
+      "recipes": [
+        {
+          "id": "western_71bf725e941e",
+          "name": "아포가토(아이스크림과 에스프레소)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "바닐라아이스크림",
+            "에스프레소"
+          ],
+          "seasonings": [
+            "코코아가루"
+          ]
+        }
+      ]
+    },
+    "계란노른자": {
+      "name": "계란노른자",
+      "recipes": [
+        {
+          "id": "western_00009367f0ed",
+          "name": "자바이오네(마르살라 계란 크림)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "계란노른자"
+          ],
+          "seasonings": [
+            "설탕",
+            "마르살라와인"
+          ]
+        }
+      ]
+    },
+    "메밀가루": {
+      "name": "메밀가루",
+      "recipes": [
+        {
+          "id": "western_4d5d2adb4245",
+          "name": "포퍼르처스(작은 네덜란드 팬케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "메밀가루",
+            "밀가루",
+            "우유",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "계란흰자": {
+      "name": "계란흰자",
+      "recipes": [
+        {
+          "id": "western_8ea775ee711c",
+          "name": "파블로바(과일 생크림 머랭)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "계란흰자",
+            "생크림",
+            "딸기",
+            "키위"
+          ],
+          "seasonings": [
+            "설탕",
+            "전분",
+            "식초"
+          ]
+        }
+      ]
+    },
+    "딸기": {
+      "name": "딸기",
+      "recipes": [
+        {
+          "id": "western_0de9201cc3ce",
+          "name": "이튼 메스(딸기 머랭 생크림 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "딸기",
+            "계란흰자",
+            "생크림"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "스펀지케이크": {
+      "name": "스펀지케이크",
+      "recipes": [
+        {
+          "id": "western_4d0a557c0d7a",
+          "name": "트라이플(과일과 커스터드 케이크 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "스펀지케이크",
+            "딸기",
+            "우유",
+            "계란",
+            "생크림"
+          ],
+          "seasonings": [
+            "설탕",
+            "바닐라익스트랙"
+          ]
+        }
+      ]
+    },
+    "대추야자": {
+      "name": "대추야자",
+      "recipes": [
+        {
+          "id": "western_d9902bfc6bc7",
+          "name": "스티키 토피 푸딩(대추야자 캐러멜 케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "대추야자",
+            "밀가루",
+            "계란",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "흑설탕",
+            "베이킹소다"
+          ]
+        }
+      ]
+    },
+    "아티초크": {
+      "name": "아티초크",
+      "recipes": [
+        {
+          "id": "western_2973f6ed6a30",
+          "name": "카르초피 알라 로마나(로마식 아티초크찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "아티초크",
+            "마늘",
+            "파슬리",
+            "민트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_206b6fff0d88",
+          "name": "카르초피 알라 주디아(바삭한 아티초크튀김)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "아티초크",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "펜넬": {
+      "name": "펜넬",
+      "recipes": [
+        {
+          "id": "western_f1b1ab784072",
+          "name": "펜넬 오렌지 샐러드",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "펜넬",
+            "오렌지",
+            "올리브",
+            "적양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "버터빈": {
+      "name": "버터빈",
+      "recipes": [
+        {
+          "id": "western_b9a4857790a4",
+          "name": "기간테스 플라키(큰 콩 토마토 오븐구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "버터빈",
+            "토마토",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "오레가노"
+          ]
+        }
+      ]
+    },
+    "케팔로티리 치즈": {
+      "name": "케팔로티리 치즈",
+      "recipes": [
+        {
+          "id": "western_a37972cb0716",
+          "name": "사가나키(그리스 치즈구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "케팔로티리 치즈",
+            "밀가루",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "정어리": {
+      "name": "정어리",
+      "recipes": [
+        {
+          "id": "western_a12f8bad420a",
+          "name": "포르투갈식 정어리구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "정어리",
+            "피망",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "굵은소금"
+          ]
+        }
+      ]
+    },
+    "랍스터": {
+      "name": "랍스터",
+      "recipes": [
+        {
+          "id": "western_ccdb4a519a27",
+          "name": "랍스터 테르미도르(크림 치즈 랍스터구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "랍스터",
+            "생크림",
+            "그뤼에르 치즈",
+            "샬롯"
+          ],
+          "seasonings": [
+            "버터",
+            "머스터드",
+            "브랜디",
+            "소금"
+          ]
+        },
+        {
+          "id": "western_95f8e06bf65e",
+          "name": "랍스터 뉴버그(계란 크림 랍스터찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "랍스터",
+            "생크림",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "버터",
+            "셰리와인",
+            "소금",
+            "파프리카가루"
+          ]
+        }
+      ]
+    },
+    "게살": {
+      "name": "게살",
+      "recipes": [
+        {
+          "id": "western_da8fc63848e0",
+          "name": "메릴랜드 크랩케이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "게살",
+            "빵가루",
+            "계란",
+            "셀러리"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "머스터드",
+            "올드베이시즈닝",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "훈제대구": {
+      "name": "훈제대구",
+      "recipes": [
+        {
+          "id": "western_f1b78d8a691f",
+          "name": "컬런 스킹크(훈제 생선 감자 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "훈제대구",
+            "감자",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "송아지갈비": {
+      "name": "송아지갈비",
+      "recipes": [
+        {
+          "id": "western_882ef8439efe",
+          "name": "코톨레타 알라 밀라네제(뼈 있는 송아지 커틀릿)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "송아지갈비",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
             "버터",
             "소금"
           ]

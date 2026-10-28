@@ -64,22 +64,31 @@ test('추천 개수 제한·중복 방지·기존 제안 교체',()=>{
  assert.deepEqual(pickRecommendedKeywords([],6),[]);
  assert.equal(pickRecommendedKeywords(['두부','두부'],6).length,1);
 });
-test('실제 1,000개 데이터 버전·권역·동일 메뉴 중복 검증',async()=>{
+test('실제 2,000개 데이터 버전·권역·동일 메뉴 중복 검증',async()=>{
  const content=await readFile(new URL('../public/data/recipe_index.json',import.meta.url),'utf8');
  const data=JSON.parse(content) as Recipe[];
  const manifest=JSON.parse(await readFile(new URL('../public/data/manifest.json',import.meta.url),'utf8'));
- assert.equal(data.length,1000);assert.equal(manifest.count,1000);
+ assert.equal(data.length,2000);assert.equal(manifest.count,2000);
  assert.equal(manifest.version,createHash('sha256').update(content).digest('hex'));
- assert.equal(new Set(data.map(r=>r.id)).size,1000);
- assert.equal(new Set(data.map(r=>r.name.replace(/\s/g,''))).size,1000);
+ assert.equal(new Set(data.map(r=>r.id)).size,2000);
+ assert.equal(new Set(data.map(r=>r.name.split('(')[0].replace(/[\s·ㆍ_-]/g,'').toLowerCase())).size,2000);
  const counts:Record<string,number>={};for(const recipe of data)counts[recipe.cuisine]=(counts[recipe.cuisine]??0)+1;
- assert.deepEqual(counts,{chinese:120,indian:50,japanese:150,korean:350,other:60,southeast_asian:70,western:200});
+ assert.deepEqual(counts,{chinese:220,indian:130,japanese:250,korean:500,other:161,southeast_asian:140,western:599});
 });
-test('실제 1,000개 검색 결과 Cursor 전체 순회',async()=>{
+test('실제 2,000개 검색 결과 Cursor 전체 순회',async()=>{
  const data=JSON.parse(await readFile(new URL('../public/data/recipe_index.json',import.meta.url),'utf8')) as Recipe[];
  for(const query of [q,{...q,ingredient:'간장'},{...q,ingredient:'두부,고추가루'},{flavors:['spicy','savory'],ingredient:'마늘,간장'}]) {
   const sorted=searchRecipes(data,query);let cursor:string|null=null;const ids:string[]=[];let pages=0;
-  do {const page=paginateRecipes(sorted,query,'v1',cursor);assert.ok(page.items.length<=30);ids.push(...page.items.map(r=>r.id));cursor=page.nextCursor;assert.ok(++pages<40);}while(cursor);
+  do {const page=paginateRecipes(sorted,query,'v1',cursor);assert.ok(page.items.length<=30);ids.push(...page.items.map(r=>r.id));cursor=page.nextCursor;assert.ok(++pages<80);}while(cursor);
   assert.deepEqual(ids,sorted.map(r=>r.recipe.id));assert.equal(new Set(ids).size,ids.length);
  }
+});
+
+test('생소한 요리의 한글 설명과 다양한 식재료 검색',async()=>{
+ const data=JSON.parse(await readFile(new URL('../public/data/recipe_index.json',import.meta.url),'utf8')) as Recipe[];
+ assert.ok(data.some(r=>r.name==='가보차니모노(단호박 조림)'));
+ assert.ok(searchRecipes(data,{...q,ingredient:'단호박 조림'}).some(r=>r.recipe.name.startsWith('가보차니모노')));
+ for(const ingredient of ['타마린드','커리잎','화자오','타히니','들깻가루','그뤼에르치즈'])assert.ok(searchRecipes(data,{...q,ingredient}).length>0,ingredient);
+ assert.ok(new Set(data.flatMap(r=>r.ingredients)).size>200);
+ assert.ok(new Set(data.flatMap(r=>r.seasonings)).size>100);
 });

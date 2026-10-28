@@ -228,6 +228,44 @@
             "국간장",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_7c530d067eed",
+          "name": "김치어묵국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "김치",
+            "어묵",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "고춧가루",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_bacccf7ab7f1",
+          "name": "김치순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "김치",
+            "순두부",
+            "돼지고기",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -471,6 +509,26 @@
             "후추",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_a40ff3524f66",
+          "name": "돼지고기순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "순두부",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "식용유"
+          ]
         }
       ]
     },
@@ -644,6 +702,40 @@
             "소금",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_c76abbd45c8c",
+          "name": "들깨감자국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_4b71ec821144",
+          "name": "감자채전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "감자",
+            "전분"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -721,6 +813,26 @@
             "고춧가루",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_26caebeb70f5",
+          "name": "두부전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "두부",
+            "당근",
+            "대파",
+            "계란",
+            "밀가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -745,6 +857,62 @@
             "국간장",
             "다진 마늘",
             "식용유"
+          ]
+        },
+        {
+          "id": "korean_f1dabee4da01",
+          "name": "맑은순두부국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "순두부",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "국간장",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_b8cf6500ae54",
+          "name": "해물순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "순두부",
+            "새우",
+            "오징어",
+            "바지락",
+            "계란"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_97560adfcc3d",
+          "name": "들깨순두부찌개",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "순두부",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "소금"
           ]
         }
       ]
@@ -819,6 +987,25 @@
             "설탕",
             "다진 마늘",
             "참기름"
+          ]
+        },
+        {
+          "id": "korean_606fe28164bd",
+          "name": "계란감자국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
           ]
         }
       ]
@@ -1034,6 +1221,143 @@
             "다진 마늘",
             "참기름"
           ]
+        },
+        {
+          "id": "korean_b9442974632c",
+          "name": "소고기미역떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "미역",
+            "떡국떡",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_b80fe1b0a7e1",
+          "name": "소고기배춧국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "배추",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_6eb793b40eef",
+          "name": "소고기감자국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_bdce084abb27",
+          "name": "소고기고추장찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "애호박",
+            "두부"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_6ba653360330",
+          "name": "꼬치산적",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "소고기",
+            "쪽파",
+            "당근",
+            "맛살",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "참기름",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_66fbf1a072a4",
+          "name": "섭산적",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "소고기",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_bf558e4d6ef5",
+          "name": "육회",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "배",
+            "계란노른자",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "참기름",
+            "깨"
+          ]
         }
       ]
     },
@@ -1083,13 +1407,13 @@
             "rich"
           ],
           "ingredients": [
-            "미역",
-            "들깻가루"
+            "미역"
           ],
           "seasonings": [
             "국간장",
             "참기름",
-            "소금"
+            "소금",
+            "들깻가루"
           ]
         },
         {
@@ -1110,6 +1434,25 @@
             "설탕",
             "소금",
             "참기름"
+          ]
+        },
+        {
+          "id": "korean_d44eafd7c5d6",
+          "name": "버섯들깨미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "미역",
+            "느타리버섯",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "국간장",
+            "들기름",
+            "다진 마늘",
+            "들깻가루"
           ]
         }
       ]
@@ -1308,6 +1651,26 @@
             "설탕",
             "맛술",
             "식용유"
+          ]
+        },
+        {
+          "id": "korean_f6308aeae136",
+          "name": "닭고기고추장찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
           ]
         }
       ]
@@ -2041,6 +2404,60 @@
             "설탕",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_8cbf51d1f476",
+          "name": "오징어콩나물국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "오징어",
+            "콩나물",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_ab161e9a62c2",
+          "name": "오징어찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "오징어",
+            "무",
+            "두부",
+            "애호박"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_a9afe85d34b5",
+          "name": "오징어링튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "오징어",
+            "튀김가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -2079,6 +2496,25 @@
             "다진 마늘",
             "참기름",
             "깨"
+          ]
+        },
+        {
+          "id": "korean_b7636cf1a050",
+          "name": "콩나물겨자냉채",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "콩나물",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "겨자",
+            "식초",
+            "설탕",
+            "소금"
           ]
         }
       ]
@@ -2142,6 +2578,24 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
+          ]
+        },
+        {
+          "id": "korean_307ef96abc61",
+          "name": "오이부추무침",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "오이",
+            "부추"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "식초",
+            "설탕",
+            "액젓"
           ]
         }
       ]
@@ -2387,6 +2841,83 @@
             "고춧가루",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_498bef500c9c",
+          "name": "장떡",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "부추",
+            "청양고추"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_cce73ead5f28",
+          "name": "꽈배기",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "버터",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_ce94e7f37d54",
+          "name": "호떡",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "찹쌀가루",
+            "이스트",
+            "땅콩"
+          ],
+          "seasonings": [
+            "흑설탕",
+            "계피가루",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_ace9f509c064",
+          "name": "씨앗호떡",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "이스트",
+            "해바라기씨",
+            "호박씨",
+            "땅콩"
+          ],
+          "seasonings": [
+            "흑설탕",
+            "계피가루",
+            "식용유"
+          ]
         }
       ]
     },
@@ -2420,13 +2951,13 @@
           ],
           "ingredients": [
             "무",
-            "들깻가루",
             "대파"
           ],
           "seasonings": [
             "국간장",
             "다진 마늘",
-            "소금"
+            "소금",
+            "들깻가루"
           ]
         },
         {
@@ -2544,6 +3075,65 @@
             "다진 마늘",
             "소금"
           ]
+        },
+        {
+          "id": "korean_f1edd55bd8dc",
+          "name": "멸치떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "떡국떡",
+            "멸치",
+            "다시마",
+            "계란",
+            "김"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_8043691b2682",
+          "name": "들깨떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "떡국떡",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금",
+            "들깻가루"
+          ]
+        },
+        {
+          "id": "korean_678f8065fa12",
+          "name": "떡국떡만두전골",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "떡국떡",
+            "만두",
+            "배추",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "고춧가루",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -2646,6 +3236,24 @@
             "다진 마늘",
             "참기름",
             "깨"
+          ]
+        },
+        {
+          "id": "korean_0144b4d45034",
+          "name": "시금치두부된장국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "시금치",
+            "두부",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
           ]
         }
       ]
@@ -2788,6 +3396,24 @@
             "다진 마늘",
             "소금"
           ]
+        },
+        {
+          "id": "korean_fa07c257767d",
+          "name": "배추콩가루국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "배추",
+            "콩가루",
+            "멸치"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -2847,6 +3473,42 @@
             "고추장",
             "참기름"
           ]
+        },
+        {
+          "id": "korean_74faa3c2d2a4",
+          "name": "냉이된장찌개",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "냉이",
+            "두부",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_9de7f84a3302",
+          "name": "냉이초무침",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "냉이"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
         }
       ]
     },
@@ -2890,6 +3552,25 @@
             "소금",
             "참기름"
           ]
+        },
+        {
+          "id": "korean_0fc3fe26888f",
+          "name": "달래장",
+          "flavors": [
+            "spicy",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "달래",
+            "청양고추"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "참기름",
+            "깨"
+          ]
         }
       ]
     },
@@ -2911,6 +3592,22 @@
           "seasonings": [
             "된장",
             "국간장"
+          ]
+        },
+        {
+          "id": "korean_c88bfb38fc96",
+          "name": "쑥전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "쑥",
+            "밀가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
           ]
         }
       ]
@@ -2934,6 +3631,42 @@
           "seasonings": [
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "korean_3dac776ce1af",
+          "name": "홍합미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "홍합",
+            "미역",
+            "마늘"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_cb2ae6d9eead",
+          "name": "홍합초무침",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "홍합",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕"
           ]
         }
       ]
@@ -2974,6 +3707,62 @@
             "참기름",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_c1d5a7213dfc",
+          "name": "바지락순두부국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "바지락",
+            "순두부",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_8fbe1f5290bb",
+          "name": "바지락된장찌개",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "바지락",
+            "두부",
+            "애호박",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_5ddad724fca0",
+          "name": "바지락무침",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "바지락",
+            "오이",
+            "미나리"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
         }
       ]
     },
@@ -2994,6 +3783,23 @@
           ],
           "seasonings": [
             "소금",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_4c582796de2f",
+          "name": "조개미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "모시조개",
+            "미역"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
             "다진 마늘"
           ]
         }
@@ -3097,6 +3903,63 @@
             "식용유",
             "소금"
           ]
+        },
+        {
+          "id": "korean_583e2966651e",
+          "name": "굴떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "굴",
+            "떡국떡",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_b4aaf2d4701e",
+          "name": "굴순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "굴",
+            "순두부",
+            "대파",
+            "계란"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_8c5832e1e1ad",
+          "name": "굴무침",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "굴",
+            "무",
+            "미나리"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "액젓",
+            "설탕",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -3117,6 +3980,42 @@
           "seasonings": [
             "국간장",
             "참기름"
+          ]
+        },
+        {
+          "id": "korean_a6f576e3583c",
+          "name": "매생이굴떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "매생이",
+            "굴",
+            "떡국떡",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_39f650808762",
+          "name": "매생이전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "매생이",
+            "부침가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
           ]
         }
       ]
@@ -3177,6 +4076,26 @@
             "설탕",
             "참기름"
           ]
+        },
+        {
+          "id": "korean_22ac9414f646",
+          "name": "황태콩나물국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "황태",
+            "콩나물",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘",
+            "참기름"
+          ]
         }
       ]
     },
@@ -3200,6 +4119,24 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_583ee66feb86",
+          "name": "우거지들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "우거지",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "들깻가루",
+            "다진 마늘",
+            "들기름"
           ]
         }
       ]
@@ -3244,6 +4181,25 @@
             "부추"
           ],
           "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_8b0d063c7dea",
+          "name": "재첩수제비",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "재첩",
+            "밀가루",
+            "부추",
+            "애호박"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
             "소금"
           ]
         }
@@ -3308,13 +4264,13 @@
           "ingredients": [
             "느타리버섯",
             "표고버섯",
-            "들깻가루",
             "대파"
           ],
           "seasonings": [
             "국간장",
             "다진 마늘",
-            "소금"
+            "소금",
+            "들깻가루"
           ]
         },
         {
@@ -3952,6 +4908,25 @@
             "국간장",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_b424001989bb",
+          "name": "대구지리",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "대구",
+            "무",
+            "미나리",
+            "콩나물"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -3973,6 +4948,25 @@
           ],
           "seasonings": [
             "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_3452bd72eeb6",
+          "name": "맑은우럭탕",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우럭",
+            "무",
+            "두부",
+            "미나리"
+          ],
+          "seasonings": [
+            "소금",
             "국간장",
             "다진 마늘"
           ]
@@ -4060,6 +5054,25 @@
             "고추장",
             "간장",
             "설탕",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_e62d77760d3f",
+          "name": "꽃게된장찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "꽃게",
+            "두부",
+            "애호박",
+            "무"
+          ],
+          "seasonings": [
+            "된장",
+            "고춧가루",
             "다진 마늘"
           ]
         }
@@ -4210,6 +5223,47 @@
             "고춧가루",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_348ebe31f4aa",
+          "name": "참치순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "참치",
+            "순두부",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_f03d44df218c",
+          "name": "참치강된장",
+          "flavors": [
+            "salty",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "참치",
+            "두부",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "다진 마늘",
+            "참기름"
+          ]
         }
       ]
     },
@@ -4268,6 +5322,42 @@
           "seasonings": [
             "식용유",
             "소금"
+          ]
+        },
+        {
+          "id": "korean_ddba14eadc4c",
+          "name": "새우젓애호박찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "애호박",
+            "새우",
+            "양파",
+            "두부"
+          ],
+          "seasonings": [
+            "새우젓",
+            "고춧가루",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_ec2518ecfc29",
+          "name": "애호박새우젓전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "애호박",
+            "건새우",
+            "부침가루"
+          ],
+          "seasonings": [
+            "새우젓",
+            "식용유"
           ]
         }
       ]
@@ -4513,6 +5603,22 @@
             "설탕",
             "소금"
           ]
+        },
+        {
+          "id": "korean_e4f68829f7bc",
+          "name": "단호박튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "단호박",
+            "튀김가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -4647,6 +5753,23 @@
             "참기름",
             "식용유"
           ]
+        },
+        {
+          "id": "korean_4322330e2b55",
+          "name": "새송이버섯전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "새송이버섯",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -4750,6 +5873,43 @@
           "seasonings": [
             "굵은소금"
           ]
+        },
+        {
+          "id": "korean_a9652ff357a9",
+          "name": "새우겨자냉채",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "새우",
+            "오이",
+            "당근",
+            "양배추"
+          ],
+          "seasonings": [
+            "겨자",
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_b6d764f7415f",
+          "name": "새우전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "새우",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -4830,6 +5990,25 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "korean_2050c214d2ea",
+          "name": "꽁치김치찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "꽁치",
+            "김치",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -4894,6 +6073,41 @@
           "seasonings": [
             "소금",
             "후추"
+          ]
+        },
+        {
+          "id": "korean_e4f8f25bd59c",
+          "name": "가자미미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "가자미",
+            "미역"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_cf8ed14d5fb2",
+          "name": "가자미쑥국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "가자미",
+            "쑥",
+            "무"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
           ]
         }
       ]
@@ -4960,6 +6174,25 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "korean_0a377f6c1e86",
+          "name": "조기매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "조기",
+            "무",
+            "두부",
+            "미나리"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -5025,6 +6258,25 @@
             "다진 마늘",
             "설탕"
           ]
+        },
+        {
+          "id": "korean_f5dd4bf183a0",
+          "name": "등갈비김치찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "등갈비",
+            "김치",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -5050,6 +6302,25 @@
             "간장",
             "전분",
             "참기름"
+          ]
+        },
+        {
+          "id": "korean_229f3fa1b906",
+          "name": "아귀지리",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "아귀",
+            "무",
+            "콩나물",
+            "미나리"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
           ]
         }
       ]
@@ -5141,6 +6412,22 @@
             "멸치액젓",
             "다진 마늘"
           ]
+        },
+        {
+          "id": "korean_f75a3978c0a3",
+          "name": "깻잎튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "깻잎",
+            "튀김가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -5189,6 +6476,25 @@
             "설탕",
             "다진 마늘",
             "식용유"
+          ]
+        },
+        {
+          "id": "korean_952f7ce272e7",
+          "name": "쭈꾸미초무침",
+          "flavors": [
+            "spicy",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "주꾸미",
+            "오이",
+            "미나리"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
           ]
         }
       ]
@@ -5358,6 +6664,23 @@
             "물엿",
             "식용유"
           ]
+        },
+        {
+          "id": "korean_4e5df20629b7",
+          "name": "건새우꽈리고추볶음",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "건새우",
+            "꽈리고추"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "식용유"
+          ]
         }
       ]
     },
@@ -5392,6 +6715,40 @@
           "ingredients": [
             "마늘종",
             "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_a708c9772654",
+          "name": "마늘종무침",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "마늘종"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_b568513d8005",
+          "name": "마늘종건새우볶음",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "마늘종",
+            "건새우"
           ],
           "seasonings": [
             "간장",
@@ -5467,6 +6824,24 @@
             "참기름",
             "식용유"
           ]
+        },
+        {
+          "id": "korean_4f3020a042ce",
+          "name": "팽이버섯전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "팽이버섯",
+            "당근",
+            "대파",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -5488,6 +6863,64 @@
             "간장",
             "다진 마늘",
             "참기름",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_04f16f60e451",
+          "name": "표고버섯된장국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "표고버섯",
+            "두부",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_bf4c77b6602b",
+          "name": "표고버섯들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "표고버섯",
+            "양파"
+          ],
+          "seasonings": [
+            "국간장",
+            "들깻가루",
+            "다진 마늘",
+            "들기름"
+          ]
+        },
+        {
+          "id": "korean_319083fc7126",
+          "name": "표고버섯전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "표고버섯",
+            "돼지고기",
+            "두부",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "후추",
             "식용유"
           ]
         }
@@ -5535,6 +6968,43 @@
             "간장",
             "식용유"
           ]
+        },
+        {
+          "id": "korean_970e812f1939",
+          "name": "양배추쌈밥",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "양배추",
+            "밥",
+            "두부"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_4d0d1bcf1ebd",
+          "name": "양배추겉절이",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "양배추",
+            "부추",
+            "당근"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "멸치액젓",
+            "설탕",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -5574,6 +7044,24 @@
             "참기름",
             "깨"
           ]
+        },
+        {
+          "id": "korean_abe03633f65d",
+          "name": "숙주미나리무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "숙주",
+            "미나리"
+          ],
+          "seasonings": [
+            "소금",
+            "다진 마늘",
+            "참기름",
+            "깨"
+          ]
         }
       ]
     },
@@ -5595,6 +7083,61 @@
             "간장",
             "물엿",
             "식용유"
+          ]
+        },
+        {
+          "id": "korean_c4532fab8d50",
+          "name": "꽈리고추찜",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "꽈리고추",
+            "밀가루"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "korean_45c9e7314cc1",
+          "name": "꽈리고추어묵볶음",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "꽈리고추",
+            "어묵",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_9e0f2c9df340",
+          "name": "꽈리고추두부조림",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "꽈리고추",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "설탕",
+            "다진 마늘"
           ]
         }
       ]
@@ -5661,6 +7204,24 @@
             "다진 마늘",
             "들기름"
           ]
+        },
+        {
+          "id": "korean_446bfe77b406",
+          "name": "고사리들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "고사리",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "들깻가루",
+            "다진 마늘",
+            "들기름"
+          ]
         }
       ]
     },
@@ -5680,6 +7241,41 @@
           "seasonings": [
             "국간장",
             "다진 마늘",
+            "들기름"
+          ]
+        },
+        {
+          "id": "korean_4928985ccfe1",
+          "name": "취나물된장무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "취나물"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "참기름",
+            "깨"
+          ]
+        },
+        {
+          "id": "korean_eea752282806",
+          "name": "취나물들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "취나물",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "들깻가루",
             "들기름"
           ]
         }
@@ -5704,6 +7300,42 @@
             "다진 마늘",
             "들기름",
             "들깻가루"
+          ]
+        },
+        {
+          "id": "korean_9fdbf4d686d9",
+          "name": "시래기된장국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "시래기",
+            "멸치",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "국간장"
+          ]
+        },
+        {
+          "id": "korean_97a117068435",
+          "name": "시래기된장찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "시래기",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "고춧가루",
+            "다진 마늘"
           ]
         }
       ]
@@ -5812,6 +7444,23 @@
             "참기름",
             "깨"
           ]
+        },
+        {
+          "id": "korean_1d9fac1e5559",
+          "name": "미나리전",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "미나리",
+            "양파",
+            "부침가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -5855,6 +7504,60 @@
             "다진 마늘",
             "참기름",
             "깨"
+          ]
+        },
+        {
+          "id": "korean_305a3ef51202",
+          "name": "쑥갓두부된장국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "쑥갓",
+            "두부",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_bcebdb61015c",
+          "name": "쑥갓나물",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "쑥갓"
+          ],
+          "seasonings": [
+            "소금",
+            "다진 마늘",
+            "참기름",
+            "깨"
+          ]
+        },
+        {
+          "id": "korean_3761becaec9b",
+          "name": "쑥갓겉절이",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "쑥갓",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "식초",
+            "설탕",
+            "참기름"
           ]
         }
       ]
@@ -5921,6 +7624,24 @@
             "된장",
             "다진 마늘",
             "참기름"
+          ]
+        },
+        {
+          "id": "korean_6ffd49fc4a13",
+          "name": "방풍나물초무침",
+          "flavors": [
+            "sweet_sour",
+            "bitter",
+            "refreshing"
+          ],
+          "ingredients": [
+            "방풍나물"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "깨"
           ]
         }
       ]
@@ -6052,6 +7773,25 @@
             "간장",
             "참기름",
             "설탕"
+          ]
+        },
+        {
+          "id": "korean_2b4aff955a70",
+          "name": "김말이튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "김",
+            "당면",
+            "당근",
+            "튀김가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "간장"
           ]
         }
       ]
@@ -6418,6 +8158,24 @@
             "식초",
             "설탕"
           ]
+        },
+        {
+          "id": "korean_b27f54d5586f",
+          "name": "양파링튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "양파",
+            "밀가루",
+            "빵가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
         }
       ]
     },
@@ -6503,6 +8261,25 @@
             "참기름",
             "깨"
           ]
+        },
+        {
+          "id": "korean_4ed85fc8b099",
+          "name": "명란순두부찌개",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "명란",
+            "순두부",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "국간장",
+            "다진 마늘"
+          ]
         }
       ]
     },
@@ -6587,6 +8364,26 @@
             "두부",
             "밀가루",
             "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "간장"
+          ]
+        },
+        {
+          "id": "korean_46a115cf35ff",
+          "name": "고추튀김",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "풋고추",
+            "돼지고기",
+            "두부",
+            "튀김가루"
           ],
           "seasonings": [
             "식용유",
@@ -7170,6 +8967,22 @@
           "seasonings": [
             "소금"
           ]
+        },
+        {
+          "id": "korean_5efcb2a9c873",
+          "name": "인절미",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "콩가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
         }
       ]
     },
@@ -7282,6 +9095,22 @@
             "다진 마늘",
             "소금"
           ]
+        },
+        {
+          "id": "korean_69b9fe911021",
+          "name": "열무된장무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "열무"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "참기름"
+          ]
         }
       ]
     },
@@ -7356,6 +9185,1142 @@
             "식초",
             "설탕",
             "간장"
+          ]
+        }
+      ]
+    },
+    "조랭이떡": {
+      "name": "조랭이떡",
+      "recipes": [
+        {
+          "id": "korean_7155f164344b",
+          "name": "조랭이떡국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "조랭이떡",
+            "소고기",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "성게알": {
+      "name": "성게알",
+      "recipes": [
+        {
+          "id": "korean_552aae927191",
+          "name": "성게미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "성게알",
+            "미역"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "얼갈이배추": {
+      "name": "얼갈이배추",
+      "recipes": [
+        {
+          "id": "korean_435f5a8c081a",
+          "name": "얼갈이된장국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "얼갈이배추",
+            "멸치",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "국간장"
+          ]
+        },
+        {
+          "id": "korean_12f79c91144b",
+          "name": "얼갈이된장무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "얼갈이배추"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "백합": {
+      "name": "백합",
+      "recipes": [
+        {
+          "id": "korean_d2565ce7b577",
+          "name": "백합탕",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "백합",
+            "무",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "대합": {
+      "name": "대합",
+      "recipes": [
+        {
+          "id": "korean_4ea51f1c01cc",
+          "name": "대합탕",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "대합",
+            "무",
+            "청양고추",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "손질된복어": {
+      "name": "손질된복어",
+      "recipes": [
+        {
+          "id": "korean_edfa5774f220",
+          "name": "복지리",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "손질된복어",
+            "무",
+            "콩나물",
+            "미나리"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "도미": {
+      "name": "도미",
+      "recipes": [
+        {
+          "id": "korean_7494b73471a3",
+          "name": "맑은도미탕",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "도미",
+            "무",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "물메기": {
+      "name": "물메기",
+      "recipes": [
+        {
+          "id": "korean_8da9d1b5cf09",
+          "name": "물메기탕",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "물메기",
+            "무",
+            "대파",
+            "미나리"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "도다리": {
+      "name": "도다리",
+      "recipes": [
+        {
+          "id": "korean_0d7cf79244bd",
+          "name": "도다리쑥국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "도다리",
+            "쑥",
+            "무"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "스팸": {
+      "name": "스팸",
+      "recipes": [
+        {
+          "id": "korean_cf927f701843",
+          "name": "스팸김치찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "스팸",
+            "김치",
+            "두부",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "우렁이": {
+      "name": "우렁이",
+      "recipes": [
+        {
+          "id": "korean_8b3524d1cf71",
+          "name": "우렁된장찌개",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "우렁이",
+            "두부",
+            "애호박",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "korean_facb944e55f5",
+          "name": "우렁강된장",
+          "flavors": [
+            "salty",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "우렁이",
+            "두부",
+            "양파",
+            "애호박"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "된장": {
+      "name": "된장",
+      "recipes": [
+        {
+          "id": "korean_72fc154f9240",
+          "name": "강된장",
+          "flavors": [
+            "salty",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "된장",
+            "두부",
+            "양파",
+            "애호박",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "고추장",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "대구알": {
+      "name": "대구알",
+      "recipes": [
+        {
+          "id": "korean_2f118ffaa5f3",
+          "name": "대구알탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "대구알",
+            "곤이",
+            "무",
+            "콩나물"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "민어": {
+      "name": "민어",
+      "recipes": [
+        {
+          "id": "korean_c8a306d5dea5",
+          "name": "민어매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "민어",
+            "무",
+            "미나리",
+            "쑥갓"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "메기": {
+      "name": "메기",
+      "recipes": [
+        {
+          "id": "korean_90b09551263e",
+          "name": "메기매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "메기",
+            "무",
+            "미나리",
+            "수제비"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "된장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "동자개": {
+      "name": "동자개",
+      "recipes": [
+        {
+          "id": "korean_e193d1c034c5",
+          "name": "빠가사리매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "동자개",
+            "무",
+            "미나리",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "된장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "쏘가리": {
+      "name": "쏘가리",
+      "recipes": [
+        {
+          "id": "korean_a89882b375f7",
+          "name": "쏘가리매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쏘가리",
+            "무",
+            "미나리",
+            "수제비"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "된장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "붕어": {
+      "name": "붕어",
+      "recipes": [
+        {
+          "id": "korean_28da741e880e",
+          "name": "붕어매운탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "붕어",
+            "무",
+            "우거지",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "고춧가루",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "비름나물": {
+      "name": "비름나물",
+      "recipes": [
+        {
+          "id": "korean_12411e5816bc",
+          "name": "비름나물무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "비름나물",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "참기름",
+            "깨"
+          ]
+        }
+      ]
+    },
+    "머위잎": {
+      "name": "머위잎",
+      "recipes": [
+        {
+          "id": "korean_d4ebe9762809",
+          "name": "머위나물무침",
+          "flavors": [
+            "bitter",
+            "savory"
+          ],
+          "ingredients": [
+            "머위잎"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "머위대": {
+      "name": "머위대",
+      "recipes": [
+        {
+          "id": "korean_3a81da0c9ae8",
+          "name": "머위대들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "머위대",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "들기름"
+          ]
+        }
+      ]
+    },
+    "고구마순": {
+      "name": "고구마순",
+      "recipes": [
+        {
+          "id": "korean_e82b51a6485f",
+          "name": "고구마순들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "고구마순",
+            "양파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "들기름"
+          ]
+        }
+      ]
+    },
+    "토란대": {
+      "name": "토란대",
+      "recipes": [
+        {
+          "id": "korean_8fd6b6e5c638",
+          "name": "토란대들깨볶음",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "토란대",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "들기름"
+          ]
+        }
+      ]
+    },
+    "원추리": {
+      "name": "원추리",
+      "recipes": [
+        {
+          "id": "korean_2d69f491645a",
+          "name": "원추리나물",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "원추리",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "다진 마늘",
+            "참기름",
+            "깨"
+          ]
+        }
+      ]
+    },
+    "두릅": {
+      "name": "두릅",
+      "recipes": [
+        {
+          "id": "korean_82625d80d7be",
+          "name": "두릅초무침",
+          "flavors": [
+            "sweet_sour",
+            "bitter",
+            "refreshing"
+          ],
+          "ingredients": [
+            "두릅"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "깨"
+          ]
+        },
+        {
+          "id": "korean_3ea39a96142e",
+          "name": "두릅숙회",
+          "flavors": [
+            "sweet_sour",
+            "bitter",
+            "refreshing"
+          ],
+          "ingredients": [
+            "두릅"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "엄나무순": {
+      "name": "엄나무순",
+      "recipes": [
+        {
+          "id": "korean_e86cd722dc69",
+          "name": "엄나무순무침",
+          "flavors": [
+            "bitter",
+            "savory"
+          ],
+          "ingredients": [
+            "엄나무순"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "곰취": {
+      "name": "곰취",
+      "recipes": [
+        {
+          "id": "korean_59cb12161ca8",
+          "name": "곰취쌈밥",
+          "flavors": [
+            "bitter",
+            "savory"
+          ],
+          "ingredients": [
+            "곰취",
+            "밥",
+            "두부"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "케일": {
+      "name": "케일",
+      "recipes": [
+        {
+          "id": "korean_001f820ebc66",
+          "name": "케일쌈밥",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "케일",
+            "밥",
+            "두부"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "치커리": {
+      "name": "치커리",
+      "recipes": [
+        {
+          "id": "korean_1fa41d055f6e",
+          "name": "치커리사과무침",
+          "flavors": [
+            "bitter",
+            "refreshing"
+          ],
+          "ingredients": [
+            "치커리",
+            "사과"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "돌나물": {
+      "name": "돌나물",
+      "recipes": [
+        {
+          "id": "korean_077385f495c9",
+          "name": "돌나물초무침",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "돌나물",
+            "오이"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕"
+          ]
+        },
+        {
+          "id": "korean_6fb916f9ebc6",
+          "name": "돌나물물김치",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "돌나물",
+            "무",
+            "배"
+          ],
+          "seasonings": [
+            "소금",
+            "생강",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "무말랭이": {
+      "name": "무말랭이",
+      "recipes": [
+        {
+          "id": "korean_dd3a135ee6e2",
+          "name": "무말랭이무침",
+          "flavors": [
+            "spicy",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "무말랭이",
+            "고춧잎"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "멸치액젓",
+            "물엿",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "오이고추": {
+      "name": "오이고추",
+      "recipes": [
+        {
+          "id": "korean_3e62097c0b74",
+          "name": "오이고추된장무침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "오이고추"
+          ],
+          "seasonings": [
+            "된장",
+            "고추장",
+            "매실청",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "고추장아찌": {
+      "name": "고추장아찌",
+      "recipes": [
+        {
+          "id": "korean_adc0d4458e8c",
+          "name": "고추지무침",
+          "flavors": [
+            "spicy",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "고추장아찌",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "삭힌고추": {
+      "name": "삭힌고추",
+      "recipes": [
+        {
+          "id": "korean_3e956231a56e",
+          "name": "삭힌고추무침",
+          "flavors": [
+            "spicy",
+            "salty",
+            "sour"
+          ],
+          "ingredients": [
+            "삭힌고추"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "액젓",
+            "다진 마늘",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "유부": {
+      "name": "유부",
+      "recipes": [
+        {
+          "id": "korean_de1e1276c375",
+          "name": "유부숙주무침",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "유부",
+            "숙주",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "해파리": {
+      "name": "해파리",
+      "recipes": [
+        {
+          "id": "korean_9744af5191c1",
+          "name": "해파리냉채",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "해파리",
+            "오이",
+            "당근",
+            "새우"
+          ],
+          "seasonings": [
+            "겨자",
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "문어": {
+      "name": "문어",
+      "recipes": [
+        {
+          "id": "korean_84b0c87c9262",
+          "name": "문어초무침",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "문어",
+            "오이",
+            "미나리"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "피조개": {
+      "name": "피조개",
+      "recipes": [
+        {
+          "id": "korean_3e6355f785c0",
+          "name": "피조개무침",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "피조개",
+            "미나리",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "미더덕": {
+      "name": "미더덕",
+      "recipes": [
+        {
+          "id": "korean_22db56eaf524",
+          "name": "미더덕찜",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "미더덕",
+            "콩나물",
+            "미나리"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "전분"
+          ]
+        },
+        {
+          "id": "korean_ecaa88c2789b",
+          "name": "미더덕된장찌개",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "미더덕",
+            "두부",
+            "애호박",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "고춧가루",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "찹쌀가루": {
+      "name": "찹쌀가루",
+      "recipes": [
+        {
+          "id": "korean_a816d3cdca0c",
+          "name": "찹쌀도넛",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "밀가루",
+            "우유"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "베이킹파우더",
+            "식용유"
+          ]
+        },
+        {
+          "id": "korean_63004f94470d",
+          "name": "경단",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "팥",
+            "콩가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "멥쌀가루": {
+      "name": "멥쌀가루",
+      "recipes": [
+        {
+          "id": "korean_db25d889705a",
+          "name": "호박설기",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "멥쌀가루",
+            "단호박"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_525052856cf6",
+          "name": "백설기",
+          "flavors": [
+            "sweet",
+            "light"
+          ],
+          "ingredients": [
+            "멥쌀가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_44581dae9c35",
+          "name": "쑥설기",
+          "flavors": [
+            "bitter",
+            "savory"
+          ],
+          "ingredients": [
+            "멥쌀가루",
+            "쑥"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_718569b40ecb",
+          "name": "콩설기",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "멥쌀가루",
+            "검은콩"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "korean_29fe69f4563d",
+          "name": "송편",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "멥쌀가루",
+            "참깨",
+            "콩"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "참기름"
           ]
         }
       ]

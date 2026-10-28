@@ -67,7 +67,7 @@
         },
         {
           "id": "southeast_asian_f7c356dfd607",
-          "name": "분팃느엉",
+          "name": "분팃느엉(구운 돼지고기 비빔쌀국수)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -88,7 +88,7 @@
         },
         {
           "id": "southeast_asian_6043745f6e06",
-          "name": "분보남보",
+          "name": "분보남보(소고기 비빔쌀국수)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -109,7 +109,7 @@
         },
         {
           "id": "southeast_asian_07fea1fca665",
-          "name": "분보후에",
+          "name": "분보후에(후에식 매운 소고기 쌀국수)",
           "flavors": [
             "spicy",
             "umami"
@@ -129,7 +129,7 @@
         },
         {
           "id": "southeast_asian_406996dd257c",
-          "name": "분리우",
+          "name": "분리우(토마토 게살 쌀국수)",
           "flavors": [
             "sour",
             "umami"
@@ -148,7 +148,7 @@
         },
         {
           "id": "southeast_asian_92080b798ba3",
-          "name": "까오러우",
+          "name": "까오러우(호이안식 돼지고기 비빔면)",
           "flavors": [
             "savory",
             "umami"
@@ -168,7 +168,7 @@
         },
         {
           "id": "southeast_asian_1bbc8df98ff0",
-          "name": "후띠우",
+          "name": "후띠우(베트남 남부 쌀국수)",
           "flavors": [
             "clean",
             "umami"
@@ -187,7 +187,7 @@
         },
         {
           "id": "southeast_asian_78cf8e94c5f9",
-          "name": "퍼가",
+          "name": "퍼가(베트남 닭고기 쌀국수)",
           "flavors": [
             "clean",
             "umami"
@@ -227,7 +227,7 @@
         },
         {
           "id": "southeast_asian_c2c7771e2176",
-          "name": "판싯 비혼",
+          "name": "판싯 비혼(필리핀식 볶음쌀국수)",
           "flavors": [
             "savory",
             "umami"
@@ -244,6 +244,103 @@
             "피시소스",
             "후추",
             "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_3133efbc4711",
+          "name": "카놈진 남야(생선 커리 쌀국수)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "생선살",
+            "코코넛밀크",
+            "숙주"
+          ],
+          "seasonings": [
+            "레드커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_0d388b775357",
+          "name": "분짜까(생선완자 쌀국수)",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "생선완자",
+            "토마토",
+            "딜"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_eab5b5c71fd0",
+          "name": "분맘(발효 생선 쌀국수)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "발효생선",
+            "새우",
+            "돼지고기",
+            "가지"
+          ],
+          "seasonings": [
+            "레몬그라스",
+            "설탕",
+            "피시소스"
+          ]
+        },
+        {
+          "id": "southeast_asian_08bb5b82ca58",
+          "name": "아삼 락사(새콤한 생선 쌀국수)",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "고등어",
+            "오이",
+            "파인애플",
+            "민트"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "새우페이스트",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_3c573f8f0a6f",
+          "name": "모힝가(미얀마 생선 쌀국수)",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "메기",
+            "바나나줄기",
+            "양파",
+            "생강"
+          ],
+          "seasonings": [
+            "피시소스",
+            "강황",
+            "소금"
           ]
         }
       ]
@@ -272,7 +369,7 @@
         },
         {
           "id": "southeast_asian_b74edf65ff53",
-          "name": "카오팟꿍",
+          "name": "카오팟꿍(태국식 새우볶음밥)",
           "flavors": [
             "savory",
             "umami"
@@ -292,7 +389,7 @@
         },
         {
           "id": "southeast_asian_dc0e941ebca5",
-          "name": "카오팟사파롯",
+          "name": "카오팟사파롯(태국식 파인애플볶음밥)",
           "flavors": [
             "sweet",
             "savory",
@@ -311,6 +408,126 @@
             "간장",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_baf4fd81900e",
+          "name": "카오카무(돼지족 간장조림밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "돼지족",
+            "계란",
+            "갓절임"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "팔각",
+            "계피"
+          ]
+        },
+        {
+          "id": "southeast_asian_8e96e32993b2",
+          "name": "카오무댕(붉은 돼지고기 바비큐 덮밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "돼지고기",
+            "오이",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "오향가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_7b6273baa96c",
+          "name": "카오무끄럽(바삭한 돼지고기 덮밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "삼겹살",
+            "오이"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_91bd460f49aa",
+          "name": "카오클룩카피(새우페이스트 볶음밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "돼지고기",
+            "그린망고",
+            "계란"
+          ],
+          "seasonings": [
+            "새우페이스트",
+            "피시소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_a9ac2ca81750",
+          "name": "카오팟남프릭파오(칠리잼 새우볶음밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "칠리페이스트",
+            "피시소스",
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_cf0614fb869b",
+          "name": "껌찐하이산(해물볶음밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "오징어",
+            "계란",
+            "당근"
+          ],
+          "seasonings": [
+            "피시소스",
+            "간장",
+            "식용유"
+          ]
         }
       ]
     },
@@ -319,7 +536,7 @@
       "recipes": [
         {
           "id": "basil_pork",
-          "name": "팟카파오무쌉",
+          "name": "팟카파오무쌉(바질 돼지고기볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -358,7 +575,7 @@
         },
         {
           "id": "southeast_asian_e6908f8e579e",
-          "name": "라브무",
+          "name": "라브무(태국식 다진 돼지고기 샐러드)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -377,7 +594,7 @@
         },
         {
           "id": "southeast_asian_f24de50717b3",
-          "name": "남똑무",
+          "name": "남똑무(구운 돼지고기 허브무침)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -396,7 +613,7 @@
         },
         {
           "id": "southeast_asian_33ce17c8125c",
-          "name": "무삥",
+          "name": "무삥(태국식 돼지고기 꼬치구이)",
           "flavors": [
             "sweet",
             "savory",
@@ -416,7 +633,7 @@
         },
         {
           "id": "southeast_asian_5c6f7b566f0c",
-          "name": "시니강",
+          "name": "시니강(필리핀식 새콤한 국물요리)",
           "flavors": [
             "sour",
             "clean"
@@ -436,7 +653,7 @@
         },
         {
           "id": "southeast_asian_914f83280855",
-          "name": "레촌 카왈리",
+          "name": "레촌 카왈리(바삭하게 튀긴 삼겹살)",
           "flavors": [
             "savory",
             "greasy"
@@ -449,6 +666,163 @@
             "소금",
             "후추",
             "월계수잎",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_672dad3ce042",
+          "name": "무텃끄라티암(마늘 돼지고기볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘",
+            "고수뿌리"
+          ],
+          "seasonings": [
+            "굴소스",
+            "피시소스",
+            "설탕",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_19332faefbe3",
+          "name": "무마나오(라임 마늘 돼지고기 냉채)",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양배추",
+            "마늘",
+            "고추"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_3aee173ef467",
+          "name": "남프릭옹(돼지고기 토마토 칠리딥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "토마토",
+            "샬롯",
+            "마늘"
+          ],
+          "seasonings": [
+            "새우페이스트",
+            "건고추",
+            "피시소스",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_834fc20eb882",
+          "name": "짐쭘(허브 고기 채소전골)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "배추",
+            "바질",
+            "갈랑갈",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_b481dd1a0ffb",
+          "name": "팃코따우(돼지고기 코코넛 조림)",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "계란",
+            "코코넛워터"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "간장"
+          ]
+        },
+        {
+          "id": "southeast_asian_4d79318d3533",
+          "name": "비콜 익스프레스(매운 코코넛 돼지고기찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "코코넛밀크",
+            "고추",
+            "마늘"
+          ],
+          "seasonings": [
+            "새우페이스트",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_cff29b2c1749",
+          "name": "디누구안(돼지피 돼지고기 스튜)",
+          "flavors": [
+            "sour",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "돼지피",
+            "고추",
+            "양파"
+          ],
+          "seasonings": [
+            "식초",
+            "소금",
+            "월계수잎"
+          ]
+        },
+        {
+          "id": "southeast_asian_f06a4c2856f9",
+          "name": "포크 메누도(돼지고기 감자 토마토찜)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "돼지간",
+            "감자",
+            "당근",
+            "토마토"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
             "식용유"
           ]
         }
@@ -477,7 +851,7 @@
         },
         {
           "id": "southeast_asian_cfa14158f556",
-          "name": "똠카가이",
+          "name": "똠카가이(코코넛 닭고기 수프)",
           "flavors": [
             "sour",
             "rich"
@@ -534,7 +908,7 @@
         },
         {
           "id": "southeast_asian_9aff668653de",
-          "name": "가이팟멧마무앙",
+          "name": "가이팟멧마무앙(닭고기 캐슈넛볶음)",
           "flavors": [
             "sweet",
             "savory",
@@ -555,7 +929,7 @@
         },
         {
           "id": "southeast_asian_fc97b7035de6",
-          "name": "가이양",
+          "name": "가이양(태국식 닭구이)",
           "flavors": [
             "savory",
             "umami"
@@ -574,7 +948,7 @@
         },
         {
           "id": "southeast_asian_0417fc8c2349",
-          "name": "사테",
+          "name": "사테(동남아식 양념 꼬치구이)",
           "flavors": [
             "sweet",
             "savory",
@@ -594,7 +968,7 @@
         },
         {
           "id": "southeast_asian_5b606d9d5bec",
-          "name": "소토아얌",
+          "name": "소토아얌(인도네시아식 닭고기 수프)",
           "flavors": [
             "clean",
             "umami"
@@ -630,6 +1004,160 @@
             "설탕",
             "월계수잎",
             "후추"
+          ]
+        },
+        {
+          "id": "southeast_asian_d9b6a3bf1b5c",
+          "name": "가이텃(태국식 닭튀김)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "마늘",
+            "고수뿌리",
+            "쌀가루"
+          ],
+          "seasonings": [
+            "피시소스",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_27c83ba7e3e3",
+          "name": "하트야이 치킨(샬롯 닭튀김)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "샬롯",
+            "마늘",
+            "쌀가루"
+          ],
+          "seasonings": [
+            "고수씨",
+            "큐민",
+            "피시소스",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_6c03bc172ca2",
+          "name": "라브가이(닭고기 민트 무침)",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "닭고기",
+            "샬롯",
+            "민트",
+            "볶은쌀가루"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_895ed1f26c08",
+          "name": "가코긍(생강 닭조림)",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "생강",
+            "마늘"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "후추"
+          ]
+        },
+        {
+          "id": "southeast_asian_103f39c875ae",
+          "name": "고이가(닭고기 양배추 샐러드)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양배추",
+            "당근",
+            "고수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
+          ]
+        },
+        {
+          "id": "southeast_asian_a2236cd0bf3b",
+          "name": "굴라이 아얌(코코넛 닭고기 커리)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "코코넛밀크",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "강황",
+            "고춧가루",
+            "큐민",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_91457cfcaa82",
+          "name": "아얌 바카르(달콤한 양념 닭구이)",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "마늘",
+            "샬롯"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "타마린드소스",
+            "고수씨",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_2461bb574096",
+          "name": "치킨 티놀라(생강 닭고기 맑은탕)",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "그린파파야",
+            "생강",
+            "말룽가이잎"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금"
           ]
         }
       ]
@@ -679,7 +1207,7 @@
         },
         {
           "id": "southeast_asian_f8e8b10b468c",
-          "name": "텃만꿍",
+          "name": "텃만꿍(태국식 새우튀김 완자)",
           "flavors": [
             "savory",
             "greasy"
@@ -698,7 +1226,7 @@
         },
         {
           "id": "southeast_asian_701b0b3e4bd2",
-          "name": "얌탈레",
+          "name": "얌탈레(태국식 해산물 샐러드)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -715,6 +1243,26 @@
             "라임즙",
             "설탕",
             "마늘"
+          ]
+        },
+        {
+          "id": "southeast_asian_b413f14e647b",
+          "name": "꿍옵운센(새우 당면 뚝배기찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "녹두당면",
+            "생강",
+            "셀러리"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "참기름",
+            "후추"
           ]
         }
       ]
@@ -788,6 +1336,26 @@
             "후추",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_5f55ee226935",
+          "name": "반짱느엉(구운 라이스페이퍼 피자)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "라이스페이퍼",
+            "계란",
+            "건새우",
+            "대파",
+            "소시지"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "칠리소스",
+            "식용유"
+          ]
         }
       ]
     },
@@ -796,7 +1364,7 @@
       "recipes": [
         {
           "id": "southeast_asian_ebd233949a26",
-          "name": "팟씨유",
+          "name": "팟씨유(간장 볶음 넓은 쌀국수)",
           "flavors": [
             "spicy",
             "umami"
@@ -816,7 +1384,7 @@
         },
         {
           "id": "southeast_asian_ea96c7a10635",
-          "name": "팟키마오",
+          "name": "팟키마오(매콤한 바질 볶음쌀국수)",
           "flavors": [
             "spicy",
             "umami"
@@ -837,7 +1405,7 @@
         },
         {
           "id": "southeast_asian_836307cd7c04",
-          "name": "미꽝",
+          "name": "미꽝(베트남 중부 강황 쌀국수)",
           "flavors": [
             "savory",
             "umami"
@@ -858,7 +1426,7 @@
         },
         {
           "id": "southeast_asian_e5b79d070e32",
-          "name": "차퀘이테오",
+          "name": "차퀘이테오(말레이식 볶음쌀국수)",
           "flavors": [
             "savory",
             "umami"
@@ -884,7 +1452,7 @@
       "recipes": [
         {
           "id": "southeast_asian_d31bc563e193",
-          "name": "카오만까이",
+          "name": "카오만까이(태국식 삶은 닭고기밥)",
           "flavors": [
             "savory",
             "umami"
@@ -904,7 +1472,7 @@
         },
         {
           "id": "southeast_asian_52709da07dee",
-          "name": "껌땀",
+          "name": "껌땀(베트남식 돼지갈비밥)",
           "flavors": [
             "sweet",
             "savory",
@@ -926,7 +1494,7 @@
         },
         {
           "id": "southeast_asian_336d73c02161",
-          "name": "나시르막",
+          "name": "나시르막(코코넛밥과 매운 소스)",
           "flavors": [
             "savory",
             "spicy",
@@ -964,6 +1532,97 @@
             "소금",
             "칠리소스"
           ]
+        },
+        {
+          "id": "southeast_asian_ccc7d64d87ad",
+          "name": "껌가호이안(호이안식 닭고기밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "강황",
+            "피시소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_3099158ab907",
+          "name": "나시 우둑(코코넛 쌀밥)",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "코코넛밀크",
+            "레몬그라스",
+            "판단잎"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_2ca399e86eac",
+          "name": "나시 쿠닝(노란 코코넛 쌀밥)",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "코코넛밀크",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "강황",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_33785c36a1af",
+          "name": "부부르 아얌(인도네시아 닭죽)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "대파",
+            "튀긴샬롯"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "참기름"
+          ]
+        },
+        {
+          "id": "southeast_asian_657fe1e2c8f3",
+          "name": "아로스 칼도(필리핀식 닭고기 쌀죽)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "생강",
+            "마늘"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -972,7 +1631,7 @@
       "recipes": [
         {
           "id": "southeast_asian_72cc5a4fef7f",
-          "name": "카오소이",
+          "name": "카오소이(태국 북부 코코넛 커리국수)",
           "flavors": [
             "spicy",
             "rich"
@@ -992,7 +1651,7 @@
         },
         {
           "id": "southeast_asian_38ff18175993",
-          "name": "미고렝",
+          "name": "미고렝(인도네시아식 볶음면)",
           "flavors": [
             "sweet",
             "savory",
@@ -1010,6 +1669,66 @@
             "삼발소스",
             "간장",
             "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_834afac1cd6a",
+          "name": "커리미(코코넛 커리 국수)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "계란면",
+            "코코넛밀크",
+            "닭고기",
+            "두부",
+            "숙주"
+          ],
+          "seasonings": [
+            "커리페이스트",
+            "소금",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_57a78688b98e",
+          "name": "미르부스(고구마 소스 국수)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "계란면",
+            "고구마",
+            "새우",
+            "계란",
+            "숙주"
+          ],
+          "seasonings": [
+            "커리가루",
+            "타마린드소스",
+            "간장",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_2b2929aac77a",
+          "name": "온노카우스웨(미얀마 코코넛 닭국수)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "계란면",
+            "닭고기",
+            "코코넛밀크",
+            "병아리콩가루"
+          ],
+          "seasonings": [
+            "피시소스",
+            "강황",
+            "고춧가루"
           ]
         }
       ]
@@ -1039,7 +1758,7 @@
         },
         {
           "id": "southeast_asian_afe955330020",
-          "name": "보코",
+          "name": "보코(베트남식 소고기 스튜)",
           "flavors": [
             "rich",
             "umami"
@@ -1059,7 +1778,7 @@
         },
         {
           "id": "southeast_asian_949853c46afa",
-          "name": "보라롯",
+          "name": "보라롯(잎으로 감싼 소고기구이)",
           "flavors": [
             "savory",
             "umami"
@@ -1078,7 +1797,7 @@
         },
         {
           "id": "southeast_asian_f0b01fc5f844",
-          "name": "렌당",
+          "name": "렌당(향신료 코코넛 소고기조림)",
           "flavors": [
             "spicy",
             "rich"
@@ -1094,6 +1813,68 @@
             "강황",
             "큐민",
             "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_2ac73591a44f",
+          "name": "보룩락(소고기 주사위 볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "파프리카",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_83bb43da09a8",
+          "name": "라원(클루왁 소고기 수프)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "클루왁",
+            "샬롯",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "큐민",
+            "고수씨",
+            "강황",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_177e87357a2e",
+          "name": "록락(캄보디아식 소고기볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "토마토",
+            "상추",
+            "양파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "후추",
+            "라임즙",
             "식용유"
           ]
         }
@@ -1153,7 +1934,7 @@
       "recipes": [
         {
           "id": "southeast_asian_7dece25c0048",
-          "name": "팟팩붕",
+          "name": "팟팩붕(태국식 공심채볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -1177,7 +1958,7 @@
       "recipes": [
         {
           "id": "southeast_asian_44cbac9eb8a0",
-          "name": "카이찌아오",
+          "name": "카이찌아오(태국식 계란부침)",
           "flavors": [
             "savory",
             "greasy"
@@ -1191,6 +1972,26 @@
             "피시소스",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_929fd52e681d",
+          "name": "얌카이찐다오(계란프라이 샐러드)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "계란",
+            "양파",
+            "토마토",
+            "셀러리"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1199,7 +2000,7 @@
       "recipes": [
         {
           "id": "southeast_asian_cc7f066d286d",
-          "name": "허목쁠라",
+          "name": "허목쁠라(태국식 생선 커리찜)",
           "flavors": [
             "spicy",
             "rich"
@@ -1223,7 +2024,7 @@
       "recipes": [
         {
           "id": "southeast_asian_84e16937f24f",
-          "name": "텃만쁠라",
+          "name": "텃만쁠라(태국식 생선 완자튀김)",
           "flavors": [
             "spicy",
             "savory"
@@ -1239,6 +2040,25 @@
             "피시소스",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_75f41e624ae6",
+          "name": "아목 트레이(캄보디아식 생선 코코넛찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "생선살",
+            "코코넛밀크",
+            "계란",
+            "바나나잎"
+          ],
+          "seasonings": [
+            "커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
         }
       ]
     },
@@ -1247,7 +2067,7 @@
       "recipes": [
         {
           "id": "southeast_asian_9555cbc3bef5",
-          "name": "팟운센",
+          "name": "팟운센(태국식 당면볶음)",
           "flavors": [
             "savory",
             "umami"
@@ -1268,7 +2088,7 @@
         },
         {
           "id": "southeast_asian_80caa47dfcda",
-          "name": "얌운센",
+          "name": "얌운센(태국식 당면 샐러드)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -1294,7 +2114,7 @@
       "recipes": [
         {
           "id": "southeast_asian_95122ba50354",
-          "name": "쏨땀",
+          "name": "쏨땀(태국식 그린파파야 샐러드)",
           "flavors": [
             "sweet_sour",
             "refreshing"
@@ -1313,6 +2133,26 @@
             "고추",
             "마늘"
           ]
+        },
+        {
+          "id": "southeast_asian_5b66c3bb59d3",
+          "name": "고이두두(그린파파야 샐러드)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "그린파파야",
+            "당근",
+            "건새우",
+            "고수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
+          ]
         }
       ]
     },
@@ -1321,7 +2161,7 @@
       "recipes": [
         {
           "id": "southeast_asian_e10713a98362",
-          "name": "반쎄오",
+          "name": "반쎄오(베트남식 바삭한 전병)",
           "flavors": [
             "savory",
             "umami"
@@ -1342,7 +2182,7 @@
         },
         {
           "id": "southeast_asian_802aabb1f56c",
-          "name": "반꾸온",
+          "name": "반꾸온(베트남식 쌀피 찜만두)",
           "flavors": [
             "savory",
             "umami"
@@ -1359,6 +2199,43 @@
             "식초",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_326acd1cb5a3",
+          "name": "반베오(새우고물 쌀떡)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "건새우",
+            "대파"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_321a1c2ead5d",
+          "name": "반콧(코코넛 새우 쌀전)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "코코넛밀크",
+            "새우",
+            "대파"
+          ],
+          "seasonings": [
+            "강황",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1367,7 +2244,7 @@
       "recipes": [
         {
           "id": "southeast_asian_937fe3edf569",
-          "name": "까코또",
+          "name": "까코또(베트남식 생선 뚝배기조림)",
           "flavors": [
             "sweet",
             "salty",
@@ -1384,6 +2261,27 @@
             "후추",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_13056434e4a6",
+          "name": "차까라봉(강황 생선 딜구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "메기",
+            "딜",
+            "대파",
+            "쌀국수",
+            "땅콩"
+          ],
+          "seasonings": [
+            "강황",
+            "피시소스",
+            "새우페이스트",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1392,7 +2290,7 @@
       "recipes": [
         {
           "id": "southeast_asian_f5c1c347812b",
-          "name": "까인쭈어",
+          "name": "까인쭈어(베트남식 새콤한 생선국)",
           "flavors": [
             "sour",
             "refreshing"
@@ -1409,6 +2307,44 @@
             "피시소스",
             "설탕"
           ]
+        },
+        {
+          "id": "southeast_asian_4cf418a57f33",
+          "name": "페페스 이칸(바나나잎 생선찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "바질",
+            "토마토",
+            "레몬그라스",
+            "바나나잎"
+          ],
+          "seasonings": [
+            "강황",
+            "소금",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_40d71ac05aae",
+          "name": "이칸 바카르(인도네시아식 생선구이)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "레몬그라스",
+            "마늘"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "삼발소스",
+            "소금"
+          ]
         }
       ]
     },
@@ -1417,7 +2353,7 @@
       "recipes": [
         {
           "id": "southeast_asian_6c87fe20ac13",
-          "name": "가도가도",
+          "name": "가도가도(땅콩소스 채소 샐러드)",
           "flavors": [
             "savory",
             "umami"
@@ -1436,6 +2372,25 @@
             "설탕",
             "소금"
           ]
+        },
+        {
+          "id": "southeast_asian_d69b8808972b",
+          "name": "케토프락(땅콩 소스 두부 쌀국수)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "쌀국수",
+            "숙주",
+            "땅콩"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "마늘",
+            "타마린드소스"
+          ]
         }
       ]
     },
@@ -1444,7 +2399,7 @@
       "recipes": [
         {
           "id": "southeast_asian_b07d6466261d",
-          "name": "템페 고렝",
+          "name": "템페 고렝(발효콩 튀김)",
           "flavors": [
             "savory",
             "greasy"
@@ -1467,7 +2422,7 @@
       "recipes": [
         {
           "id": "southeast_asian_cf57184ffe2a",
-          "name": "룸피아 샹하이",
+          "name": "룸피아 샹하이(필리핀식 고기 춘권)",
           "flavors": [
             "savory",
             "greasy"
@@ -1485,6 +2440,23 @@
             "식용유",
             "스위트칠리소스"
           ]
+        },
+        {
+          "id": "southeast_asian_3d53da771fe0",
+          "name": "토론(바나나 잭프루트 튀김말이)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "춘권피",
+            "바나나",
+            "잭프루트"
+          ],
+          "seasonings": [
+            "흑설탕",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1493,7 +2465,7 @@
       "recipes": [
         {
           "id": "southeast_asian_aae99e169f48",
-          "name": "카오니아오 마무앙",
+          "name": "카오니아오 마무앙(망고 코코넛 찹쌀밥)",
           "flavors": [
             "sweet",
             "savory"
@@ -1507,6 +2479,41 @@
             "설탕",
             "소금"
           ]
+        },
+        {
+          "id": "southeast_asian_c87b7ea108fa",
+          "name": "반쭝(돼지고기 녹두 찹쌀떡)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "녹두",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "southeast_asian_f87ea4a0df66",
+          "name": "반뗏(원통형 돼지고기 찹쌀떡)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "녹두",
+            "돼지고기",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
         }
       ]
     },
@@ -1515,7 +2522,7 @@
       "recipes": [
         {
           "id": "southeast_asian_5ffd4f612445",
-          "name": "클레폰",
+          "name": "클레폰(야자설탕 코코넛 경단)",
           "flavors": [
             "sweet",
             "savory"
@@ -1528,6 +2535,425 @@
           "seasonings": [
             "팜슈거",
             "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_b5ca8ce30c1b",
+          "name": "기나탕 빌로빌로(찹쌀경단 코코넛 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "코코넛밀크",
+            "고구마",
+            "바나나",
+            "사고펄"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "가지": {
+      "name": "가지",
+      "recipes": [
+        {
+          "id": "southeast_asian_90a389202e80",
+          "name": "얌마쿠아야오(구운 가지 새우샐러드)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "가지",
+            "새우",
+            "돼지고기",
+            "샬롯"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_396f0350ae98",
+          "name": "사유르 로데(코코넛 채소 스튜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "가지",
+            "그린빈",
+            "양배추",
+            "두부",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "갈랑갈",
+            "고수씨",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "그린망고": {
+      "name": "그린망고",
+      "recipes": [
+        {
+          "id": "southeast_asian_70eb013c84ce",
+          "name": "얌마무앙(풋망고 샐러드)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "그린망고",
+            "건새우",
+            "땅콩",
+            "샬롯"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "팜슈거"
+          ]
+        }
+      ]
+    },
+    "농어": {
+      "name": "농어",
+      "recipes": [
+        {
+          "id": "southeast_asian_bf1147c3351b",
+          "name": "쁠라능마나오(라임 마늘 생선찜)",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "농어",
+            "마늘",
+            "고추",
+            "고수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "도미": {
+      "name": "도미",
+      "recipes": [
+        {
+          "id": "southeast_asian_d9dfd4bfe430",
+          "name": "쁠라텃삼롯(세 가지 맛 소스 생선튀김)",
+          "flavors": [
+            "spicy",
+            "sweet_sour",
+            "greasy"
+          ],
+          "ingredients": [
+            "도미",
+            "마늘",
+            "고추"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "피시소스",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "풋고추": {
+      "name": "풋고추",
+      "recipes": [
+        {
+          "id": "southeast_asian_c3a79bc75701",
+          "name": "남프릭눔(구운 풋고추 딥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "풋고추",
+            "샬롯",
+            "마늘"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "타피오카쌀국수": {
+      "name": "타피오카쌀국수",
+      "recipes": [
+        {
+          "id": "southeast_asian_a1e3ce0bd374",
+          "name": "반깐꾸아(게살 굵은 쌀국수)",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "타피오카쌀국수",
+            "게살",
+            "새우",
+            "대파"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "연꽃줄기": {
+      "name": "연꽃줄기",
+      "recipes": [
+        {
+          "id": "southeast_asian_a349e87d73a9",
+          "name": "고이응오센(연꽃줄기 새우 돼지고기 냉채)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "연꽃줄기",
+            "새우",
+            "돼지고기",
+            "당근",
+            "땅콩"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
+          ]
+        }
+      ]
+    },
+    "타피오카전분": {
+      "name": "타피오카전분",
+      "recipes": [
+        {
+          "id": "southeast_asian_342e7c8cd52e",
+          "name": "반봇록(새우 돼지고기 투명떡)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "타피오카전분",
+            "새우",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "팥": {
+      "name": "팥",
+      "recipes": [
+        {
+          "id": "southeast_asian_c9980eb33245",
+          "name": "체바마우(세 가지 색 콩 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "팥",
+            "녹두",
+            "판단젤리",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "바나나": {
+      "name": "바나나",
+      "recipes": [
+        {
+          "id": "southeast_asian_311ecba20acb",
+          "name": "체쭈오이(바나나 코코넛 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "바나나",
+            "타피오카펄",
+            "코코넛밀크",
+            "땅콩"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "밀가루": {
+      "name": "밀가루",
+      "recipes": [
+        {
+          "id": "southeast_asian_2babed9b3540",
+          "name": "로티 차나이(겹겹이 얇은 팬구이 빵)",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "기버터",
+            "소금",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "오이": {
+      "name": "오이",
+      "recipes": [
+        {
+          "id": "southeast_asian_3a789bcb65dd",
+          "name": "로작(땅콩 소스 과일 채소무침)",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "오이",
+            "파인애플",
+            "히카마",
+            "땅콩",
+            "두부"
+          ],
+          "seasonings": [
+            "새우페이스트",
+            "타마린드소스",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "소꼬리": {
+      "name": "소꼬리",
+      "recipes": [
+        {
+          "id": "southeast_asian_1673047388ad",
+          "name": "카레카레(땅콩 소스 소꼬리찜)",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소꼬리",
+            "가지",
+            "그린빈",
+            "청경채"
+          ],
+          "seasonings": [
+            "새우페이스트",
+            "소금",
+            "식용유",
+            "땅콩버터"
+          ]
+        }
+      ]
+    },
+    "소정강이": {
+      "name": "소정강이",
+      "recipes": [
+        {
+          "id": "southeast_asian_2b6740c933a8",
+          "name": "불랄로(소고기 골수 채소탕)",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "소정강이",
+            "옥수수",
+            "배추",
+            "그린빈"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "자색참마": {
+      "name": "자색참마",
+      "recipes": [
+        {
+          "id": "southeast_asian_af2c18f6f64f",
+          "name": "우베 할라야(자색참마 우유 잼)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "자색참마",
+            "연유",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "발효찻잎": {
+      "name": "발효찻잎",
+      "recipes": [
+        {
+          "id": "southeast_asian_5c0b04775d1e",
+          "name": "라펫토케(발효 찻잎 샐러드)",
+          "flavors": [
+            "bitter",
+            "refreshing"
+          ],
+          "ingredients": [
+            "발효찻잎",
+            "양배추",
+            "토마토",
+            "땅콩",
+            "튀긴콩"
+          ],
+          "seasonings": [
+            "라임즙",
+            "소금",
+            "마늘오일"
           ]
         }
       ]

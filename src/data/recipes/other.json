@@ -87,6 +87,145 @@
             "소금",
             "식용유"
           ]
+        },
+        {
+          "id": "other_04fa776ac466",
+          "name": "타코 알 파스토르(양념 돼지고기 파인애플 타코)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "돼지고기",
+            "파인애플",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "아치오테",
+            "고춧가루",
+            "식초",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_9de7c3643979",
+          "name": "카르네 아사다 타코(소고기구이 타코)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "소고기",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "라임즙",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_41645e01e950",
+          "name": "카르니타스 타코(부드러운 돼지고기 타코)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "돼지고기",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "오렌지즙",
+            "소금",
+            "라드",
+            "오레가노"
+          ]
+        },
+        {
+          "id": "other_35b33885cdf3",
+          "name": "바하 피시 타코(생선튀김 타코)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "대구",
+            "양배추",
+            "밀가루"
+          ],
+          "seasonings": [
+            "라임즙",
+            "마요네즈",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_2cd5f5377ada",
+          "name": "소파 데 토르티야(토르티야 토마토 수프)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "토마토",
+            "닭고기",
+            "아보카도"
+          ],
+          "seasonings": [
+            "건고추",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_0a7479feee01",
+          "name": "토스타다스(바삭한 토르티야 토핑)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "닭고기",
+            "핀토콩",
+            "상추",
+            "치즈"
+          ],
+          "seasonings": [
+            "살사소스",
+            "사워크림",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_65c29799ff7c",
+          "name": "플라우타스(돌돌 만 타코튀김)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "닭고기",
+            "상추",
+            "치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "사워크림",
+            "식용유"
+          ]
         }
       ]
     },
@@ -127,6 +266,26 @@
             "큐민",
             "소금",
             "식용유"
+          ]
+        },
+        {
+          "id": "other_43b72c8158b6",
+          "name": "라블라비(튀니지 병아리콩 빵 수프)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "빵",
+            "마늘",
+            "계란"
+          ],
+          "seasonings": [
+            "하리사",
+            "큐민",
+            "소금",
+            "올리브유"
           ]
         }
       ]
@@ -200,7 +359,7 @@
         },
         {
           "id": "other_04d87bb75404",
-          "name": "로모 살타도",
+          "name": "로모 살타도(페루식 소고기 채소볶음)",
           "flavors": [
             "savory",
             "umami"
@@ -221,7 +380,7 @@
         },
         {
           "id": "other_18bfd242900f",
-          "name": "파벨론 크리오요",
+          "name": "파벨론 크리오요(소고기 검은콩 플랜틴밥)",
           "flavors": [
             "savory",
             "umami"
@@ -241,7 +400,7 @@
         },
         {
           "id": "other_51504cacfb78",
-          "name": "쾨프테",
+          "name": "쾨프테(튀르키예식 고기완자)",
           "flavors": [
             "savory",
             "umami"
@@ -261,7 +420,7 @@
         },
         {
           "id": "other_3a3e0952ea5a",
-          "name": "하리라",
+          "name": "하리라(모로코식 토마토 콩 수프)",
           "flavors": [
             "rich",
             "umami"
@@ -282,14 +441,13 @@
         },
         {
           "id": "other_ef63ff7731aa",
-          "name": "마페",
+          "name": "마페(서아프리카 땅콩 스튜)",
           "flavors": [
             "savory",
             "rich"
           ],
           "ingredients": [
             "소고기",
-            "땅콩버터",
             "토마토",
             "고구마",
             "양파"
@@ -297,12 +455,13 @@
           "seasonings": [
             "소금",
             "후추",
-            "식용유"
+            "식용유",
+            "땅콩버터"
           ]
         },
         {
           "id": "other_701c8109fd22",
-          "name": "보보티",
+          "name": "보보티(남아공식 계란 고기구이)",
           "flavors": [
             "sweet",
             "rich"
@@ -320,6 +479,219 @@
             "강황",
             "소금",
             "식용유"
+          ]
+        },
+        {
+          "id": "other_5bfd71594dd7",
+          "name": "비리아(멕시코식 고기 칠리스튜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "건고추",
+            "큐민",
+            "오레가노",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_a1a1cc3da83c",
+          "name": "알본디가스 수프(쌀 미트볼 토마토 수프)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "쌀",
+            "토마토",
+            "당근",
+            "주키니"
+          ],
+          "seasonings": [
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_0b27bdc881dc",
+          "name": "로파 비에하(쿠바식 찢은 소고기 토마토찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "토마토",
+            "파프리카",
+            "양파"
+          ],
+          "seasonings": [
+            "큐민",
+            "오레가노",
+            "소금",
+            "올리브유"
+          ]
+        },
+        {
+          "id": "other_864abbd4f0da",
+          "name": "산코초(뿌리채소 고기탕)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "닭고기",
+            "카사바",
+            "플랜틴",
+            "옥수수"
+          ],
+          "seasonings": [
+            "소금",
+            "고수씨가루"
+          ]
+        },
+        {
+          "id": "other_b4a74ca80338",
+          "name": "고르메 사브지(허브 콩 소고기스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "강낭콩",
+            "파슬리",
+            "고수",
+            "리크"
+          ],
+          "seasonings": [
+            "말린라임",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_766bd9b34407",
+          "name": "제이미에(노란 완두콩 소고기찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "쪼갠노란완두콩",
+            "토마토",
+            "감자"
+          ],
+          "seasonings": [
+            "말린라임",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_86975256d5e4",
+          "name": "팁스(에티오피아식 소고기볶음)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "풋고추",
+            "로즈메리"
+          ],
+          "seasonings": [
+            "니테르키베",
+            "베르베레",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_71d9553e172a",
+          "name": "키트포(에티오피아식 생고기 무침)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기"
+          ],
+          "seasonings": [
+            "니테르키베",
+            "미트미타",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_e8d0268c6859",
+          "name": "보어워스(남아프리카식 소시지)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "돼지지방",
+            "소시지케이싱"
+          ],
+          "seasonings": [
+            "고수씨가루",
+            "정향",
+            "식초",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_4d5d85643a90",
+          "name": "차슈슐리(조지아식 소고기 토마토찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "토마토",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "호프수넬리",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_64d4f0f3acfb",
+          "name": "하르초(소고기 호두 쌀 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "쌀",
+            "호두",
+            "토마토"
+          ],
+          "seasonings": [
+            "트케말리소스",
+            "호프수넬리",
+            "소금"
           ]
         }
       ]
@@ -347,7 +719,7 @@
         },
         {
           "id": "other_1348c3365c6d",
-          "name": "칠라킬레스",
+          "name": "칠라킬레스(소스에 버무린 토르티야)",
           "flavors": [
             "spicy",
             "savory",
@@ -372,7 +744,7 @@
       "recipes": [
         {
           "id": "other_9d47b802f504",
-          "name": "우에보스 란체로스",
+          "name": "우에보스 란체로스(토르티야 계란 토마토소스)",
           "flavors": [
             "spicy",
             "savory",
@@ -393,7 +765,7 @@
         },
         {
           "id": "other_cd86f50aec2c",
-          "name": "메네멘",
+          "name": "메네멘(튀르키예식 토마토 계란볶음)",
           "flavors": [
             "light",
             "umami"
@@ -409,6 +781,26 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "other_4b2e2b7a9100",
+          "name": "쿠쿠 사브지(허브 계란전)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "파슬리",
+            "고수",
+            "딜",
+            "리크"
+          ],
+          "seasonings": [
+            "강황",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -417,7 +809,7 @@
       "recipes": [
         {
           "id": "other_a4418e76fea4",
-          "name": "엘로테",
+          "name": "엘로테(멕시코식 치즈 옥수수)",
           "flavors": [
             "spicy",
             "savory",
@@ -433,6 +825,85 @@
             "라임즙",
             "소금"
           ]
+        },
+        {
+          "id": "other_9cd1064ba241",
+          "name": "에스키테스(옥수수 치즈 컵샐러드)",
+          "flavors": [
+            "spicy",
+            "savory",
+            "sweet"
+          ],
+          "ingredients": [
+            "옥수수",
+            "코티하 치즈",
+            "에파소테"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "라임즙",
+            "고춧가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_f5246d0f15a3",
+          "name": "카차파(치즈를 넣은 생옥수수전)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수",
+            "계란",
+            "우유",
+            "치즈"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "버터"
+          ]
+        },
+        {
+          "id": "other_a124736df12e",
+          "name": "로크로(호박 옥수수 콩 고기스튜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수",
+            "흰강낭콩",
+            "단호박",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "other_5e85248c4bb2",
+          "name": "파스텔 데 초클로(옥수수 고기 파이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수",
+            "소고기",
+            "양파",
+            "닭고기",
+            "계란",
+            "올리브"
+          ],
+          "seasonings": [
+            "소금",
+            "버터",
+            "큐민"
+          ]
         }
       ]
     },
@@ -441,7 +912,7 @@
       "recipes": [
         {
           "id": "other_25283177eb85",
-          "name": "포솔레",
+          "name": "포솔레(옥수수 돼지고기 수프)",
           "flavors": [
             "spicy",
             "rich"
@@ -457,6 +928,44 @@
             "오레가노",
             "소금"
           ]
+        },
+        {
+          "id": "other_34fc07c3dbbf",
+          "name": "코치니타 피빌(아치오테 돼지고기찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "오렌지",
+            "라임",
+            "바나나잎"
+          ],
+          "seasonings": [
+            "아치오테",
+            "오레가노",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_642bb32bab87",
+          "name": "오자후리(조지아식 돼지고기 감자볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "감자",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
         }
       ]
     },
@@ -465,7 +974,7 @@
       "recipes": [
         {
           "id": "other_9f1ef91e8f10",
-          "name": "타말레스",
+          "name": "타말레스(옥수수 반죽 찜)",
           "flavors": [
             "savory",
             "umami"
@@ -483,7 +992,7 @@
         },
         {
           "id": "other_b194ef257db2",
-          "name": "아레파",
+          "name": "아레파(옥수수 납작빵)",
           "flavors": [
             "savory",
             "light"
@@ -496,6 +1005,78 @@
             "소금",
             "버터"
           ]
+        },
+        {
+          "id": "other_04eae6be05e4",
+          "name": "소페스(두꺼운 토르티야 토핑)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "핀토콩",
+            "소고기",
+            "상추",
+            "치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유",
+            "살사소스"
+          ]
+        },
+        {
+          "id": "other_3574d606554a",
+          "name": "고르디타스(속을 채운 두꺼운 옥수수빵)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "돼지고기",
+            "치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_f7e7a1fd478a",
+          "name": "틀라코요스(콩소를 넣은 옥수수전)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "검은콩",
+            "노팔선인장"
+          ],
+          "seasonings": [
+            "소금",
+            "살사소스",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_ebfe5f785190",
+          "name": "푸푸사(치즈 콩 속 옥수수전)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "치즈",
+            "핀토콩"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -504,7 +1085,7 @@
       "recipes": [
         {
           "id": "other_07fbd990c61d",
-          "name": "몰레 포블라노",
+          "name": "몰레 포블라노(초콜릿 향신료소스 닭요리)",
           "flavors": [
             "spicy",
             "rich"
@@ -525,7 +1106,7 @@
         },
         {
           "id": "other_ea235b75bc04",
-          "name": "아히 데 가이나",
+          "name": "아히 데 가이나(페루식 크림소스 닭요리)",
           "flavors": [
             "spicy",
             "savory",
@@ -545,7 +1126,7 @@
         },
         {
           "id": "other_4bcc28a09995",
-          "name": "코시냐",
+          "name": "코시냐(브라질식 닭고기 크로켓)",
           "flavors": [
             "savory",
             "greasy"
@@ -564,7 +1145,7 @@
         },
         {
           "id": "other_5a7bfdc9f2bb",
-          "name": "샤와르마",
+          "name": "샤와르마(향신료 고기를 넣은 랩)",
           "flavors": [
             "savory",
             "umami"
@@ -605,7 +1186,7 @@
         },
         {
           "id": "other_965167c6c3bc",
-          "name": "도로 왓",
+          "name": "도로 왓(에티오피아식 매운 닭 스튜)",
           "flavors": [
             "spicy",
             "rich"
@@ -623,7 +1204,7 @@
         },
         {
           "id": "other_b6818181444e",
-          "name": "차호흐빌리",
+          "name": "차호흐빌리(조지아식 토마토 닭 스튜)",
           "flavors": [
             "rich",
             "umami"
@@ -639,6 +1220,120 @@
             "후추",
             "고춧가루",
             "식용유"
+          ]
+        },
+        {
+          "id": "other_9bf00b96f9c4",
+          "name": "몰레 베르데(녹색 허브 소스 닭찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마티요",
+            "호박씨",
+            "고수"
+          ],
+          "seasonings": [
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_d555d2b64dee",
+          "name": "아히아코(콜롬비아식 감자 닭수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "옥수수",
+            "과스카허브"
+          ],
+          "seasonings": [
+            "소금",
+            "케이퍼",
+            "생크림"
+          ]
+        },
+        {
+          "id": "other_417bf1044cf4",
+          "name": "페센잔(호두 석류 닭찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "호두",
+            "양파"
+          ],
+          "seasonings": [
+            "석류몰라시스",
+            "설탕",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_61a1cde6a5da",
+          "name": "르피사(렌틸 닭고기 빵찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "렌틸콩",
+            "밀가루",
+            "양파"
+          ],
+          "seasonings": [
+            "펜그릭",
+            "강황",
+            "소금",
+            "올리브유"
+          ]
+        },
+        {
+          "id": "other_c1f9d36df32c",
+          "name": "케드제누(서아프리카 닭고기 채소찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "가지",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "생강",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "other_2deb260c0f53",
+          "name": "사치비(호두 소스를 곁들인 닭고기)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "호두",
+            "양파"
+          ],
+          "seasonings": [
+            "고수씨가루",
+            "호프수넬리",
+            "소금"
           ]
         }
       ]
@@ -666,7 +1361,7 @@
         },
         {
           "id": "other_67de842c345f",
-          "name": "모케카",
+          "name": "모케카(브라질식 생선 스튜)",
           "flavors": [
             "rich",
             "umami"
@@ -683,6 +1378,46 @@
             "라임즙",
             "소금"
           ]
+        },
+        {
+          "id": "other_98ee3ce37e2e",
+          "name": "페스카도 아 라 베라크루사나(올리브 토마토 생선찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "토마토",
+            "올리브",
+            "케이퍼",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "오레가노"
+          ]
+        },
+        {
+          "id": "other_e986679cebd4",
+          "name": "생선 체르물라 구이",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "고수",
+            "파슬리",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "큐민",
+            "소금"
+          ]
         }
       ]
     },
@@ -691,7 +1426,7 @@
       "recipes": [
         {
           "id": "other_43009cdf9b3d",
-          "name": "엠파나다",
+          "name": "엠파나다(속을 채운 반달 파이)",
           "flavors": [
             "savory",
             "umami"
@@ -713,7 +1448,7 @@
         },
         {
           "id": "other_bc9f21b3544e",
-          "name": "파스텔",
+          "name": "파스텔(브라질식 얇은 피 튀김만두)",
           "flavors": [
             "savory",
             "greasy"
@@ -731,7 +1466,7 @@
         },
         {
           "id": "other_6206e9a96062",
-          "name": "피데",
+          "name": "피데(배 모양 튀르키예식 피자)",
           "flavors": [
             "savory",
             "umami"
@@ -751,7 +1486,7 @@
         },
         {
           "id": "other_b8be65505c9c",
-          "name": "라흐마준",
+          "name": "라흐마준(다진 고기 납작피자)",
           "flavors": [
             "savory",
             "umami"
@@ -771,7 +1506,7 @@
         },
         {
           "id": "other_853f876cc625",
-          "name": "하차푸리",
+          "name": "하차푸리(조지아식 치즈빵)",
           "flavors": [
             "savory",
             "rich"
@@ -790,7 +1525,7 @@
         },
         {
           "id": "other_ad255d6da2c9",
-          "name": "힌칼리",
+          "name": "힌칼리(조지아식 육즙 만두)",
           "flavors": [
             "savory",
             "umami"
@@ -809,7 +1544,7 @@
         },
         {
           "id": "other_7b30f5a0c378",
-          "name": "삼사",
+          "name": "삼사(중앙아시아식 고기 파이)",
           "flavors": [
             "savory",
             "umami"
@@ -825,6 +1560,170 @@
             "큐민",
             "버터"
           ]
+        },
+        {
+          "id": "other_a0aa9431b2c4",
+          "name": "라그만(중앙아시아식 고기 채소 국수)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "토마토",
+            "파프리카",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_ca4837d9f869",
+          "name": "만티(양고기 호박 찐만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "단호박",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_0047f93689d1",
+          "name": "치부레키(고기를 넣은 납작만두튀김)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_1030e0768679",
+          "name": "호논(채소 속을 만 밀 반죽찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_2a59fbe5d3c5",
+          "name": "로비아니(콩소를 넣은 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "강낭콩",
+            "이스트"
+          ],
+          "seasonings": [
+            "소금",
+            "버터"
+          ]
+        },
+        {
+          "id": "other_e73ef9824e9f",
+          "name": "올라디(케피어 팬케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "케피어"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "베이킹소다",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_27ef0ea74250",
+          "name": "보르초그(몽골식 튀김 과자)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_1c328f8c3ae0",
+          "name": "부즈(몽골식 양고기 찐만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_ac9dda5ec57a",
+          "name": "호쇼르(몽골식 납작 고기만두튀김)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
         }
       ]
     },
@@ -833,7 +1732,7 @@
       "recipes": [
         {
           "id": "other_f65df7181f14",
-          "name": "페이조아다",
+          "name": "페이조아다(브라질식 검은콩 고기 스튜)",
           "flavors": [
             "rich",
             "umami"
@@ -859,7 +1758,7 @@
       "recipes": [
         {
           "id": "other_45197d0c52c8",
-          "name": "쉬시 케밥",
+          "name": "쉬시 케밥(고기 꼬치구이)",
           "flavors": [
             "savory",
             "umami"
@@ -879,7 +1778,7 @@
         },
         {
           "id": "other_c89082cc5938",
-          "name": "아다나 케밥",
+          "name": "아다나 케밥(매운 다진 고기 꼬치구이)",
           "flavors": [
             "spicy",
             "umami"
@@ -897,7 +1796,7 @@
         },
         {
           "id": "other_35c71e272d40",
-          "name": "이스켄데르 케밥",
+          "name": "이스켄데르 케밥(빵과 요거트를 곁들인 케밥)",
           "flavors": [
             "rich",
             "umami"
@@ -916,7 +1815,7 @@
         },
         {
           "id": "other_b158395ef86d",
-          "name": "만사프",
+          "name": "만사프(요르단식 요거트 양고기밥)",
           "flavors": [
             "rich",
             "umami"
@@ -954,6 +1853,82 @@
             "소금",
             "꿀"
           ]
+        },
+        {
+          "id": "other_b240bad4a017",
+          "name": "베슈바르마크(삶은 고기와 넓은 면)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "밀가루",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_22d6a4455503",
+          "name": "딤라마(중앙아시아 고기 채소찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "감자",
+            "양배추",
+            "토마토",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_e2ffa4be67f8",
+          "name": "쿠르다크(양고기 감자 내장볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "양간",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_fdbbc6d452d1",
+          "name": "차카풀리(타라곤 자두 양고기찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "타라곤",
+            "고수",
+            "쪽파"
+          ],
+          "seasonings": [
+            "트케말리소스",
+            "화이트와인",
+            "소금"
+          ]
         }
       ]
     },
@@ -962,7 +1937,7 @@
       "recipes": [
         {
           "id": "other_667a73faadfa",
-          "name": "타불레",
+          "name": "타불레(파슬리 불구르 샐러드)",
           "flavors": [
             "refreshing",
             "light"
@@ -982,7 +1957,7 @@
         },
         {
           "id": "other_426bf345db2b",
-          "name": "쿠베",
+          "name": "쿠베(불구르 고기 경단)",
           "flavors": [
             "savory",
             "umami"
@@ -999,6 +1974,46 @@
             "큐민",
             "식용유"
           ]
+        },
+        {
+          "id": "other_81bbf3794d52",
+          "name": "치으 쾨프테(매운 불구르 허브무침)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "불구르",
+            "양파",
+            "파슬리"
+          ],
+          "seasonings": [
+            "고추페이스트",
+            "토마토페이스트",
+            "석류몰라시스",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_17a615e58e64",
+          "name": "키시르(튀르키예식 불구르 샐러드)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "불구르",
+            "토마토",
+            "오이",
+            "대파",
+            "파슬리"
+          ],
+          "seasonings": [
+            "고추페이스트",
+            "석류몰라시스",
+            "올리브유",
+            "소금"
+          ]
         }
       ]
     },
@@ -1007,7 +2022,7 @@
       "recipes": [
         {
           "id": "other_3636de6f061d",
-          "name": "파투시",
+          "name": "파투시(바삭한 빵 채소 샐러드)",
           "flavors": [
             "refreshing",
             "light"
@@ -1025,6 +2040,26 @@
             "수막",
             "소금"
           ]
+        },
+        {
+          "id": "western_8c32c1edb26e",
+          "name": "팔라펠 피타 샌드위치",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "피타빵",
+            "팔라펠",
+            "오이",
+            "토마토",
+            "상추"
+          ],
+          "seasonings": [
+            "타히니",
+            "레몬즙",
+            "소금"
+          ]
         }
       ]
     },
@@ -1033,7 +2068,7 @@
       "recipes": [
         {
           "id": "other_129060928b05",
-          "name": "바바가누쉬",
+          "name": "바바가누쉬(구운 가지 참깨소스 딥)",
           "flavors": [
             "savory",
             "light"
@@ -1048,6 +2083,64 @@
             "올리브유",
             "소금"
           ]
+        },
+        {
+          "id": "other_58e1e79f1295",
+          "name": "이맘 바이일디(양파 토마토를 채운 가지찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "설탕"
+          ]
+        },
+        {
+          "id": "other_a704ca57060e",
+          "name": "카르니야르크(다진 고기를 채운 가지찜)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "소고기",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_b16f2fcd1b56",
+          "name": "바드리자니 니그브지트(호두 속 가지말이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "호두",
+            "마늘",
+            "고수"
+          ],
+          "seasonings": [
+            "식초",
+            "고수씨가루",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1056,7 +2149,7 @@
       "recipes": [
         {
           "id": "other_82cd0d4cdea0",
-          "name": "무함마라",
+          "name": "무함마라(구운 파프리카 호두 딥)",
           "flavors": [
             "spicy",
             "savory",
@@ -1081,7 +2174,7 @@
       "recipes": [
         {
           "id": "other_8a93c41b35d8",
-          "name": "무자다라",
+          "name": "무자다라(렌틸콩 양파밥)",
           "flavors": [
             "savory",
             "umami"
@@ -1104,7 +2197,7 @@
       "recipes": [
         {
           "id": "other_16b17d93df30",
-          "name": "마클루바",
+          "name": "마클루바(뒤집어 내는 고기 채소밥)",
           "flavors": [
             "rich",
             "umami"
@@ -1124,7 +2217,7 @@
         },
         {
           "id": "other_8a6f4f035ecf",
-          "name": "코샤리",
+          "name": "코샤리(쌀 파스타 렌틸콩 한 그릇)",
           "flavors": [
             "savory",
             "umami"
@@ -1146,7 +2239,7 @@
         },
         {
           "id": "other_35187196904c",
-          "name": "졸로프 라이스",
+          "name": "졸로프 라이스(서아프리카 토마토밥)",
           "flavors": [
             "spicy",
             "umami"
@@ -1167,7 +2260,7 @@
         },
         {
           "id": "other_b91da40f18fe",
-          "name": "플로프",
+          "name": "플로프(중앙아시아식 고기 당근밥)",
           "flavors": [
             "savory",
             "umami"
@@ -1184,6 +2277,196 @@
             "큐민",
             "식용유"
           ]
+        },
+        {
+          "id": "other_cd4cca7b8af5",
+          "name": "아로스 로호(토마토 멕시코 쌀밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "토마토",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_b9906fcb0419",
+          "name": "아로스 베르데(허브 고추 쌀밥)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "포블라노고추",
+            "고수",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_f22fdb94ce54",
+          "name": "아로스 콘 포요(중남미식 닭고기밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "피망",
+            "완두콩",
+            "토마토"
+          ],
+          "seasonings": [
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_43add7765f7c",
+          "name": "모로스 이 크리스티아노스(쿠바식 검은콩밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "검은콩",
+            "양파",
+            "피망"
+          ],
+          "seasonings": [
+            "큐민",
+            "오레가노",
+            "소금",
+            "올리브유"
+          ]
+        },
+        {
+          "id": "other_77ecb6181c9b",
+          "name": "반데하 파이사(콜롬비아식 고기 콩 밥정식)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "핀토콩",
+            "소고기",
+            "돼지고기",
+            "계란",
+            "플랜틴"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유",
+            "큐민"
+          ]
+        },
+        {
+          "id": "other_508575b9c133",
+          "name": "타흐친(요거트 닭고기 쌀구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "요거트",
+            "계란노른자"
+          ],
+          "seasonings": [
+            "사프란",
+            "소금",
+            "버터"
+          ]
+        },
+        {
+          "id": "other_eb893c18e86f",
+          "name": "제레슈크 폴로(매자나무열매 닭고기밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "말린바베리"
+          ],
+          "seasonings": [
+            "사프란",
+            "설탕",
+            "소금",
+            "버터"
+          ]
+        },
+        {
+          "id": "other_6037f809016b",
+          "name": "아다스 폴로(렌틸콩 건포도밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "렌틸콩",
+            "건포도",
+            "양파"
+          ],
+          "seasonings": [
+            "계피가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_a2a49bfa6ed3",
+          "name": "사브지 폴로 마히(허브밥과 생선구이)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "생선",
+            "딜",
+            "고수",
+            "파슬리"
+          ],
+          "seasonings": [
+            "소금",
+            "강황",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_9ca1b29bbf89",
+          "name": "필라프(버터 쌀밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "오르조"
+          ],
+          "seasonings": [
+            "버터",
+            "소금"
+          ]
         }
       ]
     },
@@ -1192,7 +2475,7 @@
       "recipes": [
         {
           "id": "other_f5b3328e914e",
-          "name": "풀 메다메스",
+          "name": "풀 메다메스(이집트식 잠두콩 요리)",
           "flavors": [
             "savory",
             "umami"
@@ -1208,6 +2491,26 @@
             "큐민",
             "소금"
           ]
+        },
+        {
+          "id": "other_886db05b22a1",
+          "name": "타아메야(누에콩 허브튀김)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "누에콩",
+            "파슬리",
+            "고수",
+            "대파"
+          ],
+          "seasonings": [
+            "큐민",
+            "고수씨가루",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1216,7 +2519,7 @@
       "recipes": [
         {
           "id": "other_6af74c6bede6",
-          "name": "시로 왓",
+          "name": "시로 왓(에티오피아식 병아리콩 스튜)",
           "flavors": [
             "spicy",
             "savory"
@@ -1240,7 +2543,7 @@
       "recipes": [
         {
           "id": "other_c3f6d9418946",
-          "name": "인제라",
+          "name": "인제라(에티오피아식 발효 전병)",
           "flavors": [
             "sour",
             "light"
@@ -1259,7 +2562,7 @@
       "recipes": [
         {
           "id": "other_749137ccf97a",
-          "name": "차칼라카",
+          "name": "차칼라카(남아공식 매운 채소볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -1280,7 +2583,7 @@
         },
         {
           "id": "other_257a5831e75f",
-          "name": "로비오",
+          "name": "로비오(조지아식 강낭콩 스튜)",
           "flavors": [
             "savory",
             "umami"
@@ -1295,6 +2598,738 @@
             "소금",
             "고수씨가루",
             "식초",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "포블라노고추": {
+      "name": "포블라노고추",
+      "recipes": [
+        {
+          "id": "other_2032d351fd58",
+          "name": "칠레 레예노(치즈를 채운 고추튀김)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "포블라노고추",
+            "치즈",
+            "계란",
+            "토마토"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_f578edcc480c",
+          "name": "칠레스 엔 노가다(호두 소스를 곁들인 고추찜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "포블라노고추",
+            "돼지고기",
+            "사과",
+            "배",
+            "호두",
+            "석류"
+          ],
+          "seasonings": [
+            "소금",
+            "계피가루",
+            "생크림"
+          ]
+        }
+      ]
+    },
+    "짧은파스타": {
+      "name": "짧은파스타",
+      "recipes": [
+        {
+          "id": "other_505db90b3f55",
+          "name": "소파 데 피데오(멕시코식 짧은 국수탕)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "짧은파스타",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "핀토콩": {
+      "name": "핀토콩",
+      "recipes": [
+        {
+          "id": "other_0dbd701c2d1d",
+          "name": "프리홀레스 차로스(베이컨 콩 스튜)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "핀토콩",
+            "베이컨",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "큐민",
+            "고춧가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_484a16d51b7e",
+          "name": "프리홀레스 레프리토스(으깬 콩볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "핀토콩",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "라드",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "주키니": {
+      "name": "주키니",
+      "recipes": [
+        {
+          "id": "other_b2326706b088",
+          "name": "칼라바시타스(주키니 옥수수볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "주키니",
+            "옥수수",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "노팔선인장": {
+      "name": "노팔선인장",
+      "recipes": [
+        {
+          "id": "other_a535654eee0c",
+          "name": "노팔레스 샐러드(선인장 채소무침)",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "노팔선인장",
+            "토마토",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "라임즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "그린플랜틴": {
+      "name": "그린플랜틴",
+      "recipes": [
+        {
+          "id": "other_44357d9e04eb",
+          "name": "토스토네스(두 번 튀긴 플랜틴)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "그린플랜틴"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_9d54ef893e9b",
+          "name": "모퐁고(으깬 플랜틴과 돼지고기)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "그린플랜틴",
+            "돼지껍질튀김",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "밥": {
+      "name": "밥",
+      "recipes": [
+        {
+          "id": "other_94d936615797",
+          "name": "차우파(페루식 간장볶음밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "닭고기",
+            "계란",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "other_a6a178f96ec1",
+          "name": "카우사 리메냐(참치 속 감자 냉요리)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "참치",
+            "아보카도",
+            "계란"
+          ],
+          "seasonings": [
+            "아히아마리요페이스트",
+            "라임즙",
+            "마요네즈",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "빵": {
+      "name": "빵",
+      "recipes": [
+        {
+          "id": "other_ebe7af5c3fc7",
+          "name": "초리판(초리소 치미추리 샌드위치)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "초리소",
+            "파슬리",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "식초",
+            "소금",
+            "오레가노"
+          ]
+        }
+      ]
+    },
+    "바스마티쌀": {
+      "name": "바스마티쌀",
+      "recipes": [
+        {
+          "id": "other_1d68c34b6dd3",
+          "name": "타흐디그(바삭한 누룽지 쌀밥)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바스마티쌀",
+            "요거트"
+          ],
+          "seasonings": [
+            "사프란",
+            "소금",
+            "버터"
+          ]
+        }
+      ]
+    },
+    "레슈테면": {
+      "name": "레슈테면",
+      "recipes": [
+        {
+          "id": "other_c76e2707495e",
+          "name": "아시 레슈테(허브 콩 국수탕)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "레슈테면",
+            "병아리콩",
+            "강낭콩",
+            "렌틸콩",
+            "시금치"
+          ],
+          "seasonings": [
+            "소금",
+            "강황",
+            "카슈크",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "붉은렌틸콩": {
+      "name": "붉은렌틸콩",
+      "recipes": [
+        {
+          "id": "other_2360c036472f",
+          "name": "메르지멕 초르바스(튀르키예식 렌틸 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "붉은렌틸콩",
+            "당근",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "큐민"
+          ]
+        },
+        {
+          "id": "other_ce78938ca61b",
+          "name": "에조겔린 초르바스(렌틸 쌀 불구르 수프)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "붉은렌틸콩",
+            "쌀",
+            "불구르",
+            "토마토"
+          ],
+          "seasonings": [
+            "버터",
+            "고춧가루",
+            "말린민트",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_a3b359ccddcf",
+          "name": "미시르 왓(에티오피아식 매운 렌틸찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "붉은렌틸콩",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "베르베레",
+            "니테르키베",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "카다이프": {
+      "name": "카다이프",
+      "recipes": [
+        {
+          "id": "other_86fc2e3c7551",
+          "name": "크느페(치즈 카다이프 디저트)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "카다이프",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "레몬즙"
+          ]
+        }
+      ]
+    },
+    "필로페이스트리": {
+      "name": "필로페이스트리",
+      "recipes": [
+        {
+          "id": "other_9899ed473703",
+          "name": "바클라바(견과 시럽 페이스트리)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "필로페이스트리",
+            "피스타치오",
+            "호두"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "레몬즙"
+          ]
+        },
+        {
+          "id": "other_edfb6bb46f07",
+          "name": "바스티야(모로코식 닭고기 견과 파이)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "필로페이스트리",
+            "닭고기",
+            "아몬드",
+            "계란"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "계피가루",
+            "생강가루"
+          ]
+        }
+      ]
+    },
+    "우유": {
+      "name": "우유",
+      "recipes": [
+        {
+          "id": "other_49d23e77ce95",
+          "name": "무할라비아(중동식 우유 푸딩)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "우유",
+            "전분",
+            "피스타치오"
+          ],
+          "seasonings": [
+            "설탕",
+            "로즈워터"
+          ]
+        }
+      ]
+    },
+    "쿠스쿠스": {
+      "name": "쿠스쿠스",
+      "recipes": [
+        {
+          "id": "other_b2a82357f3a6",
+          "name": "채소 쿠스쿠스",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "쿠스쿠스",
+            "병아리콩",
+            "주키니",
+            "당근",
+            "순무"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "라스엘하누트",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "브릭페이스트리": {
+      "name": "브릭페이스트리",
+      "recipes": [
+        {
+          "id": "other_81667dd77e7b",
+          "name": "브릭(참치 계란 튀김 파이)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "브릭페이스트리",
+            "참치",
+            "계란",
+            "감자"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "메르게즈소시지": {
+      "name": "메르게즈소시지",
+      "recipes": [
+        {
+          "id": "other_b6b74cee7910",
+          "name": "오자 메르게즈(매운 소시지 계란 토마토찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "메르게즈소시지",
+            "계란",
+            "토마토",
+            "피망"
+          ],
+          "seasonings": [
+            "하리사",
+            "큐민",
+            "소금",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "몰로키야잎": {
+      "name": "몰로키야잎",
+      "recipes": [
+        {
+          "id": "other_e489d27ba783",
+          "name": "몰로키야(쥬트잎 닭육수탕)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "몰로키야잎",
+            "닭고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "고수씨가루",
+            "소금",
+            "기버터"
+          ]
+        }
+      ]
+    },
+    "콜라드그린": {
+      "name": "콜라드그린",
+      "recipes": [
+        {
+          "id": "other_f572bea82e95",
+          "name": "고멘(에티오피아식 잎채소볶음)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "콜라드그린",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "니테르키베",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "시금치": {
+      "name": "시금치",
+      "recipes": [
+        {
+          "id": "other_06b05df8f2e6",
+          "name": "팔라바 소스(서아프리카 잎채소 고기스튜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "시금치",
+            "소고기",
+            "건생선",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "팜오일",
+            "소금",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "other_a73cc1d180bb",
+          "name": "에포 리로(서아프리카 시금치 고기스튜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "시금치",
+            "소고기",
+            "토마토",
+            "파프리카"
+          ],
+          "seasonings": [
+            "팜오일",
+            "발효캐롭콩",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_53b1a4055bc5",
+          "name": "프칼리(호두 잎채소 무침)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "시금치",
+            "호두",
+            "고수",
+            "마늘"
+          ],
+          "seasonings": [
+            "식초",
+            "고수씨가루",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "에구시씨": {
+      "name": "에구시씨",
+      "recipes": [
+        {
+          "id": "other_7cf668260725",
+          "name": "에구시 수프(멜론씨 잎채소 고기스튜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "에구시씨",
+            "소고기",
+            "시금치",
+            "건생선"
+          ],
+          "seasonings": [
+            "팜오일",
+            "소금",
+            "고춧가루"
+          ]
+        }
+      ]
+    },
+    "카사바": {
+      "name": "카사바",
+      "recipes": [
+        {
+          "id": "other_68eb9af14ee4",
+          "name": "카사바 푸푸(으깬 카사바 반죽)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "카사바"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        }
+      ]
+    },
+    "발효옥수수가루": {
+      "name": "발효옥수수가루",
+      "recipes": [
+        {
+          "id": "other_2e673c67ece6",
+          "name": "방쿠(발효 옥수수 카사바 반죽)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "발효옥수수가루",
+            "카사바반죽"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        }
+      ]
+    },
+    "트바루크 치즈": {
+      "name": "트바루크 치즈",
+      "recipes": [
+        {
+          "id": "other_c87886172661",
+          "name": "시르니키(코티지치즈 팬케이크)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "트바루크 치즈",
+            "계란",
+            "밀가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
             "식용유"
           ]
         }

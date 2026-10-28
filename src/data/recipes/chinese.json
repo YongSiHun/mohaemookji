@@ -44,6 +44,64 @@
             "고추기름",
             "전분"
           ]
+        },
+        {
+          "id": "chinese_e160b2cb6546",
+          "name": "셴단황두부(절임 계란노른자 두부조림)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "소금절임계란노른자",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "전분",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_65c58723668f",
+          "name": "홍샤오두부(중식 두부 채소조림)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "표고버섯",
+            "죽순",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_12612c64348a",
+          "name": "자창두부(돼지고기 두부볶음)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "돼지고기",
+            "목이버섯",
+            "피망"
+          ],
+          "seasonings": [
+            "두반장",
+            "간장",
+            "설탕",
+            "식용유"
+          ]
         }
       ]
     },
@@ -66,6 +124,59 @@
             "간장",
             "소금",
             "식용유"
+          ]
+        },
+        {
+          "id": "chinese_24d4fec7749b",
+          "name": "차예단(홍차 향신료 계란조림)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "홍차"
+          ],
+          "seasonings": [
+            "간장",
+            "팔각",
+            "계피",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_4c332306804b",
+          "name": "루단(오향 계란조림)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "팔각",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_555aa00b1367",
+          "name": "샤런정단(새우 계란찜)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "새우",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "간장",
+            "참기름"
           ]
         }
       ]
@@ -200,7 +311,7 @@
         },
         {
           "id": "chinese_6e7f1edf7ddc",
-          "name": "쏸룽펀쓰정샤",
+          "name": "쏸룽펀쓰정샤(마늘 당면 새우찜)",
           "flavors": [
             "savory",
             "umami"
@@ -219,7 +330,7 @@
         },
         {
           "id": "chinese_7b47acaf4ee0",
-          "name": "하가우",
+          "name": "하가우(투명한 피의 새우 딤섬)",
           "flavors": [
             "savory",
             "umami"
@@ -233,6 +344,108 @@
             "소금",
             "설탕",
             "참기름"
+          ]
+        },
+        {
+          "id": "chinese_0962090a16bf",
+          "name": "삐펑탕 새우(마늘 빵가루 새우볶음)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "마늘",
+            "빵가루",
+            "건고추"
+          ],
+          "seasonings": [
+            "두시",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_995f5eef7c5d",
+          "name": "진사 새우(소금절임 계란노른자 새우)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "소금절임계란노른자",
+            "대파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_f6edbd25c3c9",
+          "name": "라쯔샤(고추 새우볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "건고추",
+            "마늘",
+            "대파"
+          ],
+          "seasonings": [
+            "화자오",
+            "간장",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "두부피": {
+      "name": "두부피",
+      "recipes": [
+        {
+          "id": "chinese_11327e20d443",
+          "name": "마라 두부피볶음",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "두부피",
+            "청경채",
+            "숙주",
+            "마늘"
+          ],
+          "seasonings": [
+            "마라소스",
+            "간장",
+            "화자오",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_1a6be6f6129d",
+          "name": "량반두부피(두부피 채소냉채)",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "두부피",
+            "오이",
+            "당근",
+            "고수"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "참기름",
+            "설탕"
           ]
         }
       ]
@@ -322,7 +535,7 @@
         },
         {
           "id": "chinese_3c7ed485152e",
-          "name": "경장육사",
+          "name": "경장육사(춘장 돼지고기 채볶음)",
           "flavors": [
             "sweet",
             "salty",
@@ -382,7 +595,7 @@
         },
         {
           "id": "chinese_f3b889551ee1",
-          "name": "위샹러우쓰",
+          "name": "위샹러우쓰(매콤새콤 돼지고기 채볶음)",
           "flavors": [
             "spicy",
             "sweet_sour"
@@ -421,7 +634,7 @@
         },
         {
           "id": "chinese_f8a8099814cb",
-          "name": "무쉬러우",
+          "name": "무쉬러우(목이버섯 계란 돼지고기볶음)",
           "flavors": [
             "salty",
             "umami"
@@ -481,7 +694,7 @@
         },
         {
           "id": "chinese_96871e6cdd76",
-          "name": "탕추리지",
+          "name": "탕추리지(돼지고기 새콤달콤튀김)",
           "flavors": [
             "sweet_sour",
             "greasy"
@@ -520,7 +733,7 @@
         },
         {
           "id": "chinese_529e8aff0b23",
-          "name": "홍샤오러우",
+          "name": "홍샤오러우(돼지고기 간장조림)",
           "flavors": [
             "sweet",
             "rich",
@@ -540,7 +753,7 @@
         },
         {
           "id": "chinese_8137306cede6",
-          "name": "메이차이커우러우",
+          "name": "메이차이커우러우(갓절임 삼겹살찜)",
           "flavors": [
             "sweet",
             "rich",
@@ -560,7 +773,7 @@
         },
         {
           "id": "chinese_146858c48b5b",
-          "name": "사자두",
+          "name": "사자두(커다란 돼지고기 완자조림)",
           "flavors": [
             "sweet",
             "rich",
@@ -582,7 +795,7 @@
         },
         {
           "id": "chinese_95f31dac7c3b",
-          "name": "루로우판",
+          "name": "루로우판(돼지고기 간장조림 덮밥)",
           "flavors": [
             "sweet",
             "rich",
@@ -603,7 +816,7 @@
         },
         {
           "id": "chinese_bff80847373d",
-          "name": "차슈판",
+          "name": "차슈판(돼지고기 차슈 덮밥)",
           "flavors": [
             "sweet",
             "rich",
@@ -624,7 +837,7 @@
         },
         {
           "id": "chinese_e25aaa812628",
-          "name": "훠이궈러우",
+          "name": "훠이궈러우(삶은 돼지고기 두반장볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -662,6 +875,121 @@
             "전분",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_e9fa75120136",
+          "name": "광둥식 차슈(꿀 양념 돼지고기 바비큐)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "꿀",
+            "오향가루",
+            "소흥주"
+          ]
+        },
+        {
+          "id": "chinese_59a8faa78acd",
+          "name": "바이차이완쯔탕(배추 돼지고기 완자탕)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "배추",
+            "계란",
+            "생강"
+          ],
+          "seasonings": [
+            "소금",
+            "백후추",
+            "참기름"
+          ]
+        },
+        {
+          "id": "chinese_2db5f0ce412d",
+          "name": "수이주러우피엔(매운 돼지고기 채소탕)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "배추",
+            "숙주",
+            "건고추"
+          ],
+          "seasonings": [
+            "두반장",
+            "화자오",
+            "고추기름",
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_d880e0c2fa92",
+          "name": "쑤안니바이러우(마늘 소스 돼지고기 냉채)",
+          "flavors": [
+            "spicy",
+            "cool"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "오이",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "고추기름",
+            "설탕"
+          ]
+        },
+        {
+          "id": "chinese_9e608f839a18",
+          "name": "갓절임 돼지고기볶음",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "갓절임",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_2bd1619b5835",
+          "name": "쑤안차이바이러우(배추절임 돼지고기 전골)",
+          "flavors": [
+            "sour",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "쏸차이",
+            "당면",
+            "두부"
+          ],
+          "seasonings": [
+            "소금",
+            "백후추",
+            "간장"
+          ]
         }
       ]
     },
@@ -670,7 +998,7 @@
       "recipes": [
         {
           "id": "chinese_d6157ba5821c",
-          "name": "쯔란양고기볶음",
+          "name": "쯔란양고기볶음(큐민 양고기볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -687,6 +1015,26 @@
             "소금",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_d9db8f9461d9",
+          "name": "매운 양고기 훠궈",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "배추",
+            "두부",
+            "당면"
+          ],
+          "seasonings": [
+            "두반장",
+            "큐민",
+            "화자오",
+            "소금"
+          ]
         }
       ]
     },
@@ -695,7 +1043,7 @@
       "recipes": [
         {
           "id": "kung_pao",
-          "name": "궁보계정",
+          "name": "궁보계정(땅콩 닭고기 매콤볶음)",
           "flavors": [
             "spicy",
             "sweet_sour"
@@ -715,7 +1063,7 @@
         },
         {
           "id": "chinese_9acd68250cc1",
-          "name": "라즈지",
+          "name": "라즈지(마른 고추 닭튀김볶음)",
           "flavors": [
             "spicy",
             "greasy"
@@ -735,7 +1083,7 @@
         },
         {
           "id": "chinese_73178fb7f199",
-          "name": "깐궈닭",
+          "name": "깐궈닭(국물 없이 볶는 매운 닭요리)",
           "flavors": [
             "spicy",
             "umami"
@@ -857,7 +1205,7 @@
         },
         {
           "id": "chinese_2c8918730e64",
-          "name": "백절계",
+          "name": "백절계(삶은 닭 냉채)",
           "flavors": [
             "light",
             "clean"
@@ -875,7 +1223,7 @@
         },
         {
           "id": "chinese_416f06adbf4b",
-          "name": "방방지",
+          "name": "방방지(참깨소스 닭고기 냉채)",
           "flavors": [
             "spicy",
             "savory"
@@ -895,7 +1243,7 @@
         },
         {
           "id": "chinese_dd14cda4ebd7",
-          "name": "구수계",
+          "name": "구수계(매운 고추기름 닭고기 냉채)",
           "flavors": [
             "spicy",
             "sour"
@@ -911,6 +1259,123 @@
             "간장",
             "식초",
             "설탕"
+          ]
+        },
+        {
+          "id": "chinese_d7d6e9b0bb1e",
+          "name": "다판지(신장식 닭고기 감자찜)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "피망",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "두반장",
+            "큐민",
+            "팔각",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_e4d2ae73b10c",
+          "name": "쟈오마지(화자오 닭고기 냉채)",
+          "flavors": [
+            "spicy",
+            "cool"
+          ],
+          "ingredients": [
+            "닭고기",
+            "대파",
+            "고추"
+          ],
+          "seasonings": [
+            "화자오",
+            "간장",
+            "참기름",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_c1442233cc8a",
+          "name": "탕추지딩(닭고기 새콤달콤볶음)",
+          "flavors": [
+            "sweet_sour",
+            "greasy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "파인애플",
+            "파프리카",
+            "전분"
+          ],
+          "seasonings": [
+            "케첩",
+            "식초",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_b18731133691",
+          "name": "샹쑤지(바삭한 중식 닭튀김)",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "오향가루",
+            "소금",
+            "소흥주",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_f47aa95f19bb",
+          "name": "예쯔지(코코넛 닭전골)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "코코넛워터",
+            "코코넛과육",
+            "밤"
+          ],
+          "seasonings": [
+            "소금",
+            "생강"
+          ]
+        },
+        {
+          "id": "chinese_779ac6442264",
+          "name": "화디아오지(소흥주 닭찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "화디아오주",
+            "간장",
+            "설탕",
+            "소금"
           ]
         }
       ]
@@ -1124,7 +1589,7 @@
         },
         {
           "id": "chinese_f317ebba911f",
-          "name": "총유반면",
+          "name": "총유반면(파기름 비빔면)",
           "flavors": [
             "savory",
             "umami"
@@ -1296,7 +1761,7 @@
         },
         {
           "id": "chinese_580f69abb8c7",
-          "name": "홍샤오뉴러우",
+          "name": "홍샤오뉴러우(소고기 간장조림)",
           "flavors": [
             "sweet",
             "rich",
@@ -1318,7 +1783,7 @@
         },
         {
           "id": "chinese_9cb482a232a1",
-          "name": "수이주뉴러우",
+          "name": "수이주뉴러우(매운 고추기름 소고기탕)",
           "flavors": [
             "spicy",
             "rich"
@@ -1339,7 +1804,7 @@
         },
         {
           "id": "chinese_b779dc6372fe",
-          "name": "서호우육갱",
+          "name": "서호우육갱(소고기 계란 걸쭉한 수프)",
           "flavors": [
             "clean",
             "umami"
@@ -1376,6 +1841,122 @@
             "팔각",
             "소금"
           ]
+        },
+        {
+          "id": "chinese_995944b06dce",
+          "name": "양파흑후추소고기",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "흑후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_e7d29892d97b",
+          "name": "샹궈뉴러우(매운 소고기 채소볶음)",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "연근",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "마라소스",
+            "두반장",
+            "화자오",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_1dd29a2503cc",
+          "name": "쯔란뉴러우(큐민 소고기볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "큐민",
+            "고춧가루",
+            "간장",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_19d8d395241c",
+          "name": "하오요우뉴러우(굴소스 소고기볶음)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "전분",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_68d4334c4c09",
+          "name": "루뉴러우(향신료 소고기조림)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "팔각",
+            "계피",
+            "소금",
+            "소흥주"
+          ]
+        },
+        {
+          "id": "chinese_bc0e5fed2562",
+          "name": "쟝뉴러우(된장 향신료 소고기조림)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "황두장",
+            "간장",
+            "팔각",
+            "소금"
+          ]
         }
       ]
     },
@@ -1384,7 +1965,7 @@
       "recipes": [
         {
           "id": "chinese_7d89d6e61e24",
-          "name": "간볜쓰지더우",
+          "name": "간볜쓰지더우(매운 그린빈 볶음)",
           "flavors": [
             "spicy",
             "umami"
@@ -1408,7 +1989,7 @@
       "recipes": [
         {
           "id": "chinese_689aa9d54a25",
-          "name": "마라룽샤",
+          "name": "마라룽샤(매운 민물가재 볶음)",
           "flavors": [
             "spicy",
             "rich"
@@ -1468,6 +2049,25 @@
             "소금",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_c8c367862aec",
+          "name": "량반목이(목이버섯 냉채)",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "목이버섯",
+            "고수",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "고추기름",
+            "설탕"
+          ]
         }
       ]
     },
@@ -1497,7 +2097,7 @@
       "recipes": [
         {
           "id": "chinese_22d3569cb807",
-          "name": "샹구칭차이",
+          "name": "샹구칭차이(표고버섯 청경채볶음)",
           "flavors": [
             "salty",
             "umami"
@@ -1520,7 +2120,7 @@
       "recipes": [
         {
           "id": "chinese_f68cd2dbae0e",
-          "name": "탕추위",
+          "name": "탕추위(생선 새콤달콤튀김)",
           "flavors": [
             "sweet_sour",
             "greasy",
@@ -1538,6 +2138,26 @@
             "설탕",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_1fc4564be103",
+          "name": "티에궈둔위(생선 채소 된장찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "잉어",
+            "가지",
+            "두부",
+            "그린빈"
+          ],
+          "seasonings": [
+            "중국된장",
+            "간장",
+            "고춧가루",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1546,7 +2166,7 @@
       "recipes": [
         {
           "id": "chinese_d92733c0cb68",
-          "name": "쑹수구이위",
+          "name": "쑹수구이위(다람쥐 모양 생선튀김)",
           "flavors": [
             "sweet_sour",
             "greasy",
@@ -1573,7 +2193,7 @@
       "recipes": [
         {
           "id": "chinese_5420e6e4e2c2",
-          "name": "홍샤오파이구",
+          "name": "홍샤오파이구(돼지갈비 간장조림)",
           "flavors": [
             "sweet",
             "rich",
@@ -1593,7 +2213,7 @@
         },
         {
           "id": "chinese_9783ff87099f",
-          "name": "더우츠정파이구",
+          "name": "더우츠정파이구(발효검은콩 돼지갈비찜)",
           "flavors": [
             "salty",
             "umami"
@@ -1608,6 +2228,101 @@
             "설탕",
             "소흥주",
             "전분"
+          ]
+        },
+        {
+          "id": "chinese_4473fee3d498",
+          "name": "메이간차이 갈비찜",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지갈비",
+            "메이차이",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "소흥주"
+          ]
+        },
+        {
+          "id": "chinese_1301971e4099",
+          "name": "탕추파이구(새콤달콤한 돼지갈비조림)",
+          "flavors": [
+            "sweet_sour",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지갈비",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "소흥주"
+          ]
+        },
+        {
+          "id": "chinese_01a9b46f47dc",
+          "name": "진장파이구(간장 돼지갈비구이)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지갈비",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "꿀",
+            "소흥주",
+            "오향가루"
+          ]
+        },
+        {
+          "id": "chinese_8463575af277",
+          "name": "쯔란파이구(큐민 돼지갈비볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지갈비",
+            "마늘"
+          ],
+          "seasonings": [
+            "큐민",
+            "고춧가루",
+            "간장",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_48c3ecfedcfa",
+          "name": "둥베이 루안둔(돼지갈비 채소찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지갈비",
+            "감자",
+            "가지",
+            "그린빈",
+            "토마토"
+          ],
+          "seasonings": [
+            "된장",
+            "간장",
+            "소금",
+            "식용유"
           ]
         }
       ]
@@ -1635,6 +2350,46 @@
             "소금",
             "춘장"
           ]
+        },
+        {
+          "id": "chinese_68e7c427f92a",
+          "name": "광둥식 로스트덕",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "오리고기",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "꿀",
+            "오향가루",
+            "소금",
+            "소흥주"
+          ]
+        },
+        {
+          "id": "chinese_91bdd5e538dd",
+          "name": "루야(간장 향신료 오리조림)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "오리고기",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "팔각",
+            "계피",
+            "설탕",
+            "소흥주"
+          ]
         }
       ]
     },
@@ -1643,7 +2398,7 @@
       "recipes": [
         {
           "id": "chinese_659373ebab02",
-          "name": "수이주위",
+          "name": "수이주위(매운 고추기름 생선탕)",
           "flavors": [
             "spicy",
             "rich"
@@ -1664,7 +2419,7 @@
         },
         {
           "id": "chinese_ba9c28a07232",
-          "name": "쏸차이위",
+          "name": "쏸차이위(절인 갓 생선탕)",
           "flavors": [
             "sour",
             "umami"
@@ -1680,6 +2435,26 @@
             "백후추",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_cea24d50043c",
+          "name": "쑤안탕위(새콤한 토마토 생선탕)",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "발효토마토",
+            "숙주",
+            "배추"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "소금",
+            "생강",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1688,7 +2463,7 @@
       "recipes": [
         {
           "id": "chinese_85953adeae1b",
-          "name": "칭쩡위",
+          "name": "칭쩡위(중국식 생선찜)",
           "flavors": [
             "light",
             "umami"
@@ -1775,6 +2550,27 @@
             "후추",
             "참기름"
           ]
+        },
+        {
+          "id": "chinese_a2df5c7b2835",
+          "name": "훙유차오서우(매운 고추기름 완탕)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "완탕피",
+            "돼지고기",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "고추기름",
+            "간장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
         }
       ]
     },
@@ -1848,7 +2644,7 @@
       "recipes": [
         {
           "id": "chinese_5b42da295bb8",
-          "name": "량피",
+          "name": "량피(차갑게 비벼 먹는 넓은 면)",
           "flavors": [
             "cool",
             "spicy",
@@ -1888,6 +2684,26 @@
             "첨면장",
             "설탕",
             "식용유"
+          ]
+        },
+        {
+          "id": "chinese_a432070ec4e4",
+          "name": "충칭소면(충칭식 매운 국수)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밀국수",
+            "청경채",
+            "땅콩",
+            "대파"
+          ],
+          "seasonings": [
+            "고추기름",
+            "화자오",
+            "간장",
+            "식초"
           ]
         }
       ]
@@ -1974,6 +2790,27 @@
             "소금",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_63ecd270b635",
+          "name": "푸젠볶음밥(해물 소스를 얹은 계란볶음밥)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "계란",
+            "새우",
+            "표고버섯",
+            "완두콩"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "전분",
+            "식용유"
+          ]
         }
       ]
     },
@@ -1982,7 +2819,7 @@
       "recipes": [
         {
           "id": "chinese_8ef2b60e71d5",
-          "name": "러간몐",
+          "name": "러간몐(참깨소스 비빔면)",
           "flavors": [
             "savory",
             "umami"
@@ -2006,7 +2843,7 @@
       "recipes": [
         {
           "id": "chinese_ea69f992f0e0",
-          "name": "비앙비앙면",
+          "name": "비앙비앙면(넓게 늘인 매콤한 면)",
           "flavors": [
             "spicy",
             "umami"
@@ -2046,7 +2883,7 @@
         },
         {
           "id": "chinese_9d649b1bd383",
-          "name": "생지엔바오",
+          "name": "생지엔바오(바닥을 구운 육즙 만두)",
           "flavors": [
             "savory",
             "umami"
@@ -2066,7 +2903,7 @@
         },
         {
           "id": "chinese_4f6a8a4eb807",
-          "name": "바오쯔",
+          "name": "바오쯔(중국식 속을 채운 찐빵)",
           "flavors": [
             "savory",
             "umami"
@@ -2086,7 +2923,7 @@
         },
         {
           "id": "chinese_142a7b3ca126",
-          "name": "차슈바오",
+          "name": "차슈바오(차슈를 넣은 찐빵)",
           "flavors": [
             "savory",
             "umami"
@@ -2125,7 +2962,7 @@
         },
         {
           "id": "chinese_8359fa888f4b",
-          "name": "총좌빙",
+          "name": "총좌빙(겹겹이 찢어 먹는 파전병)",
           "flavors": [
             "savory",
             "umami"
@@ -2141,7 +2978,7 @@
         },
         {
           "id": "chinese_e58f0eba6935",
-          "name": "총유빙",
+          "name": "총유빙(파기름 밀가루 전병)",
           "flavors": [
             "savory",
             "umami"
@@ -2158,7 +2995,7 @@
         },
         {
           "id": "chinese_96bfec066aaa",
-          "name": "지앤빙",
+          "name": "지앤빙(계란과 채소를 넣은 전병)",
           "flavors": [
             "savory",
             "umami"
@@ -2177,7 +3014,7 @@
         },
         {
           "id": "chinese_76c5275ed975",
-          "name": "마라가오",
+          "name": "마라가오(중국식 흑설탕 찜케이크)",
           "flavors": [
             "sweet",
             "savory"
@@ -2210,6 +3047,365 @@
             "버터",
             "소금"
           ]
+        },
+        {
+          "id": "chinese_6e9d8a25d03c",
+          "name": "만터우(중국식 밀가루 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_932547414e1b",
+          "name": "화쥐안(파를 넣어 만 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "이스트",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_4587d1d39e4e",
+          "name": "나이황바오(커스터드 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터"
+          ]
+        },
+        {
+          "id": "chinese_a95095d08576",
+          "name": "류사바오(흐르는 절임 계란 크림 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소금절임계란노른자",
+            "분유",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "버터"
+          ]
+        },
+        {
+          "id": "chinese_30bf6f7c681c",
+          "name": "더우사바오(팥소 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "팥앙금",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_10007c0baaee",
+          "name": "롄룽바오(연꽃씨 소 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "연꽃씨앙금",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_71bfe0241d4a",
+          "name": "헤이즈마바오(검은깨 찐빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "검은깨",
+            "이스트"
+          ],
+          "seasonings": [
+            "설탕",
+            "라드"
+          ]
+        },
+        {
+          "id": "chinese_b4d59a0abf02",
+          "name": "지우차이허쯔(부추 계란 납작만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "부추",
+            "계란",
+            "당면"
+          ],
+          "seasonings": [
+            "소금",
+            "참기름",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_3769262a56fc",
+          "name": "러우자모(고기 속 중국식 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "돼지고기",
+            "이스트"
+          ],
+          "seasonings": [
+            "간장",
+            "팔각",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_975a06d20467",
+          "name": "샤오빙(참깨 납작구이 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "이스트",
+            "참깨"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_07d4734c239e",
+          "name": "뤄보쓰빙(무채를 넣은 전병)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_2810bc847188",
+          "name": "치엔층빙(겹겹이 구운 파 전병)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_65f31ccdfa0d",
+          "name": "장샹빙(매콤한 된장 소스 전병)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "대파",
+            "참깨"
+          ],
+          "seasonings": [
+            "황두장",
+            "두반장",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_83e179ac2a5d",
+          "name": "소고기셴빙(소고기 납작만두)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_c35c11440c36",
+          "name": "뽀로바오(파인애플 무늬 홍콩 빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "우유",
+            "계란",
+            "이스트"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_b0099be04163",
+          "name": "유탸오(중국식 긴 튀김빵)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루"
+          ],
+          "seasonings": [
+            "소금",
+            "베이킹파우더",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_97315a9bfb7b",
+          "name": "란저우 우육면(맑은 소고기 수타국수)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "무",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "화자오",
+            "팔각",
+            "고추기름"
+          ]
+        },
+        {
+          "id": "chinese_58febae2e042",
+          "name": "다오샤오몐(칼로 깎은 면 국수)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "돼지고기",
+            "토마토",
+            "청경채"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_b3121c00b07f",
+          "name": "구아바오(돼지고기를 넣은 접은 찐빵)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "돼지고기",
+            "갓절임",
+            "땅콩",
+            "고수"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "팔각"
+          ]
+        },
+        {
+          "id": "chinese_1fcecaee10a9",
+          "name": "허타오수(호두 쿠키)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "호두",
+            "계란"
+          ],
+          "seasonings": [
+            "설탕",
+            "식용유",
+            "베이킹소다"
+          ]
         }
       ]
     },
@@ -2237,7 +3433,7 @@
         },
         {
           "id": "chinese_8a68bb55051f",
-          "name": "뤄쓰펀",
+          "name": "뤄쓰펀(우렁이 육수 쌀국수)",
           "flavors": [
             "spicy",
             "sour"
@@ -2253,6 +3449,46 @@
             "고추기름",
             "식초",
             "소금"
+          ]
+        },
+        {
+          "id": "chinese_a0b456fcdddf",
+          "name": "궈차오미셴(윈난식 쌀국수)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "닭고기",
+            "돼지고기",
+            "두부피",
+            "부추"
+          ],
+          "seasonings": [
+            "소금",
+            "간장",
+            "참기름"
+          ]
+        },
+        {
+          "id": "chinese_e9e6323682d4",
+          "name": "뉴러우미셴(소고기 쌀국수)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "소고기",
+            "청경채",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "팔각",
+            "고추기름"
           ]
         }
       ]
@@ -2279,6 +3515,25 @@
             "참기름",
             "생강"
           ]
+        },
+        {
+          "id": "chinese_bcbec5d7a9fa",
+          "name": "사오마이 새우찹쌀(새우 찹쌀 딤섬)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "슈마이피",
+            "새우",
+            "찹쌀",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "참기름"
+          ]
         }
       ]
     },
@@ -2287,7 +3542,7 @@
       "recipes": [
         {
           "id": "chinese_80599acef216",
-          "name": "창펀",
+          "name": "창펀(쌀피로 감싼 광둥식 딤섬)",
           "flavors": [
             "savory",
             "umami"
@@ -2310,7 +3565,7 @@
       "recipes": [
         {
           "id": "chinese_2f257bcd813f",
-          "name": "로박고",
+          "name": "로박고(중국식 무떡)",
           "flavors": [
             "savory",
             "umami"
@@ -2465,7 +3720,7 @@
       "recipes": [
         {
           "id": "chinese_3805785cfaa6",
-          "name": "탕위안",
+          "name": "탕위안(찹쌀 경단탕)",
           "flavors": [
             "sweet",
             "savory"
@@ -2481,7 +3736,7 @@
         },
         {
           "id": "chinese_7870473e6d53",
-          "name": "즈마추",
+          "name": "즈마추(참깨 찹쌀튀김)",
           "flavors": [
             "sweet",
             "savory"
@@ -2495,6 +3750,22 @@
             "설탕",
             "식용유"
           ]
+        },
+        {
+          "id": "chinese_32808444e292",
+          "name": "누오미츠(코코넛 찹쌀 경단)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "코코넛가루",
+            "땅콩"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
         }
       ]
     },
@@ -2503,13 +3774,30 @@
       "recipes": [
         {
           "id": "chinese_773f13e3df15",
-          "name": "망고사고",
+          "name": "망고사고(망고 타피오카 디저트)",
           "flavors": [
             "sweet",
             "refreshing"
           ],
           "ingredients": [
             "망고",
+            "사고펄",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        },
+        {
+          "id": "chinese_5ba31e771b72",
+          "name": "양즈간루(망고 포멜로 사고 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "망고",
+            "포멜로",
             "사고펄",
             "코코넛밀크"
           ],
@@ -2524,7 +3812,7 @@
       "recipes": [
         {
           "id": "chinese_f5f87589f5cd",
-          "name": "바쓰디과",
+          "name": "바쓰디과(설탕을 입힌 고구마튀김)",
           "flavors": [
             "sweet",
             "savory"
@@ -2561,6 +3849,698 @@
             "간장",
             "전분",
             "식용유"
+          ]
+        }
+      ]
+    },
+    "껍질붙은삼겹살": {
+      "name": "껍질붙은삼겹살",
+      "recipes": [
+        {
+          "id": "chinese_f366373db8a4",
+          "name": "시우욕(껍질 바삭한 돼지고기구이)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "껍질붙은삼겹살"
+          ],
+          "seasonings": [
+            "소금",
+            "오향가루",
+            "식초",
+            "소흥주"
+          ]
+        }
+      ]
+    },
+    "오징어": {
+      "name": "오징어",
+      "recipes": [
+        {
+          "id": "chinese_eaab47e94656",
+          "name": "셴단황 오징어(절임 계란노른자 오징어튀김)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "오징어",
+            "소금절임계란노른자",
+            "전분"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "능성어": {
+      "name": "능성어",
+      "recipes": [
+        {
+          "id": "chinese_12bb03c174bb",
+          "name": "칭쩡스반위(능성어 생강찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "능성어",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소흥주",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "농어": {
+      "name": "농어",
+      "recipes": [
+        {
+          "id": "chinese_d4f73c7d7178",
+          "name": "칭쩡농어(농어 생강찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "농어",
+            "생강",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소흥주",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "동과": {
+      "name": "동과",
+      "recipes": [
+        {
+          "id": "chinese_b100244869fc",
+          "name": "둥과완쯔탕(동과 돼지고기 완자탕)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "동과",
+            "돼지고기",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "백후추",
+            "참기름"
+          ]
+        },
+        {
+          "id": "chinese_934d6a81fde5",
+          "name": "하이미둥과(건새우 동과조림)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "동과",
+            "건새우",
+            "생강"
+          ],
+          "seasonings": [
+            "소금",
+            "소흥주",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_cf7d3d8e46ed",
+          "name": "동과 계란볶음",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "동과",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "수세미오이": {
+      "name": "수세미오이",
+      "recipes": [
+        {
+          "id": "chinese_236c4a9df874",
+          "name": "쓰과샤런탕(수세미오이 새우탕)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "수세미오이",
+            "새우",
+            "생강"
+          ],
+          "seasonings": [
+            "소금",
+            "참기름"
+          ]
+        },
+        {
+          "id": "chinese_cd68c03e3741",
+          "name": "칭차오쓰과(수세미오이볶음)",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "수세미오이",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "중국브로콜리": {
+      "name": "중국브로콜리",
+      "recipes": [
+        {
+          "id": "chinese_321275c598d1",
+          "name": "쑤안룽제란(마늘 중국브로콜리볶음)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "중국브로콜리",
+            "마늘"
+          ],
+          "seasonings": [
+            "굴소스",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "차이심": {
+      "name": "차이심",
+      "recipes": [
+        {
+          "id": "chinese_8eb658d51aab",
+          "name": "바이줘차이신(데친 채소 굴소스)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "차이심",
+            "생강"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "시금치": {
+      "name": "시금치",
+      "recipes": [
+        {
+          "id": "chinese_dd8fba5a5b94",
+          "name": "상탕시금치(육수 계란 시금치찜)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "시금치",
+            "피단",
+            "소금절임계란",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "팽이버섯": {
+      "name": "팽이버섯",
+      "recipes": [
+        {
+          "id": "chinese_be61961868a3",
+          "name": "진전구뉴러우(팽이버섯 소고기볶음)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "팽이버섯",
+            "소고기",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "연두부": {
+      "name": "연두부",
+      "recipes": [
+        {
+          "id": "chinese_76595f120f2e",
+          "name": "피단두부(삭힌 계란 두부 냉채)",
+          "flavors": [
+            "cool",
+            "umami"
+          ],
+          "ingredients": [
+            "연두부",
+            "피단",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "식초"
+          ]
+        }
+      ]
+    },
+    "토끼고기": {
+      "name": "토끼고기",
+      "recipes": [
+        {
+          "id": "chinese_b7f3afcc9008",
+          "name": "라쯔투(고추 토끼고기볶음)",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "토끼고기",
+            "건고추",
+            "마늘"
+          ],
+          "seasonings": [
+            "두반장",
+            "화자오",
+            "간장",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "식빵": {
+      "name": "식빵",
+      "recipes": [
+        {
+          "id": "chinese_b24f74f30608",
+          "name": "홍콩 프렌치토스트",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "식빵",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "땅콩버터",
+            "연유",
+            "버터",
+            "식용유"
+          ]
+        },
+        {
+          "id": "chinese_99e29212e177",
+          "name": "하토시(새우를 채운 식빵튀김)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "식빵",
+            "새우",
+            "계란흰자"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "참기름",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "넓은쌀국수": {
+      "name": "넓은쌀국수",
+      "recipes": [
+        {
+          "id": "chinese_25c08b657cfd",
+          "name": "샤허펀뉴러우(넓은 쌀국수 소고기볶음)",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "넓은쌀국수",
+            "소고기",
+            "숙주",
+            "부추"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "고구마당면": {
+      "name": "고구마당면",
+      "recipes": [
+        {
+          "id": "chinese_2deb4ad31389",
+          "name": "쏸라펀(새콤매운 당면국수)",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "고구마당면",
+            "땅콩",
+            "짜사이",
+            "고수"
+          ],
+          "seasonings": [
+            "고추기름",
+            "간장",
+            "식초",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "chinese_a73dcb0eae89",
+          "name": "라웨이바오짜이판(소시지 토기 솥밥)",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "중국소시지",
+            "청경채",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "참기름"
+          ]
+        },
+        {
+          "id": "chinese_cbebe60f27bb",
+          "name": "피단수육죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "돼지고기",
+            "피단",
+            "생강"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "오이": {
+      "name": "오이",
+      "recipes": [
+        {
+          "id": "chinese_45250eb12958",
+          "name": "파이황과(마늘 오이무침)",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "오이",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "참기름",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "고수": {
+      "name": "고수",
+      "recipes": [
+        {
+          "id": "chinese_da82a12095c3",
+          "name": "라오후차이(고수 파 고추무침)",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "고수",
+            "대파",
+            "풋고추"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "참기름",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "chinese_cdc97d95a1a6",
+          "name": "량반싼쓰(당근 오이 감자채 냉채)",
+          "flavors": [
+            "cool",
+            "refreshing"
+          ],
+          "ingredients": [
+            "감자",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "식초",
+            "간장",
+            "참기름",
+            "소금"
+          ]
+        },
+        {
+          "id": "chinese_e62ac54d5b91",
+          "name": "쑤안라투더우쓰(새콤매운 감자채볶음)",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "감자",
+            "건고추",
+            "마늘"
+          ],
+          "seasonings": [
+            "식초",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "아몬드": {
+      "name": "아몬드",
+      "recipes": [
+        {
+          "id": "chinese_7d908084af56",
+          "name": "싱런더우푸(아몬드 우유 젤리)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "아몬드",
+            "우유",
+            "한천"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "우유": {
+      "name": "우유",
+      "recipes": [
+        {
+          "id": "chinese_01c3991b83c2",
+          "name": "솽피나이(홍콩식 우유 계란흰자 푸딩)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "계란흰자"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "구이링가오가루": {
+      "name": "구이링가오가루",
+      "recipes": [
+        {
+          "id": "chinese_e2780ae31c60",
+          "name": "구이링가오(약초 젤리 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "구이링가오가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "꿀"
+          ]
+        }
+      ]
+    },
+    "팥": {
+      "name": "팥",
+      "recipes": [
+        {
+          "id": "chinese_2164d3aa07f9",
+          "name": "훙더우사(팥 디저트 수프)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "팥",
+            "말린귤껍질"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "녹두": {
+      "name": "녹두",
+      "recipes": [
+        {
+          "id": "chinese_d30cba2a6929",
+          "name": "뤼더우탕(녹두 디저트 수프)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "녹두"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "검은깨": {
+      "name": "검은깨",
+      "recipes": [
+        {
+          "id": "chinese_f4894e44dbfd",
+          "name": "즈마후(검은깨 걸쭉한 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "검은깨",
+            "쌀"
+          ],
+          "seasonings": [
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "흰목이버섯": {
+      "name": "흰목이버섯",
+      "recipes": [
+        {
+          "id": "chinese_004dc06b7813",
+          "name": "인얼롄쯔탕(흰목이버섯 연꽃씨 디저트)",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "흰목이버섯",
+            "연꽃씨",
+            "대추"
+          ],
+          "seasonings": [
+            "빙설탕"
           ]
         }
       ]
