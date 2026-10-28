@@ -34,7 +34,7 @@ const invalidRecipeSources: [string, unknown][] = [
 ];
 for(const [label, invalidSource] of invalidRecipeSources) test('검증 실패 '+label,()=>assert.throws(()=>validateSources([invalidSource],['spicy','umami'])));
 test('잘못된 JSON 파싱 실패',()=>assert.throws(()=>JSON.parse('{broken')));
-test('실제 인덱스 및 30개 초과 검색',async()=>{const data=JSON.parse(await readFile(new URL('../public/data/recipe_index.json',import.meta.url),'utf8')) as Recipe[];assert.equal(data.length,109);assert.equal(new Set(data.map(r=>r.id)).size,109);assert.ok(searchRecipes(data,{...q,ingredient:'간장'}).length>30);assert.equal(new Set(data.map(r=>r.cuisine)).size,7);});
+test('실제 인덱스 및 30개 초과 검색',async()=>{const data=JSON.parse(await readFile(new URL('../public/data/recipe_index.json',import.meta.url),'utf8')) as Recipe[];assert.equal(data.length,1000);assert.equal(new Set(data.map(r=>r.id)).size,1000);assert.ok(searchRecipes(data,{...q,ingredient:'간장'}).length>30);assert.equal(new Set(data.map(r=>r.cuisine)).size,7);});
 test('새 탭 보안 속성',async()=>{const card=await readFile(new URL('../src/components/RecipeCard.tsx',import.meta.url),'utf8');assert.ok(card.includes('target="_blank"'));assert.ok(card.includes('rel="noopener noreferrer"'));});
 
 test('복수 맛 OR 검색 및 중복 메뉴 방지',()=>{

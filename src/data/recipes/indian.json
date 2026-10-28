@@ -23,6 +23,48 @@
             "큐민",
             "소금"
           ]
+        },
+        {
+          "id": "indian_b1b08627042e",
+          "name": "치킨 티카 마살라",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마토",
+            "양파",
+            "요거트",
+            "생크림"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_2148f668a6d2",
+          "name": "치킨 코르마",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양파",
+            "요거트",
+            "캐슈넛"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "소금",
+            "기버터"
+          ]
         }
       ]
     },
@@ -97,6 +139,48 @@
             "식용유",
             "소금"
           ]
+        },
+        {
+          "id": "indian_6b2133cd7335",
+          "name": "말라이 코프타",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "파니르",
+            "토마토",
+            "캐슈넛",
+            "생크림"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "소금",
+            "기버터",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_3d949c2b961e",
+          "name": "알루 마타르",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "완두콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -145,6 +229,858 @@
             "강황",
             "기버터",
             "소금"
+          ]
+        },
+        {
+          "id": "indian_a61b70c0e397",
+          "name": "채소 비리야니",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바스마티쌀",
+            "당근",
+            "감자",
+            "완두콩",
+            "요거트"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "강황",
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_ffc3516281b4",
+          "name": "램 비리야니",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "바스마티쌀",
+            "양고기",
+            "양파",
+            "요거트"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "강황",
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_e7fb08fec2cf",
+          "name": "치킨 풀라오",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바스마티쌀",
+            "닭고기",
+            "양파"
+          ],
+          "seasonings": [
+            "큐민",
+            "카다멈",
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_00c0f6d4f5aa",
+          "name": "지라 라이스",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "바스마티쌀"
+          ],
+          "seasonings": [
+            "큐민",
+            "소금",
+            "기버터"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "indian_98d3fb19dce8",
+          "name": "포크 빈달루",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘",
+            "생강"
+          ],
+          "seasonings": [
+            "식초",
+            "고춧가루",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "양고기": {
+      "name": "양고기",
+      "recipes": [
+        {
+          "id": "indian_b37885a2c9de",
+          "name": "로건 조시",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "요거트",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "펜넬가루",
+            "카다멈",
+            "소금",
+            "기버터"
+          ]
+        }
+      ]
+    },
+    "파니르": {
+      "name": "파니르",
+      "recipes": [
+        {
+          "id": "indian_3020a2090a1d",
+          "name": "마타르 파니르",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "파니르",
+            "완두콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_26854bc632f5",
+          "name": "카다이 파니르",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "파니르",
+            "피망",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "고수씨가루",
+            "큐민",
+            "고춧가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_1383ad7ce617",
+          "name": "파니르 버터 마살라",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "파니르",
+            "토마토",
+            "캐슈넛",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "가람마살라",
+            "고춧가루",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "검은렌틸콩": {
+      "name": "검은렌틸콩",
+      "recipes": [
+        {
+          "id": "indian_a75e3d1c2189",
+          "name": "달 마크니",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "검은렌틸콩",
+            "강낭콩",
+            "토마토",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "큐민",
+            "가람마살라",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "비둘기콩": {
+      "name": "비둘기콩",
+      "recipes": [
+        {
+          "id": "indian_32b8ddad38d2",
+          "name": "달 타드카",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "비둘기콩",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "큐민",
+            "강황",
+            "고춧가루",
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_d2cdbbf91535",
+          "name": "삼바르",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "비둘기콩",
+            "가지",
+            "오크라",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "삼바르가루",
+            "타마린드소스",
+            "겨자씨",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "토마토": {
+      "name": "토마토",
+      "recipes": [
+        {
+          "id": "indian_b546dfaa3ad6",
+          "name": "라삼",
+          "flavors": [
+            "spicy",
+            "sour",
+            "clean"
+          ],
+          "ingredients": [
+            "토마토",
+            "비둘기콩",
+            "마늘"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "큐민",
+            "후추",
+            "겨자씨",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "indian_541fd8ff94d9",
+          "name": "에그 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "계란",
+            "토마토",
+            "양파",
+            "생강"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "새우": {
+      "name": "새우",
+      "recipes": [
+        {
+          "id": "indian_e12e1960a4eb",
+          "name": "인도식 새우 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "새우",
+            "코코넛밀크",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "강황",
+            "고춧가루",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "흰살생선": {
+      "name": "흰살생선",
+      "recipes": [
+        {
+          "id": "indian_5236aaaa7771",
+          "name": "피시 몰리",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "코코넛밀크",
+            "양파",
+            "풋고추"
+          ],
+          "seasonings": [
+            "강황",
+            "겨자씨",
+            "소금",
+            "코코넛오일"
+          ]
+        },
+        {
+          "id": "indian_4e95f311e914",
+          "name": "케랄라 생선 커리",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "양파",
+            "토마토",
+            "커리잎"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "고춧가루",
+            "강황",
+            "소금",
+            "코코넛오일"
+          ]
+        }
+      ]
+    },
+    "당근": {
+      "name": "당근",
+      "recipes": [
+        {
+          "id": "indian_a115c4814b8a",
+          "name": "아비알",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "당근",
+            "그린빈",
+            "감자",
+            "코코넛",
+            "요거트"
+          ],
+          "seasonings": [
+            "강황",
+            "큐민",
+            "소금",
+            "코코넛오일"
+          ]
+        },
+        {
+          "id": "indian_aed21e3b9f8f",
+          "name": "가자르 할와",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "당근",
+            "우유",
+            "캐슈넛"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈",
+            "기버터"
+          ]
+        }
+      ]
+    },
+    "가지": {
+      "name": "가지",
+      "recipes": [
+        {
+          "id": "indian_f0bba838b679",
+          "name": "바잉간 바르타",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "가지",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "오크라": {
+      "name": "오크라",
+      "recipes": [
+        {
+          "id": "indian_a16d67e87935",
+          "name": "빈디 마살라",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "오크라",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "밀가루": {
+      "name": "밀가루",
+      "recipes": [
+        {
+          "id": "indian_f123177dde5f",
+          "name": "난",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "밀가루",
+            "요거트",
+            "이스트"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_b331ca1686fc",
+          "name": "갈릭 난",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "밀가루",
+            "요거트",
+            "이스트",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕",
+            "버터"
+          ]
+        },
+        {
+          "id": "indian_0b1c680c76e1",
+          "name": "바투라",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "밀가루",
+            "요거트"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕",
+            "베이킹소다",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_6c7bf0b93199",
+          "name": "사모사",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "완두콩",
+            "양파"
+          ],
+          "seasonings": [
+            "큐민",
+            "고수씨가루",
+            "가람마살라",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_10a4699f94d3",
+          "name": "잘레비",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "요거트"
+          ],
+          "seasonings": [
+            "설탕",
+            "사프란",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "통밀가루": {
+      "name": "통밀가루",
+      "recipes": [
+        {
+          "id": "indian_a7ef5988968c",
+          "name": "로티",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "통밀가루"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "indian_e798433f9b1d",
+          "name": "파라타",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "통밀가루"
+          ],
+          "seasonings": [
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_a888dab01163",
+          "name": "알루 파라타",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "통밀가루",
+            "감자",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "고춧가루",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_4a1e58d69c4d",
+          "name": "푸리",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "통밀가루"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "indian_f64ef1753f78",
+          "name": "마살라 도사",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "검은렌틸콩",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "겨자씨",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_d210697889ed",
+          "name": "이들리",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "검은렌틸콩"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "indian_3c1f2ba17458",
+          "name": "레몬 라이스",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "쌀",
+            "레몬",
+            "땅콩",
+            "커리잎"
+          ],
+          "seasonings": [
+            "겨자씨",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_3f206aa7234f",
+          "name": "커드 라이스",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "요거트",
+            "우유",
+            "커리잎"
+          ],
+          "seasonings": [
+            "겨자씨",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "indian_17f836e691ea",
+          "name": "키치디",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "녹두",
+            "생강"
+          ],
+          "seasonings": [
+            "큐민",
+            "강황",
+            "소금",
+            "기버터"
+          ]
+        },
+        {
+          "id": "indian_789dcac332f4",
+          "name": "키르",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "쌀",
+            "우유",
+            "아몬드"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈",
+            "사프란"
+          ]
+        }
+      ]
+    },
+    "분유": {
+      "name": "분유",
+      "recipes": [
+        {
+          "id": "indian_8846cb892ac2",
+          "name": "굴랍 자문",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "분유",
+            "밀가루",
+            "우유"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈",
+            "로즈워터",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "우유": {
+      "name": "우유",
+      "recipes": [
+        {
+          "id": "indian_70c65ed650ca",
+          "name": "라스굴라",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "레몬"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈"
+          ]
+        },
+        {
+          "id": "indian_df1791399667",
+          "name": "쿨피",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "우유",
+            "생크림",
+            "피스타치오"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈"
+          ]
+        }
+      ]
+    },
+    "요거트": {
+      "name": "요거트",
+      "recipes": [
+        {
+          "id": "indian_e906f4a8fe29",
+          "name": "슈리칸드",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "요거트",
+            "피스타치오"
+          ],
+          "seasonings": [
+            "설탕",
+            "카다멈",
+            "사프란"
           ]
         }
       ]

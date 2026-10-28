@@ -1,6 +1,7 @@
 import type { Recipe } from '../types/recipe.ts';
 import { normalize, compareText } from '../utils/normalize.ts';
 import { queryTerms } from './recipeSearch.ts';
+import { getActiveKeyword, parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
 
 export function buildSuggestionIndex(recipes: readonly Recipe[]): string[] {
   const unique = new Map<string, string>();
@@ -14,7 +15,8 @@ export function buildSuggestionIndex(recipes: readonly Recipe[]): string[] {
 }
 
 export function suggestSearchTerms(index: readonly string[], keyword: string, limit = 6): string[] {
-  const query = normalize(keyword);
+  const query = normalize(getActiveKeyword(keyword));
+  const previous = parseIngredientKeywords(keyword.split(/[,，]/).slice(0, -1).join(',')).flatMap(queryTerms);
   if (!query || limit <= 0) return [];
   const terms = queryTerms(query);
   return index.map(label => {
@@ -23,7 +25,7 @@ export function suggestSearchTerms(index: readonly string[], keyword: string, li
       : terms.some(term => value.startsWith(term)) ? 1
       : terms.some(term => value.includes(term)) ? 2 : Infinity;
     return { label, value, rank };
-  }).filter(item => item.value !== query && Number.isFinite(item.rank))
+  }).filter(item => item.value !== query && !previous.includes(item.value) && Number.isFinite(item.rank))
     .sort((a, b) => a.rank - b.rank || a.label.length - b.label.length || compareText(a.label, b.label))
     .slice(0, Math.floor(limit)).map(item => item.label);
 }

@@ -3,11 +3,12 @@ import type { Recipe } from '../types/recipe';
 import flavors from '../data/flavors.json';
 import { queryTerms } from '../services/recipeSearch';
 import { normalize } from '../utils/normalize';
+import { parseIngredientKeywords } from '../utils/ingredientKeywords';
 import { getYouTubeRecipeUrl } from '../services/youtube';
 export const cuisineNames: Record<string,string>={korean:'한식',chinese:'중식',japanese:'일식',western:'양식',southeast_asian:'동남아 요리',indian:'인도 요리',other:'기타'};
 export function Highlight({text,keyword}:{text:string;keyword:string}) {
  const normalized=normalize(text), spans: [number,number][]=[];
- for(const term of queryTerms(keyword)) { let from=0; while(from<normalized.length) { const at=normalized.indexOf(term,from); if(at<0) break; spans.push([at,at+term.length]); from=at+term.length; } }
+ for(const term of parseIngredientKeywords(keyword).flatMap(queryTerms)) { let from=0; while(from<normalized.length) { const at=normalized.indexOf(term,from); if(at<0) break; spans.push([at,at+term.length]); from=at+term.length; } }
  spans.sort((a,b)=>a[0]-b[0]); const merged: [number,number][]=[];
  for(const span of spans) {const last=merged.at(-1); if(last && span[0]<=last[1]) last[1]=Math.max(last[1],span[1]); else merged.push([...span]);}
  const content=[]; let start=0;

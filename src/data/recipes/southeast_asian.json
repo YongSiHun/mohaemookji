@@ -43,6 +43,208 @@
             "소금",
             "팔각"
           ]
+        },
+        {
+          "id": "southeast_asian_4129472added",
+          "name": "분짜",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "돼지고기",
+            "상추",
+            "당근",
+            "그린파파야"
+          ],
+          "seasonings": [
+            "피시소스",
+            "식초",
+            "설탕",
+            "마늘"
+          ]
+        },
+        {
+          "id": "southeast_asian_f7c356dfd607",
+          "name": "분팃느엉",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "돼지고기",
+            "상추",
+            "오이",
+            "땅콩"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "간장"
+          ]
+        },
+        {
+          "id": "southeast_asian_6043745f6e06",
+          "name": "분보남보",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "소고기",
+            "숙주",
+            "상추",
+            "땅콩"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
+          ]
+        },
+        {
+          "id": "southeast_asian_07fea1fca665",
+          "name": "분보후에",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "소고기",
+            "돼지족",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "피시소스",
+            "새우페이스트",
+            "고추기름",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_406996dd257c",
+          "name": "분리우",
+          "flavors": [
+            "sour",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "게살",
+            "토마토",
+            "두부"
+          ],
+          "seasonings": [
+            "피시소스",
+            "새우페이스트",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_92080b798ba3",
+          "name": "까오러우",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "돼지고기",
+            "숙주",
+            "상추"
+          ],
+          "seasonings": [
+            "간장",
+            "오향가루",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_1bbc8df98ff0",
+          "name": "후띠우",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "돼지고기",
+            "새우",
+            "부추"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_78cf8e94c5f9",
+          "name": "퍼가",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "닭고기",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "팔각",
+            "계피"
+          ]
+        },
+        {
+          "id": "southeast_asian_11487cb2d8e6",
+          "name": "락사",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "새우",
+            "두부",
+            "코코넛밀크",
+            "숙주"
+          ],
+          "seasonings": [
+            "락사페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_c2c7771e2176",
+          "name": "판싯 비혼",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "닭고기",
+            "새우",
+            "양배추",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "피시소스",
+            "후추",
+            "식용유"
+          ]
         }
       ]
     },
@@ -65,6 +267,48 @@
           "seasonings": [
             "케찹마니스",
             "삼발소스",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_b74edf65ff53",
+          "name": "카오팟꿍",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "피시소스",
+            "간장",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_dc0e941ebca5",
+          "name": "카오팟사파롯",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "파인애플",
+            "새우",
+            "계란",
+            "캐슈넛"
+          ],
+          "seasonings": [
+            "카레가루",
+            "피시소스",
+            "간장",
             "식용유"
           ]
         }
@@ -93,6 +337,120 @@
             "설탕",
             "식용유"
           ]
+        },
+        {
+          "id": "southeast_asian_d0c430f79303",
+          "name": "파냉 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "코코넛밀크",
+            "라임잎"
+          ],
+          "seasonings": [
+            "파냉커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_e6908f8e579e",
+          "name": "라브무",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "민트",
+            "샬롯",
+            "볶은쌀가루"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_f24de50717b3",
+          "name": "남똑무",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "민트",
+            "샬롯",
+            "볶은쌀가루"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "southeast_asian_33ce17c8125c",
+          "name": "무삥",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "간장",
+            "피시소스",
+            "팜슈거",
+            "굴소스"
+          ]
+        },
+        {
+          "id": "southeast_asian_5c6f7b566f0c",
+          "name": "시니강",
+          "flavors": [
+            "sour",
+            "clean"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "무",
+            "토마토",
+            "오크라",
+            "공심채"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "피시소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_914f83280855",
+          "name": "레촌 카왈리",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎",
+            "식용유"
+          ]
         }
       ]
     },
@@ -116,6 +474,163 @@
             "피시소스",
             "설탕"
           ]
+        },
+        {
+          "id": "southeast_asian_cfa14158f556",
+          "name": "똠카가이",
+          "flavors": [
+            "sour",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "코코넛밀크",
+            "갈랑갈",
+            "레몬그라스"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_9a720ffb0e74",
+          "name": "레드 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "코코넛밀크",
+            "가지",
+            "죽순"
+          ],
+          "seasonings": [
+            "레드커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_c16a719d65cd",
+          "name": "옐로 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "코코넛밀크",
+            "양파"
+          ],
+          "seasonings": [
+            "옐로커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_9aff668653de",
+          "name": "가이팟멧마무앙",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "캐슈넛",
+            "양파",
+            "건고추"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_fc97b7035de6",
+          "name": "가이양",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "레몬그라스",
+            "마늘",
+            "고수뿌리"
+          ],
+          "seasonings": [
+            "피시소스",
+            "간장",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_0417fc8c2349",
+          "name": "사테",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "땅콩",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "강황",
+            "큐민",
+            "피시소스",
+            "팜슈거"
+          ]
+        },
+        {
+          "id": "southeast_asian_5b606d9d5bec",
+          "name": "소토아얌",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "당면",
+            "숙주",
+            "계란"
+          ],
+          "seasonings": [
+            "강황",
+            "큐민",
+            "소금",
+            "라임즙"
+          ]
+        },
+        {
+          "id": "southeast_asian_60cea433b2f1",
+          "name": "치킨 아도보",
+          "flavors": [
+            "sour",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "월계수잎",
+            "후추"
+          ]
         }
       ]
     },
@@ -138,6 +653,68 @@
           "seasonings": [
             "피시소스",
             "똠얌페이스트"
+          ]
+        },
+        {
+          "id": "southeast_asian_37197bc93659",
+          "name": "팟퐁커리 새우",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "새우",
+            "계란",
+            "양파",
+            "셀러리",
+            "우유"
+          ],
+          "seasonings": [
+            "카레가루",
+            "굴소스",
+            "피시소스",
+            "칠리페이스트",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_f8e8b10b468c",
+          "name": "텃만꿍",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "새우",
+            "돼지고기",
+            "빵가루"
+          ],
+          "seasonings": [
+            "굴소스",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_701b0b3e4bd2",
+          "name": "얌탈레",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "새우",
+            "오징어",
+            "홍합",
+            "토마토",
+            "셀러리"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
           ]
         }
       ]
@@ -189,6 +766,768 @@
             "피시소스",
             "라임즙",
             "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_fa5768e6171b",
+          "name": "차조",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "라이스페이퍼",
+            "돼지고기",
+            "새우",
+            "당면",
+            "당근"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "넓은쌀국수": {
+      "name": "넓은쌀국수",
+      "recipes": [
+        {
+          "id": "southeast_asian_ebd233949a26",
+          "name": "팟씨유",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "넓은쌀국수",
+            "돼지고기",
+            "청경채",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_ea96c7a10635",
+          "name": "팟키마오",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "넓은쌀국수",
+            "닭고기",
+            "바질",
+            "고추",
+            "마늘"
+          ],
+          "seasonings": [
+            "피시소스",
+            "굴소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_836307cd7c04",
+          "name": "미꽝",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "넓은쌀국수",
+            "새우",
+            "돼지고기",
+            "땅콩",
+            "상추"
+          ],
+          "seasonings": [
+            "피시소스",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_e5b79d070e32",
+          "name": "차퀘이테오",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "넓은쌀국수",
+            "새우",
+            "계란",
+            "숙주",
+            "중국소시지"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "삼발소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "southeast_asian_d31bc563e193",
+          "name": "카오만까이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "오이",
+            "생강"
+          ],
+          "seasonings": [
+            "피시소스",
+            "된장",
+            "간장",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_52709da07dee",
+          "name": "껌땀",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "돼지갈비",
+            "계란",
+            "오이",
+            "토마토"
+          ],
+          "seasonings": [
+            "피시소스",
+            "간장",
+            "설탕",
+            "레몬그라스"
+          ]
+        },
+        {
+          "id": "southeast_asian_336d73c02161",
+          "name": "나시르막",
+          "flavors": [
+            "savory",
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "코코넛밀크",
+            "멸치",
+            "땅콩",
+            "오이",
+            "계란"
+          ],
+          "seasonings": [
+            "삼발소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "southeast_asian_b79bb9efc616",
+          "name": "하이난 치킨라이스",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "생강",
+            "오이"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "소금",
+            "칠리소스"
+          ]
+        }
+      ]
+    },
+    "계란면": {
+      "name": "계란면",
+      "recipes": [
+        {
+          "id": "southeast_asian_72cc5a4fef7f",
+          "name": "카오소이",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "계란면",
+            "닭고기",
+            "코코넛밀크",
+            "샬롯"
+          ],
+          "seasonings": [
+            "레드커리페이스트",
+            "피시소스",
+            "설탕",
+            "라임즙"
+          ]
+        },
+        {
+          "id": "southeast_asian_38ff18175993",
+          "name": "미고렝",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란면",
+            "새우",
+            "닭고기",
+            "계란",
+            "양배추"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "삼발소스",
+            "간장",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "소고기": {
+      "name": "소고기",
+      "recipes": [
+        {
+          "id": "southeast_asian_46fd4f4987a0",
+          "name": "마사만 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "코코넛밀크",
+            "땅콩"
+          ],
+          "seasonings": [
+            "마사만커리페이스트",
+            "피시소스",
+            "타마린드소스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_afe955330020",
+          "name": "보코",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "당근",
+            "레몬그라스",
+            "토마토"
+          ],
+          "seasonings": [
+            "피시소스",
+            "오향가루",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_949853c46afa",
+          "name": "보라롯",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "랄롯잎",
+            "땅콩"
+          ],
+          "seasonings": [
+            "피시소스",
+            "레몬그라스",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_f0b01fc5f844",
+          "name": "렌당",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "코코넛밀크",
+            "레몬그라스",
+            "갈랑갈"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "강황",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "게": {
+      "name": "게",
+      "recipes": [
+        {
+          "id": "southeast_asian_ece4857531e3",
+          "name": "푸팟퐁커리",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "게",
+            "계란",
+            "양파",
+            "셀러리",
+            "우유"
+          ],
+          "seasonings": [
+            "카레가루",
+            "굴소스",
+            "피시소스",
+            "칠리페이스트",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_34155110a86d",
+          "name": "칠리크랩",
+          "flavors": [
+            "spicy",
+            "sweet",
+            "umami"
+          ],
+          "ingredients": [
+            "게",
+            "계란",
+            "마늘",
+            "생강"
+          ],
+          "seasonings": [
+            "칠리소스",
+            "케첩",
+            "두반장",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "공심채": {
+      "name": "공심채",
+      "recipes": [
+        {
+          "id": "southeast_asian_7dece25c0048",
+          "name": "팟팩붕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "공심채",
+            "마늘",
+            "고추"
+          ],
+          "seasonings": [
+            "굴소스",
+            "된장",
+            "피시소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "southeast_asian_44cbac9eb8a0",
+          "name": "카이찌아오",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "계란",
+            "돼지고기",
+            "대파"
+          ],
+          "seasonings": [
+            "피시소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "생선": {
+      "name": "생선",
+      "recipes": [
+        {
+          "id": "southeast_asian_cc7f066d286d",
+          "name": "허목쁠라",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "생선",
+            "계란",
+            "코코넛밀크",
+            "양배추"
+          ],
+          "seasonings": [
+            "레드커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "생선살": {
+      "name": "생선살",
+      "recipes": [
+        {
+          "id": "southeast_asian_84e16937f24f",
+          "name": "텃만쁠라",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "생선살",
+            "그린빈",
+            "계란",
+            "라임잎"
+          ],
+          "seasonings": [
+            "레드커리페이스트",
+            "피시소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "녹두당면": {
+      "name": "녹두당면",
+      "recipes": [
+        {
+          "id": "southeast_asian_9555cbc3bef5",
+          "name": "팟운센",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "녹두당면",
+            "계란",
+            "새우",
+            "양배추",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "southeast_asian_80caa47dfcda",
+          "name": "얌운센",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "녹두당면",
+            "새우",
+            "돼지고기",
+            "양파",
+            "셀러리"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "마늘"
+          ]
+        }
+      ]
+    },
+    "그린파파야": {
+      "name": "그린파파야",
+      "recipes": [
+        {
+          "id": "southeast_asian_95122ba50354",
+          "name": "쏨땀",
+          "flavors": [
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "그린파파야",
+            "토마토",
+            "그린빈",
+            "땅콩",
+            "건새우"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "팜슈거",
+            "고추",
+            "마늘"
+          ]
+        }
+      ]
+    },
+    "쌀가루": {
+      "name": "쌀가루",
+      "recipes": [
+        {
+          "id": "southeast_asian_e10713a98362",
+          "name": "반쎄오",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "코코넛밀크",
+            "새우",
+            "돼지고기",
+            "숙주"
+          ],
+          "seasonings": [
+            "강황",
+            "피시소스",
+            "식용유",
+            "설탕"
+          ]
+        },
+        {
+          "id": "southeast_asian_802aabb1f56c",
+          "name": "반꾸온",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "돼지고기",
+            "목이버섯",
+            "샬롯"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "식초",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "메기": {
+      "name": "메기",
+      "recipes": [
+        {
+          "id": "southeast_asian_937fe3edf569",
+          "name": "까코또",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "메기",
+            "샬롯",
+            "마늘"
+          ],
+          "seasonings": [
+            "피시소스",
+            "설탕",
+            "후추",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "흰살생선": {
+      "name": "흰살생선",
+      "recipes": [
+        {
+          "id": "southeast_asian_f5c1c347812b",
+          "name": "까인쭈어",
+          "flavors": [
+            "sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "파인애플",
+            "토마토",
+            "오크라",
+            "숙주"
+          ],
+          "seasonings": [
+            "타마린드소스",
+            "피시소스",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "두부": {
+      "name": "두부",
+      "recipes": [
+        {
+          "id": "southeast_asian_6c87fe20ac13",
+          "name": "가도가도",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "템페",
+            "감자",
+            "그린빈",
+            "콩나물",
+            "땅콩"
+          ],
+          "seasonings": [
+            "간장",
+            "타마린드소스",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "템페": {
+      "name": "템페",
+      "recipes": [
+        {
+          "id": "southeast_asian_b07d6466261d",
+          "name": "템페 고렝",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "템페",
+            "마늘"
+          ],
+          "seasonings": [
+            "고수씨",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "춘권피": {
+      "name": "춘권피",
+      "recipes": [
+        {
+          "id": "southeast_asian_cf57184ffe2a",
+          "name": "룸피아 샹하이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "춘권피",
+            "돼지고기",
+            "당근",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유",
+            "스위트칠리소스"
+          ]
+        }
+      ]
+    },
+    "찹쌀": {
+      "name": "찹쌀",
+      "recipes": [
+        {
+          "id": "southeast_asian_aae99e169f48",
+          "name": "카오니아오 마무앙",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "망고",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "찹쌀가루": {
+      "name": "찹쌀가루",
+      "recipes": [
+        {
+          "id": "southeast_asian_5ffd4f612445",
+          "name": "클레폰",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "코코넛",
+            "판단잎"
+          ],
+          "seasonings": [
+            "팜슈거",
+            "소금"
           ]
         }
       ]

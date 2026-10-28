@@ -40,6 +40,185 @@
             "설탕",
             "식용유"
           ]
+        },
+        {
+          "id": "japanese_04e408bff1d1",
+          "name": "가라아게동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "밥",
+            "양배추",
+            "전분"
+          ],
+          "seasonings": [
+            "간장",
+            "생강즙",
+            "마요네즈",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_de1ec6e0e31e",
+          "name": "가라아게",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "전분",
+            "마늘",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_6b7e752a4735",
+          "name": "치킨난반",
+          "flavors": [
+            "sweet_sour",
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "계란",
+            "밀가루"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "마요네즈",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_0e1a7bcecf43",
+          "name": "치킨카츠",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "돈가스소스"
+          ]
+        },
+        {
+          "id": "japanese_694fc6505892",
+          "name": "도리텐",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "생강즙",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_4a2a934f85da",
+          "name": "치쿠젠니",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "연근",
+            "우엉",
+            "곤약",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "참기름"
+          ]
+        },
+        {
+          "id": "japanese_8173c4b80a1b",
+          "name": "미즈타키",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "닭고기",
+            "배추",
+            "두부",
+            "대파",
+            "다시마"
+          ],
+          "seasonings": [
+            "폰즈소스",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_bcbbef23d706",
+          "name": "창코나베",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "돼지고기",
+            "배추",
+            "두부",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_347e2cff5b8e",
+          "name": "쓰쿠네",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양파",
+            "생강",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "소금"
+          ]
         }
       ]
     },
@@ -60,6 +239,146 @@
           ],
           "seasonings": [
             "간장",
+            "미림",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_92ac4d4e0e9c",
+          "name": "규카츠",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "소고기",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_61f770dc2958",
+          "name": "스테키동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "밥",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "버터",
+            "후추"
+          ]
+        },
+        {
+          "id": "japanese_f5f40d12d28c",
+          "name": "멘치카츠",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "소고기",
+            "돼지고기",
+            "양파",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "우스터소스"
+          ]
+        },
+        {
+          "id": "japanese_5ec9812dd509",
+          "name": "니쿠자가",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "당근",
+            "곤약"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "다시마"
+          ]
+        },
+        {
+          "id": "japanese_361b5d3e7f2c",
+          "name": "스키야키",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "두부",
+            "대파",
+            "표고버섯",
+            "실곤약"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_2c6c6a980070",
+          "name": "샤부샤부",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "소고기",
+            "배추",
+            "쑥갓",
+            "두부",
+            "다시마"
+          ],
+          "seasonings": [
+            "폰즈소스",
+            "참깨소스"
+          ]
+        },
+        {
+          "id": "japanese_2d9c9d4ba8cc",
+          "name": "호바미소야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "미소된장",
             "미림",
             "설탕"
           ]
@@ -111,6 +430,106 @@
             "카레루",
             "식용유"
           ]
+        },
+        {
+          "id": "japanese_dd34a6c9773a",
+          "name": "부타동",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_a252ad826a9e",
+          "name": "구시카츠",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "아스파라거스",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "우스터소스"
+          ]
+        },
+        {
+          "id": "japanese_a3fb392efaba",
+          "name": "부타 가쿠니",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "청주"
+          ]
+        },
+        {
+          "id": "japanese_27b87c085b46",
+          "name": "쇼가야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "청주",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_6ca44d23c9b9",
+          "name": "차슈",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "청주"
+          ]
         }
       ]
     },
@@ -132,6 +551,77 @@
           "seasonings": [
             "미소된장",
             "가쓰오부시"
+          ]
+        },
+        {
+          "id": "japanese_706aa8c947f8",
+          "name": "아게다시도후",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "전분",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "미림",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_d55dde4fb467",
+          "name": "유도후",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "두부",
+            "다시마",
+            "대파"
+          ],
+          "seasonings": [
+            "폰즈소스"
+          ]
+        },
+        {
+          "id": "japanese_c0500cf1dd9b",
+          "name": "도후덴가쿠",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부"
+          ],
+          "seasonings": [
+            "미소된장",
+            "미림",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_bbd3b7709c40",
+          "name": "시라아에",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "두부",
+            "시금치",
+            "당근",
+            "곤약"
+          ],
+          "seasonings": [
+            "참깨",
+            "간장",
+            "설탕",
+            "소금"
           ]
         }
       ]
@@ -156,6 +646,108 @@
             "우스터소스",
             "굴소스",
             "식용유"
+          ]
+        },
+        {
+          "id": "japanese_eab85a5b0598",
+          "name": "히야시츄카",
+          "flavors": [
+            "cool",
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "중화면",
+            "햄",
+            "계란",
+            "오이",
+            "토마토"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        },
+        {
+          "id": "japanese_5dc2e12a0a30",
+          "name": "탄탄멘",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "청경채",
+            "대파"
+          ],
+          "seasonings": [
+            "참깨페이스트",
+            "두반장",
+            "간장",
+            "고추기름"
+          ]
+        },
+        {
+          "id": "japanese_355735a027af",
+          "name": "츠케멘",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "가쓰오부시",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "식초"
+          ]
+        },
+        {
+          "id": "japanese_efaf21e7fb91",
+          "name": "마제소바",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "부추",
+            "계란노른자",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "두반장",
+            "참기름",
+            "식초"
+          ]
+        },
+        {
+          "id": "japanese_bf81b86a892b",
+          "name": "나가사키 짬뽕",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "새우",
+            "오징어",
+            "양배추"
+          ],
+          "seasonings": [
+            "소금",
+            "간장",
+            "라드"
           ]
         }
       ]
@@ -227,6 +819,60 @@
             "고추냉이",
             "식초"
           ]
+        },
+        {
+          "id": "japanese_525257a73df3",
+          "name": "사케노 호일야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "양파",
+            "표고버섯",
+            "팽이버섯"
+          ],
+          "seasonings": [
+            "버터",
+            "간장",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_0cc7a421d241",
+          "name": "사케 시오코지야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어"
+          ],
+          "seasonings": [
+            "시오코지",
+            "청주"
+          ]
+        },
+        {
+          "id": "japanese_52a6b82a5c9b",
+          "name": "찬찬야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "양배추",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "미소된장",
+            "미림",
+            "버터",
+            "설탕"
+          ]
         }
       ]
     },
@@ -249,6 +895,138 @@
             "쯔유",
             "가쓰오부시"
           ]
+        },
+        {
+          "id": "japanese_bb80c94342d9",
+          "name": "자루우동",
+          "flavors": [
+            "cool",
+            "clean"
+          ],
+          "ingredients": [
+            "우동면",
+            "김",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_59bb4af872b0",
+          "name": "니쿠우동",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "소고기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_3fc9cfb35389",
+          "name": "카레우동",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "돼지고기",
+            "양파"
+          ],
+          "seasonings": [
+            "카레루",
+            "쯔유",
+            "전분"
+          ]
+        },
+        {
+          "id": "japanese_e92907559f45",
+          "name": "나베야키우동",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "닭고기",
+            "새우튀김",
+            "계란",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "쯔유",
+            "간장",
+            "미림"
+          ]
+        },
+        {
+          "id": "japanese_d6bec6d89e4c",
+          "name": "덴푸라우동",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "새우",
+            "튀김가루",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "간장",
+            "미림",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_74b850c56f1d",
+          "name": "쓰키미우동",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "간장",
+            "미림"
+          ]
+        },
+        {
+          "id": "japanese_8cd48ab8910c",
+          "name": "야키우동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "돼지고기",
+            "양배추",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "식용유"
+          ]
         }
       ]
     },
@@ -270,6 +1048,2074 @@
             "소금",
             "미림",
             "식용유"
+          ]
+        },
+        {
+          "id": "japanese_f086c94cfcc9",
+          "name": "차완무시",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "닭고기",
+            "새우",
+            "표고버섯",
+            "은행"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금",
+            "가쓰오부시"
+          ]
+        },
+        {
+          "id": "japanese_ab54b20455b7",
+          "name": "돈페이야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "돼지고기",
+            "양배추"
+          ],
+          "seasonings": [
+            "오코노미야키소스",
+            "마요네즈",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "밥": {
+      "name": "밥",
+      "recipes": [
+        {
+          "id": "japanese_044c597ace0d",
+          "name": "텐동",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "가지",
+            "단호박",
+            "튀김가루"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_ec530182c7ee",
+          "name": "카이센동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "참치",
+            "연어",
+            "새우",
+            "가리비"
+          ],
+          "seasonings": [
+            "간장",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_44b59f235b6f",
+          "name": "이쿠라동",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "연어알",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "미림"
+          ]
+        },
+        {
+          "id": "japanese_e14ebcce3922",
+          "name": "우니동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "성게알",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_6b998b8ab534",
+          "name": "오차즈케",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "밥",
+            "연어",
+            "김",
+            "녹차"
+          ],
+          "seasonings": [
+            "소금",
+            "간장",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_ff19b77f79b5",
+          "name": "타이차즈케",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "밥",
+            "도미",
+            "녹차",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "참깨페이스트",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_a34a126e3fca",
+          "name": "오므라이스",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "계란",
+            "닭고기",
+            "양파"
+          ],
+          "seasonings": [
+            "케첩",
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "japanese_68d2f40fb7ae",
+          "name": "유부초밥",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "유부",
+            "참깨"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_7575550f702e",
+          "name": "후토마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "계란",
+            "오이",
+            "박고지",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_c02dec104ddd",
+          "name": "테마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "참치",
+            "연어",
+            "오이"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_1c0a550b8865",
+          "name": "테마리스시",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "연어",
+            "새우",
+            "오이"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_0407218c0804",
+          "name": "치라시스시",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "연어",
+            "새우",
+            "계란",
+            "오이"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_ebb32e7ada1e",
+          "name": "바라즈시",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "표고버섯",
+            "연근",
+            "계란"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_e186ec2c9bb9",
+          "name": "사바즈시",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "고등어",
+            "다시마"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_189ee862eb11",
+          "name": "밧테라",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "고등어",
+            "흰다시마"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_c68e9570df0c",
+          "name": "오시즈시",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "연어",
+            "새우"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_165d2dc602c9",
+          "name": "마구로 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "참치"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_dd1f9c3b5826",
+          "name": "사케 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "연어"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_db1fc5a3abcb",
+          "name": "에비 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "새우"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_a218dbadecd4",
+          "name": "타마고 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "계란",
+            "김"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장",
+            "미림"
+          ]
+        },
+        {
+          "id": "japanese_15d059a406a2",
+          "name": "아나고 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "붕장어"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장",
+            "미림"
+          ]
+        },
+        {
+          "id": "japanese_75884e5040cd",
+          "name": "호타테 니기리",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "가리비"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_16a091516796",
+          "name": "갓파마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "오이"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_9c096d4c9426",
+          "name": "데카마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "참치"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_1ad5fe77f21b",
+          "name": "간표마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "박고지"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_eb5ab5ad2486",
+          "name": "낫토마키",
+          "flavors": [
+            "sour",
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "낫토",
+            "대파"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "소금",
+            "간장"
+          ]
+        },
+        {
+          "id": "japanese_b6b4a3636af0",
+          "name": "야키오니기리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "참기름"
+          ]
+        },
+        {
+          "id": "japanese_4cf02045e422",
+          "name": "오니기라즈",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "김",
+            "계란",
+            "햄",
+            "상추"
+          ],
+          "seasonings": [
+            "소금",
+            "마요네즈"
+          ]
+        },
+        {
+          "id": "japanese_b13cfa7fa152",
+          "name": "우메보시 오니기리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "우메보시",
+            "김"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_37df30e5a705",
+          "name": "멘타이코 오니기리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "명란",
+            "김"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_a301f807ce07",
+          "name": "스팸 무스비",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "스팸",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "미림"
+          ]
+        }
+      ]
+    },
+    "장어": {
+      "name": "장어",
+      "recipes": [
+        {
+          "id": "japanese_05e02c25c028",
+          "name": "우나기동",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "장어",
+            "밥",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "산초가루"
+          ]
+        },
+        {
+          "id": "japanese_9468dcf1fd51",
+          "name": "히츠마부시",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "장어",
+            "밥",
+            "김",
+            "대파",
+            "다시마"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "고추냉이"
+          ]
+        }
+      ]
+    },
+    "참치": {
+      "name": "참치",
+      "recipes": [
+        {
+          "id": "japanese_5f146779f734",
+          "name": "네기토로동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "참치",
+            "밥",
+            "대파",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "고추냉이"
+          ]
+        },
+        {
+          "id": "japanese_377e30919e56",
+          "name": "마구로 즈케동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "참치",
+            "밥",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "고추냉이"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "japanese_743a7494b76e",
+          "name": "타키코미고항",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "표고버섯",
+            "당근",
+            "유부"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금",
+            "다시마"
+          ]
+        },
+        {
+          "id": "japanese_0bf1aea672b2",
+          "name": "고모쿠고항",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "우엉",
+            "당근",
+            "표고버섯",
+            "곤약"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금",
+            "다시마"
+          ]
+        },
+        {
+          "id": "japanese_2a6051bbd7b9",
+          "name": "마쓰타케고항",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "송이버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금",
+            "다시마"
+          ]
+        }
+      ]
+    },
+    "찹쌀": {
+      "name": "찹쌀",
+      "recipes": [
+        {
+          "id": "japanese_5c71608fddfc",
+          "name": "세키한",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "팥"
+          ],
+          "seasonings": [
+            "소금",
+            "검은깨"
+          ]
+        },
+        {
+          "id": "japanese_6aeb8fd543a8",
+          "name": "오코와",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "찹쌀",
+            "닭고기",
+            "표고버섯",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "소면": {
+      "name": "소면",
+      "recipes": [
+        {
+          "id": "japanese_70aefdb363fe",
+          "name": "소멘",
+          "flavors": [
+            "cool",
+            "clean"
+          ],
+          "ingredients": [
+            "소면",
+            "대파",
+            "생강"
+          ],
+          "seasonings": [
+            "쯔유",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_b3bf3bb6f482",
+          "name": "니우멘",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "표고버섯",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "간장",
+            "미림"
+          ]
+        }
+      ]
+    },
+    "오키나와소바면": {
+      "name": "오키나와소바면",
+      "recipes": [
+        {
+          "id": "japanese_a90e3d7c5ee8",
+          "name": "오키나와 소바",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "오키나와소바면",
+            "돼지고기",
+            "가마보코",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "아와모리"
+          ]
+        },
+        {
+          "id": "japanese_2471c6ffee90",
+          "name": "소키소바",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "오키나와소바면",
+            "돼지갈비",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "미림"
+          ]
+        }
+      ]
+    },
+    "라멘": {
+      "name": "라멘",
+      "recipes": [
+        {
+          "id": "japanese_7c2e132f686a",
+          "name": "돈코츠 라멘",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "라멘",
+            "돼지뼈",
+            "돼지고기",
+            "목이버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "참기름"
+          ]
+        },
+        {
+          "id": "japanese_af33d4eba02a",
+          "name": "쇼유 라멘",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "라멘",
+            "닭고기",
+            "돼지고기",
+            "멘마",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_e15d1cfb256c",
+          "name": "시오 라멘",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "라멘",
+            "닭고기",
+            "다시마",
+            "숙주",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "미림",
+            "참기름"
+          ]
+        },
+        {
+          "id": "japanese_44cadf837657",
+          "name": "미소 라멘",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "라멘",
+            "돼지고기",
+            "숙주",
+            "옥수수",
+            "대파"
+          ],
+          "seasonings": [
+            "미소된장",
+            "참기름",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "japanese_07b066bd9127",
+          "name": "감자 고로케",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "감자",
+            "소고기",
+            "양파",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "게살": {
+      "name": "게살",
+      "recipes": [
+        {
+          "id": "japanese_725febd00333",
+          "name": "크림 고로케",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "게살",
+            "우유",
+            "밀가루",
+            "양파",
+            "빵가루"
+          ],
+          "seasonings": [
+            "버터",
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "새우": {
+      "name": "새우",
+      "recipes": [
+        {
+          "id": "japanese_29065a714501",
+          "name": "에비후라이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "새우",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "타르타르소스"
+          ]
+        },
+        {
+          "id": "japanese_83a6e7cfffda",
+          "name": "새우 덴푸라",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "새우",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "전갱이": {
+      "name": "전갱이",
+      "recipes": [
+        {
+          "id": "japanese_3f12bc4f723f",
+          "name": "아지후라이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "전갱이",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "우스터소스"
+          ]
+        },
+        {
+          "id": "japanese_3f65c5c743d7",
+          "name": "아지나메로",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "전갱이",
+            "생강",
+            "대파",
+            "차조기"
+          ],
+          "seasonings": [
+            "미소된장"
+          ]
+        }
+      ]
+    },
+    "오징어": {
+      "name": "오징어",
+      "recipes": [
+        {
+          "id": "japanese_d08af31d7ec3",
+          "name": "이카후라이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "오징어",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "굴": {
+      "name": "굴",
+      "recipes": [
+        {
+          "id": "japanese_d8cb6478ab15",
+          "name": "굴프라이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "굴",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "타르타르소스"
+          ]
+        }
+      ]
+    },
+    "양파": {
+      "name": "양파",
+      "recipes": [
+        {
+          "id": "japanese_b732142567e6",
+          "name": "가키아게",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "양파",
+            "당근",
+            "새우",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "고구마": {
+      "name": "고구마",
+      "recipes": [
+        {
+          "id": "japanese_ba311eac33e8",
+          "name": "고구마 덴푸라",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "고구마",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "연근": {
+      "name": "연근",
+      "recipes": [
+        {
+          "id": "japanese_02c79cfed550",
+          "name": "렌콘 하사미아게",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "연근",
+            "돼지고기",
+            "전분"
+          ],
+          "seasonings": [
+            "간장",
+            "생강즙",
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "밀가루": {
+      "name": "밀가루",
+      "recipes": [
+        {
+          "id": "japanese_5eb43861ad6e",
+          "name": "다코야키",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "문어",
+            "양배추",
+            "대파"
+          ],
+          "seasonings": [
+            "다코야키소스",
+            "마요네즈",
+            "가쓰오부시",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_47a119779f18",
+          "name": "몬자야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양배추",
+            "오징어",
+            "새우"
+          ],
+          "seasonings": [
+            "우스터소스",
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_259130b1813b",
+          "name": "도라야키",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "팥앙금"
+          ],
+          "seasonings": [
+            "설탕",
+            "꿀",
+            "베이킹파우더"
+          ]
+        },
+        {
+          "id": "japanese_050c64b2418a",
+          "name": "타이야키",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "밀가루",
+            "계란",
+            "우유",
+            "팥앙금"
+          ],
+          "seasonings": [
+            "설탕",
+            "베이킹파우더",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "닭연골": {
+      "name": "닭연골",
+      "recipes": [
+        {
+          "id": "japanese_e1ce4f281fa9",
+          "name": "난코츠 가라아게",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭연골",
+            "전분"
+          ],
+          "seasonings": [
+            "간장",
+            "생강즙",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "만두피": {
+      "name": "만두피",
+      "recipes": [
+        {
+          "id": "japanese_2eaeb07ba193",
+          "name": "아게교자",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "만두피",
+            "돼지고기",
+            "양배추",
+            "부추"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "방어": {
+      "name": "방어",
+      "recipes": [
+        {
+          "id": "japanese_3868cf72d460",
+          "name": "부리다이콘",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "방어",
+            "무",
+            "생강"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "청주"
+          ]
+        },
+        {
+          "id": "japanese_2120d75fb4cc",
+          "name": "부리 데리야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "방어"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "청주"
+          ]
+        }
+      ]
+    },
+    "고등어": {
+      "name": "고등어",
+      "recipes": [
+        {
+          "id": "japanese_8be9e5703873",
+          "name": "사바미소니",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "고등어",
+            "생강"
+          ],
+          "seasonings": [
+            "미소된장",
+            "미림",
+            "설탕",
+            "청주"
+          ]
+        }
+      ]
+    },
+    "무": {
+      "name": "무",
+      "recipes": [
+        {
+          "id": "japanese_3f86917c2f76",
+          "name": "오뎅",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "무",
+            "곤약",
+            "어묵",
+            "계란",
+            "다시마"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "소곱창": {
+      "name": "소곱창",
+      "recipes": [
+        {
+          "id": "japanese_2566275125e0",
+          "name": "모츠나베",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소곱창",
+            "양배추",
+            "부추",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "미소된장",
+            "고춧가루"
+          ]
+        }
+      ]
+    },
+    "김치": {
+      "name": "김치",
+      "recipes": [
+        {
+          "id": "japanese_58eec12f39ed",
+          "name": "김치나베",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "김치",
+            "돼지고기",
+            "두부",
+            "배추"
+          ],
+          "seasonings": [
+            "미소된장",
+            "간장",
+            "고추장"
+          ]
+        }
+      ]
+    },
+    "유바": {
+      "name": "유바",
+      "recipes": [
+        {
+          "id": "japanese_d815aeb2e1ab",
+          "name": "유바나베",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "유바",
+            "두부",
+            "배추",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "바지락": {
+      "name": "바지락",
+      "recipes": [
+        {
+          "id": "japanese_511232623e7b",
+          "name": "아사리 사카무시",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "바지락",
+            "대파"
+          ],
+          "seasonings": [
+            "청주",
+            "간장",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "가지": {
+      "name": "가지",
+      "recipes": [
+        {
+          "id": "japanese_427faa0e3d4a",
+          "name": "나스니비타시",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "미림",
+            "식용유"
+          ]
+        },
+        {
+          "id": "japanese_5ba71986e357",
+          "name": "나스덴가쿠",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지"
+          ],
+          "seasonings": [
+            "미소된장",
+            "미림",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "단호박": {
+      "name": "단호박",
+      "recipes": [
+        {
+          "id": "japanese_14e5e9dd2757",
+          "name": "가보차니모노",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "단호박"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "가쓰오부시"
+          ]
+        }
+      ]
+    },
+    "톳": {
+      "name": "톳",
+      "recipes": [
+        {
+          "id": "japanese_8a2653467973",
+          "name": "히지키니",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "톳",
+            "당근",
+            "유부",
+            "콩"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "닭날개": {
+      "name": "닭날개",
+      "recipes": [
+        {
+          "id": "japanese_81b155173588",
+          "name": "테바사키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭날개",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "후추",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "닭껍질": {
+      "name": "닭껍질",
+      "recipes": [
+        {
+          "id": "japanese_89fc51507c36",
+          "name": "닭껍질꼬치",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭껍질",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "닭다리살": {
+      "name": "닭다리살",
+      "recipes": [
+        {
+          "id": "japanese_5a728301d02f",
+          "name": "네기마",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭다리살",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "은대구": {
+      "name": "은대구",
+      "recipes": [
+        {
+          "id": "japanese_a0d047e2c36f",
+          "name": "긴다라 사이쿄야키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "은대구"
+          ],
+          "seasonings": [
+            "사이쿄미소",
+            "미림",
+            "청주"
+          ]
+        }
+      ]
+    },
+    "곤약": {
+      "name": "곤약",
+      "recipes": [
+        {
+          "id": "japanese_bb257e706b7b",
+          "name": "곤약스테이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "곤약",
+            "마늘"
+          ],
+          "seasonings": [
+            "간장",
+            "버터",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "시금치": {
+      "name": "시금치",
+      "recipes": [
+        {
+          "id": "japanese_01131f2014e0",
+          "name": "고마아에",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "시금치"
+          ],
+          "seasonings": [
+            "참깨",
+            "간장",
+            "설탕"
+          ]
+        },
+        {
+          "id": "japanese_3bf3c428b1ee",
+          "name": "오히타시",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "시금치",
+            "가쓰오부시"
+          ],
+          "seasonings": [
+            "간장",
+            "미림"
+          ]
+        }
+      ]
+    },
+    "오이": {
+      "name": "오이",
+      "recipes": [
+        {
+          "id": "japanese_05eac5454041",
+          "name": "다타키큐리",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "오이"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "참기름",
+            "소금"
+          ]
+        },
+        {
+          "id": "japanese_83d36ae439fd",
+          "name": "스노모노",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "오이",
+            "미역",
+            "문어"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "우엉": {
+      "name": "우엉",
+      "recipes": [
+        {
+          "id": "japanese_61f8deeb0da0",
+          "name": "고보사라다",
+          "flavors": [
+            "savory",
+            "refreshing"
+          ],
+          "ingredients": [
+            "우엉",
+            "당근"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "간장",
+            "식초",
+            "참깨"
+          ]
+        },
+        {
+          "id": "japanese_f816f0bbc5ab",
+          "name": "킨피라고보",
+          "flavors": [
+            "sweet",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "우엉",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "마카로니": {
+      "name": "마카로니",
+      "recipes": [
+        {
+          "id": "japanese_4ecd68266c22",
+          "name": "마카로니 사라다",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "마카로니",
+            "오이",
+            "햄",
+            "당근"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "식초",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "여주": {
+      "name": "여주",
+      "recipes": [
+        {
+          "id": "japanese_152b78d8658d",
+          "name": "고야참프루",
+          "flavors": [
+            "bitter",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "여주",
+            "두부",
+            "돼지고기",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "가쓰오부시",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "문어": {
+      "name": "문어",
+      "recipes": [
+        {
+          "id": "japanese_ee8bbd8a0f0b",
+          "name": "타코와사비",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "문어",
+            "대파"
+          ],
+          "seasonings": [
+            "고추냉이",
+            "간장",
+            "미림"
+          ]
+        }
+      ]
+    },
+    "가다랑어": {
+      "name": "가다랑어",
+      "recipes": [
+        {
+          "id": "japanese_6a6fded0ead1",
+          "name": "가쓰오타타키",
+          "flavors": [
+            "umami",
+            "refreshing"
+          ],
+          "ingredients": [
+            "가다랑어",
+            "양파",
+            "마늘",
+            "대파"
+          ],
+          "seasonings": [
+            "폰즈소스",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "찹쌀가루": {
+      "name": "찹쌀가루",
+      "recipes": [
+        {
+          "id": "japanese_c6f265173a13",
+          "name": "다이후쿠",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "팥앙금"
+          ],
+          "seasonings": [
+            "설탕",
+            "전분"
+          ]
+        },
+        {
+          "id": "japanese_73f697470080",
+          "name": "미타라시당고",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "찹쌀가루",
+            "멥쌀가루"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "전분"
+          ]
+        }
+      ]
+    },
+    "고사리전분": {
+      "name": "고사리전분",
+      "recipes": [
+        {
+          "id": "japanese_228e6f4a3133",
+          "name": "와라비모치",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "고사리전분",
+            "콩가루"
+          ],
+          "seasonings": [
+            "설탕",
+            "흑설탕시럽"
+          ]
+        }
+      ]
+    },
+    "팥": {
+      "name": "팥",
+      "recipes": [
+        {
+          "id": "japanese_2d8a7260ab4e",
+          "name": "오시루코",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "팥",
+            "찹쌀떡"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금"
           ]
         }
       ]

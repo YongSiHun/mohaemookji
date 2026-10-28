@@ -43,6 +43,50 @@
             "소금",
             "후추"
           ]
+        },
+        {
+          "id": "other_4164288387e1",
+          "name": "부리토",
+          "flavors": [
+            "spicy",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "밥",
+            "소고기",
+            "강낭콩",
+            "토마토",
+            "치즈"
+          ],
+          "seasonings": [
+            "큐민",
+            "고춧가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_25ed1951561d",
+          "name": "엔칠라다",
+          "flavors": [
+            "spicy",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야",
+            "닭고기",
+            "토마토",
+            "치즈"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
         }
       ]
     },
@@ -130,6 +174,1128 @@
             "큐민",
             "소금",
             "올리브유"
+          ]
+        },
+        {
+          "id": "other_4a1a6c1be564",
+          "name": "파히타",
+          "flavors": [
+            "spicy",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "파프리카",
+            "양파",
+            "토르티야"
+          ],
+          "seasonings": [
+            "라임즙",
+            "큐민",
+            "고춧가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_04d87bb75404",
+          "name": "로모 살타도",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_18bfd242900f",
+          "name": "파벨론 크리오요",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "쌀",
+            "검은콩",
+            "플랜틴",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_51504cacfb78",
+          "name": "쾨프테",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "빵가루",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "큐민",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_3a3e0952ea5a",
+          "name": "하리라",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "병아리콩",
+            "렌틸콩",
+            "토마토",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "강황",
+            "생강가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_ef63ff7731aa",
+          "name": "마페",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "땅콩버터",
+            "토마토",
+            "고구마",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_701c8109fd22",
+          "name": "보보티",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "식빵",
+            "우유",
+            "계란",
+            "건포도",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "강황",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "토르티야칩": {
+      "name": "토르티야칩",
+      "recipes": [
+        {
+          "id": "other_06423eedbb9c",
+          "name": "나초",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "토르티야칩",
+            "체더 치즈",
+            "할라페뇨",
+            "토마토"
+          ],
+          "seasonings": [
+            "사워크림",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_1348c3365c6d",
+          "name": "칠라킬레스",
+          "flavors": [
+            "spicy",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "토르티야칩",
+            "토마토",
+            "계란",
+            "치즈"
+          ],
+          "seasonings": [
+            "살사소스",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "other_9d47b802f504",
+          "name": "우에보스 란체로스",
+          "flavors": [
+            "spicy",
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "토르티야",
+            "토마토",
+            "양파",
+            "강낭콩"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_cd86f50aec2c",
+          "name": "메네멘",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "계란",
+            "토마토",
+            "풋고추",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "옥수수": {
+      "name": "옥수수",
+      "recipes": [
+        {
+          "id": "other_a4418e76fea4",
+          "name": "엘로테",
+          "flavors": [
+            "spicy",
+            "savory",
+            "sweet"
+          ],
+          "ingredients": [
+            "옥수수",
+            "코티하 치즈"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "고춧가루",
+            "라임즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "other_25283177eb85",
+          "name": "포솔레",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "호미니",
+            "양배추",
+            "무"
+          ],
+          "seasonings": [
+            "건고추",
+            "오레가노",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "옥수수가루": {
+      "name": "옥수수가루",
+      "recipes": [
+        {
+          "id": "other_9f1ef91e8f10",
+          "name": "타말레스",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "돼지고기",
+            "옥수수잎"
+          ],
+          "seasonings": [
+            "라드",
+            "고춧가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_b194ef257db2",
+          "name": "아레파",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "옥수수가루",
+            "치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "버터"
+          ]
+        }
+      ]
+    },
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "other_07fbd990c61d",
+          "name": "몰레 포블라노",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "건고추",
+            "초콜릿",
+            "아몬드",
+            "참깨"
+          ],
+          "seasonings": [
+            "계피",
+            "소금",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_ea235b75bc04",
+          "name": "아히 데 가이나",
+          "flavors": [
+            "spicy",
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "우유",
+            "식빵",
+            "호두"
+          ],
+          "seasonings": [
+            "아히아마리요페이스트",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_4bcc28a09995",
+          "name": "코시냐",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "닭고기",
+            "밀가루",
+            "크림치즈",
+            "빵가루"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_5a7bfdc9f2bb",
+          "name": "샤와르마",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "피타빵",
+            "양파",
+            "토마토",
+            "요거트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "큐민",
+            "파프리카가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_670dd66623e8",
+          "name": "치킨 타진",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "올리브",
+            "절인레몬",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "생강가루",
+            "강황",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_965167c6c3bc",
+          "name": "도로 왓",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양파",
+            "계란"
+          ],
+          "seasonings": [
+            "베르베레",
+            "니테르키베",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_b6818181444e",
+          "name": "차호흐빌리",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마토",
+            "양파",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "고춧가루",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "흰살생선": {
+      "name": "흰살생선",
+      "recipes": [
+        {
+          "id": "other_e2405cad8e69",
+          "name": "세비체",
+          "flavors": [
+            "sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "적양파",
+            "고추",
+            "고수"
+          ],
+          "seasonings": [
+            "라임즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_67de842c345f",
+          "name": "모케카",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "흰살생선",
+            "새우",
+            "코코넛밀크",
+            "토마토",
+            "파프리카"
+          ],
+          "seasonings": [
+            "팜오일",
+            "라임즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "밀가루": {
+      "name": "밀가루",
+      "recipes": [
+        {
+          "id": "other_43009cdf9b3d",
+          "name": "엠파나다",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "양파",
+            "계란",
+            "올리브"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "파프리카가루",
+            "버터",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_bc9f21b3544e",
+          "name": "파스텔",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_6206e9a96062",
+          "name": "피데",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "토마토",
+            "파프리카",
+            "치즈"
+          ],
+          "seasonings": [
+            "소금",
+            "올리브유",
+            "이스트"
+          ]
+        },
+        {
+          "id": "other_b8be65505c9c",
+          "name": "라흐마준",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "토마토",
+            "양파",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "고춧가루",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_853f876cc625",
+          "name": "하차푸리",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "치즈",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "이스트"
+          ]
+        },
+        {
+          "id": "other_ad255d6da2c9",
+          "name": "힌칼리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "소고기",
+            "돼지고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "큐민"
+          ]
+        },
+        {
+          "id": "other_7b30f5a0c378",
+          "name": "삼사",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양고기",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "큐민",
+            "버터"
+          ]
+        }
+      ]
+    },
+    "검은콩": {
+      "name": "검은콩",
+      "recipes": [
+        {
+          "id": "other_f65df7181f14",
+          "name": "페이조아다",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "검은콩",
+            "돼지고기",
+            "소시지",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "양고기": {
+      "name": "양고기",
+      "recipes": [
+        {
+          "id": "other_45197d0c52c8",
+          "name": "쉬시 케밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "양파",
+            "파프리카",
+            "요거트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "큐민",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "other_c89082cc5938",
+          "name": "아다나 케밥",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "양파",
+            "고추"
+          ],
+          "seasonings": [
+            "소금",
+            "고춧가루",
+            "큐민"
+          ]
+        },
+        {
+          "id": "other_35c71e272d40",
+          "name": "이스켄데르 케밥",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "피타빵",
+            "토마토",
+            "요거트"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "파프리카가루"
+          ]
+        },
+        {
+          "id": "other_b158395ef86d",
+          "name": "만사프",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "쌀",
+            "자미드",
+            "아몬드"
+          ],
+          "seasonings": [
+            "소금",
+            "기버터",
+            "강황"
+          ]
+        },
+        {
+          "id": "other_e2165dcfbdf1",
+          "name": "양고기 타진",
+          "flavors": [
+            "sweet",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "말린살구",
+            "아몬드",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "계피",
+            "생강가루",
+            "소금",
+            "꿀"
+          ]
+        }
+      ]
+    },
+    "불구르": {
+      "name": "불구르",
+      "recipes": [
+        {
+          "id": "other_667a73faadfa",
+          "name": "타불레",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "불구르",
+            "파슬리",
+            "토마토",
+            "민트",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "other_426bf345db2b",
+          "name": "쿠베",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "불구르",
+            "양고기",
+            "양파",
+            "잣"
+          ],
+          "seasonings": [
+            "소금",
+            "올스파이스",
+            "큐민",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "피타빵": {
+      "name": "피타빵",
+      "recipes": [
+        {
+          "id": "other_3636de6f061d",
+          "name": "파투시",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "피타빵",
+            "토마토",
+            "오이",
+            "상추",
+            "무"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "수막",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "가지": {
+      "name": "가지",
+      "recipes": [
+        {
+          "id": "other_129060928b05",
+          "name": "바바가누쉬",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "가지",
+            "마늘"
+          ],
+          "seasonings": [
+            "타히니",
+            "레몬즙",
+            "올리브유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "빨간파프리카": {
+      "name": "빨간파프리카",
+      "recipes": [
+        {
+          "id": "other_82cd0d4cdea0",
+          "name": "무함마라",
+          "flavors": [
+            "spicy",
+            "savory",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "빨간파프리카",
+            "호두",
+            "빵가루"
+          ],
+          "seasonings": [
+            "석류몰라시스",
+            "올리브유",
+            "큐민",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "렌틸콩": {
+      "name": "렌틸콩",
+      "recipes": [
+        {
+          "id": "other_8a93c41b35d8",
+          "name": "무자다라",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "렌틸콩",
+            "쌀",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "큐민",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "other_16b17d93df30",
+          "name": "마클루바",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "가지",
+            "콜리플라워"
+          ],
+          "seasonings": [
+            "소금",
+            "올스파이스",
+            "강황",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_8a6f4f035ecf",
+          "name": "코샤리",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "마카로니",
+            "렌틸콩",
+            "병아리콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "식초",
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_35187196904c",
+          "name": "졸로프 라이스",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "토마토",
+            "파프리카",
+            "양파",
+            "고추"
+          ],
+          "seasonings": [
+            "소금",
+            "카레가루",
+            "타임",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_b91da40f18fe",
+          "name": "플로프",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "양고기",
+            "당근",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "큐민",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "누에콩": {
+      "name": "누에콩",
+      "recipes": [
+        {
+          "id": "other_f5b3328e914e",
+          "name": "풀 메다메스",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "누에콩",
+            "토마토",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "큐민",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "병아리콩가루": {
+      "name": "병아리콩가루",
+      "recipes": [
+        {
+          "id": "other_6af74c6bede6",
+          "name": "시로 왓",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "병아리콩가루",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "베르베레",
+            "마늘",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "테프가루": {
+      "name": "테프가루",
+      "recipes": [
+        {
+          "id": "other_c3f6d9418946",
+          "name": "인제라",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "테프가루"
+          ],
+          "seasonings": [
+            "소금"
+          ]
+        }
+      ]
+    },
+    "강낭콩": {
+      "name": "강낭콩",
+      "recipes": [
+        {
+          "id": "other_749137ccf97a",
+          "name": "차칼라카",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "강낭콩",
+            "토마토",
+            "당근",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "카레가루",
+            "고춧가루",
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "other_257a5831e75f",
+          "name": "로비오",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "강낭콩",
+            "양파",
+            "호두",
+            "고수"
+          ],
+          "seasonings": [
+            "소금",
+            "고수씨가루",
+            "식초",
+            "식용유"
           ]
         }
       ]

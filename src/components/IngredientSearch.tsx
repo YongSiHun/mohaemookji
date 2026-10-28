@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Highlight } from './RecipeCard';
+import { completeIngredientKeyword, getActiveKeyword } from '../utils/ingredientKeywords';
 
 interface IngredientSearchProps {
   value: string;
@@ -27,7 +28,7 @@ export function IngredientSearch({ value, suggestions, onChange }: IngredientSea
   }, []);
 
   function choose(keyword: string) {
-    onChange(keyword);
+    onChange(completeIngredientKeyword(value, keyword));
     input.current?.focus();
     setOpen(false);
     setActive(null);
@@ -54,7 +55,7 @@ export function IngredientSearch({ value, suggestions, onChange }: IngredientSea
           aria-describedby="input-help"
           autoComplete="off"
           maxLength={100}
-          placeholder="김치, 고추장, 계란 등 검색어를 입력하세요"
+          placeholder="여러 재료는 쉼표로 · 두부, 김치"
           onFocus={() => { setOpen(true); setActive(null); }}
           onChange={event => { onChange(event.target.value); setOpen(true); setActive(null); }}
           onKeyDown={event => {
@@ -97,7 +98,7 @@ export function IngredientSearch({ value, suggestions, onChange }: IngredientSea
                 onClick={() => choose(keyword)}
               >
                 <span className="suggestion-icon" aria-hidden="true">⌕</span>
-                <span><Highlight text={keyword} keyword={value}/></span>
+                <span><Highlight text={keyword} keyword={getActiveKeyword(value)}/></span>
                 <span className="suggestion-arrow" aria-hidden="true">↖</span>
               </button>
             ))}

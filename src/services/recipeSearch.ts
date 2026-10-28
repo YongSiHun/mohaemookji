@@ -1,6 +1,7 @@
 import aliases from '../data/ingredient_aliases.json' with { type: 'json' };
 import type { Recipe, SearchQuery, RankedRecipe } from '../types/recipe.ts';
 import { normalize, compareText } from '../utils/normalize.ts';
+import { parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
 export function queryTerms(keyword: string): string[] {
  const q=normalize(keyword); if(!q) return [];
  const terms=new Set([q]);
@@ -11,7 +12,7 @@ export function queryTerms(keyword: string): string[] {
  }
  return [...terms];
 }
-export const queryKey = (q: SearchQuery): string => JSON.stringify([[...new Set(q.flavors)].sort(compareText),normalize(q.ingredient)]);
+export const queryKey = (q: SearchQuery): string => JSON.stringify([[...new Set(q.flavors)].sort(compareText),parseIngredientKeywords(q.ingredient).map(normalize).sort(compareText)]);
 export function rankRecipe(recipe: Recipe, terms: string[]): number {
  if(!terms.length) return 0;
  const name=normalize(recipe.name), ingredients=recipe.ingredients.map(normalize), seasonings=recipe.seasonings.map(normalize);
@@ -23,6 +24,11 @@ export function rankRecipe(recipe: Recipe, terms: string[]): number {
 }
 export const compareRanked = (a: RankedRecipe, b: RankedRecipe): number => a.rank-b.rank || compareText(a.recipe.name,b.recipe.name) || compareText(a.recipe.id,b.recipe.id);
 export function searchRecipes(recipes: Recipe[], query: SearchQuery): RankedRecipe[] {
- const terms=queryTerms(query.ingredient);
- return recipes.filter(r=>query.flavors.length===0 || query.flavors.some(flavor=>r.flavors.includes(flavor))).map(recipe=>({recipe,rank:rankRecipe(recipe,terms)})).filter(r=>Number.isFinite(r.rank)).sort(compareRanked);
+ const groups=parseIngredientKeywords(query.ingredient).map(queryTerms);
+ return recipes.filter(recipe=>query.flavors.length===0 || query.flavors.some(flavor=>recipe.flavors.includes(flavor)))
+  .map(recipe=>{
+   const ranks=groups.map(terms=>rankRecipe(recipe,terms));
+   const rank=ranks.some(value=>!Number.isFinite(value)) ? Infinity : ranks.length ? Math.min(...ranks) : 0;
+   return {recipe,rank};
+  }).filter(item=>Number.isFinite(item.rank)).sort(compareRanked);
 }
