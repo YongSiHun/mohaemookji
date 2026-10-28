@@ -11,7 +11,7 @@ export function queryTerms(keyword: string): string[] {
  }
  return [...terms];
 }
-export const queryKey = (q: SearchQuery): string => JSON.stringify([q.flavor,normalize(q.ingredient)]);
+export const queryKey = (q: SearchQuery): string => JSON.stringify([[...new Set(q.flavors)].sort(compareText),normalize(q.ingredient)]);
 export function rankRecipe(recipe: Recipe, terms: string[]): number {
  if(!terms.length) return 0;
  const name=normalize(recipe.name), ingredients=recipe.ingredients.map(normalize), seasonings=recipe.seasonings.map(normalize);
@@ -24,5 +24,5 @@ export function rankRecipe(recipe: Recipe, terms: string[]): number {
 export const compareRanked = (a: RankedRecipe, b: RankedRecipe): number => a.rank-b.rank || compareText(a.recipe.name,b.recipe.name) || compareText(a.recipe.id,b.recipe.id);
 export function searchRecipes(recipes: Recipe[], query: SearchQuery): RankedRecipe[] {
  const terms=queryTerms(query.ingredient);
- return recipes.filter(r=>!query.flavor || r.flavors.includes(query.flavor)).map(recipe=>({recipe,rank:rankRecipe(recipe,terms)})).filter(r=>Number.isFinite(r.rank)).sort(compareRanked);
+ return recipes.filter(r=>query.flavors.length===0 || query.flavors.some(flavor=>r.flavors.includes(flavor))).map(recipe=>({recipe,rank:rankRecipe(recipe,terms)})).filter(r=>Number.isFinite(r.rank)).sort(compareRanked);
 }
