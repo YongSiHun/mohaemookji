@@ -1,0 +1,138 @@
+{
+  "cuisine": "other",
+  "categories": {
+    "토르티야": {
+      "name": "토르티야",
+      "recipes": [
+        {
+          "id": "taco",
+          "name": "타코",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "토르티야",
+            "소고기",
+            "양파",
+            "토마토",
+            "상추"
+          ],
+          "seasonings": [
+            "큐민",
+            "고춧가루",
+            "소금",
+            "라임즙"
+          ]
+        },
+        {
+          "id": "quesadilla",
+          "name": "퀘사디아",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "토르티야",
+            "치즈",
+            "닭고기",
+            "양파"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "병아리콩": {
+      "name": "병아리콩",
+      "recipes": [
+        {
+          "id": "hummus",
+          "name": "후무스",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "마늘"
+          ],
+          "seasonings": [
+            "타히니",
+            "레몬즙",
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "falafel",
+          "name": "팔라펠",
+          "flavors": [
+            "savory"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "양파",
+            "파슬리",
+            "마늘"
+          ],
+          "seasonings": [
+            "큐민",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "아보카도": {
+      "name": "아보카도",
+      "recipes": [
+        {
+          "id": "guacamole",
+          "name": "과카몰리",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "아보카도",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "라임즙",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "소고기": {
+      "name": "소고기",
+      "recipes": [
+        {
+          "id": "chili",
+          "name": "칠리 콘 카르네",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "강낭콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "큐민",
+            "소금",
+            "올리브유"
+          ]
+        }
+      ]
+    }
+  }
+}

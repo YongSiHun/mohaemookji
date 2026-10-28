@@ -1,0 +1,58 @@
+[
+  {
+    "id": "spicy",
+    "name": "매운"
+  },
+  {
+    "id": "sweet",
+    "name": "단"
+  },
+  {
+    "id": "sour",
+    "name": "새콤한"
+  },
+  {
+    "id": "refreshing",
+    "name": "상큼한"
+  },
+  {
+    "id": "sweet_sour",
+    "name": "새콤달콤한"
+  },
+  {
+    "id": "salty",
+    "name": "짠"
+  },
+  {
+    "id": "umami",
+    "name": "감칠맛"
+  },
+  {
+    "id": "bitter",
+    "name": "쓴"
+  },
+  {
+    "id": "cool",
+    "name": "시원한"
+  },
+  {
+    "id": "savory",
+    "name": "고소한"
+  },
+  {
+    "id": "rich",
+    "name": "진한"
+  },
+  {
+    "id": "light",
+    "name": "담백한"
+  },
+  {
+    "id": "greasy",
+    "name": "기름진"
+  },
+  {
+    "id": "clean",
+    "name": "깔끔한"
+  }
+]

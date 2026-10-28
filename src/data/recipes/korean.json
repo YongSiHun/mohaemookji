@@ -1,0 +1,1048 @@
+{
+  "cuisine": "korean",
+  "categories": {
+    "김치": {
+      "name": "김치",
+      "recipes": [
+        {
+          "id": "kimchi_stew",
+          "name": "김치찌개",
+          "flavors": [
+            "spicy",
+            "sour",
+            "umami"
+          ],
+          "ingredients": [
+            "김치",
+            "돼지고기",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "tuna_kimchi_stew",
+          "name": "참치 김치찌개",
+          "flavors": [
+            "spicy",
+            "sour",
+            "umami"
+          ],
+          "ingredients": [
+            "김치",
+            "참치",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "kimchi_rice",
+          "name": "김치볶음밥",
+          "flavors": [
+            "spicy",
+            "sour",
+            "savory"
+          ],
+          "ingredients": [
+            "김치",
+            "밥",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "식용유"
+          ]
+        },
+        {
+          "id": "tuna_kimchi_rice",
+          "name": "참치 김치볶음밥",
+          "flavors": [
+            "spicy",
+            "sour",
+            "savory"
+          ],
+          "ingredients": [
+            "김치",
+            "참치",
+            "밥",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "식용유"
+          ]
+        },
+        {
+          "id": "spam_kimchi_rice",
+          "name": "스팸 김치볶음밥",
+          "flavors": [
+            "spicy",
+            "salty"
+          ],
+          "ingredients": [
+            "김치",
+            "스팸",
+            "밥",
+            "계란"
+          ],
+          "seasonings": [
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "pork_kimchi_rice",
+          "name": "삼겹살 김치볶음밥",
+          "flavors": [
+            "spicy",
+            "greasy"
+          ],
+          "ingredients": [
+            "김치",
+            "삼겹살",
+            "밥",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름"
+          ]
+        },
+        {
+          "id": "bacon_kimchi_rice",
+          "name": "베이컨 김치볶음밥",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "김치",
+            "베이컨",
+            "밥"
+          ],
+          "seasonings": [
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "cheese_kimchi_rice",
+          "name": "치즈 김치볶음밥",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "김치",
+            "치즈",
+            "밥"
+          ],
+          "seasonings": [
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "kimchi_pancake",
+          "name": "김치전",
+          "flavors": [
+            "spicy",
+            "sour",
+            "savory"
+          ],
+          "ingredients": [
+            "김치",
+            "부침가루",
+            "양파"
+          ],
+          "seasonings": [
+            "식용유",
+            "고춧가루"
+          ]
+        },
+        {
+          "id": "tofu_kimchi",
+          "name": "두부김치",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "김치",
+            "두부",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "참기름",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "cold_kimchi_noodle",
+          "name": "김치말이국수",
+          "flavors": [
+            "cool",
+            "sour",
+            "clean"
+          ],
+          "ingredients": [
+            "김치",
+            "소면",
+            "오이",
+            "동치미"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "spicy_pork",
+          "name": "제육볶음",
+          "flavors": [
+            "spicy",
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "pork_bulgogi",
+          "name": "돼지불고기",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "pork_cutlet",
+          "name": "돈가스",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "계란",
+            "빵가루",
+            "밀가루"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추",
+            "돈가스소스"
+          ]
+        },
+        {
+          "id": "bossam",
+          "name": "보쌈",
+          "flavors": [
+            "light",
+            "savory"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "된장",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "삼겹살": {
+      "name": "삼겹살",
+      "recipes": [
+        {
+          "id": "pork_belly",
+          "name": "삼겹살구이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "삼겹살",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "목살": {
+      "name": "목살",
+      "recipes": [
+        {
+          "id": "pork_neck",
+          "name": "목살구이",
+          "flavors": [
+            "savory"
+          ],
+          "ingredients": [
+            "목살",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "gochujang_stew",
+          "name": "고추장찌개",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "감자",
+            "돼지고기",
+            "애호박",
+            "두부"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "다진 마늘",
+            "국간장"
+          ]
+        },
+        {
+          "id": "potato_pancake",
+          "name": "감자전",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "potato_braise",
+          "name": "감자조림",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "두부": {
+      "name": "두부",
+      "recipes": [
+        {
+          "id": "doenjang_stew",
+          "name": "된장찌개",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "두부",
+            "애호박",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "braised_tofu",
+          "name": "두부조림",
+          "flavors": [
+            "spicy",
+            "salty"
+          ],
+          "ingredients": [
+            "두부",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "tofu_pan",
+          "name": "두부부침",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "두부",
+            "계란"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "순두부": {
+      "name": "순두부",
+      "recipes": [
+        {
+          "id": "soft_tofu_stew",
+          "name": "순두부찌개",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "순두부",
+            "바지락",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "egg_roll",
+          "name": "계란말이",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "계란",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "식용유"
+          ]
+        },
+        {
+          "id": "steamed_egg",
+          "name": "계란찜",
+          "flavors": [
+            "light",
+            "savory"
+          ],
+          "ingredients": [
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "참기름"
+          ]
+        },
+        {
+          "id": "egg_rice",
+          "name": "간장계란밥",
+          "flavors": [
+            "salty",
+            "savory"
+          ],
+          "ingredients": [
+            "계란",
+            "밥"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름"
+          ]
+        }
+      ]
+    },
+    "소고기": {
+      "name": "소고기",
+      "recipes": [
+        {
+          "id": "beef_bulgogi",
+          "name": "소불고기",
+          "flavors": [
+            "sweet",
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "양파",
+            "대파",
+            "당면"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "beef_radish_soup",
+          "name": "소고기뭇국",
+          "flavors": [
+            "clean",
+            "light"
+          ],
+          "ingredients": [
+            "소고기",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "beef_jangjorim",
+          "name": "소고기 장조림",
+          "flavors": [
+            "salty",
+            "sweet"
+          ],
+          "ingredients": [
+            "소고기",
+            "메추리알",
+            "꽈리고추"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "맛술"
+          ]
+        }
+      ]
+    },
+    "미역": {
+      "name": "미역",
+      "recipes": [
+        {
+          "id": "seaweed_soup",
+          "name": "미역국",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "미역",
+            "소고기"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "chicken_stew",
+          "name": "닭볶음탕",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "설탕"
+          ]
+        },
+        {
+          "id": "chicken_braise",
+          "name": "찜닭",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "닭고기",
+            "당면",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ]
+        },
+        {
+          "id": "dakgalbi",
+          "name": "닭갈비",
+          "flavors": [
+            "spicy",
+            "sweet"
+          ],
+          "ingredients": [
+            "닭고기",
+            "양배추",
+            "고구마",
+            "떡"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "chicken_soup",
+          "name": "닭곰탕",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "닭고기",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "떡": {
+      "name": "떡",
+      "recipes": [
+        {
+          "id": "tteokbokki",
+          "name": "떡볶이",
+          "flavors": [
+            "spicy",
+            "sweet"
+          ],
+          "ingredients": [
+            "떡",
+            "어묵",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "설탕",
+            "간장"
+          ]
+        },
+        {
+          "id": "rabokki",
+          "name": "라볶이",
+          "flavors": [
+            "spicy",
+            "sweet"
+          ],
+          "ingredients": [
+            "떡",
+            "라면",
+            "어묵",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "밥": {
+      "name": "밥",
+      "recipes": [
+        {
+          "id": "bibimbap",
+          "name": "비빔밥",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "밥",
+            "시금치",
+            "콩나물",
+            "당근",
+            "계란"
+          ],
+          "seasonings": [
+            "고추장",
+            "참기름",
+            "간장"
+          ]
+        }
+      ]
+    },
+    "소면": {
+      "name": "소면",
+      "recipes": [
+        {
+          "id": "bibim_noodle",
+          "name": "비빔국수",
+          "flavors": [
+            "spicy",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "소면",
+            "오이",
+            "계란"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "참기름"
+          ]
+        },
+        {
+          "id": "banquet_noodle",
+          "name": "잔치국수",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "소면",
+            "애호박",
+            "계란",
+            "멸치"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "어묵": {
+      "name": "어묵",
+      "recipes": [
+        {
+          "id": "stir_fishcake",
+          "name": "어묵볶음",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "어묵",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "식용유",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "오징어": {
+      "name": "오징어",
+      "recipes": [
+        {
+          "id": "squid_stir",
+          "name": "오징어볶음",
+          "flavors": [
+            "spicy",
+            "sweet"
+          ],
+          "ingredients": [
+            "오징어",
+            "양파",
+            "양배추"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "콩나물": {
+      "name": "콩나물",
+      "recipes": [
+        {
+          "id": "bean_soup",
+          "name": "콩나물국",
+          "flavors": [
+            "cool",
+            "clean"
+          ],
+          "ingredients": [
+            "콩나물",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "오이": {
+      "name": "오이",
+      "recipes": [
+        {
+          "id": "cucumber_salad",
+          "name": "오이무침",
+          "flavors": [
+            "spicy",
+            "sweet_sour",
+            "refreshing"
+          ],
+          "ingredients": [
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "도토리묵": {
+      "name": "도토리묵",
+      "recipes": [
+        {
+          "id": "acorn_salad",
+          "name": "도토리묵무침",
+          "flavors": [
+            "bitter",
+            "savory"
+          ],
+          "ingredients": [
+            "도토리묵",
+            "상추",
+            "오이"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "참기름",
+            "식초"
+          ]
+        }
+      ]
+    },
+    "북어": {
+      "name": "북어",
+      "recipes": [
+        {
+          "id": "pollock_soup",
+          "name": "북엇국",
+          "flavors": [
+            "cool",
+            "clean"
+          ],
+          "ingredients": [
+            "북어",
+            "무",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "참기름",
+            "국간장",
+            "다진 마늘"
+          ]
+        }
+      ]
+    },
+    "고등어": {
+      "name": "고등어",
+      "recipes": [
+        {
+          "id": "spicy_mackerel",
+          "name": "고등어조림",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "고등어",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "고추장"
+          ]
+        }
+      ]
+    },
+    "멸치": {
+      "name": "멸치",
+      "recipes": [
+        {
+          "id": "stir_anchovy",
+          "name": "멸치볶음",
+          "flavors": [
+            "salty",
+            "savory"
+          ],
+          "ingredients": [
+            "멸치",
+            "아몬드"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "밀가루": {
+      "name": "밀가루",
+      "recipes": [
+        {
+          "id": "perilla_soup",
+          "name": "들깨수제비",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "애호박"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "무": {
+      "name": "무",
+      "recipes": [
+        {
+          "id": "radish_salad",
+          "name": "무생채",
+          "flavors": [
+            "spicy",
+            "refreshing"
+          ],
+          "ingredients": [
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "식초",
+            "설탕",
+            "소금"
+          ]
+        }
+      ]
+    }
+  }
+}

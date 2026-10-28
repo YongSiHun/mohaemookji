@@ -1,0 +1,153 @@
+{
+  "cuisine": "indian",
+  "categories": {
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "butter_chicken",
+          "name": "버터 치킨",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "닭고기",
+            "토마토",
+            "생크림",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "가람마살라",
+            "큐민",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "병아리콩": {
+      "name": "병아리콩",
+      "recipes": [
+        {
+          "id": "chana_masala",
+          "name": "차나 마살라",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "큐민",
+            "강황",
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "렌틸콩": {
+      "name": "렌틸콩",
+      "recipes": [
+        {
+          "id": "dal",
+          "name": "달 커리",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "렌틸콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "강황",
+            "큐민",
+            "기버터",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "aloo_gobi",
+          "name": "알루 고비",
+          "flavors": [
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "감자",
+            "콜리플라워",
+            "토마토"
+          ],
+          "seasonings": [
+            "강황",
+            "큐민",
+            "고춧가루",
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "시금치": {
+      "name": "시금치",
+      "recipes": [
+        {
+          "id": "palak_paneer",
+          "name": "팔락 파니르",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "시금치",
+            "파니르",
+            "양파",
+            "토마토"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "기버터",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "바스마티쌀": {
+      "name": "바스마티쌀",
+      "recipes": [
+        {
+          "id": "biryani",
+          "name": "치킨 비리야니",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "바스마티쌀",
+            "닭고기",
+            "양파",
+            "요거트"
+          ],
+          "seasonings": [
+            "가람마살라",
+            "강황",
+            "기버터",
+            "소금"
+          ]
+        }
+      ]
+    }
+  }
+}

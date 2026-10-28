@@ -1,0 +1,197 @@
+{
+  "cuisine": "southeast_asian",
+  "categories": {
+    "쌀국수": {
+      "name": "쌀국수",
+      "recipes": [
+        {
+          "id": "pad_thai",
+          "name": "팟타이",
+          "flavors": [
+            "sweet_sour",
+            "savory"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "새우",
+            "계란",
+            "숙주",
+            "땅콩"
+          ],
+          "seasonings": [
+            "피시소스",
+            "타마린드소스",
+            "설탕",
+            "식용유"
+          ]
+        },
+        {
+          "id": "pho",
+          "name": "쌀국수",
+          "flavors": [
+            "clean",
+            "cool"
+          ],
+          "ingredients": [
+            "쌀국수",
+            "소고기",
+            "숙주",
+            "고수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "소금",
+            "팔각"
+          ]
+        }
+      ]
+    },
+    "밥": {
+      "name": "밥",
+      "recipes": [
+        {
+          "id": "nasi_goreng",
+          "name": "나시고렝",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "밥",
+            "닭고기",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "삼발소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "basil_pork",
+          "name": "팟카파오무쌉",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "바질",
+            "마늘",
+            "고추",
+            "밥"
+          ],
+          "seasonings": [
+            "굴소스",
+            "피시소스",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "green_curry",
+          "name": "그린 커리",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "가지",
+            "코코넛밀크"
+          ],
+          "seasonings": [
+            "그린커리페이스트",
+            "피시소스",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "새우": {
+      "name": "새우",
+      "recipes": [
+        {
+          "id": "tom_yum",
+          "name": "똠얌꿍",
+          "flavors": [
+            "spicy",
+            "sour"
+          ],
+          "ingredients": [
+            "새우",
+            "버섯",
+            "레몬그라스",
+            "라임"
+          ],
+          "seasonings": [
+            "피시소스",
+            "똠얌페이스트"
+          ]
+        }
+      ]
+    },
+    "바게트": {
+      "name": "바게트",
+      "recipes": [
+        {
+          "id": "banh_mi",
+          "name": "반미",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "바게트",
+            "돼지고기",
+            "당근",
+            "무",
+            "고수"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "피시소스",
+            "식초",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "라이스페이퍼": {
+      "name": "라이스페이퍼",
+      "recipes": [
+        {
+          "id": "spring_roll",
+          "name": "월남쌈",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "라이스페이퍼",
+            "새우",
+            "당근",
+            "오이",
+            "쌀국수"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕"
+          ]
+        }
+      ]
+    }
+  }
+}

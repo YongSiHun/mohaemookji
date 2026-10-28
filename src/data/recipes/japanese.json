@@ -1,0 +1,278 @@
+{
+  "cuisine": "japanese",
+  "categories": {
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "oyakodon",
+          "name": "오야코동",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "닭고기",
+            "계란",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "가쓰오부시"
+          ]
+        },
+        {
+          "id": "teriyaki_chicken",
+          "name": "닭고기 데리야키",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "닭고기"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "소고기": {
+      "name": "소고기",
+      "recipes": [
+        {
+          "id": "gyudon",
+          "name": "규동",
+          "flavors": [
+            "sweet",
+            "salty"
+          ],
+          "ingredients": [
+            "소고기",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "돈가스": {
+      "name": "돈가스",
+      "recipes": [
+        {
+          "id": "katsudon",
+          "name": "가츠동",
+          "flavors": [
+            "sweet",
+            "salty",
+            "rich"
+          ],
+          "ingredients": [
+            "돈가스",
+            "계란",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "미림",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "japanese_curry",
+          "name": "일본식 카레",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "카레루",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "두부": {
+      "name": "두부",
+      "recipes": [
+        {
+          "id": "miso_soup",
+          "name": "미소시루",
+          "flavors": [
+            "light",
+            "clean"
+          ],
+          "ingredients": [
+            "두부",
+            "미역",
+            "대파"
+          ],
+          "seasonings": [
+            "미소된장",
+            "가쓰오부시"
+          ]
+        }
+      ]
+    },
+    "중화면": {
+      "name": "중화면",
+      "recipes": [
+        {
+          "id": "yakisoba",
+          "name": "야키소바",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "양배추",
+            "돼지고기",
+            "숙주"
+          ],
+          "seasonings": [
+            "우스터소스",
+            "굴소스",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "메밀면": {
+      "name": "메밀면",
+      "recipes": [
+        {
+          "id": "cold_soba",
+          "name": "메밀소바",
+          "flavors": [
+            "cool",
+            "clean"
+          ],
+          "ingredients": [
+            "메밀면",
+            "무",
+            "김",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "고추냉이"
+          ]
+        }
+      ]
+    },
+    "양배추": {
+      "name": "양배추",
+      "recipes": [
+        {
+          "id": "okonomiyaki",
+          "name": "오코노미야키",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "양배추",
+            "밀가루",
+            "계란",
+            "돼지고기"
+          ],
+          "seasonings": [
+            "오코노미야키소스",
+            "마요네즈",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "연어": {
+      "name": "연어",
+      "recipes": [
+        {
+          "id": "salmon_bowl",
+          "name": "연어덮밥",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "연어",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "고추냉이",
+            "식초"
+          ]
+        }
+      ]
+    },
+    "우동면": {
+      "name": "우동면",
+      "recipes": [
+        {
+          "id": "udon",
+          "name": "가락국수",
+          "flavors": [
+            "clean",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "유부",
+            "대파"
+          ],
+          "seasonings": [
+            "쯔유",
+            "가쓰오부시"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "tamagoyaki",
+          "name": "다마고야키",
+          "flavors": [
+            "sweet",
+            "light"
+          ],
+          "ingredients": [
+            "계란"
+          ],
+          "seasonings": [
+            "설탕",
+            "소금",
+            "미림",
+            "식용유"
+          ]
+        }
+      ]
+    }
+  }
+}

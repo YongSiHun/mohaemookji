@@ -1,0 +1,280 @@
+{
+  "cuisine": "chinese",
+  "categories": {
+    "두부": {
+      "name": "두부",
+      "recipes": [
+        {
+          "id": "mapo_tofu",
+          "name": "마파두부",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "돼지고기",
+            "대파"
+          ],
+          "seasonings": [
+            "두반장",
+            "굴소스",
+            "고춧가루",
+            "다진 마늘",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "egg_fried_rice",
+          "name": "계란볶음밥",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "계란",
+            "밥",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "새우": {
+      "name": "새우",
+      "recipes": [
+        {
+          "id": "shrimp_fried_rice",
+          "name": "새우볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "밥",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "식용유",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "토마토": {
+      "name": "토마토",
+      "recipes": [
+        {
+          "id": "tomato_egg",
+          "name": "토마토 계란볶음",
+          "flavors": [
+            "sweet_sour",
+            "light"
+          ],
+          "ingredients": [
+            "토마토",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "돼지고기": {
+      "name": "돼지고기",
+      "recipes": [
+        {
+          "id": "pepper_beef",
+          "name": "고추잡채",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "피망",
+            "양파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "식용유",
+            "다진 마늘"
+          ]
+        },
+        {
+          "id": "sweet_sour_pork",
+          "name": "탕수육",
+          "flavors": [
+            "sweet_sour",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "전분",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "간장",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "닭고기": {
+      "name": "닭고기",
+      "recipes": [
+        {
+          "id": "kung_pao",
+          "name": "궁보계정",
+          "flavors": [
+            "spicy",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "닭고기",
+            "땅콩",
+            "대파",
+            "건고추"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "가지": {
+      "name": "가지",
+      "recipes": [
+        {
+          "id": "stir_eggplant",
+          "name": "어향가지",
+          "flavors": [
+            "spicy",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "가지",
+            "돼지고기",
+            "대파"
+          ],
+          "seasonings": [
+            "두반장",
+            "간장",
+            "식초",
+            "설탕",
+            "다진 마늘",
+            "식용유"
+          ]
+        }
+      ]
+    },
+    "청경채": {
+      "name": "청경채",
+      "recipes": [
+        {
+          "id": "bok_choy",
+          "name": "청경채 굴소스볶음",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "청경채",
+            "마늘"
+          ],
+          "seasonings": [
+            "굴소스",
+            "식용유"
+          ]
+        },
+        {
+          "id": "mala_soup",
+          "name": "마라탕",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "청경채",
+            "두부",
+            "소고기",
+            "숙주"
+          ],
+          "seasonings": [
+            "마라소스",
+            "땅콩소스",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "중화면": {
+      "name": "중화면",
+      "recipes": [
+        {
+          "id": "jjamppong",
+          "name": "짬뽕",
+          "flavors": [
+            "spicy",
+            "cool"
+          ],
+          "ingredients": [
+            "중화면",
+            "오징어",
+            "홍합",
+            "배추",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "굴소스",
+            "간장",
+            "식용유"
+          ]
+        },
+        {
+          "id": "jajang",
+          "name": "짜장면",
+          "flavors": [
+            "salty",
+            "rich"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "양파",
+            "양배추"
+          ],
+          "seasonings": [
+            "춘장",
+            "설탕",
+            "식용유"
+          ]
+        }
+      ]
+    }
+  }
+}

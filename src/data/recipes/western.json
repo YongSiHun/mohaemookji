@@ -1,0 +1,334 @@
+{
+  "cuisine": "western",
+  "categories": {
+    "스파게티": {
+      "name": "스파게티",
+      "recipes": [
+        {
+          "id": "aglio_olio",
+          "name": "알리오 올리오",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "스파게티",
+            "마늘",
+            "페페론치노"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금"
+          ]
+        },
+        {
+          "id": "carbonara",
+          "name": "카르보나라",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "계란",
+            "판체타",
+            "페코리노 치즈"
+          ],
+          "seasonings": [
+            "후추",
+            "소금"
+          ]
+        },
+        {
+          "id": "tomato_pasta",
+          "name": "토마토 파스타",
+          "flavors": [
+            "sour",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "토마토",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "cream_pasta",
+          "name": "크림 파스타",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "생크림",
+            "베이컨",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        },
+        {
+          "id": "bolognese",
+          "name": "볼로네제 파스타",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "소고기",
+            "토마토",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "쌀": {
+      "name": "쌀",
+      "recipes": [
+        {
+          "id": "mushroom_risotto",
+          "name": "버섯 리소토",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "쌀",
+            "버섯",
+            "양파",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "소고기": {
+      "name": "소고기",
+      "recipes": [
+        {
+          "id": "steak",
+          "name": "소고기 스테이크",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "마늘",
+            "로즈메리"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "목살": {
+      "name": "목살",
+      "recipes": [
+        {
+          "id": "pork_steak",
+          "name": "목살 스테이크",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "목살",
+            "마늘",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "올리브유"
+          ]
+        }
+      ]
+    },
+    "식빵": {
+      "name": "식빵",
+      "recipes": [
+        {
+          "id": "french_toast",
+          "name": "프렌치토스트",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "식빵",
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "설탕"
+          ]
+        }
+      ]
+    },
+    "계란": {
+      "name": "계란",
+      "recipes": [
+        {
+          "id": "omelette",
+          "name": "오믈렛",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "계란",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "감자": {
+      "name": "감자",
+      "recipes": [
+        {
+          "id": "potato_salad",
+          "name": "감자 샐러드",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "감자",
+            "오이",
+            "당근",
+            "계란"
+          ],
+          "seasonings": [
+            "마요네즈",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    },
+    "토마토": {
+      "name": "토마토",
+      "recipes": [
+        {
+          "id": "greek_salad",
+          "name": "그릭 샐러드",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "토마토",
+            "오이",
+            "페타 치즈",
+            "올리브",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ]
+        },
+        {
+          "id": "shakshuka",
+          "name": "샥슈카",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "토마토",
+            "계란",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "올리브유",
+            "큐민",
+            "파프리카가루",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "단호박": {
+      "name": "단호박",
+      "recipes": [
+        {
+          "id": "pumpkin_soup",
+          "name": "단호박 수프",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "단호박",
+            "우유",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금"
+          ]
+        }
+      ]
+    },
+    "새우": {
+      "name": "새우",
+      "recipes": [
+        {
+          "id": "garlic_shrimp",
+          "name": "감바스 알 아히요",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "새우",
+            "마늘",
+            "페페론치노"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ]
+        }
+      ]
+    }
+  }
+}

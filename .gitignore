@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+*.local
+artifacts/
+.npm-cache/
+.wrangler-config/
+
+.yarn/
+yarn-error.log
