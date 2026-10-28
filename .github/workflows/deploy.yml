@@ -1,57 +1,54 @@
-name: Deploy to Cloudflare
+name: Build
 
 on:
   push:
-    branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: cloudflare-production
-  cancel-in-progress: false
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  deploy:
-    if: github.ref == 'refs/heads/main'
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version-file: .node-version
           package-manager-cache: false
 
-      - name: Set up Yarn Classic
-        run: |
-          corepack enable
-          corepack prepare yarn@1.22.22 --activate
-          yarn --version
+      - name: Install Yarn 1.22.22
+        run: npm install --global yarn@1.22.22
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile --non-interactive
+        shell: bash
+        run: |
+          if [ -f yarn.lock ]; then
+            yarn install --frozen-lockfile
+          else
+            # Bootstrap the first build before the initial lockfile is committed.
+            yarn install --non-interactive
+          fi
+
+      - name: Check formatting
+        run: yarn prettier --check .
 
       - name: Lint
-        run: yarn eslint . --max-warnings=0
+        run: yarn eslint . --max-warnings 0
+
+      - name: Test
+        run: node --experimental-strip-types --test tests/core.test.mjs
 
       - name: Build
         run: yarn build
-
-      - name: Test
-        run: node --experimental-strip-types --test tests/*.test.ts
-
-      - name: Deploy static assets
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID to repository Actions secrets."
-            exit 1
-          fi
-          yarn wrangler deploy
