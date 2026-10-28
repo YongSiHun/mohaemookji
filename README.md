@@ -12,3 +12,5 @@ yarn lint:fix   # 코드 검사 및 자동 수정
 ```
 
 http://localhost:5173 · 요리 JSON 변경도 자동 반영됩니다.
+
+폰트: 상단 로고 ‘모해묵지’와 메인 제목 ‘오늘 뭐해 먹지?’만 [카페24 써라운드](https://fonts.cafe24.com), 나머지 모든 글자는 [Pretendard](https://github.com/orioncactus/pretendard). 폰트 로딩 실패 시 시스템 글꼴로 대체됩니다.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bold",
+    "name": "자극적인 맛",
+    "flavors": [
+      "spicy",
+      "salty",
+      "bitter"
+    ]
+  },
+  {
+    "id": "bright",
+    "name": "달고 산뜻한 맛",
+    "flavors": [
+      "sweet",
+      "sweet_sour",
+      "sour",
+      "refreshing"
+    ]
+  },
+  {
+    "id": "deep",
+    "name": "고소하고 깊은 맛",
+    "flavors": [
+      "savory",
+      "umami",
+      "rich",
+      "greasy"
+    ]
+  },
+  {
+    "id": "light",
+    "name": "가볍고 개운한 맛",
+    "flavors": [
+      "light",
+      "clean",
+      "cool"
+    ]
+  }
+]
