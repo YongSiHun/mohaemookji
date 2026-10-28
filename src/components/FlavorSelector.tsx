@@ -1,21 +1,24 @@
-import flavors from '../data/flavors.json';
-import groups from '../data/flavor_groups.json';
+import type { FlavorSelectorProps } from '../types/components';
+import flavors from '../../data/flavors.json' with { type: 'json' };
+import groups from '../../data/flavor_groups.json' with { type: 'json' };
 
-interface FlavorSelectorProps {
-  selected: readonly string[];
-  onChange: (flavors: string[]) => void;
-}
-
+/** 맛 선택 */
 export function FlavorSelector({ selected, onChange }: FlavorSelectorProps) {
   return (
     <div className="flavor-groups" aria-describedby="flavor-help">
-      {groups.map(group => (
-        <div className="flavor-group" key={group.id} role="group" aria-labelledby={'flavor-group-' + group.id}>
+      {groups.map((group) => (
+        <div
+          className="flavor-group"
+          key={group.id}
+          role="group"
+          aria-labelledby={'flavor-group-' + group.id}
+        >
           <h3 id={'flavor-group-' + group.id}>{group.name}</h3>
-          <div className={'flavors flavor-group-options count-' + group.flavors.length}>
-            {group.flavors.map(id => {
-              const flavor = flavors.find(item => item.id === id);
-              if (!flavor) return null;
+          <div className="flavors">
+            {group.flavors.map((id) => {
+              const flavor = flavors.find((item) => item.id === id);
+              const isUnknownFlavor = !flavor;
+              if (isUnknownFlavor) return null;
               const active = selected.includes(id);
               return (
                 <button
@@ -23,10 +26,16 @@ export function FlavorSelector({ selected, onChange }: FlavorSelectorProps) {
                   key={id}
                   className={'flavor' + (active ? ' selected' : '')}
                   aria-pressed={active}
-                  onClick={() => onChange(active ? selected.filter(value => value !== id) : [...selected, id])}
+                  onClick={() =>
+                    onChange(active ? selected.filter((value) => value !== id) : [...selected, id])
+                  }
                 >
                   {flavor.name}
-                  {active && <span className="flavor-check" aria-hidden="true">✓</span>}
+                  {active && (
+                    <span className="flavor-check" aria-hidden="true">
+                      ✓
+                    </span>
+                  )}
                 </button>
               );
             })}

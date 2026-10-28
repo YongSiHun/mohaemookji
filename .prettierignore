@@ -1,0 +1,11 @@
+node_modules/
+dist/
+artifacts/
+.yarn/
+.npm-cache/
+.wrangler/
+.wrangler-config/
+public/data/
+data/recipes/*.json
+yarn.lock
+.husky/_/

@@ -1,2 +1,6 @@
 import Home from './pages/Home';
-export default function App(){return <Home/>;}
+
+/** 앱 진입 */
+export default function App() {
+  return <Home />;
+}

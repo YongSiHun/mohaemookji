@@ -8,3 +8,5 @@ artifacts/
 
 .yarn/
 yarn-error.log
+
+.husky/_/
