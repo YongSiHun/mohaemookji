@@ -658,6 +658,9 @@ mark {
     margin: 30px 0;
     gap: 10px;
   }
+  .bottom-note span {
+    font-size: inherit;
+  }
   .site-footer {
     gap: 10px;
     flex-wrap: wrap;
