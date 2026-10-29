@@ -457,7 +457,7 @@ mark {
   color: #6d5947;
 }
 .bottom-note span {
-  font-size: max(12px, 0.875em);
+  font-size: inherit;
   color: inherit;
 }
 .site-footer {
