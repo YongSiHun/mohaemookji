@@ -76,8 +76,23 @@ function parseRecipe(
   const seasonings = parseTextList(raw.seasonings, id + ' seasonings', context);
   const hasUnknownFlavor = flavors.some((flavor) => !context.flavors.includes(flavor));
   if (hasUnknownFlavor) fail(context, id + ' 잘못된 맛 태그');
+  const description = raw.description;
+  const hasInvalidDescription =
+    description !== undefined && (!isNonEmptyText(description) || description.length > 256);
+  if (hasInvalidDescription) fail(context, id + ' description는 1~256자 문자열이어야 합니다');
   registerIdentity(id, name, context);
-  return { id, name, cuisine, flavors, ingredients, seasonings };
+  return {
+    id,
+    name,
+    cuisine,
+    category,
+    flavors,
+    ingredients,
+    seasonings,
+    ...(typeof description === 'string'
+      ? { description: description.trim().normalize('NFC') }
+      : {}),
+  };
 }
 
 /** 권역 메뉴 파싱 */
@@ -85,7 +100,7 @@ function parseSource(source: unknown, context: SourceValidationContext): Recipe[
   assertSource(source, context);
   return Object.entries(source.categories).flatMap(([category, value]) => {
     assertCategory(value, category, context);
-    return value.recipes.map((raw) => parseRecipe(raw, source.cuisine, category, context));
+    return value.recipes.map((raw) => parseRecipe(raw, source.cuisine, value.name, context));
   });
 }
 

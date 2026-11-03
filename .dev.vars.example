@@ -1,0 +1,3 @@
+# Google AdSense 개인정보 보호 및 메시지 화면에서 발급된 CMP 태그의 src를 확인하세요.
+# 이 예시는 자동 적용되지 않습니다. 미설정 시 모든 지역에서 광고 요청을 보류합니다.
+GOOGLE_CMP_SCRIPT_URL=

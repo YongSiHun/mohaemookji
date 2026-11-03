@@ -1,9 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mohaemookji",
+  "main": "src/worker.ts",
   "compatibility_date": "2026-10-28",
   "assets": {
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "directory": "./dist",
-    "not_found_handling": "single-page-application",
+    "not_found_handling": "404-page",
   },
 }

@@ -4,9 +4,11 @@ export interface RecipeSource {
   flavors: string[];
   ingredients: string[];
   seasonings: string[];
+  description?: string;
 }
 export interface Recipe extends RecipeSource {
   cuisine: string;
+  category?: string;
 }
 export interface SearchQuery {
   flavors: readonly string[];

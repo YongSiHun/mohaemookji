@@ -5,7 +5,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <a className="brand" href="#" aria-label={BRAND.name + ' 홈'}>
+        <a className="brand" href="/" aria-label={BRAND.name + ' 홈'}>
           <img src="/logo.svg" width="48" height="48" alt="" />
           <span>{BRAND.name}</span>
         </a>
@@ -18,12 +18,25 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="site-footer shell">
-      <a className="brand footer-brand" href="#">
+      <a className="brand footer-brand" href="/">
         <img src="/logo.svg" width="27" height="27" alt="" />
         {BRAND.name}
       </a>
       <p>오늘도 맛있는 한 끼 하세요.</p>
       <div className="footer-details">
+        <nav className="footer-nav" aria-label="서비스 안내">
+          <a href="/about/">서비스 소개</a>
+          <a href="/privacy/">개인정보·쿠키</a>
+          <a href="/terms/">이용약관</a>
+          <button
+            type="button"
+            className="privacy-settings"
+            onClick={() => window.dispatchEvent(new Event('open-ad-privacy'))}
+          >
+            광고 개인정보 설정
+          </button>
+        </nav>
+        <span id="ad-privacy-status" role="status" aria-live="polite" />
         <a href={'mailto:' + BRAND.contactEmail}>{BRAND.contactEmail}</a>
         <span>
           © {new Date().getFullYear()} {BRAND.englishName}. All rights reserved.

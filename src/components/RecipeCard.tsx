@@ -41,6 +41,8 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
           <span key={f}>{flavors.find((v) => v.id === f)?.name}</span>
         ))}
       </div>
+      {recipe.category && <p className="recipe-category">분류 기준 재료: {recipe.category}</p>}
+      {recipe.description && <p className="recipe-description">{recipe.description}</p>}
       <dl>
         <div>
           <dt>주재료</dt>

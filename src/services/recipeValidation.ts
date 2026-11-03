@@ -33,11 +33,17 @@ function isFlavorList(value: unknown): value is string[] {
   return isTextList(value) && value.every((id) => FLAVOR_IDS.has(id));
 }
 
+function isOptionalText(value: unknown): boolean {
+  return value === undefined || isText(value);
+}
+
 /** 메뉴 필드 검증 */
 function isRecipe(value: unknown): value is Recipe {
   const isNotRecord = !isRecord(value);
   if (isNotRecord) return false;
   return (
+    isOptionalText(value.description) &&
+    isOptionalText(value.category) &&
     isText(value.id) &&
     isText(value.name) &&
     isCuisine(value.cuisine) &&

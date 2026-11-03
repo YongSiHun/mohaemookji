@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "node --experimental-strip-types scripts/build-recipes.ts && tsc --noEmit && vite build",
+    "build": "node --experimental-strip-types scripts/build-recipes.ts && tsc --noEmit && vite build && node --experimental-strip-types scripts/prerender.ts",
     "lint:fix": "eslint . --fix --max-warnings=0",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",

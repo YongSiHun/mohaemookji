@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import type { SearchQuery } from '../types/recipe';
 import { EMPTY_SEARCH_QUERY, EMPTY_RECIPES } from '../constants/recipes';
 import { useRecipeData } from '../hooks/useRecipeData';
@@ -11,6 +11,7 @@ import { ActiveConditions } from '../components/ActiveConditions';
 import { MenuResults } from '../components/MenuResults';
 import { RefreshButton } from '../components/RefreshButton';
 import { RecipeGuide } from '../components/RecipeGuide';
+import { MenuHelp } from '../components/MenuHelp';
 
 /** 홈 화면 조합 */
 export default function Home() {
@@ -24,6 +25,12 @@ export default function Home() {
     (isLoading
       ? '메뉴 데이터를 불러오는 중입니다.'
       : search.visibleRecipes.length + '개의 메뉴 후보를 표시하고 있어요.');
+
+  useEffect(() => {
+    const ready = isReady && search.visibleRecipes.length > 0;
+    document.documentElement.dataset.adsContentReady = String(ready);
+    window.dispatchEvent(new Event('ads-content-ready'));
+  }, [isReady, search.visibleRecipes.length]);
 
   /** 검색 적용·결과 이동 */
   function apply(query: SearchQuery, scroll = true) {
@@ -99,6 +106,7 @@ export default function Home() {
             onReset={reset}
           />
         </section>
+        <MenuHelp />
         <RecipeGuide />
       </main>
       <SiteFooter />
