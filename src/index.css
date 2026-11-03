@@ -19,6 +19,8 @@
 html,
 body {
   min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -101,7 +103,7 @@ button:disabled {
   background: var(--primary);
 }
 h1 {
-  font-size: 62px;
+  font-size: clamp(28px, 4.3vw + 10px, 62px);
   line-height: 1.15;
   letter-spacing: -3.5px;
   font-weight: 850;
@@ -118,7 +120,8 @@ h1 {
   margin: 0;
 }
 .bowl-art {
-  width: 340px;
+  width: clamp(220px, 28vw, 340px);
+  height: auto;
   flex-shrink: 0;
 }
 .search-panel {
@@ -551,10 +554,9 @@ mark {
     padding-inline: 8px;
   }
   .bowl-art {
-    width: clamp(160px, 28vw, 280px);
+    width: clamp(160px, 25vw, 250px);
   }
   h1 {
-    font-size: clamp(34px, 5.2vw, 52px);
     letter-spacing: -1.5px;
   }
   .results-note {
@@ -565,6 +567,11 @@ mark {
   }
   .hero-copy {
     font-size: 16px;
+  }
+}
+@media (max-width: 760px) {
+  .bowl-art {
+    display: none;
   }
 }
 @media (max-width: 600px) {
@@ -581,7 +588,6 @@ mark {
     font-size: 10px;
   }
   h1 {
-    font-size: clamp(34px, 7vw, 43px);
     letter-spacing: -1.5px;
     margin-bottom: 16px;
   }
@@ -593,7 +599,7 @@ mark {
     display: none;
   }
   .search-panel {
-    padding: 23px 18px;
+    padding: clamp(18px, 4vw, 23px) clamp(14px, 3.6vw, 18px);
     border-radius: 17px;
   }
   .section-label {
@@ -644,8 +650,11 @@ mark {
   .results-heading h2 {
     font-size: 23px;
   }
+  .recipe-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
   .recipe-card {
-    padding: 21px 22px 0;
+    padding: 21px clamp(16px, 4vw, 22px) 0;
   }
   .recipe-card h3 {
     font-size: 22px;
@@ -793,7 +802,7 @@ mark {
 }
 @media (max-width: 600px) {
   .site-header .brand {
-    font-size: 30px;
+    font-size: clamp(26px, 6vw, 30px);
   }
   .header-inner {
     height: auto;
@@ -930,7 +939,7 @@ mark {
   line-height: 1.5;
 }
 .search-actions .primary-button {
-  width: clamp(200px, 26vw, 260px);
+  width: clamp(220px, 26vw, 260px);
   max-width: 100%;
   min-width: 0;
   height: clamp(48px, 5.6vw, 56px);
@@ -943,6 +952,10 @@ mark {
 @media (max-width: 600px) {
   .hero .eyebrow {
     font-size: 15px;
+  }
+  .search-actions .primary-button {
+    width: 100%;
+    min-height: 52px;
   }
 }
 
@@ -979,6 +992,9 @@ mark {
   display: none;
 }
 @media (max-width: 600px) {
+  .search-guidance {
+    font-size: 14px;
+  }
   .flavor-selection-info {
     flex-basis: 100%;
     padding-left: 34px;

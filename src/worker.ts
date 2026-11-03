@@ -1,4 +1,4 @@
-/** 정적 자산은 그대로 제공하고 HTML에 요청별 CSP nonce를 적용한다. */
+/** 정적 자산을 같은 origin에서 제공하고 HTML에 요청별 CSP nonce를 적용한다. */
 interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
   GOOGLE_CMP_SCRIPT_URL?: string;
@@ -39,24 +39,42 @@ function cmpTag(value: string | undefined, nonce: string): string {
   );
 }
 
+/** 모든 운영 HTTP 요청을 HTTPS로 연결하고 로컬 개발 환경은 유지한다. */
+function shouldRedirectToHttps(url: URL): boolean {
+  const local =
+    url.hostname === 'localhost' ||
+    url.hostname.endsWith('.localhost') ||
+    url.hostname === '[::1]' ||
+    /^127\.\d+\.\d+\.\d+$/.test(url.hostname);
+  return url.protocol === 'http:' && !local;
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+    const redirectToHttps = shouldRedirectToHttps(url);
+    if (redirectToHttps) {
+      url.protocol = 'https:';
+      return Response.redirect(url.href, 308);
+    }
     const asset = await env.ASSETS.fetch(request);
     const html = asset.headers.get('content-type')?.includes('text/html');
     const notHtml = !html;
     if (notHtml) return asset;
     const nonce = btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(24))));
     const headers = new Headers(asset.headers);
+    // HTTP에서 강제 업그레이드하면 module JS와 fetch의 origin이 달라질 수 있다.
+    // HTTPS 문서에서만 혼합 콘텐츠 방지 정책을 적용한다.
     headers.set(
       'Content-Security-Policy',
       "object-src 'none'; base-uri 'none'; script-src 'nonce-" +
         nonce +
-        "' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' https: http:; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests",
+        "' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' https: http:; frame-ancestors 'none'; form-action 'self'" +
+        (url.protocol === 'https:' ? '; upgrade-insecure-requests' : ''),
     );
     headers.set('Cache-Control', 'no-store');
     headers.delete('etag');
     headers.delete('content-length');
-    const url = new URL(request.url);
     const queryPage = url.search.length > 0;
     if (queryPage) headers.set('X-Robots-Tag', 'noindex, follow');
     const knownPage = ['/', '/about/', '/privacy/', '/terms/'].includes(url.pathname);
