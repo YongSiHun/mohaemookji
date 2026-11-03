@@ -1,7 +1,7 @@
 import { useMemo, useReducer } from 'react';
 import type { Recipe, SearchQuery } from '../types/recipe';
 import { INITIAL_MENU_SEARCH_STATE } from '../constants/recipes';
-import { searchRecipes } from '../services/recipeSearch';
+import { buildRecipeSearchIndex, searchRecipeIndex } from '../services/recipeSearch';
 import { shuffleRecipes } from '../services/shuffleRecipes';
 import { buildSuggestionIndex, suggestSearchTerms } from '../services/searchSuggestions';
 import { menuSearchReducer } from '../services/menuSearchState';
@@ -10,9 +10,10 @@ import { menuSearchReducer } from '../services/menuSearchState';
 export function useMenuSearch(recipes: readonly Recipe[]) {
   const [state, dispatch] = useReducer(menuSearchReducer, INITIAL_MENU_SEARCH_STATE);
   const { draft, applied, visibleCount } = state;
+  const searchIndex = useMemo(() => buildRecipeSearchIndex(recipes), [recipes]);
   const candidates = useMemo(
-    () => shuffleRecipes(searchRecipes(recipes, applied, false)),
-    [recipes, applied],
+    () => shuffleRecipes(searchRecipeIndex(searchIndex, applied, false)),
+    [searchIndex, applied],
   );
   const suggestionIndex = useMemo(() => buildSuggestionIndex(recipes), [recipes]);
   const suggestions = useMemo(

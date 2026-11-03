@@ -4,9 +4,11 @@ export function RecipeGuide() {
     <aside className="bottom-note">
       <img src="/logo.svg" width="25" height="25" alt="" />
       <p>
-        메뉴는 모해묵지에서 발견하고, 요리는 유튜브와 함께
+        메뉴는 모해묵지에서 발견하고, 조리법도 함께 살펴보세요
         <br />
-        <span>카드를 클릭하면 유튜브 검색 결과가 새 탭에서 열려요.</span>
+        <span>
+          카드를 클릭하면 요리 상세 페이지가 열려요. 영상 검색은 상세 페이지에서 이용할 수 있어요.
+        </span>
       </p>
     </aside>
   );

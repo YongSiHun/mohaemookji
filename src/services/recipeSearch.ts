@@ -1,3 +1,4 @@
+import type { PreparedRecipe } from '../types/search.ts';
 import { ALIAS_GROUPS } from '../constants/search.ts';
 import type { Recipe, SearchQuery, RankedRecipe } from '../types/recipe.ts';
 import { normalize, compareText } from '../utils/normalize.ts';
@@ -28,41 +29,46 @@ export const queryKey = (query: SearchQuery): string =>
     parseIngredientKeywords(query.ingredient).map(normalize).sort(compareText),
   ]);
 
-/** 관련도 산정 */
-export function rankRecipe(recipe: Recipe, terms: string[]): number {
-  const hasNoTerms = terms.length === 0;
-  if (hasNoTerms) return 0;
-  const name = normalize(recipe.name);
-  const ingredients = recipe.ingredients.map(normalize);
-  const seasonings = recipe.seasonings.map(normalize);
-
-  /** 정확 일치 */
-  const exact = (value: string) => terms.includes(value);
-
-  /** 부분 일치 */
-  const partial = (value: string) => terms.some((term) => value.includes(term));
-
-  const matches = [
-    exact(name),
-    partial(name),
-    ingredients.some(exact),
-    seasonings.some(exact),
-    ingredients.some(partial),
-    seasonings.some(partial),
-  ];
-  const rank = matches.findIndex(Boolean);
-  const hasMatch = rank >= 0;
-  return hasMatch ? rank : Infinity;
+/** 요리 문자열은 데이터가 바뀔 때 한 번만 정규화한다. */
+export function buildRecipeSearchIndex(recipes: readonly Recipe[]): PreparedRecipe[] {
+  return recipes.map((recipe) => ({
+    recipe,
+    name: normalize(recipe.name),
+    ingredients: recipe.ingredients.map(normalize),
+    seasonings: recipe.seasonings.map(normalize),
+  }));
 }
-
-/** 복수 재료 관련도 */
-function rankKeywordGroups(recipe: Recipe, groups: string[][]): number {
-  const hasNoGroups = groups.length === 0;
-  if (hasNoGroups) return 0;
-  const ranks = groups.map((terms) => rankRecipe(recipe, terms));
-  const hasMissingKeyword = ranks.some((rank) => !Number.isFinite(rank));
-  if (hasMissingKeyword) return Infinity;
-  return Math.min(...ranks);
+function rankPrepared(recipe: PreparedRecipe, terms: readonly string[]): number {
+  const exact = (value: string) => terms.includes(value);
+  const partial = (value: string) => terms.some((term) => value.includes(term));
+  const nameExact = exact(recipe.name);
+  if (nameExact) return 0;
+  const namePartial = partial(recipe.name);
+  if (namePartial) return 1;
+  const ingredientExact = recipe.ingredients.some(exact);
+  if (ingredientExact) return 2;
+  const seasoningExact = recipe.seasonings.some(exact);
+  if (seasoningExact) return 3;
+  const ingredientPartial = recipe.ingredients.some(partial);
+  if (ingredientPartial) return 4;
+  const seasoningPartial = recipe.seasonings.some(partial);
+  return seasoningPartial ? 5 : Infinity;
+}
+/** 공개 단건 API의 관련도 규칙은 유지한다. */
+export function rankRecipe(recipe: Recipe, terms: string[]): number {
+  const empty = terms.length === 0;
+  if (empty) return 0;
+  return rankPrepared(buildRecipeSearchIndex([recipe])[0], terms);
+}
+function rankKeywordGroups(recipe: PreparedRecipe, groups: string[][]): number {
+  let rank = Infinity;
+  for (const terms of groups) {
+    const current = rankPrepared(recipe, terms);
+    const missing = !Number.isFinite(current);
+    if (missing) return Infinity;
+    rank = Math.min(rank, current);
+  }
+  return groups.length === 0 ? 0 : rank;
 }
 
 /** 관련도 비교 */
@@ -71,20 +77,28 @@ export const compareRanked = (a: RankedRecipe, b: RankedRecipe): number =>
   compareText(a.recipe.name, b.recipe.name) ||
   compareText(a.recipe.id, b.recipe.id);
 
-/** 메뉴 검색 */
+/** 준비된 인덱스를 재사용하는 메뉴 검색 */
+export function searchRecipeIndex(
+  index: readonly PreparedRecipe[],
+  query: SearchQuery,
+  sort = true,
+): RankedRecipe[] {
+  const groups = parseIngredientKeywords(query.ingredient).map(queryTerms);
+  const found = index
+    .filter(
+      ({ recipe }) =>
+        query.flavors.length === 0 ||
+        query.flavors.some((flavor) => recipe.flavors.includes(flavor)),
+    )
+    .map((entry) => ({ recipe: entry.recipe, rank: rankKeywordGroups(entry, groups) }))
+    .filter((item) => Number.isFinite(item.rank));
+  return sort ? found.sort(compareRanked) : found;
+}
+/** 기존 호출부와 하위 호환 */
 export function searchRecipes(
   recipes: readonly Recipe[],
   query: SearchQuery,
   sort = true,
 ): RankedRecipe[] {
-  const groups = parseIngredientKeywords(query.ingredient).map(queryTerms);
-  const found = recipes
-    .filter(
-      (recipe) =>
-        query.flavors.length === 0 ||
-        query.flavors.some((flavor) => recipe.flavors.includes(flavor)),
-    )
-    .map((recipe) => ({ recipe, rank: rankKeywordGroups(recipe, groups) }))
-    .filter((item) => Number.isFinite(item.rank));
-  return sort ? found.sort(compareRanked) : found;
+  return searchRecipeIndex(buildRecipeSearchIndex(recipes), query, sort);
 }

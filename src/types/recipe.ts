@@ -1,3 +1,36 @@
+export interface RecipeAmount {
+  name: string;
+  amount?: string;
+  optional?: boolean;
+}
+export interface RecipeReference {
+  name: string;
+  url: string;
+}
+export interface RecipeImage {
+  src: string;
+  alt: string;
+  credit: string;
+  sourceUrl: string;
+  license: string;
+  licenseUrl: string;
+}
+export interface RecipeContent {
+  introduction: string;
+  difficulty: 'easy' | 'medium' | 'hard';
+  totalMinutes?: number;
+  timeNote?: string;
+  servings: string;
+  measurementNote?: string;
+  ingredients: RecipeAmount[];
+  seasonings: RecipeAmount[];
+  steps: string[];
+  tips?: string[];
+  substitutions?: string[];
+  storage?: string;
+  sources: RecipeReference[];
+}
+
 export interface RecipeSource {
   id: string;
   name: string;
@@ -5,6 +38,9 @@ export interface RecipeSource {
   ingredients: string[];
   seasonings: string[];
   description?: string;
+  slug?: string;
+  image?: RecipeImage;
+  content?: RecipeContent;
 }
 export interface Recipe extends RecipeSource {
   cuisine: string;

@@ -1,3 +1,4 @@
+import { isRecipeExtension } from './recipeContentValidation.ts';
 import {
   CUISINE_IDS,
   FLAVOR_IDS,
@@ -42,6 +43,7 @@ function isRecipe(value: unknown): value is Recipe {
   const isNotRecord = !isRecord(value);
   if (isNotRecord) return false;
   return (
+    isRecipeExtension(value) &&
     isOptionalText(value.description) &&
     isOptionalText(value.category) &&
     isText(value.id) &&
@@ -75,7 +77,10 @@ export function isRecipeIndex(value: unknown, count: number): value is Recipe[] 
   if (hasWrongCount) return false;
   const hasInvalidEntries = !value.every(isRecipe);
   if (hasInvalidEntries) return false;
-  return new Set(value.map((recipe) => recipe.id)).size === value.length;
+  const uniqueIds = new Set(value.map((recipe) => recipe.id)).size === value.length;
+  const uniquePaths =
+    new Set(value.map((recipe) => recipe.slug ?? recipe.id)).size === value.length;
+  return uniqueIds && uniquePaths;
 }
 
 /** 페이지 커서 검증 */

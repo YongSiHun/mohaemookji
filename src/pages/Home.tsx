@@ -64,6 +64,8 @@ export default function Home() {
           suggestions={search.suggestions}
           keywords={recommended.keywords}
           isReady={isReady}
+          error={error}
+          onRetry={retry}
           onDraftChange={search.setDraft}
           onSearch={apply}
           onRefreshKeywords={recommended.refresh}

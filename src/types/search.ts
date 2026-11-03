@@ -1,4 +1,4 @@
-import type { SearchQuery } from './recipe.ts';
+import type { Recipe, SearchQuery } from './recipe.ts';
 
 export interface KeywordFrequency {
   label: string;
@@ -37,3 +37,10 @@ export type MenuSearchAction =
   | { type: 'apply'; query: SearchQuery }
   | { type: 'refresh' }
   | { type: 'more'; total: number };
+
+export interface PreparedRecipe {
+  recipe: Recipe;
+  name: string;
+  ingredients: string[];
+  seasonings: string[];
+}

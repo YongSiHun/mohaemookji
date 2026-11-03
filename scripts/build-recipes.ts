@@ -4,7 +4,7 @@ import {
   FLAVOR_SOURCE_FILE,
   GENERATED_DATA_DIRECTORY,
 } from './constants.ts';
-import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
+import { readFile, readdir, mkdir, writeFile, access } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
@@ -28,6 +28,13 @@ export async function buildRecipes(): Promise<void> {
     sources,
     flavors.map((f) => f.id),
   ).sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  await Promise.all(
+    recipes
+      .filter((recipe) => recipe.image)
+      .map(async (recipe) => {
+        await access(new URL('..' + recipe.image!.src, GENERATED_DATA_DIRECTORY));
+      }),
+  );
   const content = JSON.stringify(recipes);
   const version = createHash('sha256').update(content).digest('hex');
   const out = GENERATED_DATA_DIRECTORY;

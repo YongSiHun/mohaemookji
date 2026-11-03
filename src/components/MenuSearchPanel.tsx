@@ -4,21 +4,36 @@ import { RefreshButton } from './RefreshButton';
 import { FlavorSelector } from './FlavorSelector';
 import { IngredientSearch } from './IngredientSearch';
 
+function getEmptyKeywordMessage(isLoading: boolean, error: string): string {
+  if (isLoading) return '메뉴 데이터를 준비하면 추천 검색어가 표시돼요.';
+  if (error) return '추천 검색어를 불러오지 못했어요.';
+  return '추천할 검색어가 없어요.';
+}
+
 /** 메뉴 검색 폼 */
 export function MenuSearchPanel({
   draft,
   suggestions,
   keywords,
   isReady,
+  error = '',
+  onRetry,
   onDraftChange,
   onSearch,
   onRefreshKeywords,
 }: MenuSearchPanelProps) {
+  const isLoading = !isReady && !error;
   return (
     <section id="search" className="search-panel" aria-label="메뉴 검색">
       <form
         onSubmit={(e) => {
           e.preventDefault();
+          if (error) {
+            onRetry?.();
+            return;
+          }
+          const notReady = !isReady;
+          if (notReady) return;
           onSearch(draft);
         }}
       >
@@ -64,6 +79,11 @@ export function MenuSearchPanel({
                 label="추천 검색어 새로고침"
               />
             </div>
+            {keywords.length === 0 && (
+              <p className="search-data-note" role="status">
+                {getEmptyKeywordMessage(isLoading, error)}
+              </p>
+            )}
             <div className="recommendation-list">
               {keywords.map((k) => (
                 <button
@@ -83,8 +103,19 @@ export function MenuSearchPanel({
           </div>
         </div>
         <div className="search-actions">
-          <button type="submit" className="primary-button" disabled={!isReady}>
-            메뉴 찾아보기
+          {error && (
+            <p id="search-data-error" className="search-data-error" role="alert">
+              {error}
+            </p>
+          )}
+          <button
+            type="submit"
+            className="primary-button"
+            disabled={isLoading}
+            aria-busy={isLoading}
+            aria-describedby={error ? 'search-data-error' : undefined}
+          >
+            {isLoading ? '메뉴 준비 중…' : error ? '데이터 다시 불러오기' : '메뉴 찾아보기'}
           </button>
         </div>
       </form>

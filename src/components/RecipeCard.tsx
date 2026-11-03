@@ -3,7 +3,7 @@ import { Highlight } from './Highlight';
 import { Fragment, memo } from 'react';
 import type { IngredientLineProps, RecipeCardProps } from '../types/components';
 import flavors from '../../data/flavors.json' with { type: 'json' };
-import { getYouTubeRecipeUrl } from '../services/youtube';
+import { getRecipePath, difficultyNames } from '../services/recipeDetails';
 import { cuisineNames } from '../constants/cuisines';
 
 /** 재료 요약 */
@@ -42,7 +42,25 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
         ))}
       </div>
       {recipe.category && <p className="recipe-category">분류 기준 재료: {recipe.category}</p>}
-      {recipe.description && <p className="recipe-description">{recipe.description}</p>}
+      {(recipe.content?.introduction ?? recipe.description) && (
+        <p className="recipe-description">{recipe.content?.introduction ?? recipe.description}</p>
+      )}
+      {recipe.image && (
+        <img
+          className="card-image"
+          src={recipe.image.src}
+          alt={recipe.image.alt}
+          width="480"
+          height="320"
+          loading="lazy"
+        />
+      )}
+      {recipe.content && (
+        <p className="card-summary">
+          {recipe.content.totalMinutes && <>약 {recipe.content.totalMinutes}분 · </>}
+          {difficultyNames[recipe.content.difficulty]} · {recipe.content.servings}
+        </p>
+      )}
       <dl>
         <div>
           <dt>주재료</dt>
@@ -59,17 +77,11 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
       </dl>
       <a
         className="recipe-overlay"
-        href={getYouTubeRecipeUrl(recipe.name, keyword)}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={recipe.name + ' 유튜브 레시피 보기 (새 탭)'}
+        href={getRecipePath(recipe)}
+        aria-label={recipe.name + ' 요리 상세 보기'}
       >
         <span className="recipe-overlay-label" aria-hidden="true">
-          <svg viewBox="0 0 24 18" aria-hidden="true">
-            <rect width="24" height="18" rx="5" fill="currentColor" />
-            <path d="m10 5 6 4-6 4Z" fill="white" />
-          </svg>
-          유튜브 레시피 보기
+          요리 상세 보기 →
         </span>
       </a>
     </article>

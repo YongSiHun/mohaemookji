@@ -42,6 +42,36 @@ test('화면 통합: 검색 폼·조건·상태별 결과·유튜브 링크·안
     assert.match(panel, /예: 돼지고기, 김치, 고춧가루/);
     assert.match(panel, /재료가 여러 개라면 쉼표/);
     assert.doesNotMatch(panel, /선택 사항/);
+    const loadingPanel = renderToStaticMarkup(
+      createElement(MenuSearchPanel, {
+        draft: query,
+        suggestions: [],
+        keywords: [],
+        isReady: false,
+        onDraftChange: noop,
+        onSearch: noop,
+        onRefreshKeywords: noop,
+      }),
+    );
+    assert.match(loadingPanel, /메뉴 준비 중…/);
+    assert.match(loadingPanel, /aria-busy="true"/);
+    const errorPanel = renderToStaticMarkup(
+      createElement(MenuSearchPanel, {
+        draft: query,
+        suggestions: [],
+        keywords: [],
+        isReady: false,
+        error: '요리 데이터 대신 다른 페이지가 응답했어요.',
+        onRetry: noop,
+        onDraftChange: noop,
+        onSearch: noop,
+        onRefreshKeywords: noop,
+      }),
+    );
+    assert.match(errorPanel, /데이터 다시 불러오기/);
+    assert.match(errorPanel, /role="alert"/);
+    assert.match(errorPanel, /추천 검색어를 불러오지 못했어요/);
+    assert.match(errorPanel, /aria-busy="false"/);
     const conditions = renderToStaticMarkup(
       createElement(ActiveConditions, { query, onApply: noop }),
     );
@@ -62,9 +92,8 @@ test('화면 통합: 검색 폼·조건·상태별 결과·유튜브 링크·안
     assert.equal((result.match(/class="recipe-card"/g) ?? []).length, 30);
     assert.match(result, /메뉴 더 보기/);
     assert.doesNotMatch(result, /30 [/] 2000|2000개 메뉴|<script>/);
-    assert.match(result, /target="_blank"/);
-    assert.match(result, /rel="noopener noreferrer"/);
-    assert.ok(result.includes('href="https://www.youtube.com/results?search_query='));
+    assert.ok(result.includes('href="/recipes/'));
+    assert.match(result, /요리 상세 보기/);
     const finished = renderToStaticMarkup(createElement(MenuResults, { ...props, hasNext: false }));
     assert.match(finished, /모든 메뉴를 확인했어요/);
     assert.doesNotMatch(finished, /메뉴 더 보기/);
@@ -81,7 +110,7 @@ test('화면 통합: 검색 폼·조건·상태별 결과·유튜브 링크·안
     assert.match(empty, /검색 조건 초기화/);
     const guide = renderToStaticMarkup(createElement(RecipeGuide));
     assert.match(guide, /메뉴는 모해묵지에서 발견하고/);
-    assert.match(guide, /카드를 클릭하면 유튜브 검색 결과/);
+    assert.match(guide, /카드를 클릭하면 요리 상세 페이지/);
     const home = renderToStaticMarkup(createElement(Home));
     assert.match(home, /오늘의 메뉴 후보 새로고침/);
     assert.doesNotMatch(home, /2000/);

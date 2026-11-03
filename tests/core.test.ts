@@ -238,7 +238,7 @@ test('실제 인덱스 및 30개 초과 검색', async () => {
   assert.equal(new Set(data.map((r) => r.cuisine)).size, 7);
 });
 test('새 탭 보안 속성', async () => {
-  const card = await readFile(new URL('../src/components/RecipeCard.tsx', import.meta.url), 'utf8');
+  const card = await readFile(new URL('../src/pages/RecipeDetail.tsx', import.meta.url), 'utf8');
   assert.ok(card.includes('target="_blank"'));
   assert.ok(card.includes('rel="noopener noreferrer"'));
 });

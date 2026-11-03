@@ -33,6 +33,8 @@ export interface RecipeCardProps {
 }
 
 export interface MenuSearchPanelProps {
+  error?: string;
+  onRetry?: () => void;
   draft: SearchQuery;
   suggestions: readonly string[];
   keywords: readonly string[];

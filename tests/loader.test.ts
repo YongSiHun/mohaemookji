@@ -1,8 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { loadRecipes } from '../src/services/recipeLoader.ts';
+import { loadRecipes, getCachedRecipeData } from '../src/services/recipeLoader.ts';
 test('로딩 실패 뒤 재시도 및 동시/반복 호출 데이터 캐시', async () => {
   const original = globalThis.fetch;
+  const timeoutDescriptor = Object.getOwnPropertyDescriptor(AbortSignal, 'timeout');
+  Object.defineProperty(AbortSignal, 'timeout', { value: undefined, configurable: true });
   let calls = 0;
   try {
     globalThis.fetch = async () => {
@@ -28,19 +30,28 @@ test('로딩 실패 뒤 재시도 및 동시/반복 호출 데이터 캐시', as
     };
     await assert.rejects(loadRecipes());
     const failedCalls = calls;
-    globalThis.fetch = async (input) => {
+    const modes: RequestCache[] = [];
+    globalThis.fetch = async (input, init) => {
       calls++;
-      return new Response(
-        JSON.stringify(String(input).includes('manifest') ? { version: 'v1', count: 0 } : []),
-        { status: 200 },
-      );
+      modes.push(init?.cache ?? 'default');
+      const manifest = String(input).includes('manifest');
+      if (manifest) return Response.json({ version: 'v1', count: 0 });
+      const stale = init?.cache === 'force-cache';
+      return stale
+        ? new Response('<!doctype html><title>다른 앱</title>', {
+            headers: { 'content-type': 'text/html' },
+          })
+        : Response.json([]);
     };
     const [first, second] = await Promise.all([loadRecipes(), loadRecipes()]);
     assert.equal(first, second);
-    assert.equal(calls, failedCalls + 2);
+    assert.equal(calls, failedCalls + 4);
+    assert.deepEqual(modes, ['no-cache', 'force-cache', 'reload', 'reload']);
+    assert.equal(getCachedRecipeData(), first);
     assert.equal(await loadRecipes(), first);
-    assert.equal(calls, failedCalls + 2);
+    assert.equal(calls, failedCalls + 4);
   } finally {
     globalThis.fetch = original;
+    if (timeoutDescriptor) Object.defineProperty(AbortSignal, 'timeout', timeoutDescriptor);
   }
 });

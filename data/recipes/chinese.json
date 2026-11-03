@@ -469,7 +469,77 @@
             "소금",
             "설탕",
             "식용유"
-          ]
+          ],
+          "slug": "tomato-egg-stir-fry",
+          "content": {
+            "introduction": "토마토에서 나온 즙을 계란에 입히는 중국식 볶음입니다. 계란을 먼저 익혀 꺼내고 토마토가 부드러워진 뒤 다시 합쳐, 두 재료의 익는 속도 차이를 조절합니다.",
+            "difficulty": "easy",
+            "totalMinutes": 15,
+            "servings": "2인분",
+            "timeNote": "참고자료의 준비 10분·조리 5분을 합친 예상치입니다. 토마토의 크기와 수분량에 따라 조리 시간은 달라집니다.",
+            "measurementNote": "큰술 15ml, 작은술 5ml 기준입니다. 소금은 토마토와 간장의 간을 확인하며 조절하세요.",
+            "ingredients": [
+              {
+                "name": "계란",
+                "amount": "2개"
+              },
+              {
+                "name": "토마토",
+                "amount": "중간 크기 2개"
+              },
+              {
+                "name": "대파",
+                "amount": "1대, 짧게 썰기"
+              }
+            ],
+            "seasonings": [
+              {
+                "name": "식용유",
+                "amount": "3큰술"
+              },
+              {
+                "name": "소금",
+                "amount": "계란에 한 꼬집, 볶을 때 1/4작은술 이내에서 조절"
+              },
+              {
+                "name": "설탕",
+                "amount": "1/8작은술"
+              },
+              {
+                "name": "후추",
+                "amount": "한 꼬집"
+              },
+              {
+                "name": "간장",
+                "amount": "1큰술, 넣는다면 소금 줄이기",
+                "optional": true
+              }
+            ],
+            "steps": [
+              "토마토는 씻어 꼭지의 단단한 부분을 떼고 작은 쐐기 모양으로 썹니다. 계란은 소금 한 꼬집과 후추를 넣어 흰자와 노른자가 고르게 섞일 때까지 풉니다.",
+              "팬에 기름을 두르고 달군 뒤 계란물을 붓습니다. 계란이 뭉치기 시작하면 크게 저어 덩어리를 만들고 그릇에 잠시 덜어둡니다.",
+              "팬에 남은 기름에 토마토를 볶습니다. 토마토 모서리가 무르고 즙이 나오면 설탕과 소금을 넣습니다. 간장을 쓰면 소금은 줄입니다.",
+              "계란과 대파를 팬에 되돌려 넣고 가볍게 섞습니다. 계란에 흐르는 액체가 남지 않게 충분히 익힌 뒤 바로 냅니다."
+            ],
+            "tips": [
+              "덜 익은 단단한 토마토보다 잘 익은 토마토가 즙을 내기 쉽습니다.",
+              "계란을 토마토와 처음부터 함께 볶지 않으면 수분이 나오는 동안 계란만 오래 가열하는 일을 줄일 수 있습니다."
+            ],
+            "substitutions": [
+              "간장이 없으면 생략하고 소금으로 간을 맞출 수 있습니다.",
+              "대파가 없으면 생략할 수 있지만 파 향이 빠져 맛은 달라집니다."
+            ],
+            "sources": [
+              {
+                "name": "China Sichuan Food · Chinese Tomato Egg Stir Fry (분량·조리 흐름·시간 참고)",
+                "url": "https://www.chinasichuanfood.com/chinese-tomato-and-egg-stir-fry/"
+              },
+              {
+                "name": "FDA · Egg Safety (계란을 충분히 익히는 기준 참고)",
+                "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+              }
+            ]
+          }
         },
         {
           "id": "chinese_db91df302a76",
