@@ -11,7 +11,6 @@ import { ActiveConditions } from '../components/ActiveConditions';
 import { MenuResults } from '../components/MenuResults';
 import { RefreshButton } from '../components/RefreshButton';
 import { RecipeGuide } from '../components/RecipeGuide';
-import { MenuHelp } from '../components/MenuHelp';
 
 /** 홈 화면 조합 */
 export default function Home() {
@@ -106,7 +105,6 @@ export default function Home() {
             onReset={reset}
           />
         </section>
-        <MenuHelp />
         <RecipeGuide />
       </main>
       <SiteFooter />
