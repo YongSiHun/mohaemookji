@@ -11,7 +11,8 @@ export const SITE_PAGES = [
   {
     path: '/privacy/',
     title: '개인정보처리방침 및 쿠키 안내 | 모해묵지',
-    description: '검색 정보, 접속 정보, 광고 쿠키와 외부 서비스 이용에 관한 안내입니다.',
+    description:
+      '검색 내역과 접속 정보의 사용, 광고·쿠키 설정 방법, 개인정보 문의 방법을 안내합니다.',
   },
   {
     path: '/terms/',

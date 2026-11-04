@@ -3,11 +3,18 @@ window.addEventListener('open-ad-privacy', () => {
   const status = document.getElementById('ad-privacy-status');
   const available = cmp?.showRevocationMessage;
   if (available) {
+    if (status) status.replaceChildren();
     cmp.callbackQueue = cmp.callbackQueue ?? [];
     cmp.callbackQueue.push({ CONSENT_API_READY: () => cmp.showRevocationMessage?.() });
     return;
   }
-  if (status)
-    status.textContent =
-      '동의 관리 도구가 연결되지 않았거나 로딩되지 않았습니다. 개인정보·쿠키 안내에서 문의 방법을 확인하세요.';
+  if (status) {
+    const guide = document.createElement('a');
+    guide.href = '/privacy/#ad-privacy';
+    guide.textContent = '광고 설정 방법 보기';
+    status.replaceChildren(
+      document.createTextNode('지금은 광고 설정 창을 열 수 없습니다. '),
+      guide,
+    );
+  }
 });

@@ -1496,3 +1496,22 @@ button:disabled {
     padding: 16px;
   }
 }
+
+.information > ol,
+.information > ul {
+  padding-left: 1.5em;
+}
+.information > ol {
+  list-style: decimal;
+}
+.information > ul {
+  list-style: disc;
+}
+.information > ol > li,
+.information > ul > li {
+  padding-left: 0.25em;
+  margin-block: 12px;
+}
+.information #ad-privacy {
+  scroll-margin-top: 24px;
+}
