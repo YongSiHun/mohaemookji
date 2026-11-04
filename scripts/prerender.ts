@@ -2,6 +2,7 @@ import { createServer, loadEnv } from 'vite';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { SITE_PAGES } from '../src/constants/sitePages.ts';
 import {
   getRecipePath,
@@ -29,13 +30,15 @@ const escape = (text: string) =>
     .replaceAll('"', '&quot;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;');
+// 이미지 내용이 바뀌면 새 URL로 발행해 공유 서비스의 이미지 캐시를 갱신한다.
+const preview = await readFile('public/social-preview.jpg');
+const previewHash = createHash('sha256').update(preview).digest('hex').slice(0, 12);
+const previewPath = '/social-preview-' + previewHash + '.jpg';
+await writeFile('dist' + previewPath, preview);
 const template = (await readFile('dist/index.html', 'utf8'))
   .replace(/<link rel="canonical"[^>]*>/g, '')
   .replace(/<meta property="og:url"[^>]*>/g, '')
-  .replaceAll(
-    'content="/social-preview.jpg"',
-    'content="' + escape(origin + '/social-preview.jpg') + '"',
-  );
+  .replaceAll('content="/social-preview.jpg"', 'content="' + escape(origin + previewPath) + '"');
 const withBody = (html: string, body: string) =>
   html.replace(
     /<!--app-start-->[\s\S]*?<!--app-end-->/,
