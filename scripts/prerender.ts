@@ -31,7 +31,11 @@ const escape = (text: string) =>
     .replaceAll('>', '&gt;');
 const template = (await readFile('dist/index.html', 'utf8'))
   .replace(/<link rel="canonical"[^>]*>/g, '')
-  .replace(/<meta property="og:url"[^>]*>/g, '');
+  .replace(/<meta property="og:url"[^>]*>/g, '')
+  .replaceAll(
+    'content="/social-preview.jpg"',
+    'content="' + escape(origin + '/social-preview.jpg') + '"',
+  );
 const withBody = (html: string, body: string) =>
   html.replace(
     /<!--app-start-->[\s\S]*?<!--app-end-->/,
