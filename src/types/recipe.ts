@@ -31,10 +31,13 @@ export interface RecipeContent {
   sources: RecipeReference[];
 }
 
+export type FlavorLevel = 1 | 2 | 3 | 4 | 5;
+
 export interface RecipeSource {
   id: string;
   name: string;
   flavors: string[];
+  flavorLevels?: Record<string, FlavorLevel>;
   ingredients: string[];
   seasonings: string[];
   description?: string;
@@ -48,6 +51,7 @@ export interface Recipe extends RecipeSource {
 }
 export interface SearchQuery {
   flavors: readonly string[];
+  flavorLevels?: Readonly<Record<string, FlavorLevel>>;
   ingredient: string;
 }
 export interface RankedRecipe {

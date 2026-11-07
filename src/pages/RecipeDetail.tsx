@@ -4,7 +4,7 @@ import { SiteHeader, SiteFooter } from '../components/SiteLayout';
 import { RecipeCard } from '../components/RecipeCard';
 import { useRecipeData } from '../hooks/useRecipeData';
 import { cuisineNames } from '../constants/cuisines';
-import flavors from '../../data/flavors.json' with { type: 'json' };
+import { FlavorRatings } from '../components/FlavorRatings';
 import { getYouTubeRecipeUrl } from '../services/youtube';
 import {
   difficultyNames,
@@ -47,6 +47,19 @@ function Advice({ title, items }: { title: string; items?: string[] }) {
     </section>
   );
 }
+function FlavorNote({ recipe }: { recipe: Recipe }) {
+  return (
+    <>
+      {recipe.flavorLevels && (
+        <p className="detail-flavor-note">
+          맛 강도는 5단계 예상치로, 별이 많을수록 해당 맛이 강해요. 조리법과 양념 양에 따라
+          달라져요.
+        </p>
+      )}
+    </>
+  );
+}
+
 function RecipeHeader({ recipe }: { recipe: Recipe }) {
   const content = recipe.content;
   const summary = content?.introduction ?? recipe.description;
@@ -63,10 +76,11 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
             <span className="detail-meta-divider" aria-hidden="true">
               /
             </span>
-            <p>{recipe.flavors.map((id) => flavors.find((f) => f.id === id)?.name).join(' · ')}</p>
+            <FlavorRatings recipe={recipe} />
           </>
         )}
       </div>
+      <FlavorNote recipe={recipe} />
       {summary && <p className="detail-intro">{summary}</p>}
       {content && (
         <dl className="recipe-facts">

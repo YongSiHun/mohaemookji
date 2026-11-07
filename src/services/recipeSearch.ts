@@ -25,7 +25,9 @@ export function queryTerms(keyword: string): string[] {
 /** 검색 키 생성 */
 export const queryKey = (query: SearchQuery): string =>
   JSON.stringify([
-    [...new Set(query.flavors)].sort(compareText),
+    [...new Set(query.flavors)]
+      .sort(compareText)
+      .map((id) => [id, query.flavorLevels?.[id] ?? null]),
     parseIngredientKeywords(query.ingredient).map(normalize).sort(compareText),
   ]);
 
@@ -77,6 +79,17 @@ export const compareRanked = (a: RankedRecipe, b: RankedRecipe): number =>
   compareText(a.recipe.name, b.recipe.name) ||
   compareText(a.recipe.id, b.recipe.id);
 
+function matchesFlavors(recipe: Recipe, query: SearchQuery): boolean {
+  const unrestricted = query.flavors.length === 0;
+  if (unrestricted) return true;
+  return query.flavors.some((id) => {
+    const level = query.flavorLevels?.[id];
+    return (
+      recipe.flavors.includes(id) && (level === undefined || recipe.flavorLevels?.[id] === level)
+    );
+  });
+}
+
 /** 준비된 인덱스를 재사용하는 메뉴 검색 */
 export function searchRecipeIndex(
   index: readonly PreparedRecipe[],
@@ -85,11 +98,7 @@ export function searchRecipeIndex(
 ): RankedRecipe[] {
   const groups = parseIngredientKeywords(query.ingredient).map(queryTerms);
   const found = index
-    .filter(
-      ({ recipe }) =>
-        query.flavors.length === 0 ||
-        query.flavors.some((flavor) => recipe.flavors.includes(flavor)),
-    )
+    .filter(({ recipe }) => matchesFlavors(recipe, query))
     .map((entry) => ({ recipe: entry.recipe, rank: rankKeywordGroups(entry, groups) }))
     .filter((item) => Number.isFinite(item.rank));
   return sort ? found.sort(compareRanked) : found;

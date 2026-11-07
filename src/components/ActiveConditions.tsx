@@ -1,3 +1,4 @@
+import { removeFlavor } from '../services/flavorSelection';
 import type { ActiveConditionsProps } from '../types/components';
 import flavors from '../../data/flavors.json' with { type: 'json' };
 import { EMPTY_SEARCH_QUERY } from '../constants/recipes';
@@ -20,11 +21,14 @@ export function ActiveConditions({ query, onApply }: ActiveConditionsProps) {
           <button
             key={flavor}
             aria-label={(flavors.find((f) => f.id === flavor)?.name ?? flavor) + ' 맛 조건 제거'}
-            onClick={() =>
-              onApply({ ...query, flavors: query.flavors.filter((f) => f !== flavor) }, false)
-            }
+            onClick={() => onApply(removeFlavor(query, flavor), false)}
           >
             {flavors.find((f) => f.id === flavor)?.name}
+            {query.flavorLevels?.[flavor] && (
+              <span className="condition-flavor-level">
+                {'★'.repeat(query.flavorLevels[flavor])} {query.flavorLevels[flavor]}/5
+              </span>
+            )}
             <span aria-hidden="true">×</span>
           </button>
         ))}

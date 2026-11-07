@@ -1,3 +1,4 @@
+import { isFlavorLevels } from './flavorLevels.ts';
 import { isRecipeExtension } from './recipeContentValidation.ts';
 import {
   CUISINE_IDS,
@@ -38,6 +39,10 @@ function isOptionalText(value: unknown): boolean {
   return value === undefined || isText(value);
 }
 
+function isRecipeFlavors(value: Record<string, unknown>): boolean {
+  return isFlavorList(value.flavors) && isFlavorLevels(value.flavorLevels, value.flavors);
+}
+
 /** 메뉴 필드 검증 */
 function isRecipe(value: unknown): value is Recipe {
   const isNotRecord = !isRecord(value);
@@ -49,7 +54,7 @@ function isRecipe(value: unknown): value is Recipe {
     isText(value.id) &&
     isText(value.name) &&
     isCuisine(value.cuisine) &&
-    isFlavorList(value.flavors) &&
+    isRecipeFlavors(value) &&
     isTextList(value.ingredients) &&
     isTextList(value.seasonings)
   );

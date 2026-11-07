@@ -1,3 +1,4 @@
+import { isFlavorLevels } from '../src/services/flavorLevels.ts';
 import { isRecipeExtension, RECIPE_SLUG_PATTERN } from '../src/services/recipeContentValidation.ts';
 import type { Recipe, RecipeSourceFile, RecipeSourceCategory } from '../src/types/recipe.ts';
 import type { SourceValidationContext } from '../src/types/validation.ts';
@@ -75,6 +76,17 @@ function parseExtension(
   };
 }
 
+function parseFlavorLevels(
+  value: unknown,
+  flavors: string[],
+  id: string,
+  context: SourceValidationContext,
+): Pick<Recipe, 'flavorLevels'> {
+  const invalid = !isFlavorLevels(value, flavors);
+  if (invalid) fail(context, id + ' flavorLevels는 등록된 맛별 1~5 정수여야 합니다');
+  return value === undefined ? {} : { flavorLevels: value };
+}
+
 /** 원본 메뉴 파싱 */
 function parseRecipe(
   raw: unknown,
@@ -106,6 +118,7 @@ function parseRecipe(
     cuisine,
     category,
     flavors,
+    ...parseFlavorLevels(raw.flavorLevels, flavors, id, context),
     ingredients,
     seasonings,
     ...extension,

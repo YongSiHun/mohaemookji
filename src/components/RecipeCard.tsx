@@ -2,7 +2,7 @@ import { CARD_INGREDIENT_LIMIT } from '../constants/recipes';
 import { Highlight } from './Highlight';
 import { Fragment, memo } from 'react';
 import type { IngredientLineProps, RecipeCardProps } from '../types/components';
-import flavors from '../../data/flavors.json' with { type: 'json' };
+import { FlavorRatings } from './FlavorRatings';
 import { getRecipePath, difficultyNames } from '../services/recipeDetails';
 import { cuisineNames } from '../constants/cuisines';
 
@@ -36,11 +36,7 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
       <h3>
         <Highlight text={recipe.name} keyword={keyword} />
       </h3>
-      <div className="card-flavors">
-        {recipe.flavors.map((f) => (
-          <span key={f}>{flavors.find((v) => v.id === f)?.name}</span>
-        ))}
-      </div>
+      <FlavorRatings recipe={recipe} />
       {recipe.category && <p className="recipe-category">분류 기준 재료: {recipe.category}</p>}
       {(recipe.content?.introduction ?? recipe.description) && (
         <p className="recipe-description">{recipe.content?.introduction ?? recipe.description}</p>

@@ -82,6 +82,10 @@
                 "url": "https://www.bbcgoodfood.com/recipes/spaghetti-aglio-e-olio"
               }
             ]
+          },
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
           }
         },
         {
@@ -100,7 +104,11 @@
           "seasonings": [
             "후추",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         },
         {
           "id": "tomato_pasta",
@@ -119,7 +127,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "cream_pasta",
@@ -138,7 +150,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         },
         {
           "id": "bolognese",
@@ -158,7 +174,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_c0d7791988b7",
@@ -177,7 +197,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_2582305e5f29",
@@ -196,7 +220,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_918de42a1e9b",
@@ -216,7 +244,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_ad9d59849157",
@@ -234,7 +266,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_2b16163e2401",
@@ -253,7 +289,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_31fd1d16a669",
@@ -273,7 +313,11 @@
             "소금",
             "후추",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_1ef9378b6e38",
@@ -292,7 +336,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_777da5d0b851",
@@ -310,7 +358,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_98bbac6cb6b0",
@@ -326,7 +378,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_4a2ced987d52",
@@ -347,7 +403,11 @@
             "올리브유",
             "소금",
             "페페론치노"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_7ca553c8fa05",
@@ -366,7 +426,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_d46514ef2ebe",
@@ -386,7 +450,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_38988ace3e1e",
@@ -406,7 +474,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_044054806ba6",
@@ -425,7 +497,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "western_a218be80649a",
@@ -444,7 +520,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_508db0ae030a",
@@ -463,7 +543,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_c1882ae5df66",
@@ -482,7 +566,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_1f9a5edd2a26",
@@ -501,7 +589,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_6587bb53afd6",
@@ -521,7 +613,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -546,7 +642,11 @@
             "소금",
             "후추",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_43fd3bc3f331",
@@ -568,7 +668,11 @@
             "사프란",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_bbcf08eea18f",
@@ -589,7 +693,11 @@
             "화이트와인",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_5f9ad9153be3",
@@ -608,7 +716,11 @@
             "사프란",
             "화이트와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_49bd8a5ffb84",
@@ -628,7 +740,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_d092a6db893b",
@@ -648,7 +764,12 @@
             "버터",
             "소금",
             "레드와인"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_393f3ccd7de2",
@@ -667,7 +788,11 @@
             "올리브유",
             "화이트와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_cc399e29da97",
@@ -686,7 +811,11 @@
             "버터",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_ad7b87b1a8f2",
@@ -705,7 +834,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_aee531643df6",
@@ -724,7 +857,11 @@
             "버터",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_1144592e8492",
@@ -745,7 +882,11 @@
             "버터",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_28cc546dcbb3",
@@ -766,7 +907,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9a391110632e",
@@ -786,7 +931,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_dea365a87c86",
@@ -806,7 +955,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_cc4c1017156c",
@@ -827,7 +980,11 @@
             "사프란",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_71d67f8b16bb",
@@ -847,7 +1004,11 @@
             "올리브유",
             "사프란",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_4fe3c2e90f36",
@@ -867,7 +1028,11 @@
             "올리브유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_6a6478486a8e",
@@ -888,7 +1053,11 @@
             "케이준시즈닝",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "western_3155def6a533",
@@ -908,7 +1077,11 @@
             "케이준시즈닝",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "western_3223d382e26f",
@@ -926,7 +1099,11 @@
             "설탕",
             "계피가루",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "western_bc588af11aaa",
@@ -946,7 +1123,11 @@
             "올리브유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -970,7 +1151,11 @@
             "소금",
             "후추",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_6a664c37e942",
@@ -989,7 +1174,11 @@
             "소금",
             "후추",
             "파르메산 치즈"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_76375a875797",
@@ -1009,7 +1198,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_bf0086053b51",
@@ -1029,7 +1222,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_9564fad97732",
@@ -1051,7 +1248,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_9b11c4dba441",
@@ -1070,7 +1271,11 @@
             "소금",
             "후추",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_2cd5bfdda2e3",
@@ -1091,7 +1296,11 @@
             "우스터소스",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_971c8e8cef11",
@@ -1112,7 +1321,11 @@
             "우스터소스",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_dd0083ee47eb",
@@ -1132,7 +1345,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_374b01d8fa45",
@@ -1153,7 +1370,11 @@
             "소금",
             "후추",
             "올스파이스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_e38ae79631a8",
@@ -1173,7 +1394,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_ea16ee6a8dd5",
@@ -1194,7 +1419,11 @@
             "후추",
             "월계수잎",
             "정향"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_4b94da2a0dfe",
@@ -1215,7 +1444,11 @@
             "레드와인",
             "소금",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_cf11ae3da319",
@@ -1235,7 +1468,11 @@
             "머스터드",
             "흑설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_60ab9db4bc88",
@@ -1255,7 +1492,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_1dc10623054a",
@@ -1273,7 +1514,11 @@
             "통후추",
             "소금",
             "브랜디"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_214ebba32a33",
@@ -1291,7 +1536,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_7accb48d7602",
@@ -1312,7 +1561,11 @@
             "우스터소스",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_ca8b72d79b9e",
@@ -1333,7 +1586,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_cecc42adcdbd",
@@ -1353,7 +1610,11 @@
             "올리브유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_b0f53e47e1c3",
@@ -1375,7 +1636,12 @@
             "설탕",
             "소금",
             "정향"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_874ad6b1b593",
@@ -1395,7 +1661,11 @@
             "소금",
             "후추",
             "레드와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_4760b57af9d2",
@@ -1417,7 +1687,11 @@
             "후추",
             "케이퍼",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_aba9eb44ee63",
@@ -1436,7 +1710,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_47b56869436b",
@@ -1455,7 +1733,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_a4f0fb658074",
@@ -1474,7 +1756,11 @@
             "소금",
             "통후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_7d1ce1e8014e",
@@ -1494,7 +1780,11 @@
             "소금",
             "후추",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_d17436bc7586",
@@ -1513,7 +1803,11 @@
             "후추",
             "타임",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_05dcebf2e6b5",
@@ -1530,7 +1824,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_110776a8dd5d",
@@ -1549,7 +1847,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "western_99750ae1b0e1",
@@ -1570,7 +1872,11 @@
             "후추",
             "식용유",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_869551a35eb7",
@@ -1590,7 +1896,11 @@
             "소금",
             "후추",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_b43bff551b6a",
@@ -1610,7 +1920,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_1705999b9ed6",
@@ -1630,7 +1944,11 @@
             "소금",
             "후추",
             "우스터소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_d5686857ed97",
@@ -1649,7 +1967,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_b11de1f45105",
@@ -1670,7 +1992,11 @@
             "레몬제스트",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_cf06b49a7901",
@@ -1691,7 +2017,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_b715b63db946",
@@ -1710,7 +2040,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1734,7 +2068,11 @@
             "소금",
             "후추",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -1756,7 +2094,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_a31172fb1ae5",
@@ -1775,7 +2117,11 @@
             "마요네즈",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a310a42b9636",
@@ -1796,7 +2142,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_1d3c0fbebcc7",
@@ -1815,7 +2165,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_668cb8bdd37e",
@@ -1834,7 +2188,11 @@
             "마요네즈",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_26f1e1a25f04",
@@ -1852,7 +2210,11 @@
           "seasonings": [
             "버터",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_6f3c15aa02e0",
@@ -1867,7 +2229,11 @@
           ],
           "seasonings": [
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_bf609583404f",
@@ -1888,7 +2254,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_14fc47851b9e",
@@ -1908,7 +2278,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_5843b57d076d",
@@ -1927,7 +2301,11 @@
           "seasonings": [
             "버터",
             "딸기잼"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_5e84af5d082a",
@@ -1946,7 +2324,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9058a88ce43f",
@@ -1962,7 +2344,11 @@
           "seasonings": [
             "땅콩버터",
             "꿀"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_4242363a73a2",
@@ -1981,7 +2367,11 @@
             "설탕",
             "버터",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_319278472f9e",
@@ -2003,7 +2393,11 @@
             "맥주",
             "소금",
             "고춧가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2025,7 +2419,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "western_ed3543065bd7",
@@ -2043,7 +2441,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_02a99db44986",
@@ -2063,7 +2465,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_6de9d09ed4d6",
@@ -2082,7 +2488,11 @@
             "레몬즙",
             "식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_97d7cf936a22",
@@ -2099,7 +2509,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_86c3f1dfac47",
@@ -2118,7 +2532,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_e4a3ea440ca9",
@@ -2134,7 +2552,11 @@
           "seasonings": [
             "설탕",
             "바닐라빈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_f61a403ee630",
@@ -2151,7 +2573,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2175,7 +2601,11 @@
             "마요네즈",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_ff2a34ba6d54",
@@ -2194,7 +2624,11 @@
             "버터",
             "소금",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_e62fd00acae5",
@@ -2213,7 +2647,11 @@
             "머스터드",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_041fa64a28df",
@@ -2231,7 +2669,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_037418bb6c57",
@@ -2251,7 +2693,12 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_ec94fa0f6994",
@@ -2268,7 +2715,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_d84ba6739878",
@@ -2285,7 +2736,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_efeb98889c02",
@@ -2305,7 +2760,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_33cfb53261ed",
@@ -2324,7 +2783,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_b136e13dcb9b",
@@ -2343,7 +2806,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_65fdb123e381",
@@ -2359,7 +2826,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_e6397e1e98bf",
@@ -2376,7 +2847,11 @@
             "버터",
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_81cba036cb3d",
@@ -2394,7 +2869,11 @@
             "버터",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_d7521d6f52a0",
@@ -2410,7 +2889,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_8902e5e314cd",
@@ -2430,7 +2913,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_0410cd11f16f",
@@ -2449,7 +2936,11 @@
             "파프리카가루",
             "소금",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3
+          }
         },
         {
           "id": "western_2b584889cba9",
@@ -2467,7 +2958,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_cfe00db3f4a0",
@@ -2487,7 +2982,11 @@
             "소금",
             "후추",
             "마조람"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_7cf501b64208",
@@ -2504,7 +3003,11 @@
           "seasonings": [
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_e41f167d6046",
@@ -2523,7 +3026,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "western_a31e0fbf4fde",
@@ -2542,7 +3049,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_c64ef03154ec",
@@ -2562,7 +3073,11 @@
             "소금",
             "후추",
             "캐러웨이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_03c3af228b59",
@@ -2578,7 +3093,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_60b30b1269b7",
@@ -2598,7 +3117,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_9eead38c939f",
@@ -2616,7 +3139,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_9ee7b3e7bdd4",
@@ -2634,7 +3161,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_263c9e6ca8ca",
@@ -2654,7 +3185,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "western_9ab49f736c0d",
@@ -2674,7 +3209,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_e9a21efee32d",
@@ -2693,7 +3232,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2718,7 +3261,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 4
+          }
         },
         {
           "id": "shakshuka",
@@ -2738,7 +3285,11 @@
             "큐민",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "western_c99fdc437e3d",
@@ -2756,7 +3307,11 @@
             "올리브유",
             "발사믹식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_2b05f1969ea2",
@@ -2776,7 +3331,11 @@
             "소금",
             "후추",
             "바질"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_b8235745202a",
@@ -2796,7 +3355,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_3451931d56e6",
@@ -2817,7 +3380,12 @@
             "올리브유",
             "셰리식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 4,
+            "clean": 4
+          }
         },
         {
           "id": "western_126cecda5de0",
@@ -2836,7 +3404,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_d291fa0c4f79",
@@ -2856,7 +3428,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_31b2529c055a",
@@ -2874,7 +3450,11 @@
             "소금",
             "설탕",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_afb05d862b51",
@@ -2894,7 +3474,11 @@
             "올리브유",
             "소금",
             "셰리식초"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 3
+          }
         },
         {
           "id": "western_d9fdb1cbc845",
@@ -2913,7 +3497,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_ba99ac5ff56d",
@@ -2933,7 +3521,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2955,7 +3547,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 4
+          }
         },
         {
           "id": "western_f9bb2d8c2ac9",
@@ -2975,7 +3571,11 @@
             "버터",
             "계피가루",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_f05b1ee7425a",
@@ -2994,7 +3594,11 @@
             "설탕",
             "계피가루",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -3017,7 +3621,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_78a86587b2f8",
@@ -3038,7 +3646,11 @@
             "소금",
             "후추",
             "브랜디"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_daa6b70af18f",
@@ -3054,7 +3666,11 @@
           "seasonings": [
             "올리브유",
             "굵은소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_fbc52ad7233b",
@@ -3074,7 +3690,11 @@
             "올리브유",
             "케이준시즈닝",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "western_c235bae330fc",
@@ -3094,7 +3714,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_8ea0f36a9e5f",
@@ -3113,7 +3737,11 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3137,7 +3765,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_2fb8736cfb03",
@@ -3157,7 +3789,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_4c256058195d",
@@ -3177,7 +3813,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3201,7 +3841,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_6e99453a5f08",
@@ -3221,7 +3865,11 @@
             "올리브유",
             "소금",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_e0a2a6036525",
@@ -3242,7 +3890,11 @@
             "소금",
             "계피가루",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3266,7 +3918,11 @@
             "올리브유",
             "소금",
             "파슬리"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9afe5a48af48",
@@ -3284,7 +3940,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_4c174cde3d09",
@@ -3304,7 +3964,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3328,7 +3992,11 @@
             "올리브유",
             "소금",
             "바질"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_8a2a9a932d0d",
@@ -3348,7 +4016,11 @@
             "올리브유",
             "소금",
             "레드와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_566ebc4cbd2f",
@@ -3365,7 +4037,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3391,7 +4067,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3415,7 +4095,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -3439,7 +4123,11 @@
             "버터",
             "소금",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_fe5b6394d0d0",
@@ -3458,7 +4146,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_c0597c36eb9a",
@@ -3476,7 +4168,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_4cad143c818a",
@@ -3497,7 +4193,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_3237d74fd510",
@@ -3516,7 +4216,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_72f611561d8d",
@@ -3535,7 +4239,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_94a36e052507",
@@ -3553,7 +4261,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_6e72d6cba7ae",
@@ -3572,7 +4284,11 @@
             "버터",
             "소금",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_53d42a9b0bb2",
@@ -3590,7 +4306,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_360ded272559",
@@ -3610,7 +4330,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_d349137ed59e",
@@ -3630,7 +4354,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_6e1cb001bc7b",
@@ -3649,7 +4377,11 @@
             "버터",
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_90471011ce2a",
@@ -3665,7 +4397,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_3ef405314bdf",
@@ -3684,7 +4420,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_20526ab63c9b",
@@ -3702,7 +4442,11 @@
             "버터",
             "소금",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_45f3c246d518",
@@ -3722,7 +4466,11 @@
             "버터",
             "소금",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_9cee5b1b5035",
@@ -3742,7 +4490,11 @@
             "버터",
             "소금",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_f3a9c9fe75ed",
@@ -3760,7 +4512,11 @@
             "버터",
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_3b744c7b32af",
@@ -3780,7 +4536,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_115744ea8da8",
@@ -3798,7 +4558,11 @@
             "버터",
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_bb4356fa6cf5",
@@ -3817,7 +4581,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_8f16662c91c5",
@@ -3836,7 +4604,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_d5e960b9c4cb",
@@ -3855,7 +4627,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_361afd76a50e",
@@ -3875,7 +4651,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_393bbe89a8d8",
@@ -3892,7 +4672,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_b82f725f94a3",
@@ -3910,7 +4694,11 @@
             "설탕",
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_13916242c4c4",
@@ -3927,7 +4715,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_ae333c7ed4f5",
@@ -3943,7 +4735,11 @@
           "seasonings": [
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_156569fccb00",
@@ -3961,7 +4757,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_0f946eb1b9c1",
@@ -3980,7 +4780,11 @@
             "설탕",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_8081386dcce4",
@@ -4002,7 +4806,11 @@
             "설탕",
             "소금",
             "럼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_c43a3916d51a",
@@ -4022,7 +4830,11 @@
             "설탕",
             "소금",
             "레몬제스트"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_acfdc4d7f0a4",
@@ -4042,7 +4854,11 @@
             "올리브유",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_fd17d6f06906",
@@ -4061,7 +4877,11 @@
             "설탕",
             "베이킹파우더",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_9ec980dd356e",
@@ -4080,7 +4900,11 @@
             "설탕",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_2dd2bf1f27d3",
@@ -4101,7 +4925,11 @@
             "설탕",
             "소금",
             "과일잼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_9422688eb00f",
@@ -4120,7 +4948,11 @@
             "버터",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_d8787871ef7e",
@@ -4137,7 +4969,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_89f7e51c8004",
@@ -4156,7 +4992,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_6ac2f83aa4da",
@@ -4175,7 +5015,11 @@
             "버터",
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_990805f202a3",
@@ -4194,7 +5038,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_218a25180e61",
@@ -4212,7 +5060,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         },
         {
           "id": "western_6f95f5e0efe0",
@@ -4232,7 +5084,11 @@
             "버터",
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_c3cad404ef4a",
@@ -4249,7 +5105,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_e1e7d92e3512",
@@ -4268,7 +5128,11 @@
             "버터",
             "설탕",
             "그랑마르니에"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_9f0f286b8140",
@@ -4286,7 +5150,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_ae9bc9a7b458",
@@ -4303,7 +5171,11 @@
             "버터",
             "설탕",
             "살구잼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_ccc163c15690",
@@ -4322,7 +5194,11 @@
             "버터",
             "마르살라와인",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_89c5041dd98b",
@@ -4341,7 +5217,11 @@
             "설탕",
             "버터",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_57417d81d2f9",
@@ -4361,7 +5241,11 @@
             "설탕",
             "버터",
             "키르슈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_57a9af726b01",
@@ -4380,7 +5264,11 @@
             "설탕",
             "라즈베리잼",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_41c7cf8c2c48",
@@ -4398,7 +5286,11 @@
             "버터",
             "설탕",
             "라즈베리잼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_39c39cdca136",
@@ -4417,7 +5309,11 @@
             "버터",
             "설탕",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_964a6f0c9251",
@@ -4435,7 +5331,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_f06da3bbf927",
@@ -4454,7 +5354,11 @@
             "설탕",
             "시럽",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         },
         {
           "id": "western_cbafdd585bac",
@@ -4474,7 +5378,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_ec9845682484",
@@ -4492,7 +5400,11 @@
             "버터",
             "설탕",
             "라즈베리잼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_f10e2c9444d1",
@@ -4509,7 +5421,11 @@
           "seasonings": [
             "버터",
             "골든시럽"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_8597bbd49fe7",
@@ -4529,7 +5445,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -4553,7 +5473,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -4577,7 +5501,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_08d0608c3b88",
@@ -4594,7 +5522,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -4619,7 +5551,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_fc1ee71452f5",
@@ -4638,7 +5574,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4662,7 +5602,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -4686,7 +5630,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -4711,7 +5659,11 @@
             "소금",
             "후추",
             "바질"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_c21c8a90dc73",
@@ -4731,7 +5683,11 @@
             "소금",
             "후추",
             "바질"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_50b627038edb",
@@ -4751,7 +5707,12 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_c4df1b833d0c",
@@ -4770,7 +5731,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_246f65e402b7",
@@ -4790,7 +5755,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_1a865c87bba7",
@@ -4810,7 +5779,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_84831db60eae",
@@ -4829,7 +5802,11 @@
             "올리브유",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "western_198550c06e89",
@@ -4848,7 +5825,12 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3,
+            "refreshing": 3
+          }
         },
         {
           "id": "western_df22fb7d1f78",
@@ -4867,7 +5849,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_d371c328c22c",
@@ -4886,7 +5872,11 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_0d21f3c36a27",
@@ -4905,7 +5895,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_5705ebffaad9",
@@ -4923,7 +5917,12 @@
           "seasonings": [
             "꿀",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_9790b0f6a903",
@@ -4942,7 +5941,11 @@
             "올리브유",
             "소금",
             "로즈메리"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_3657893245fb",
@@ -4961,7 +5964,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_733fd96275e5",
@@ -4980,7 +5987,11 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_d083be1ca935",
@@ -4999,7 +6010,11 @@
             "올리브유",
             "소금",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5021,7 +6036,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "western_ef68481fae24",
@@ -5036,7 +6055,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3
+          }
         },
         {
           "id": "western_a69facdc1d43",
@@ -5052,7 +6075,11 @@
           "seasonings": [
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3
+          }
         },
         {
           "id": "western_2436cc6027ff",
@@ -5071,7 +6098,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_fb70535f1a6a",
@@ -5089,7 +6120,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_5d5938ef159d",
@@ -5106,7 +6141,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3
+          }
         },
         {
           "id": "western_d86e39480114",
@@ -5123,7 +6162,11 @@
             "설탕",
             "소금",
             "몰트시럽"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_5715aea381f9",
@@ -5140,7 +6183,11 @@
             "버터",
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_b35de5292c38",
@@ -5159,7 +6206,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_f86d8baf8e45",
@@ -5177,7 +6228,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3
+          }
         },
         {
           "id": "western_ce6775ea3c91",
@@ -5194,7 +6249,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_28b726aa15de",
@@ -5212,7 +6271,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         },
         {
           "id": "western_4f331fc0ce26",
@@ -5230,7 +6293,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_580b285e07c5",
@@ -5249,7 +6316,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_d29922c9f851",
@@ -5270,7 +6341,11 @@
             "설탕",
             "소금",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_460d99052a81",
@@ -5287,7 +6362,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         },
         {
           "id": "western_62443d473797",
@@ -5307,7 +6386,11 @@
             "설탕",
             "소금",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_683c0eb7946b",
@@ -5326,7 +6409,11 @@
             "설탕",
             "소금",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_01c1d9e53a4f",
@@ -5346,7 +6433,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_0d138ef31eeb",
@@ -5364,7 +6455,11 @@
             "식용유",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_7d17fd0dddd7",
@@ -5384,7 +6479,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_82be12e03213",
@@ -5403,7 +6502,11 @@
             "설탕",
             "소금",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_e08dcdcfcd50",
@@ -5424,7 +6527,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_b96cf60c4d44",
@@ -5444,7 +6551,11 @@
             "설탕",
             "소금",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_d3f2c3197b56",
@@ -5465,7 +6576,11 @@
             "설탕",
             "소금",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_5817c7d6ec48",
@@ -5481,7 +6596,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "western_d46664692483",
@@ -5498,7 +6617,11 @@
           "seasonings": [
             "소금",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5522,7 +6645,11 @@
             "올리브유",
             "소금",
             "발사믹식초"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "western_6798625bb22a",
@@ -5541,7 +6668,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_8b09f7d4bb7e",
@@ -5560,7 +6691,11 @@
           "seasonings": [
             "버터",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_506ad6fa78d3",
@@ -5577,7 +6712,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_ac62c75d67f5",
@@ -5596,7 +6735,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_b70a49e1a0ed",
@@ -5617,7 +6760,11 @@
             "핫소스",
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5644,7 +6791,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -5671,7 +6822,11 @@
             "와인식초",
             "머스터드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         }
       ]
     },
@@ -5698,7 +6853,11 @@
             "와인식초",
             "머스터드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_70690597dd4b",
@@ -5717,7 +6876,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_1abc3b86f3d4",
@@ -5737,7 +6900,11 @@
             "올리브유",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_845cee6f7841",
@@ -5757,7 +6924,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5781,7 +6952,11 @@
             "마요네즈",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_0ead7c49c45a",
@@ -5799,7 +6974,11 @@
             "버터",
             "계피가루",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_447e42c3f926",
@@ -5818,7 +6997,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_12092fb4ae57",
@@ -5834,7 +7017,11 @@
           "seasonings": [
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         }
       ]
     },
@@ -5858,7 +7045,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 3
+          }
         },
         {
           "id": "western_4ebdba3688a5",
@@ -5878,7 +7069,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_baf5670c567a",
@@ -5898,7 +7093,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -5922,7 +7121,11 @@
             "올리브유",
             "발사믹식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_f5d98791e93a",
@@ -5943,7 +7146,11 @@
             "후추",
             "식초",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_6de7252579eb",
@@ -5963,7 +7170,11 @@
             "후추",
             "식초",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -5988,7 +7199,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_e93f3e826068",
@@ -6007,7 +7222,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_64bb185c4a48",
@@ -6027,7 +7246,11 @@
             "올리브유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_ed7b738aef74",
@@ -6047,7 +7270,11 @@
             "소금",
             "후추",
             "와인식초"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -6072,7 +7299,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_6dad4b6a61ba",
@@ -6092,7 +7323,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_e614daff0aaf",
@@ -6110,7 +7345,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6135,7 +7374,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -6158,7 +7401,11 @@
             "올리브유",
             "발사믹식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         }
       ]
     },
@@ -6182,7 +7429,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -6207,7 +7458,11 @@
             "레몬즙",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -6232,7 +7487,11 @@
             "올리브유",
             "와인식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_bb05d882630e",
@@ -6252,7 +7511,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_366aea11d8cc",
@@ -6270,7 +7533,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_aebaa8a4c4e9",
@@ -6289,7 +7556,11 @@
             "파프리카가루",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_989e14b220c6",
@@ -6306,7 +7577,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_09d52772f1b7",
@@ -6326,7 +7601,11 @@
             "버터",
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_ed7661c05544",
@@ -6345,7 +7624,11 @@
             "마요네즈",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_75386a569fe0",
@@ -6364,7 +7647,11 @@
             "머스터드",
             "우스터소스",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_72c37109f1c6",
@@ -6384,7 +7671,11 @@
             "소금",
             "후추",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_c47108447044",
@@ -6405,7 +7696,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -6429,7 +7724,11 @@
             "마요네즈",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_190214ed25df",
@@ -6448,7 +7747,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "western_9f620ce87e8d",
@@ -6469,7 +7772,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_c54b8d4656e5",
@@ -6489,7 +7796,11 @@
             "소금",
             "후추",
             "로즈메리"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a79754bc163d",
@@ -6510,7 +7821,11 @@
             "소금",
             "후추",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_1956a0b2531c",
@@ -6531,7 +7846,11 @@
             "소금",
             "후추",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_4eb50a77439d",
@@ -6551,7 +7870,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_e9227a978a28",
@@ -6571,7 +7894,11 @@
             "사과주",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_499bc6522e5c",
@@ -6589,7 +7916,11 @@
             "올리브유",
             "화이트와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_43858bd67df6",
@@ -6608,7 +7939,11 @@
             "파프리카가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "western_cbe456c1303b",
@@ -6630,7 +7965,11 @@
             "밀가루",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_c981b51bd775",
@@ -6652,7 +7991,11 @@
             "케이준시즈닝",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "western_eff87168d754",
@@ -6671,7 +8014,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 4
+          }
         },
         {
           "id": "western_c107b6c026cc",
@@ -6691,7 +8038,12 @@
             "메이플시럽",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "western_f3522cd56455",
@@ -6711,7 +8063,11 @@
             "흑설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "greasy": 3
+          }
         },
         {
           "id": "western_277ea866cf59",
@@ -6729,7 +8085,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_d6ccbe55451a",
@@ -6747,7 +8107,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9d06701119cf",
@@ -6767,7 +8131,11 @@
             "카레가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_89bc7f5c490c",
@@ -6788,7 +8156,11 @@
             "레드와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_63889548a990",
@@ -6807,7 +8179,11 @@
             "디종머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_fd132e308fdc",
@@ -6827,7 +8203,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -6852,7 +8232,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "western_9078354a854b",
@@ -6871,7 +8255,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_3a0a54883208",
@@ -6890,7 +8278,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6913,7 +8305,11 @@
             "홀그레인머스터드",
             "꿀",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 3
+          }
         },
         {
           "id": "western_223690e349c7",
@@ -6935,7 +8331,11 @@
             "계피가루",
             "베이킹소다",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_74c2cae4a826",
@@ -6955,7 +8355,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_f726ad8e89d0",
@@ -6971,7 +8375,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -6996,7 +8404,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_050d521d6602",
@@ -7014,7 +8426,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_46bb45436372",
@@ -7033,7 +8449,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_790296995803",
@@ -7053,7 +8473,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_edb8a17c4c8e",
@@ -7073,7 +8497,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7097,7 +8525,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_b9347a268342",
@@ -7116,7 +8548,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_e75866bdf3b9",
@@ -7135,7 +8571,12 @@
             "버터",
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -7160,7 +8601,11 @@
             "소금",
             "후추",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7186,7 +8631,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "rich": 4
+          }
         },
         {
           "id": "western_ecc1e8b01614",
@@ -7205,7 +8654,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_83d9dcaa6dbd",
@@ -7224,7 +8677,11 @@
             "화이트와인",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7250,7 +8707,11 @@
             "사프란",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_121e23e04df0",
@@ -7270,7 +8731,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7294,7 +8759,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_53a4b56314b5",
@@ -7312,7 +8781,11 @@
             "버터",
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -7336,7 +8809,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -7361,7 +8838,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_098f05a7a753",
@@ -7380,7 +8861,11 @@
             "올리브유",
             "소금",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9e036d3cc23e",
@@ -7398,7 +8883,11 @@
             "파프리카가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_986d8c7715e1",
@@ -7418,7 +8907,12 @@
             "흑설탕",
             "머스터드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9e3574d914d5",
@@ -7437,7 +8931,12 @@
             "당밀",
             "머스터드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_ee0b8a975505",
@@ -7456,7 +8955,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7479,7 +8982,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7505,7 +9012,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_36666b6a396b",
@@ -7524,7 +9035,11 @@
             "올리브유",
             "소금",
             "바질"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_bd171a064e09",
@@ -7544,7 +9059,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_776f4fe0b63c",
@@ -7563,7 +9082,11 @@
             "올리브유",
             "소금",
             "셰리식초"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 3
+          }
         },
         {
           "id": "western_81e141490852",
@@ -7585,7 +9108,11 @@
             "소금",
             "계피가루",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_75f2acb93ee5",
@@ -7606,7 +9133,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -7630,7 +9161,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_99f880191fd7",
@@ -7651,7 +9186,11 @@
             "소금",
             "후추",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_3025c39073f8",
@@ -7670,7 +9209,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_9f3e5dd260ff",
@@ -7691,7 +9234,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_e087b025047b",
@@ -7711,7 +9258,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_57a98f64f8a2",
@@ -7731,7 +9282,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_cc2e5ebca7d2",
@@ -7750,7 +9305,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7776,7 +9335,11 @@
             "우스터소스",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_405e114c89dc",
@@ -7795,7 +9358,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_2df22e5d8cc1",
@@ -7815,7 +9382,11 @@
             "소금",
             "후추",
             "우스터소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_018fdb9d0e75",
@@ -7835,7 +9406,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7861,7 +9436,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7886,7 +9465,11 @@
             "소금",
             "후추",
             "타르타르소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_c73939e6a483",
@@ -7905,7 +9488,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_9395f13a0c71",
@@ -7927,7 +9514,11 @@
             "소금",
             "후추",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7951,7 +9542,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_8d6de7929744",
@@ -7969,7 +9564,12 @@
             "소금",
             "설탕",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_3d38e3d039f5",
@@ -7990,7 +9590,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_35f10de663f2",
@@ -8011,7 +9615,11 @@
             "후추",
             "식용유",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9dabb5e5bb55",
@@ -8030,7 +9638,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_be53be5b3512",
@@ -8049,7 +9661,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8074,7 +9690,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8099,7 +9719,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_d098261e2d92",
@@ -8119,7 +9743,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8142,7 +9770,11 @@
           "seasonings": [
             "버터",
             "사우전드아일랜드드레싱"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_7692d6775abd",
@@ -8158,7 +9790,11 @@
           ],
           "seasonings": [
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_0c7396640c36",
@@ -8176,7 +9812,11 @@
           "seasonings": [
             "버터",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_4e2d514acb71",
@@ -8195,7 +9835,11 @@
             "버터",
             "레물라드소스",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_217b44f1c57b",
@@ -8214,7 +9858,11 @@
             "크림치즈",
             "레몬즙",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_0e95828aff0b",
@@ -8233,7 +9881,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8256,7 +9908,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_25efdd06d116",
@@ -8274,7 +9930,11 @@
             "바질페스토",
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8298,7 +9958,11 @@
           "seasonings": [
             "레몬즙",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8324,7 +9988,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_7ee4de21d0ec",
@@ -8345,7 +10013,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_53d2391f068f",
@@ -8366,7 +10038,11 @@
             "머스터드",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_2d7f59dcbcbf",
@@ -8386,7 +10062,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_49bf0f04fb3e",
@@ -8406,7 +10086,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_e7e2a54eaa1c",
@@ -8425,7 +10109,11 @@
             "마요네즈",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_9cf9e43d6421",
@@ -8445,7 +10133,11 @@
             "우스터소스",
             "머스터드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8467,7 +10159,11 @@
           "seasonings": [
             "케첩",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_74f6516bb567",
@@ -8486,7 +10182,11 @@
             "타르타르소스",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a87169c7ce3e",
@@ -8505,7 +10205,11 @@
             "마요네즈",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8531,7 +10235,12 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "western_284be75f9486",
@@ -8550,7 +10259,12 @@
             "카레가루",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a7dd19c8e07e",
@@ -8569,7 +10283,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8593,7 +10311,11 @@
             "소금",
             "후추",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_97de6fef4a9a",
@@ -8610,7 +10332,11 @@
           "seasonings": [
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_7e4ac9310bdd",
@@ -8629,7 +10355,11 @@
             "버터",
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         },
         {
           "id": "western_899567ba6fc6",
@@ -8646,7 +10376,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_0214682508c9",
@@ -8664,7 +10398,11 @@
             "버터",
             "설탕",
             "럼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8688,7 +10426,11 @@
             "버터",
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_9beee4ffad87",
@@ -8706,7 +10448,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8729,7 +10475,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_077254fe01c8",
@@ -8747,7 +10497,11 @@
           "seasonings": [
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_9f8d88775c26",
@@ -8765,7 +10519,11 @@
             "버터",
             "설탕",
             "살구잼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8790,7 +10548,11 @@
             "버터",
             "소금",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8814,7 +10576,11 @@
             "버터",
             "소금",
             "꿀"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_95fcfa0d733b",
@@ -8833,7 +10599,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_c91b5a824941",
@@ -8850,7 +10620,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_82e496e8ec82",
@@ -8867,7 +10641,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_78990cf7be58",
@@ -8884,7 +10662,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8908,7 +10690,11 @@
             "설탕",
             "버터",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8931,7 +10717,11 @@
           "seasonings": [
             "설탕",
             "코코아가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8953,7 +10743,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_70b0b6978c41",
@@ -8969,7 +10763,11 @@
           "seasonings": [
             "설탕",
             "바닐라빈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_5113115ce2b4",
@@ -8986,7 +10784,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -9007,7 +10809,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "western_ee7843972503",
@@ -9024,7 +10830,11 @@
           "seasonings": [
             "설탕",
             "바닐라빈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "western_b9bbba18c09a",
@@ -9041,7 +10851,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "western_62020bc3b92c",
@@ -9059,7 +10873,11 @@
             "설탕",
             "넛메그",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -9083,7 +10901,11 @@
             "버터",
             "물엿",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9106,7 +10928,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "western_11e791da8c9d",
@@ -9124,7 +10950,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9147,7 +10977,11 @@
           "seasonings": [
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9171,7 +11005,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9197,7 +11035,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_c0173d4c12a0",
@@ -9216,7 +11058,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9241,7 +11087,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9265,7 +11115,11 @@
             "올리브유",
             "소금",
             "페페론치노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_de3aebcc0af0",
@@ -9284,7 +11138,11 @@
             "올리브유",
             "소금",
             "페페론치노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9309,7 +11167,11 @@
             "올리브유",
             "소금",
             "레드와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_551dd3323c72",
@@ -9330,7 +11192,11 @@
             "소금",
             "레드와인",
             "주니퍼베리"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9354,7 +11220,11 @@
             "버터",
             "소금",
             "마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9377,7 +11247,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9401,7 +11275,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_6e37f73106f4",
@@ -9420,7 +11298,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_36f39079eeb7",
@@ -9440,7 +11322,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9464,7 +11350,11 @@
             "버터",
             "소금",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_92e354453a4e",
@@ -9482,7 +11372,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_17c76fe242af",
@@ -9497,7 +11391,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -9522,7 +11420,11 @@
             "올리브유",
             "소금",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9547,7 +11449,11 @@
             "올리브유",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9573,7 +11479,11 @@
             "소금",
             "후추",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_70be993d46b0",
@@ -9593,7 +11503,11 @@
             "식용유",
             "소금",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_f464a68b6d53",
@@ -9612,7 +11526,11 @@
             "버터",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_04eb179718f8",
@@ -9631,7 +11549,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_f3f280e39edf",
@@ -9650,7 +11572,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9675,7 +11601,11 @@
             "화이트와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_95393619dead",
@@ -9693,7 +11623,11 @@
             "화이트와인",
             "소금",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9718,7 +11652,11 @@
             "주니퍼베리",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_e46a1e28e77b",
@@ -9739,7 +11677,12 @@
             "소금",
             "후추",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 2,
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_7e2149eab723",
@@ -9759,7 +11702,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_9f8676ab4270",
@@ -9779,7 +11726,11 @@
             "후추",
             "파프리카가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -9803,7 +11754,11 @@
             "소금",
             "후추",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -9827,7 +11782,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -9851,7 +11810,11 @@
             "와인식초",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -9874,7 +11837,11 @@
             "후추",
             "발사믹식초",
             "꿀"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -9899,7 +11866,11 @@
             "후추",
             "타라곤",
             "와인식초"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_7eeab7cb8d20",
@@ -9919,7 +11890,11 @@
             "마데이라와인",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -9942,7 +11917,11 @@
             "소금",
             "후추",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_64153d4c6e61",
@@ -9962,7 +11941,11 @@
             "후추",
             "브랜디",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_481d69e1f758",
@@ -9982,7 +11965,11 @@
             "파프리카페이스트",
             "화이트와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_6fbec1f80cd7",
@@ -10001,7 +11988,11 @@
             "소금",
             "후추",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_87250062fdfd",
@@ -10022,7 +12013,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_40fd9824be94",
@@ -10042,7 +12037,11 @@
             "식용유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_08867d5a3d55",
@@ -10062,7 +12061,11 @@
             "후추",
             "캐러웨이",
             "맥주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_05d19529efe1",
@@ -10082,7 +12085,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_ef26a33fc5c6",
@@ -10102,7 +12109,11 @@
             "파프리카가루",
             "캐러웨이",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "western_552bffc8a5cc",
@@ -10121,7 +12132,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10144,7 +12159,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10169,7 +12188,11 @@
             "버터",
             "소금",
             "화이트와인"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10193,7 +12216,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10217,7 +12244,11 @@
             "올리브유",
             "에스펠레트고추가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_7896c3c071f3",
@@ -10236,7 +12267,11 @@
             "소금",
             "파프리카가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_429b7973a884",
@@ -10254,7 +12289,11 @@
             "파프리카가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_3b1d0f27548c",
@@ -10273,7 +12312,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10296,7 +12339,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10322,7 +12369,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10345,7 +12396,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10370,7 +12425,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10394,7 +12453,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_800603fd8d26",
@@ -10414,7 +12477,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_2df8d0ffe352",
@@ -10434,7 +12501,11 @@
             "설탕",
             "계피가루",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_f4a5d505e11d",
@@ -10452,7 +12523,11 @@
             "올리브유",
             "와인식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "western_9b450286e79d",
@@ -10472,7 +12547,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10494,7 +12573,11 @@
             "버터",
             "소금",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_098c4e544af5",
@@ -10514,7 +12597,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10539,7 +12626,11 @@
             "와인식초",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -10560,7 +12651,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10585,7 +12680,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_6c2e59a921af",
@@ -10605,7 +12704,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_1f1f7868da52",
@@ -10625,7 +12728,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_3e44f36a3f7b",
@@ -10643,7 +12750,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_5acd432d7379",
@@ -10661,7 +12772,11 @@
           "seasonings": [
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10684,7 +12799,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_60d155da21f1",
@@ -10701,7 +12820,11 @@
             "올리브유",
             "파프리카가루",
             "굵은소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10726,7 +12849,11 @@
             "올리브유",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_632ab529077f",
@@ -10746,7 +12873,11 @@
             "케이준시즈닝",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10770,7 +12901,11 @@
             "올리브유",
             "셰리식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -10793,7 +12928,11 @@
             "식용유",
             "소금",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "western_e852bc3cc027",
@@ -10811,7 +12950,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10834,7 +12977,11 @@
             "와인식초",
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -10858,7 +13005,11 @@
             "올리브유",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a2883b4a2751",
@@ -10878,7 +13029,11 @@
             "식초",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "western_a344ecf73f6f",
@@ -10898,7 +13053,11 @@
             "올리브유",
             "소금",
             "민트"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10923,7 +13082,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_f6d9f63b1585",
@@ -10943,7 +13106,11 @@
             "올리브유",
             "레드와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10969,7 +13136,11 @@
             "사프란",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10995,7 +13166,11 @@
             "넛메그",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -11018,7 +13193,11 @@
             "소금",
             "후추",
             "로즈메리"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_a0d741e5f8d5",
@@ -11038,7 +13217,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11064,7 +13247,11 @@
             "레몬즙",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11089,7 +13276,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11113,7 +13304,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_b2e2fe3149a6",
@@ -11132,7 +13327,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11156,7 +13355,11 @@
             "후추",
             "캐러웨이",
             "맥주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "western_b7b07894f80c",
@@ -11175,7 +13378,11 @@
             "후추",
             "맥주",
             "월계수잎"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -11198,7 +13405,11 @@
             "소금",
             "후추",
             "맥주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -11221,7 +13432,11 @@
             "소금",
             "후추",
             "주니퍼베리"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -11245,7 +13460,11 @@
             "소금",
             "후추",
             "마조람"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -11270,7 +13489,11 @@
             "설탕",
             "소금",
             "정향"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "sour": 4
+          }
         }
       ]
     },
@@ -11293,7 +13516,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_b3fa8141aa9a",
@@ -11311,7 +13538,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_ce17a4afda90",
@@ -11331,7 +13562,11 @@
             "설탕",
             "소금",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11352,7 +13587,11 @@
           ],
           "seasonings": [
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -11377,7 +13616,11 @@
             "키르슈",
             "전분",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -11400,7 +13643,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_3085c6f0f771",
@@ -11416,7 +13663,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3
+          }
         }
       ]
     },
@@ -11440,7 +13691,11 @@
             "소금",
             "후추",
             "마조람"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -11465,7 +13720,12 @@
             "식초",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "western_71ad4b0eed5d",
@@ -11483,7 +13743,11 @@
             "머스터드",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -11507,7 +13771,12 @@
             "흑설탕",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11528,7 +13797,11 @@
             "소금",
             "후추",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11553,7 +13826,12 @@
             "소금",
             "후추",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11578,7 +13856,11 @@
             "소금",
             "후추",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11603,7 +13885,11 @@
             "올리브유",
             "와인식초",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11628,7 +13914,11 @@
             "버터",
             "케이준시즈닝",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -11652,7 +13942,11 @@
             "소금",
             "후추",
             "넛메그"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "western_c166e03159d2",
@@ -11671,7 +13965,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11694,7 +13992,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11716,7 +14018,11 @@
             "버터",
             "소금",
             "타임"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11740,7 +14046,11 @@
             "버터",
             "설탕",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11765,7 +14075,11 @@
             "소금",
             "후추",
             "세이지"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11789,7 +14103,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11812,7 +14130,11 @@
             "버터",
             "설탕",
             "럼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "western_64303cbe4501",
@@ -11829,7 +14151,11 @@
           "seasonings": [
             "버터",
             "머스터드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11851,7 +14177,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -11875,7 +14205,11 @@
             "버터",
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11899,7 +14233,11 @@
             "버터",
             "설탕",
             "럼"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11922,7 +14260,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -11942,7 +14284,11 @@
           ],
           "seasonings": [
             "코코아가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -11962,7 +14308,11 @@
           "seasonings": [
             "설탕",
             "마르살라와인"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -11987,7 +14337,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -12011,7 +14365,11 @@
             "설탕",
             "전분",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -12032,7 +14390,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -12056,7 +14418,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -12080,7 +14446,11 @@
             "버터",
             "흑설탕",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 4
+          }
         }
       ]
     },
@@ -12104,7 +14474,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "western_206b6fff0d88",
@@ -12121,7 +14495,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -12145,7 +14523,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "light": 4
+          }
         }
       ]
     },
@@ -12169,7 +14551,11 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12191,7 +14577,11 @@
           "seasonings": [
             "올리브유",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12213,7 +14603,11 @@
           "seasonings": [
             "올리브유",
             "굵은소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12238,7 +14632,11 @@
             "머스터드",
             "브랜디",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "western_95f8e06bf65e",
@@ -12257,7 +14655,11 @@
             "셰리와인",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12282,7 +14684,11 @@
             "머스터드",
             "올드베이시즈닝",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12306,7 +14712,11 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -12328,7 +14738,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     }

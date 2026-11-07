@@ -22,7 +22,11 @@
             "고춧가루",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_dd13c53cbcfd",
@@ -43,7 +47,11 @@
             "백후추",
             "고추기름",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sour": 4
+          }
         },
         {
           "id": "chinese_e160b2cb6546",
@@ -61,7 +69,11 @@
             "소금",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_65c58723668f",
@@ -81,7 +93,11 @@
             "굴소스",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_12612c64348a",
@@ -101,7 +117,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -124,7 +144,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "chinese_24d4fec7749b",
@@ -142,7 +166,11 @@
             "팔각",
             "계피",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_4c332306804b",
@@ -159,7 +187,11 @@
             "팔각",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_555aa00b1367",
@@ -177,7 +209,11 @@
             "소금",
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -201,7 +237,11 @@
             "굴소스",
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_fa68b8d919f8",
@@ -224,7 +264,11 @@
             "소흥주",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_bdb6a2a2dff5",
@@ -245,7 +289,11 @@
             "설탕",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "chinese_e47557bad242",
@@ -266,7 +314,12 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_63cf845fffff",
@@ -287,7 +340,12 @@
             "설탕",
             "식초",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_2f2468787ade",
@@ -307,7 +365,12 @@
             "설탕",
             "레몬즙",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_6e7f1edf7ddc",
@@ -326,7 +389,11 @@
             "굴소스",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_7b47acaf4ee0",
@@ -344,7 +411,11 @@
             "소금",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_0962090a16bf",
@@ -363,7 +434,11 @@
             "두시",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_995f5eef7c5d",
@@ -381,7 +456,11 @@
             "버터",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 5,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_f6edbd25c3c9",
@@ -401,7 +480,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -426,7 +509,11 @@
             "간장",
             "화자오",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_1a6be6f6129d",
@@ -446,7 +533,11 @@
             "식초",
             "참기름",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -539,6 +630,10 @@
                 "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
               }
             ]
+          },
+          "flavorLevels": {
+            "sweet_sour": 3,
+            "light": 3
           }
         },
         {
@@ -557,7 +652,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -581,7 +680,11 @@
             "간장",
             "식용유",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "sweet_sour_pork",
@@ -601,7 +704,11 @@
             "설탕",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_3c7ed485152e",
@@ -622,7 +729,12 @@
             "설탕",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_a52e7467b2a0",
@@ -640,7 +752,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_0fae553b2e07",
@@ -661,7 +777,11 @@
             "소금",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_f3b889551ee1",
@@ -683,7 +803,11 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "chinese_3dd5a002a5ac",
@@ -700,7 +824,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_f8a8099814cb",
@@ -721,7 +849,11 @@
             "소흥주",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_c56d89699fa4",
@@ -741,7 +873,11 @@
             "간장",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_e1687e220051",
@@ -760,7 +896,11 @@
             "설탕",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_96871e6cdd76",
@@ -779,7 +919,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 4
+          }
         },
         {
           "id": "chinese_d9698a428b87",
@@ -799,7 +943,12 @@
             "설탕",
             "소흥주",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_529e8aff0b23",
@@ -819,7 +968,12 @@
             "설탕",
             "소흥주",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_8137306cede6",
@@ -839,7 +993,12 @@
             "설탕",
             "소흥주",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_146858c48b5b",
@@ -861,7 +1020,12 @@
             "소흥주",
             "생강",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_95f31dac7c3b",
@@ -882,7 +1046,12 @@
             "설탕",
             "오향가루",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_bff80847373d",
@@ -903,7 +1072,12 @@
             "꿀",
             "오향가루",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_e25aaa812628",
@@ -922,7 +1096,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_eeb3accb91a6",
@@ -944,7 +1122,11 @@
             "소흥주",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_e9fa75120136",
@@ -963,7 +1145,11 @@
             "꿀",
             "오향가루",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_59a8faa78acd",
@@ -982,7 +1168,11 @@
             "소금",
             "백후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_2db5f0ce412d",
@@ -1003,7 +1193,11 @@
             "고추기름",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_d880e0c2fa92",
@@ -1022,7 +1216,11 @@
             "식초",
             "고추기름",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "cool": 4
+          }
         },
         {
           "id": "chinese_9e608f839a18",
@@ -1040,7 +1238,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_2bd1619b5835",
@@ -1059,7 +1261,11 @@
             "소금",
             "백후추",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 2,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1084,7 +1290,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_d9db8f9461d9",
@@ -1104,7 +1314,11 @@
             "큐민",
             "화자오",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1129,7 +1343,11 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "chinese_9acd68250cc1",
@@ -1149,7 +1367,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "chinese_73178fb7f199",
@@ -1169,7 +1391,11 @@
             "간장",
             "화자오",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_229f0662e6f1",
@@ -1190,7 +1416,12 @@
             "굴소스",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_32d30f755ad9",
@@ -1211,7 +1442,12 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "chinese_ee0d74343fdc",
@@ -1231,7 +1467,11 @@
             "간장",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_8b8e02a59f7a",
@@ -1251,7 +1491,11 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "chinese_820e2a546e9f",
@@ -1271,7 +1515,12 @@
             "설탕",
             "소흥주",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_2c8918730e64",
@@ -1289,7 +1538,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "chinese_416f06adbf4b",
@@ -1309,7 +1562,11 @@
             "식초",
             "설탕",
             "고추기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "savory": 5
+          }
         },
         {
           "id": "chinese_dd14cda4ebd7",
@@ -1329,7 +1586,11 @@
             "간장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "sour": 4
+          }
         },
         {
           "id": "chinese_d7d6e9b0bb1e",
@@ -1350,7 +1611,11 @@
             "큐민",
             "팔각",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_e4d2ae73b10c",
@@ -1369,7 +1634,11 @@
             "간장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "cool": 4
+          }
         },
         {
           "id": "chinese_c1442233cc8a",
@@ -1390,7 +1659,12 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b18731133691",
@@ -1409,7 +1683,11 @@
             "소금",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "chinese_f47aa95f19bb",
@@ -1427,7 +1705,11 @@
           "seasonings": [
             "소금",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_779ac6442264",
@@ -1446,7 +1728,11 @@
             "간장",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1472,7 +1758,11 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "chinese_6d4ceaf7f331",
@@ -1492,7 +1782,11 @@
             "설탕",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1513,7 +1807,11 @@
           "seasonings": [
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
         },
         {
           "id": "mala_soup",
@@ -1532,7 +1830,11 @@
             "마라소스",
             "땅콩소스",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1558,7 +1860,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "cool": 3
+          }
         },
         {
           "id": "jajang",
@@ -1577,7 +1883,11 @@
             "춘장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_9b8d36e523cd",
@@ -1597,7 +1907,11 @@
             "고추기름",
             "간장",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_64c3601021af",
@@ -1617,7 +1931,11 @@
             "간장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "savory": 4
+          }
         },
         {
           "id": "chinese_7584bac0d730",
@@ -1637,7 +1955,11 @@
             "소금",
             "굴소스",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_d8813e39989f",
@@ -1655,7 +1977,11 @@
             "마라소스",
             "간장",
             "참깨페이스트"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_f317ebba911f",
@@ -1672,7 +1998,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1699,7 +2029,11 @@
             "설탕",
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -1726,7 +2060,11 @@
             "소흥주",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1752,7 +2090,11 @@
             "두반장",
             "화자오",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_71a65bf02dda",
@@ -1771,7 +2113,11 @@
             "굴소스",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_01dfe9753401",
@@ -1789,7 +2135,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_b7185364bbcc",
@@ -1807,7 +2157,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_2fda2328dd14",
@@ -1827,7 +2181,12 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 3,
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_580f69abb8c7",
@@ -1849,7 +2208,12 @@
             "팔각",
             "소흥주",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_9cb482a232a1",
@@ -1870,7 +2234,11 @@
             "고추기름",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_b779dc6372fe",
@@ -1890,7 +2258,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b363ccc14b7d",
@@ -1910,7 +2282,11 @@
             "두반장",
             "팔각",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_995944b06dce",
@@ -1929,7 +2305,11 @@
             "간장",
             "흑후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_e7d29892d97b",
@@ -1949,7 +2329,11 @@
             "두반장",
             "화자오",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_1dd29a2503cc",
@@ -1969,7 +2353,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_19d8d395241c",
@@ -1988,7 +2376,11 @@
             "간장",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_68d4334c4c09",
@@ -2007,7 +2399,11 @@
             "계피",
             "소금",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_bc0e5fed2562",
@@ -2026,7 +2422,11 @@
             "간장",
             "팔각",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2050,7 +2450,11 @@
             "소금",
             "화자오",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2074,7 +2478,11 @@
             "화자오",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2095,7 +2503,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -2118,7 +2530,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "chinese_c8c367862aec",
@@ -2137,7 +2553,11 @@
             "식초",
             "고추기름",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -2158,7 +2578,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -2181,7 +2605,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2207,7 +2635,12 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_1fc4564be103",
@@ -2227,7 +2660,11 @@
             "간장",
             "고춧가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2254,7 +2691,12 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "greasy": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2279,7 +2721,12 @@
             "설탕",
             "소흥주",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_9783ff87099f",
@@ -2298,7 +2745,11 @@
             "설탕",
             "소흥주",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_4473fee3d498",
@@ -2316,7 +2767,11 @@
             "간장",
             "설탕",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_1301971e4099",
@@ -2335,7 +2790,12 @@
             "식초",
             "설탕",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_01a9b46f47dc",
@@ -2353,7 +2813,11 @@
             "꿀",
             "소흥주",
             "오향가루"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_8463575af277",
@@ -2372,7 +2836,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_48c3ecfedcfa",
@@ -2393,7 +2861,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2419,7 +2891,12 @@
             "오향가루",
             "소금",
             "춘장"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_68e7c427f92a",
@@ -2439,7 +2916,11 @@
             "오향가루",
             "소금",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_91bdd5e538dd",
@@ -2459,7 +2940,11 @@
             "계피",
             "설탕",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2485,7 +2970,11 @@
             "고추기름",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "chinese_ba9c28a07232",
@@ -2504,7 +2993,11 @@
             "소흥주",
             "백후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 2,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_cea24d50043c",
@@ -2524,7 +3017,11 @@
             "소금",
             "생강",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "sour": 3
+          }
         }
       ]
     },
@@ -2548,7 +3045,11 @@
             "소흥주",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2571,7 +3072,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2594,7 +3099,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2619,7 +3128,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_a2df5c7b2835",
@@ -2640,7 +3153,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2666,7 +3183,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_776d1e273080",
@@ -2685,7 +3206,11 @@
             "소금",
             "간장",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b4f4c8e55751",
@@ -2705,7 +3230,11 @@
             "간장",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2730,7 +3259,12 @@
             "간장",
             "고추기름",
             "참깨페이스트"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "spicy": 3,
+            "sour": 4
+          }
         }
       ]
     },
@@ -2754,7 +3288,11 @@
             "첨면장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_a432070ec4e4",
@@ -2774,7 +3312,11 @@
             "화자오",
             "간장",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2799,7 +3341,12 @@
             "춘장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_0dbaa661a167",
@@ -2820,7 +3367,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_598ee028042c",
@@ -2840,7 +3391,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_20666ea17993",
@@ -2859,7 +3414,11 @@
             "굴소스",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_63ecd270b635",
@@ -2880,7 +3439,11 @@
             "간장",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2904,7 +3467,11 @@
             "간장",
             "참기름",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2929,7 +3496,11 @@
             "간장",
             "식초",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_91738e4987de",
@@ -2949,7 +3520,11 @@
             "소금",
             "참기름",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_9d649b1bd383",
@@ -2969,7 +3544,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_4f6a8a4eb807",
@@ -2989,7 +3568,11 @@
             "소금",
             "참기름",
             "굴소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_142a7b3ca126",
@@ -3008,7 +3591,11 @@
             "굴소스",
             "설탕",
             "오향가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_5a65457f6806",
@@ -3028,7 +3615,11 @@
             "굴소스",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_8359fa888f4b",
@@ -3044,7 +3635,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_e58f0eba6935",
@@ -3061,7 +3656,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_96bfec066aaa",
@@ -3080,7 +3679,11 @@
             "첨면장",
             "칠리소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_76c5275ed975",
@@ -3098,7 +3701,11 @@
             "흑설탕",
             "베이킹파우더",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "chinese_3bd8da27a76e",
@@ -3116,7 +3723,11 @@
             "설탕",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "chinese_6e9d8a25d03c",
@@ -3132,7 +3743,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_932547414e1b",
@@ -3149,7 +3764,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_4587d1d39e4e",
@@ -3167,7 +3786,11 @@
           "seasonings": [
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_a95095d08576",
@@ -3185,7 +3808,11 @@
           "seasonings": [
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_30bf6f7c681c",
@@ -3202,7 +3829,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_10007c0baaee",
@@ -3219,7 +3850,11 @@
           "seasonings": [
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_71bfe0241d4a",
@@ -3236,7 +3871,11 @@
           "seasonings": [
             "설탕",
             "라드"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b4d59a0abf02",
@@ -3255,7 +3894,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_3769262a56fc",
@@ -3274,7 +3917,11 @@
             "팔각",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_975a06d20467",
@@ -3291,7 +3938,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_07d4734c239e",
@@ -3309,7 +3960,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_2810bc847188",
@@ -3325,7 +3980,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_65f31ccdfa0d",
@@ -3344,7 +4003,11 @@
             "두반장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_83e179ac2a5d",
@@ -3363,7 +4026,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_c35c11440c36",
@@ -3382,7 +4049,11 @@
             "버터",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b0099be04163",
@@ -3398,7 +4069,11 @@
             "소금",
             "베이킹파우더",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_97315a9bfb7b",
@@ -3418,7 +4093,11 @@
             "화자오",
             "팔각",
             "고추기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_58febae2e042",
@@ -3437,7 +4116,11 @@
             "간장",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_b3121c00b07f",
@@ -3457,7 +4140,11 @@
             "간장",
             "설탕",
             "팔각"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_1fcecaee10a9",
@@ -3475,7 +4162,11 @@
             "설탕",
             "식용유",
             "베이킹소다"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -3499,7 +4190,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_8a68bb55051f",
@@ -3519,7 +4214,11 @@
             "고추기름",
             "식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sour": 4
+          }
         },
         {
           "id": "chinese_a0b456fcdddf",
@@ -3539,7 +4238,11 @@
             "소금",
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_e9e6323682d4",
@@ -3559,7 +4262,11 @@
             "소금",
             "팔각",
             "고추기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3584,7 +4291,11 @@
             "소금",
             "참기름",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "chinese_bcbec5d7a9fa",
@@ -3603,7 +4314,11 @@
             "간장",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3626,7 +4341,11 @@
             "간장",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3651,7 +4370,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3677,7 +4400,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3702,7 +4429,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_671de9c790ee",
@@ -3722,7 +4453,11 @@
             "소금",
             "참기름",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_6397e5c83e54",
@@ -3742,7 +4477,11 @@
             "소금",
             "참기름",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_64ec9c58b006",
@@ -3761,7 +4500,11 @@
             "소금",
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_00b23279430a",
@@ -3781,7 +4524,11 @@
             "소금",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3802,7 +4549,11 @@
           "seasonings": [
             "설탕",
             "라드"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "chinese_7870473e6d53",
@@ -3819,7 +4570,11 @@
           "seasonings": [
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "chinese_32808444e292",
@@ -3835,7 +4590,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -3856,7 +4615,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "chinese_5ba31e771b72",
@@ -3873,7 +4636,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -3893,7 +4660,11 @@
           "seasonings": [
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -3919,7 +4690,11 @@
             "간장",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3941,7 +4716,11 @@
             "오향가루",
             "식초",
             "소흥주"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3964,7 +4743,11 @@
             "버터",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3988,7 +4771,11 @@
             "소흥주",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4012,7 +4799,11 @@
             "소흥주",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4036,7 +4827,11 @@
             "소금",
             "백후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_934d6a81fde5",
@@ -4054,7 +4849,11 @@
             "소금",
             "소흥주",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_cf7d3d8e46ed",
@@ -4071,7 +4870,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4093,7 +4896,11 @@
           "seasonings": [
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_cd68c03e3741",
@@ -4109,7 +4916,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4131,7 +4942,11 @@
             "굴소스",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4153,7 +4968,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4176,7 +4995,11 @@
           "seasonings": [
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4199,7 +5022,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4222,7 +5049,11 @@
             "간장",
             "참기름",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4246,7 +5077,11 @@
             "화자오",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4270,7 +5105,11 @@
             "연유",
             "버터",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_99e29212e177",
@@ -4289,7 +5128,11 @@
             "후추",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4313,7 +5156,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4338,7 +5185,11 @@
             "간장",
             "식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "sour": 4
+          }
         }
       ]
     },
@@ -4362,7 +5213,11 @@
             "간장",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "chinese_cbebe60f27bb",
@@ -4381,7 +5236,11 @@
             "소금",
             "후추",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4404,7 +5263,11 @@
             "식초",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -4428,7 +5291,11 @@
             "식초",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -4452,7 +5319,11 @@
             "간장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "chinese_e62ac54d5b91",
@@ -4470,7 +5341,11 @@
             "식초",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "sour": 4
+          }
         }
       ]
     },
@@ -4491,7 +5366,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -4511,7 +5390,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4531,7 +5414,11 @@
           "seasonings": [
             "설탕",
             "꿀"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4551,7 +5438,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4570,7 +5461,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4590,7 +5485,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -4611,7 +5510,11 @@
           ],
           "seasonings": [
             "빙설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     }

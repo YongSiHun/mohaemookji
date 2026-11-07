@@ -23,7 +23,12 @@
             "국간장",
             "다진 마늘"
           ],
-          "description": "등록된 대표 구성은 김치에 돼지고기와 두부를 더한 찌개입니다. 참치 김치찌개와 비교해 사용할 단백질 재료를 골라보세요."
+          "description": "등록된 대표 구성은 김치에 돼지고기와 두부를 더한 찌개입니다. 참치 김치찌개와 비교해 사용할 단백질 재료를 골라보세요.",
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "tuna_kimchi_stew",
@@ -44,7 +49,12 @@
             "국간장",
             "다진 마늘"
           ],
-          "description": "돼지고기 대신 참치가 등록된 김치찌개입니다. 김치와 두부를 쓰고 싶다면 두 찌개의 주재료를 비교해보세요."
+          "description": "돼지고기 대신 참치가 등록된 김치찌개입니다. 김치와 두부를 쓰고 싶다면 두 찌개의 주재료를 비교해보세요.",
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "umami": 3
+          }
         },
         {
           "id": "kimchi_rice",
@@ -147,6 +157,11 @@
                 "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
               }
             ]
+          },
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "savory": 4
           }
         },
         {
@@ -168,7 +183,12 @@
             "참기름",
             "식용유"
           ],
-          "description": "김치와 밥에 참치를 더하는 볶음밥 후보입니다. 기본 김치볶음밥과 비교해 추가할 재료를 결정해보세요."
+          "description": "김치와 밥에 참치를 더하는 볶음밥 후보입니다. 기본 김치볶음밥과 비교해 추가할 재료를 결정해보세요.",
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "savory": 4
+          }
         },
         {
           "id": "spam_kimchi_rice",
@@ -186,7 +206,11 @@
           "seasonings": [
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3
+          }
         },
         {
           "id": "pork_kimchi_rice",
@@ -204,7 +228,11 @@
           "seasonings": [
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "greasy": 3
+          }
         },
         {
           "id": "bacon_kimchi_rice",
@@ -221,7 +249,11 @@
           "seasonings": [
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3
+          }
         },
         {
           "id": "cheese_kimchi_rice",
@@ -238,7 +270,11 @@
           "seasonings": [
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "kimchi_pancake",
@@ -257,7 +293,12 @@
             "식용유",
             "고춧가루"
           ],
-          "description": "등록된 대표 재료는 김치·부침가루·양파입니다. 밥을 사용하는 김치볶음밥과 달리 부침가루를 활용하고 싶을 때 비교할 수 있습니다."
+          "description": "등록된 대표 재료는 김치·부침가루·양파입니다. 밥을 사용하는 김치볶음밥과 달리 부침가루를 활용하고 싶을 때 비교할 수 있습니다.",
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "savory": 3
+          }
         },
         {
           "id": "tofu_kimchi",
@@ -277,7 +318,11 @@
             "참기름",
             "다진 마늘"
           ],
-          "description": "김치와 두부, 돼지고기가 등록된 메뉴입니다. 같은 재료가 겹치는 김치찌개와 메뉴 형태를 비교하고 영상에서 조리법을 확인해보세요."
+          "description": "김치와 두부, 돼지고기가 등록된 메뉴입니다. 같은 재료가 겹치는 김치찌개와 메뉴 형태를 비교하고 영상에서 조리법을 확인해보세요.",
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4
+          }
         },
         {
           "id": "cold_kimchi_noodle",
@@ -297,7 +342,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "sour": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_3fcf6c538ed5",
@@ -315,7 +365,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_7c530d067eed",
@@ -334,7 +388,11 @@
             "국간장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_bacccf7ab7f1",
@@ -353,7 +411,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -380,7 +442,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "pork_bulgogi",
@@ -400,7 +467,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "pork_cutlet",
@@ -420,7 +492,11 @@
             "소금",
             "후추",
             "돈가스소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "bossam",
@@ -437,7 +513,11 @@
           "seasonings": [
             "된장",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_e86e9444d5ec",
@@ -455,7 +535,11 @@
             "새우젓",
             "다진 마늘",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_757dcb0f0ba8",
@@ -474,7 +558,11 @@
             "새우젓",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_cdb642044295",
@@ -493,7 +581,11 @@
             "새우젓",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_55dcb123bd1e",
@@ -513,7 +605,11 @@
             "고춧가루",
             "간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_ff51db9c74eb",
@@ -533,7 +629,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_9948a6d9bc69",
@@ -553,7 +654,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f73867a339ce",
@@ -575,7 +681,12 @@
             "간장",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_1a8e9ada3631",
@@ -596,7 +707,11 @@
             "소금",
             "후추",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_a40ff3524f66",
@@ -616,7 +731,11 @@
             "국간장",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -637,7 +756,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -657,7 +780,10 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3
+          }
         }
       ]
     },
@@ -682,7 +808,11 @@
             "고춧가루",
             "다진 마늘",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "potato_pancake",
@@ -698,7 +828,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "potato_braise",
@@ -715,7 +849,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4
+          }
         },
         {
           "id": "korean_d039ca78ceef",
@@ -733,7 +871,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_96b9ff2db5c0",
@@ -752,7 +894,12 @@
             "간장",
             "고춧가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 2,
+            "umami": 3
+          }
         },
         {
           "id": "korean_542aa21701d4",
@@ -770,7 +917,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c6986aff53b1",
@@ -789,7 +940,11 @@
             "국간장",
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_c76abbd45c8c",
@@ -807,7 +962,11 @@
             "들깻가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4b71ec821144",
@@ -823,7 +982,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -846,7 +1009,11 @@
           "seasonings": [
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "umami": 5,
+            "rich": 3
+          }
         },
         {
           "id": "braised_tofu",
@@ -865,7 +1032,11 @@
             "고춧가루",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4
+          }
         },
         {
           "id": "tofu_pan",
@@ -881,7 +1052,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "korean_6987109b51e1",
@@ -900,7 +1075,11 @@
             "국간장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_26caebeb70f5",
@@ -920,7 +1099,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -945,7 +1128,11 @@
             "국간장",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f1dabee4da01",
@@ -963,7 +1150,11 @@
             "새우젓",
             "국간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b8cf6500ae54",
@@ -983,7 +1174,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_97560adfcc3d",
@@ -1001,7 +1196,11 @@
             "들깻가루",
             "국간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1023,7 +1222,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "steamed_egg",
@@ -1039,7 +1242,11 @@
           "seasonings": [
             "새우젓",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "savory": 4
+          }
         },
         {
           "id": "egg_rice",
@@ -1055,7 +1262,11 @@
           "seasonings": [
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "savory": 4
+          }
         },
         {
           "id": "korean_d4c723cb69ab",
@@ -1075,7 +1286,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_606fe28164bd",
@@ -1094,7 +1310,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1120,7 +1340,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "beef_radish_soup",
@@ -1138,7 +1363,11 @@
             "국간장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "light": 4
+          }
         },
         {
           "id": "beef_jangjorim",
@@ -1156,7 +1385,11 @@
             "간장",
             "설탕",
             "맛술"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 4,
+            "sweet": 3
+          }
         },
         {
           "id": "korean_bd72e6229525",
@@ -1176,7 +1409,11 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_5a8a42a95b28",
@@ -1193,7 +1430,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_ca6eab077df9",
@@ -1213,7 +1454,11 @@
             "국간장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_d7d16494403d",
@@ -1232,7 +1477,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_2dab1f35a5ed",
@@ -1251,7 +1501,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_1fe5750a936c",
@@ -1269,7 +1523,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_a1e88a69301e",
@@ -1289,7 +1547,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_9db00c5b9caa",
@@ -1308,7 +1571,12 @@
             "배즙",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b9442974632c",
@@ -1327,7 +1595,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b80fe1b0a7e1",
@@ -1346,7 +1618,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_6eb793b40eef",
@@ -1365,7 +1641,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_bdce084abb27",
@@ -1385,7 +1665,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_6ba653360330",
@@ -1406,7 +1690,11 @@
             "설탕",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_66fbf1a072a4",
@@ -1425,7 +1713,11 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_bf558e4d6ef5",
@@ -1445,7 +1737,11 @@
             "설탕",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1467,7 +1763,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_5e6f125d0aed",
@@ -1485,7 +1785,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_ba80a5fc0a3b",
@@ -1502,7 +1807,11 @@
             "참기름",
             "소금",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          }
         },
         {
           "id": "korean_ca5faf83c4c8",
@@ -1522,7 +1831,12 @@
             "설탕",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_d44eafd7c5d6",
@@ -1541,7 +1855,11 @@
             "들기름",
             "다진 마늘",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1567,7 +1885,11 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "chicken_braise",
@@ -1587,7 +1909,11 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "dakgalbi",
@@ -1607,7 +1933,11 @@
             "고춧가루",
             "간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 2
+          }
         },
         {
           "id": "chicken_soup",
@@ -1624,7 +1954,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_b7d82f76f0f8",
@@ -1643,7 +1977,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_6ef03222dce9",
@@ -1661,7 +1999,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_6a1b8bc1ff6b",
@@ -1680,7 +2022,11 @@
             "소금",
             "후추",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_a34e1c92b9ce",
@@ -1700,7 +2046,11 @@
             "국간장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_0e3f404f6276",
@@ -1720,7 +2070,12 @@
             "고추장",
             "간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a28fda65de00",
@@ -1739,7 +2094,12 @@
             "설탕",
             "맛술",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f6308aeae136",
@@ -1759,7 +2119,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1783,7 +2147,11 @@
             "고춧가루",
             "설탕",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3
+          }
         },
         {
           "id": "rabokki",
@@ -1802,7 +2170,11 @@
             "고추장",
             "고춧가루",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3
+          }
         },
         {
           "id": "korean_35494bd2c61e",
@@ -1820,7 +2192,12 @@
             "케첩",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_326ec9741d92",
@@ -1839,7 +2216,12 @@
             "케첩",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_32d8c77ee3ba",
@@ -1858,7 +2240,11 @@
             "간장",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_b9bc19e4c60b",
@@ -1877,7 +2263,12 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "greasy": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -1902,7 +2293,11 @@
             "고추장",
             "참기름",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "savory": 4
+          }
         },
         {
           "id": "korean_5a15efe8a053",
@@ -1923,7 +2318,11 @@
             "참기름",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c425529798fb",
@@ -1943,7 +2342,11 @@
             "참기름",
             "소금",
             "마요네즈"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c59ce2b2d53c",
@@ -1963,7 +2366,11 @@
             "참기름",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_3bcd6c35486d",
@@ -1984,7 +2391,11 @@
             "설탕",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_02fbc361c34a",
@@ -2005,7 +2416,11 @@
             "설탕",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_9ff0a81c608a",
@@ -2027,7 +2442,11 @@
             "겨자",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_05317b3b647a",
@@ -2047,7 +2466,11 @@
             "참기름",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_03521ebb8495",
@@ -2067,7 +2490,11 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_bce42c7713b1",
@@ -2088,7 +2515,12 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_1bbb9503fd80",
@@ -2109,7 +2541,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_d8d0d3675c92",
@@ -2130,7 +2566,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_1870cba997e3",
@@ -2151,7 +2591,12 @@
             "고춧가루",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c93b478c1a3c",
@@ -2171,7 +2616,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_16928e45a67f",
@@ -2192,7 +2641,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "korean_7d19d8b9e7f2",
@@ -2212,7 +2665,11 @@
             "고추장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "spicy": 3
+          }
         },
         {
           "id": "korean_425fe79eeb79",
@@ -2230,7 +2687,12 @@
           "seasonings": [
             "고추장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sour": 3,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_2845628fcd3f",
@@ -2248,7 +2710,11 @@
             "참기름",
             "소금",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_2a690a8b3f7c",
@@ -2267,7 +2733,11 @@
             "마요네즈",
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_34c7c6f8d2f6",
@@ -2286,7 +2756,11 @@
             "마요네즈",
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4119fe36f96d",
@@ -2305,7 +2779,11 @@
             "마요네즈",
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2329,7 +2807,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "banquet_noodle",
@@ -2347,7 +2829,11 @@
           "seasonings": [
             "국간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_e156015758fb",
@@ -2364,7 +2850,11 @@
           "seasonings": [
             "소금",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2388,7 +2878,11 @@
             "설탕",
             "식용유",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "korean_6b13d2eecfd0",
@@ -2407,7 +2901,11 @@
             "국간장",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2431,7 +2929,11 @@
             "고춧가루",
             "간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 2
+          }
         },
         {
           "id": "korean_ac3775b8407c",
@@ -2449,7 +2951,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a5d6f251b121",
@@ -2471,7 +2977,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_85101bd3f947",
@@ -2491,7 +3002,12 @@
             "식초",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_8cbf51d1f476",
@@ -2510,7 +3026,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_ab161e9a62c2",
@@ -2529,7 +3049,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a9afe85d34b5",
@@ -2545,7 +3069,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -2567,7 +3095,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 4
+          }
         },
         {
           "id": "korean_0ae55adeed4e",
@@ -2584,7 +3116,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_b7636cf1a050",
@@ -2603,7 +3139,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -2627,7 +3167,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_16ff46962562",
@@ -2646,7 +3191,12 @@
             "설탕",
             "소금",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_14011b7f9451",
@@ -2666,7 +3216,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_307ef96abc61",
@@ -2684,7 +3239,11 @@
             "식초",
             "설탕",
             "액젓"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -2708,7 +3267,11 @@
             "고춧가루",
             "참기름",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2732,7 +3295,11 @@
             "참기름",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 4
+          }
         },
         {
           "id": "korean_04026b4aec8e",
@@ -2751,7 +3318,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2775,7 +3347,11 @@
             "간장",
             "다진 마늘",
             "고추장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c6671ef011c1",
@@ -2795,7 +3371,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_aa03726e6643",
@@ -2810,7 +3391,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -2832,7 +3417,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "savory": 4
+          }
         },
         {
           "id": "korean_6401a6e5628f",
@@ -2851,7 +3440,12 @@
             "물엿",
             "식용유",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_5215e7dee7e9",
@@ -2868,7 +3462,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2891,7 +3489,11 @@
             "들깻가루",
             "국간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         },
         {
           "id": "korean_18dd6a8ea11e",
@@ -2910,7 +3512,11 @@
             "국간장",
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_cc680e3bdc9c",
@@ -2928,7 +3534,11 @@
             "국간장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_498bef500c9c",
@@ -2946,7 +3556,11 @@
             "된장",
             "고추장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "savory": 3
+          }
         },
         {
           "id": "korean_cce73ead5f28",
@@ -2966,7 +3580,11 @@
             "소금",
             "버터",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "korean_ce94e7f37d54",
@@ -2985,7 +3603,11 @@
             "흑설탕",
             "계피가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "korean_ace9f509c064",
@@ -3005,7 +3627,11 @@
             "흑설탕",
             "계피가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -3028,7 +3654,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_798b95c13058",
@@ -3046,7 +3676,11 @@
             "다진 마늘",
             "소금",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_170f276ca6f2",
@@ -3062,7 +3696,11 @@
             "소금",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_ba1ea1231c33",
@@ -3081,7 +3719,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_b6f3d13fc4e4",
@@ -3100,7 +3743,12 @@
           "seasonings": [
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_5829ac727708",
@@ -3119,7 +3767,12 @@
             "소금",
             "고춧가루",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 3,
+            "clean": 3
+          }
         }
       ]
     },
@@ -3143,7 +3796,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_414ede0fc1ab",
@@ -3162,7 +3819,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f1edd55bd8dc",
@@ -3182,7 +3843,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_8043691b2682",
@@ -3201,7 +3866,11 @@
             "다진 마늘",
             "소금",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_678f8065fa12",
@@ -3221,7 +3890,11 @@
             "국간장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3245,7 +3918,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_fb6cc18582b2",
@@ -3264,7 +3941,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_2b1237495ec6",
@@ -3285,7 +3966,12 @@
             "설탕",
             "고춧가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -3307,7 +3993,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_826b150ca17e",
@@ -3324,7 +4014,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_0144b4d45034",
@@ -3342,7 +4036,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -3364,7 +4062,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3385,7 +4087,11 @@
           "seasonings": [
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_22e79f62a814",
@@ -3404,7 +4110,12 @@
             "멸치액젓",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_d97c31506f84",
@@ -3420,7 +4131,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_9497608ce1a5",
@@ -3441,7 +4156,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_b5e79b7b494e",
@@ -3461,7 +4181,12 @@
             "소금",
             "다진 마늘",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_1c096300e985",
@@ -3483,7 +4208,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_fa07c257767d",
@@ -3501,7 +4231,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3522,7 +4256,11 @@
           "seasonings": [
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -3544,7 +4282,11 @@
           "seasonings": [
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_d03c83932585",
@@ -3560,7 +4302,11 @@
             "된장",
             "고추장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_74faa3c2d2a4",
@@ -3579,7 +4325,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 5
+          }
         },
         {
           "id": "korean_9de7f84a3302",
@@ -3596,7 +4346,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -3619,7 +4373,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 5
+          }
         },
         {
           "id": "korean_acbb0e8e3e27",
@@ -3639,7 +4397,12 @@
             "설탕",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_0fc3fe26888f",
@@ -3658,7 +4421,12 @@
             "고춧가루",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3680,7 +4448,11 @@
           "seasonings": [
             "된장",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_c88bfb38fc96",
@@ -3696,7 +4468,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -3719,7 +4495,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_3dac776ce1af",
@@ -3737,7 +4517,11 @@
             "국간장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_cb2ae6d9eead",
@@ -3755,7 +4539,11 @@
             "고추장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -3777,7 +4565,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f7a0b7c3b11c",
@@ -3794,7 +4586,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c1d5a7213dfc",
@@ -3812,7 +4608,11 @@
             "새우젓",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_8fbe1f5290bb",
@@ -3831,7 +4631,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 5
+          }
         },
         {
           "id": "korean_5ddad724fca0",
@@ -3850,7 +4654,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -3872,7 +4680,11 @@
           "seasonings": [
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4c582796de2f",
@@ -3889,7 +4701,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3913,7 +4729,12 @@
             "식초",
             "소금",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "refreshing": 3,
+            "light": 4
+          }
         },
         {
           "id": "korean_c4dfc986da7a",
@@ -3932,7 +4753,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_84456d0e15ef",
@@ -3949,7 +4774,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -3973,7 +4802,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_1e4f6a936ad6",
@@ -3990,7 +4823,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_583e2966651e",
@@ -4009,7 +4846,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b4aaf2d4701e",
@@ -4028,7 +4869,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_8c5832e1e1ad",
@@ -4047,7 +4892,11 @@
             "액젓",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -4068,7 +4917,11 @@
           "seasonings": [
             "국간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a6f576e3583c",
@@ -4087,7 +4940,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_39f650808762",
@@ -4104,7 +4961,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -4128,7 +4989,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_2280a60dff3b",
@@ -4145,7 +5010,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_3f53ad9f55c6",
@@ -4163,7 +5032,12 @@
             "간장",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_22ac9414f646",
@@ -4183,7 +5057,11 @@
             "소금",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4207,7 +5085,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_583ee66feb86",
@@ -4225,7 +5107,11 @@
             "들깻가루",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -4250,7 +5136,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -4270,7 +5160,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_8b0d063c7dea",
@@ -4289,7 +5183,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4312,7 +5210,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4335,7 +5237,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4359,7 +5265,11 @@
             "다진 마늘",
             "소금",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_fa3265efd3e9",
@@ -4379,7 +5289,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_5d99e543c230",
@@ -4398,7 +5312,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 4
+          }
         },
         {
           "id": "korean_9ce6881fb945",
@@ -4417,7 +5335,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4441,7 +5363,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_493afadb965c",
@@ -4461,7 +5387,11 @@
             "고춧가루",
             "간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_3ced2295a360",
@@ -4483,7 +5413,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4506,7 +5441,11 @@
           "seasonings": [
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4530,7 +5469,11 @@
             "국간장",
             "다진 마늘",
             "새우젓"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4552,7 +5495,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         }
       ]
     },
@@ -4576,7 +5523,11 @@
             "소금",
             "국간장",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_b7b0c086d8e6",
@@ -4598,7 +5549,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_1303a34598ad",
@@ -4619,7 +5575,12 @@
             "간장",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_69c069cb7f13",
@@ -4639,7 +5600,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4661,7 +5627,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         }
       ]
     },
@@ -4682,7 +5652,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         }
       ]
     },
@@ -4705,7 +5679,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "korean_3c8488907c3b",
@@ -4724,7 +5702,11 @@
             "고춧가루",
             "들깻가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         },
         {
           "id": "korean_bf4855e4fe07",
@@ -4746,7 +5728,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_5fa4be913d1a",
@@ -4762,7 +5749,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -4785,7 +5776,11 @@
             "새우젓",
             "소금",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "korean_3787fab9e33f",
@@ -4807,7 +5802,12 @@
             "간장",
             "들깻가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 2,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4829,7 +5829,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         }
       ]
     },
@@ -4854,7 +5858,11 @@
             "고춧가루",
             "다진 마늘",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         },
         {
           "id": "korean_52e5a8a0c82f",
@@ -4873,7 +5881,11 @@
             "고춧가루",
             "다진 마늘",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 5
+          }
         }
       ]
     },
@@ -4899,7 +5911,11 @@
             "고춧가루",
             "다진 마늘",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4923,7 +5939,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4947,7 +5967,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4971,7 +5995,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4995,7 +6023,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b424001989bb",
@@ -5014,7 +6046,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5038,7 +6074,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "korean_3452bd72eeb6",
@@ -5057,7 +6097,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5082,7 +6126,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         },
         {
           "id": "korean_43e74453ea1e",
@@ -5102,7 +6150,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 5
+          }
         },
         {
           "id": "korean_aa8720e9f156",
@@ -5122,7 +6174,12 @@
             "설탕",
             "생강",
             "건고추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_35496fceb51f",
@@ -5143,7 +6200,12 @@
             "간장",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_e62d77760d3f",
@@ -5162,7 +6224,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 5
+          }
         }
       ]
     },
@@ -5186,7 +6252,11 @@
             "고춧가루",
             "산초가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         }
       ]
     },
@@ -5210,7 +6280,11 @@
             "고춧가루",
             "다진 마늘",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 4
+          }
         },
         {
           "id": "korean_08ec6a9919ab",
@@ -5226,7 +6300,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_8e10ffc611e9",
@@ -5245,7 +6323,12 @@
             "간장",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5268,7 +6351,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 5
+          }
         },
         {
           "id": "korean_17b434fb9958",
@@ -5286,7 +6373,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -5310,7 +6401,11 @@
             "고추장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_348ebe31f4aa",
@@ -5330,7 +6425,11 @@
             "국간장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f03d44df218c",
@@ -5351,7 +6450,12 @@
             "고추장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -5375,7 +6479,11 @@
             "고춧가루",
             "새우젓",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_d38f5b40a5f8",
@@ -5393,7 +6501,11 @@
             "다진 마늘",
             "식용유",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_cb1a49b8e632",
@@ -5410,7 +6522,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_ddba14eadc4c",
@@ -5429,7 +6545,11 @@
             "새우젓",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_ec2518ecfc29",
@@ -5446,7 +6566,11 @@
           "seasonings": [
             "새우젓",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -5471,7 +6595,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5497,7 +6625,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a2c471e9ab0a",
@@ -5518,7 +6651,12 @@
             "간장",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_2ca951c1856a",
@@ -5537,7 +6675,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5561,7 +6704,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5584,7 +6732,12 @@
             "물엿",
             "식용유",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5607,7 +6760,12 @@
             "물엿",
             "식용유",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5631,7 +6789,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5653,7 +6816,12 @@
             "간장",
             "설탕",
             "물엿"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5674,7 +6842,12 @@
           "seasonings": [
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_21c24844b335",
@@ -5690,7 +6863,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "light": 3
+          }
         },
         {
           "id": "korean_e4f68829f7bc",
@@ -5706,7 +6883,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -5728,7 +6909,12 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5751,7 +6937,12 @@
             "설탕",
             "물엿",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5773,7 +6964,12 @@
             "간장",
             "설탕",
             "물엿"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5797,7 +6993,12 @@
             "설탕",
             "맛술",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5821,7 +7022,12 @@
             "설탕",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_c74dc6e119c0",
@@ -5840,7 +7046,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4322330e2b55",
@@ -5857,7 +7067,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -5882,7 +7096,12 @@
             "설탕",
             "맛술",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_5b7094858bcc",
@@ -5899,7 +7118,11 @@
             "버터",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -5924,7 +7147,12 @@
             "설탕",
             "맛술",
             "생강"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b6693ee32d08",
@@ -5946,7 +7174,12 @@
             "간장",
             "전분",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_cc02f31d4e90",
@@ -5960,7 +7193,11 @@
           ],
           "seasonings": [
             "굵은소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_a9652ff357a9",
@@ -5980,7 +7217,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_b6d764f7415f",
@@ -5997,7 +7238,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6022,7 +7267,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a8ffeb40b0c1",
@@ -6037,7 +7287,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6062,7 +7316,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f1abe73df0e5",
@@ -6077,7 +7336,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_2050c214d2ea",
@@ -6096,7 +7359,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6121,7 +7388,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6146,7 +7418,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f65452ebff61",
@@ -6161,7 +7438,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_e4f8f25bd59c",
@@ -6178,7 +7459,11 @@
             "국간장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_cf8ed14d5fb2",
@@ -6196,7 +7481,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -6221,7 +7510,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6246,7 +7540,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_6223af3a744b",
@@ -6261,7 +7560,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_0a377f6c1e86",
@@ -6280,7 +7583,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6305,7 +7612,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4675a0759a19",
@@ -6320,7 +7632,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6345,7 +7661,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f5dd4bf183a0",
@@ -6364,7 +7685,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6390,7 +7715,12 @@
             "간장",
             "전분",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_229f3fa1b906",
@@ -6409,7 +7739,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6434,7 +7768,12 @@
             "간장",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6458,7 +7797,12 @@
             "고춧가루",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_7cb5404a1dab",
@@ -6479,7 +7823,11 @@
             "소금",
             "후추",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_738518f764d2",
@@ -6499,7 +7847,12 @@
             "간장",
             "멸치액젓",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_f75a3978c0a3",
@@ -6515,7 +7868,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -6542,7 +7899,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_7eef7e4a3a7d",
@@ -6564,7 +7926,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_952f7ce272e7",
@@ -6583,7 +7950,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         }
       ]
     },
@@ -6610,7 +7981,12 @@
             "설탕",
             "다진 마늘",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6634,7 +8010,11 @@
             "후추",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6660,7 +8040,12 @@
             "간장",
             "들깻가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 2,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6685,7 +8070,12 @@
             "고추장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6708,7 +8098,12 @@
             "물엿",
             "마요네즈",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6729,7 +8124,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -6751,7 +8150,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_4e5df20629b7",
@@ -6768,7 +8171,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6791,7 +8198,12 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_6a7b786688ce",
@@ -6808,7 +8220,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_a708c9772654",
@@ -6825,7 +8241,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_b568513d8005",
@@ -6842,7 +8262,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6862,7 +8286,11 @@
           "seasonings": [
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6888,7 +8316,11 @@
             "설탕",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -6911,7 +8343,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4f3020a042ce",
@@ -6929,7 +8365,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -6952,7 +8392,11 @@
             "다진 마늘",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_04f16f60e451",
@@ -6971,7 +8415,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_bf4c77b6602b",
@@ -6989,7 +8437,11 @@
             "들깻가루",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_319083fc7126",
@@ -7010,7 +8462,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -7032,7 +8488,11 @@
             "소금",
             "식용유",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7055,7 +8515,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_970e812f1939",
@@ -7073,7 +8537,11 @@
             "된장",
             "고추장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_4d0d1bcf1ebd",
@@ -7092,7 +8560,11 @@
             "멸치액젓",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -7114,7 +8586,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_82027fa6f73a",
@@ -7131,7 +8607,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_abe03633f65d",
@@ -7149,7 +8629,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -7171,7 +8655,11 @@
             "간장",
             "물엿",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "korean_c4532fab8d50",
@@ -7189,7 +8677,11 @@
             "고춧가루",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_45c9e7314cc1",
@@ -7207,7 +8699,11 @@
             "간장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_9e0f2c9df340",
@@ -7226,7 +8722,11 @@
             "고춧가루",
             "설탕",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7247,7 +8747,11 @@
             "식용유",
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7269,7 +8773,11 @@
             "다진 마늘",
             "식용유",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7291,7 +8799,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_446bfe77b406",
@@ -7309,7 +8821,11 @@
             "들깻가루",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -7330,7 +8846,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4928985ccfe1",
@@ -7347,7 +8867,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_eea752282806",
@@ -7365,7 +8889,11 @@
             "다진 마늘",
             "들깻가루",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7388,7 +8916,11 @@
             "다진 마늘",
             "들기름",
             "들깻가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_9fdbf4d686d9",
@@ -7406,7 +8938,11 @@
             "된장",
             "다진 마늘",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_97a117068435",
@@ -7424,7 +8960,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 5
+          }
         }
       ]
     },
@@ -7445,7 +8985,11 @@
             "소금",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_66083f2fa73d",
@@ -7465,7 +9009,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -7487,7 +9036,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -7509,7 +9062,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7531,7 +9088,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_1d9fac1e5559",
@@ -7548,7 +9109,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -7569,7 +9134,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7592,7 +9161,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_305a3ef51202",
@@ -7610,7 +9183,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_bcebdb61015c",
@@ -7627,7 +9204,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_3761becaec9b",
@@ -7646,7 +9227,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -7669,7 +9254,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -7691,7 +9280,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7712,7 +9305,11 @@
             "된장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         },
         {
           "id": "korean_6ffd49fc4a13",
@@ -7730,7 +9327,12 @@
             "식초",
             "설탕",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "bitter": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -7751,7 +9353,11 @@
             "된장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7773,7 +9379,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -7796,7 +9406,11 @@
             "간장",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_a659eef288c6",
@@ -7816,7 +9430,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -7839,7 +9457,11 @@
             "설탕",
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "sweet_sour": 4
+          }
         }
       ]
     },
@@ -7861,7 +9483,11 @@
             "간장",
             "참기름",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_2b4aff955a70",
@@ -7880,7 +9506,11 @@
             "식용유",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -7902,7 +9532,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3
+          }
         }
       ]
     },
@@ -7924,7 +9558,11 @@
             "고춧가루",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 2
+          }
         }
       ]
     },
@@ -7951,7 +9589,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -7974,7 +9617,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_c389c4e96ab2",
@@ -7992,7 +9640,12 @@
             "간장",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "bitter": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8016,7 +9669,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -8041,7 +9699,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -8066,7 +9729,12 @@
             "고춧가루",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8090,7 +9758,12 @@
             "고춧가루",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8115,7 +9788,12 @@
             "설탕",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_51eb1d43329b",
@@ -8132,7 +9810,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_5577c307c3e5",
@@ -8151,7 +9833,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8175,7 +9862,12 @@
             "설탕",
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8200,7 +9892,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 4,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8224,7 +9921,12 @@
             "멸치액젓",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sweet_sour": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8245,7 +9947,11 @@
             "간장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 5,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_b27f54d5586f",
@@ -8263,7 +9969,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -8286,7 +9996,12 @@
             "고추장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_16957430f159",
@@ -8303,7 +10018,11 @@
             "소금",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -8326,7 +10045,11 @@
             "고춧가루",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "salty": 3
+          }
         }
       ]
     },
@@ -8348,7 +10071,11 @@
             "고춧가루",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4ed85fc8b099",
@@ -8367,7 +10094,11 @@
             "새우젓",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8391,7 +10122,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_fd249a6fc1e2",
@@ -8410,7 +10145,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -8432,7 +10172,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -8458,7 +10202,11 @@
             "소금",
             "후추",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "korean_46a115cf35ff",
@@ -8478,7 +10226,11 @@
             "소금",
             "후추",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -8501,7 +10253,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -8525,7 +10281,11 @@
             "식용유",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -8548,7 +10308,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -8571,7 +10335,11 @@
             "국간장",
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_4f2249bc6ebb",
@@ -8589,7 +10357,11 @@
             "국간장",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_63291c883860",
@@ -8608,7 +10380,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -8634,7 +10410,11 @@
             "식초",
             "설탕",
             "겨자"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 4,
+            "clean": 3
+          }
         },
         {
           "id": "korean_450d5926a8e3",
@@ -8655,7 +10435,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         }
       ]
     },
@@ -8680,7 +10464,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         },
         {
           "id": "korean_9dc77f6e2e3c",
@@ -8698,7 +10486,11 @@
             "들기름",
             "간장",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -8723,7 +10515,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
         }
       ]
     },
@@ -8748,7 +10544,11 @@
             "식초",
             "설탕",
             "겨자"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 3
+          }
         }
       ]
     },
@@ -8768,7 +10568,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -8788,7 +10592,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -8811,7 +10619,11 @@
             "굴소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -8833,7 +10645,11 @@
             "국간장",
             "들기름",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_69539feacc3f",
@@ -8851,7 +10667,11 @@
             "간장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_9c71da593a63",
@@ -8868,7 +10688,11 @@
           "seasonings": [
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_f1102589f855",
@@ -8886,7 +10710,11 @@
             "간장",
             "버터",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_054fa822e921",
@@ -8903,7 +10731,11 @@
           "seasonings": [
             "간장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "korean_6089bd2994c0",
@@ -8919,7 +10751,11 @@
           "seasonings": [
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_05be6b885316",
@@ -8937,7 +10773,11 @@
             "참기름",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_be100733e5a6",
@@ -8956,7 +10796,11 @@
             "참기름",
             "국간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_17bc6e7a8082",
@@ -8973,7 +10817,11 @@
           "seasonings": [
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "korean_753ee9191e41",
@@ -8992,7 +10840,12 @@
             "국간장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -9016,7 +10869,11 @@
           "seasonings": [
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "korean_b3bf4a61f551",
@@ -9036,7 +10893,11 @@
             "흑설탕",
             "참기름",
             "계피가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "korean_945ea7d3f4ce",
@@ -9054,7 +10915,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "korean_5efcb2a9c873",
@@ -9070,7 +10935,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -9092,7 +10961,11 @@
           "seasonings": [
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -9112,7 +10985,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "light": 3
+          }
         }
       ]
     },
@@ -9132,7 +11009,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          }
         }
       ]
     },
@@ -9157,7 +11038,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -9182,7 +11068,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_69b9fe911021",
@@ -9198,7 +11089,11 @@
             "된장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -9223,7 +11118,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -9248,7 +11148,12 @@
             "멸치액젓",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "bitter": 2,
+            "sour": 2
+          }
         }
       ]
     },
@@ -9273,7 +11178,11 @@
             "식초",
             "설탕",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -9297,7 +11206,11 @@
             "국간장",
             "다진 마늘",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9319,7 +11232,11 @@
             "국간장",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9342,7 +11259,11 @@
             "된장",
             "다진 마늘",
             "국간장"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "korean_12f79c91144b",
@@ -9358,7 +11279,11 @@
             "된장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -9381,7 +11306,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9404,7 +11333,11 @@
           "seasonings": [
             "소금",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9428,7 +11361,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9452,7 +11389,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9476,7 +11417,11 @@
             "소금",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9499,7 +11444,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9523,7 +11472,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9547,7 +11500,11 @@
             "된장",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 5
+          }
         },
         {
           "id": "korean_facb944e55f5",
@@ -9568,7 +11525,12 @@
             "고추장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9594,7 +11556,12 @@
             "고추장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9618,7 +11585,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9642,7 +11613,11 @@
             "고춧가루",
             "국간장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         }
       ]
     },
@@ -9667,7 +11642,11 @@
             "고춧가루",
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9692,7 +11671,11 @@
             "고춧가루",
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9717,7 +11700,11 @@
             "고춧가루",
             "된장",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9742,7 +11729,11 @@
             "고추장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 4
+          }
         }
       ]
     },
@@ -9765,7 +11756,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -9787,7 +11782,11 @@
             "고추장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9810,7 +11809,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -9833,7 +11836,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -9856,7 +11863,11 @@
             "국간장",
             "다진 마늘",
             "들기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -9879,7 +11890,11 @@
             "다진 마늘",
             "참기름",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -9902,7 +11917,12 @@
             "식초",
             "설탕",
             "깨"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "bitter": 2,
+            "refreshing": 3
+          }
         },
         {
           "id": "korean_3ea39a96142e",
@@ -9919,7 +11939,12 @@
             "고추장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "bitter": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -9940,7 +11965,11 @@
             "된장",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9963,7 +11992,11 @@
             "된장",
             "고추장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9986,7 +12019,11 @@
             "된장",
             "고추장",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -10009,7 +12046,11 @@
             "설탕",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 2,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -10031,7 +12072,11 @@
             "고추장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "korean_6fb916f9ebc6",
@@ -10049,7 +12094,11 @@
             "소금",
             "생강",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -10074,7 +12123,12 @@
             "멸치액젓",
             "물엿",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -10096,7 +12150,11 @@
             "고추장",
             "매실청",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -10119,7 +12177,12 @@
             "고춧가루",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "salty": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10142,7 +12205,12 @@
             "액젓",
             "다진 마늘",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "salty": 3,
+            "sour": 2
+          }
         }
       ]
     },
@@ -10166,7 +12234,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -10191,7 +12263,11 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -10215,7 +12291,11 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         }
       ]
     },
@@ -10239,7 +12319,11 @@
             "고춧가루",
             "다진 마늘",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10263,7 +12347,11 @@
             "국간장",
             "다진 마늘",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "korean_ecaa88c2789b",
@@ -10282,7 +12370,11 @@
             "된장",
             "고춧가루",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 5
+          }
         }
       ]
     },
@@ -10306,7 +12398,11 @@
             "소금",
             "베이킹파우더",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_63004f94470d",
@@ -10323,7 +12419,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -10344,7 +12444,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_525052856cf6",
@@ -10359,7 +12463,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "light": 3
+          }
         },
         {
           "id": "korean_44581dae9c35",
@@ -10375,7 +12483,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_718569b40ecb",
@@ -10391,7 +12503,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "korean_29fe69f4563d",
@@ -10409,7 +12525,11 @@
             "설탕",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     }

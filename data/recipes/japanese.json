@@ -22,7 +22,11 @@
             "미림",
             "설탕",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "teriyaki_chicken",
@@ -39,7 +43,11 @@
             "미림",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "japanese_04e408bff1d1",
@@ -59,7 +67,11 @@
             "생강즙",
             "마요네즈",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_de1ec6e0e31e",
@@ -78,7 +90,11 @@
             "간장",
             "맛술",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_6b7e752a4735",
@@ -99,7 +115,12 @@
             "설탕",
             "마요네즈",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_0e1a7bcecf43",
@@ -119,7 +140,11 @@
             "소금",
             "후추",
             "돈가스소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_694fc6505892",
@@ -137,7 +162,11 @@
             "간장",
             "생강즙",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_4a2a934f85da",
@@ -159,7 +188,12 @@
             "미림",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_8173c4b80a1b",
@@ -178,7 +212,11 @@
           "seasonings": [
             "폰즈소스",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "japanese_bcbbef23d706",
@@ -198,7 +236,11 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_347e2cff5b8e",
@@ -218,7 +260,11 @@
             "미림",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_7308611dd82b",
@@ -238,7 +284,11 @@
             "미소된장",
             "참기름",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "japanese_748bccfba81a",
@@ -259,7 +309,12 @@
             "미림",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_b8960108d657",
@@ -280,7 +335,11 @@
             "가람마살라",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_7ab50927109e",
@@ -298,7 +357,11 @@
             "미림",
             "청주",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -321,7 +384,11 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3
+          }
         },
         {
           "id": "japanese_92ac4d4e0e9c",
@@ -341,7 +408,11 @@
             "후추",
             "식용유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_61f770dc2958",
@@ -360,7 +431,11 @@
             "미림",
             "버터",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_f5f40d12d28c",
@@ -381,7 +456,11 @@
             "소금",
             "후추",
             "우스터소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_5ec9812dd509",
@@ -403,7 +482,12 @@
             "미림",
             "설탕",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_361b5d3e7f2c",
@@ -424,7 +508,12 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_2c6c6a980070",
@@ -443,7 +532,11 @@
           "seasonings": [
             "폰즈소스",
             "참깨소스"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_2d9c9d4ba8cc",
@@ -461,7 +554,11 @@
             "미소된장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -486,7 +583,12 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -509,7 +611,11 @@
           "seasonings": [
             "카레루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_dd34a6c9773a",
@@ -528,7 +634,12 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_a252ad826a9e",
@@ -549,7 +660,11 @@
             "식용유",
             "소금",
             "우스터소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_a3fb392efaba",
@@ -569,7 +684,12 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_27b87c085b46",
@@ -589,7 +709,11 @@
             "청주",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_6ca44d23c9b9",
@@ -609,7 +733,12 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e76f6ec2847b",
@@ -629,7 +758,11 @@
             "미소된장",
             "참기름",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "japanese_718cdc9eb090",
@@ -647,7 +780,11 @@
           "seasonings": [
             "폰즈소스",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_25475941c170",
@@ -668,7 +805,12 @@
             "설탕",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_b8ad800ece26",
@@ -686,7 +828,11 @@
             "미림",
             "청주",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_33512e531c59",
@@ -705,7 +851,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -731,7 +881,12 @@
             "식초",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "sweet": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -753,7 +908,11 @@
           "seasonings": [
             "미소된장",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         },
         {
           "id": "japanese_706aa8c947f8",
@@ -772,7 +931,11 @@
             "쯔유",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_d55dde4fb467",
@@ -788,7 +951,11 @@
           ],
           "seasonings": [
             "폰즈소스"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_c0500cf1dd9b",
@@ -804,7 +971,11 @@
             "미소된장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_bbd3b7709c40",
@@ -824,7 +995,11 @@
             "간장",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "japanese_e7175fc379c2",
@@ -845,7 +1020,11 @@
             "참기름",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_3f7014a55099",
@@ -864,7 +1043,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -888,7 +1071,11 @@
             "우스터소스",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_eab85a5b0598",
@@ -910,7 +1097,12 @@
             "식초",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "sweet_sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "japanese_5dc2e12a0a30",
@@ -930,7 +1122,11 @@
             "두반장",
             "간장",
             "고추기름"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "rich": 3
+          }
         },
         {
           "id": "japanese_355735a027af",
@@ -949,7 +1145,11 @@
             "간장",
             "미림",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_efaf21e7fb91",
@@ -970,7 +1170,11 @@
             "두반장",
             "참기름",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_bf81b86a892b",
@@ -990,7 +1194,11 @@
             "소금",
             "간장",
             "라드"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_46a666de3f68",
@@ -1010,7 +1218,11 @@
             "소금",
             "간장",
             "라드"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_ebdc4adb5ddc",
@@ -1031,7 +1243,11 @@
             "굴소스",
             "전분",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1054,7 +1270,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_04029f4d90d8",
@@ -1072,7 +1292,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_9d1529779065",
@@ -1091,7 +1315,11 @@
             "쯔유",
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_a6b25163bd1e",
@@ -1109,7 +1337,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_a9a853166783",
@@ -1127,7 +1359,11 @@
             "간장",
             "미림",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_6d41d711e907",
@@ -1146,7 +1382,11 @@
             "미림",
             "설탕",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1172,7 +1412,11 @@
             "간장",
             "설탕",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_fec705701d00",
@@ -1189,7 +1433,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1213,7 +1461,11 @@
             "오코노미야키소스",
             "마요네즈",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1236,7 +1488,11 @@
             "간장",
             "고추냉이",
             "식초"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "japanese_525257a73df3",
@@ -1255,7 +1511,11 @@
             "버터",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_0cc7a421d241",
@@ -1270,7 +1530,11 @@
           "seasonings": [
             "시오코지",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_52a6b82a5c9b",
@@ -1290,7 +1554,11 @@
             "미림",
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_f082ca215878",
@@ -1310,7 +1578,11 @@
             "술지게미",
             "미소된장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_d183a29d8e69",
@@ -1330,7 +1602,11 @@
             "미소된장",
             "버터",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1352,7 +1628,11 @@
           "seasonings": [
             "쯔유",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_bb80c94342d9",
@@ -1369,7 +1649,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_59bb4af872b0",
@@ -1389,7 +1673,11 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_3fc9cfb35389",
@@ -1407,7 +1695,11 @@
             "카레루",
             "쯔유",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e92907559f45",
@@ -1427,7 +1719,11 @@
             "쯔유",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_d6bec6d89e4c",
@@ -1447,7 +1743,11 @@
             "간장",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_74b850c56f1d",
@@ -1465,7 +1765,11 @@
             "쯔유",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_8cd48ab8910c",
@@ -1484,7 +1788,11 @@
             "간장",
             "굴소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1506,7 +1814,11 @@
             "소금",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "light": 3
+          }
         },
         {
           "id": "japanese_f086c94cfcc9",
@@ -1527,7 +1839,11 @@
             "미림",
             "소금",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_ab54b20455b7",
@@ -1545,7 +1861,11 @@
             "오코노미야키소스",
             "마요네즈",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_be5e346bcb4f",
@@ -1562,7 +1882,11 @@
             "간장",
             "소금",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_fcacacb324d1",
@@ -1581,7 +1905,11 @@
           "seasonings": [
             "설탕",
             "바닐라익스트랙"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -1608,7 +1936,12 @@
             "미림",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_ec530182c7ee",
@@ -1627,7 +1960,11 @@
           "seasonings": [
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_44b59f235b6f",
@@ -1644,7 +1981,11 @@
           "seasonings": [
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e14ebcce3922",
@@ -1661,7 +2002,11 @@
           "seasonings": [
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_6b998b8ab534",
@@ -1680,7 +2025,11 @@
             "소금",
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_ff19b77f79b5",
@@ -1699,7 +2048,11 @@
             "간장",
             "참깨페이스트",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_a34a126e3fca",
@@ -1720,7 +2073,12 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_68d2f40fb7ae",
@@ -1740,7 +2098,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 4
+          }
         },
         {
           "id": "japanese_7575550f702e",
@@ -1763,7 +2126,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_c02dec104ddd",
@@ -1786,7 +2154,12 @@
             "소금",
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_1c0a550b8865",
@@ -1806,7 +2179,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_0407218c0804",
@@ -1828,7 +2206,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_ebb32e7ada1e",
@@ -1850,7 +2233,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_e186ec2c9bb9",
@@ -1869,7 +2257,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_189ee862eb11",
@@ -1888,7 +2281,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_c68e9570df0c",
@@ -1907,7 +2305,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_165d2dc602c9",
@@ -1926,7 +2329,12 @@
             "설탕",
             "소금",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_dd1f9c3b5826",
@@ -1945,7 +2353,12 @@
             "설탕",
             "소금",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_db1fc5a3abcb",
@@ -1964,7 +2377,12 @@
             "설탕",
             "소금",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_a218dbadecd4",
@@ -1985,7 +2403,12 @@
             "소금",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_15d059a406a2",
@@ -2005,7 +2428,12 @@
             "소금",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_75884e5040cd",
@@ -2024,7 +2452,12 @@
             "설탕",
             "소금",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_16a091516796",
@@ -2043,7 +2476,12 @@
             "식초",
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_9c096d4c9426",
@@ -2063,7 +2501,12 @@
             "설탕",
             "소금",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_1ad5fe77f21b",
@@ -2083,7 +2526,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_eb5ab5ad2486",
@@ -2104,7 +2552,12 @@
             "설탕",
             "소금",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_b6b4a3636af0",
@@ -2120,7 +2573,11 @@
             "간장",
             "미림",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_4cf02045e422",
@@ -2139,7 +2596,11 @@
           "seasonings": [
             "소금",
             "마요네즈"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_b13cfa7fa152",
@@ -2155,7 +2616,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_37df30e5a705",
@@ -2171,7 +2636,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_a301f807ce07",
@@ -2189,7 +2658,11 @@
             "간장",
             "설탕",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_552f6fc4c3ee",
@@ -2209,7 +2682,11 @@
             "간장",
             "미림",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_d43f1e475721",
@@ -2230,7 +2707,11 @@
             "미림",
             "소금",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_55a1a0c64de9",
@@ -2249,7 +2730,12 @@
             "미소된장",
             "간장",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_7994cb89a3a7",
@@ -2270,7 +2756,12 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_1b801bc5655f",
@@ -2292,7 +2783,12 @@
             "밀가루",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_47e10abcaa83",
@@ -2314,7 +2810,12 @@
             "밀가루",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_9c550efc0b88",
@@ -2336,7 +2837,12 @@
             "버터",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_c1fc4cbab01c",
@@ -2357,7 +2863,12 @@
             "케첩",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e3c151459b3d",
@@ -2379,7 +2890,12 @@
             "큐민",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_d6f0c7a2db52",
@@ -2398,7 +2914,12 @@
             "마요네즈",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_cfc7bb6b6c69",
@@ -2415,7 +2936,12 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_5f7a53963038",
@@ -2435,7 +2961,12 @@
             "설탕",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_2a964b36845c",
@@ -2453,7 +2984,12 @@
           "seasonings": [
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_6632a21dcb26",
@@ -2471,7 +3007,12 @@
           ],
           "seasonings": [
             "쯔유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_4c088e21a908",
@@ -2492,7 +3033,12 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_9f45d4a6e50d",
@@ -2510,7 +3056,11 @@
             "우스터소스",
             "케첩",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_7783066378c6",
@@ -2529,7 +3079,11 @@
           "seasonings": [
             "카레루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_bbd621c4b6fd",
@@ -2549,7 +3103,11 @@
             "케첩",
             "우스터소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_bb01de630e68",
@@ -2568,7 +3126,11 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_c3290a792463",
@@ -2586,7 +3148,11 @@
             "미소된장",
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2611,7 +3177,12 @@
             "미림",
             "설탕",
             "산초가루"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_9468dcf1fd51",
@@ -2633,7 +3204,12 @@
             "미림",
             "설탕",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2656,7 +3232,11 @@
           "seasonings": [
             "간장",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_377e30919e56",
@@ -2674,7 +3254,11 @@
             "간장",
             "미림",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2700,7 +3284,11 @@
             "미림",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_0bf1aea672b2",
@@ -2721,7 +3309,11 @@
             "미림",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_2a6051bbd7b9",
@@ -2739,7 +3331,11 @@
             "미림",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_8574e6f3e046",
@@ -2759,7 +3355,12 @@
             "간장",
             "청주",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_53f844aedfff",
@@ -2779,7 +3380,12 @@
             "청주",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_50345efefc23",
@@ -2799,7 +3405,12 @@
             "미림",
             "청주",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_abb2f13208d4",
@@ -2820,7 +3431,12 @@
             "청주",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_74015686087b",
@@ -2840,7 +3456,12 @@
             "청주",
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_c02fbcab3afc",
@@ -2858,7 +3479,12 @@
           "seasonings": [
             "소금",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_57547ec0be5a",
@@ -2878,7 +3504,12 @@
             "미림",
             "소금",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_c67087b10ed1",
@@ -2895,7 +3526,12 @@
           "seasonings": [
             "소금",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_f62e143a4ea5",
@@ -2915,7 +3551,12 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_9993c380d828",
@@ -2936,7 +3577,12 @@
             "간장",
             "미림",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -2957,7 +3603,11 @@
           "seasonings": [
             "소금",
             "검은깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "japanese_6aeb8fd543a8",
@@ -2976,7 +3626,11 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_9737f270a7ab",
@@ -2993,7 +3647,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -3015,7 +3673,11 @@
           "seasonings": [
             "쯔유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "cool": 3,
+            "clean": 3
+          }
         },
         {
           "id": "japanese_b3bf3bb6f482",
@@ -3034,7 +3696,11 @@
             "쯔유",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3058,7 +3724,11 @@
             "간장",
             "소금",
             "아와모리"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_2471c6ffee90",
@@ -3076,7 +3746,11 @@
             "간장",
             "소금",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3101,7 +3775,11 @@
             "간장",
             "소금",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_af33d4eba02a",
@@ -3121,7 +3799,11 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e15d1cfb256c",
@@ -3141,7 +3823,11 @@
             "소금",
             "미림",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_44cadf837657",
@@ -3161,7 +3847,11 @@
             "미소된장",
             "참기름",
             "다진 마늘"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3187,7 +3877,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -3213,7 +3907,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -3238,7 +3936,11 @@
             "소금",
             "후추",
             "타르타르소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         },
         {
           "id": "japanese_83a6e7cfffda",
@@ -3255,7 +3957,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -3280,7 +3986,11 @@
             "소금",
             "후추",
             "우스터소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_3f65c5c743d7",
@@ -3297,7 +4007,11 @@
           ],
           "seasonings": [
             "미소된장"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3321,7 +4035,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -3346,7 +4064,11 @@
             "소금",
             "후추",
             "타르타르소스"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_3be8b6e83f33",
@@ -3366,7 +4088,11 @@
             "설탕",
             "청주",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3390,7 +4116,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -3412,7 +4142,11 @@
           "seasonings": [
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 3
+          }
         }
       ]
     },
@@ -3436,7 +4170,11 @@
             "생강즙",
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "japanese_c983aa2841c7",
@@ -3454,7 +4192,11 @@
             "미림",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3481,7 +4223,12 @@
             "마요네즈",
             "가쓰오부시",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_47a119779f18",
@@ -3500,7 +4247,11 @@
             "우스터소스",
             "간장",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_259130b1813b",
@@ -3518,7 +4269,11 @@
             "설탕",
             "꿀",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_050c64b2418a",
@@ -3537,7 +4292,11 @@
             "설탕",
             "베이킹파우더",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_0f2d749375d1",
@@ -3558,7 +4317,11 @@
             "미림",
             "소금",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_66d55e4e8823",
@@ -3577,7 +4340,11 @@
           "seasonings": [
             "미소된장",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         },
         {
           "id": "japanese_34ebce14bfb8",
@@ -3596,7 +4363,11 @@
             "미소된장",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_c590ca1a737a",
@@ -3613,7 +4384,11 @@
             "미소된장",
             "설탕",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_6bb15e7da9d2",
@@ -3630,7 +4405,11 @@
             "설탕",
             "꿀",
             "물엿"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_e796672a0ae1",
@@ -3648,7 +4427,11 @@
             "설탕",
             "버터",
             "베이킹파우더"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -3670,7 +4453,11 @@
             "간장",
             "생강즙",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -3695,7 +4482,11 @@
             "참기름",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 4
+          }
         }
       ]
     },
@@ -3720,7 +4511,12 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "salty": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_2120d75fb4cc",
@@ -3737,7 +4533,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_cd28c2e4d8ca",
@@ -3755,7 +4555,11 @@
           ],
           "seasonings": [
             "폰즈소스"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3778,7 +4582,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3803,7 +4611,11 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_eb668cf3e617",
@@ -3820,7 +4632,11 @@
             "미소된장",
             "설탕",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3844,7 +4660,11 @@
             "간장",
             "미소된장",
             "고춧가루"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3868,7 +4688,11 @@
             "미소된장",
             "간장",
             "고추장"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3892,7 +4716,11 @@
             "간장",
             "미림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3914,7 +4742,11 @@
             "청주",
             "간장",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_ece4a7028d5b",
@@ -3932,7 +4764,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3954,7 +4790,11 @@
             "쯔유",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 5
+          }
         },
         {
           "id": "japanese_5ba71986e357",
@@ -3971,7 +4811,11 @@
             "미림",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3993,7 +4837,11 @@
             "미림",
             "설탕",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4018,7 +4866,11 @@
             "미림",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4042,7 +4894,11 @@
             "설탕",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4063,7 +4919,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4085,7 +4945,11 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4106,7 +4970,11 @@
             "사이쿄미소",
             "미림",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4128,7 +4996,11 @@
             "간장",
             "버터",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4149,7 +5021,11 @@
             "참깨",
             "간장",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "japanese_3bf3c428b1ee",
@@ -4165,7 +5041,11 @@
           "seasonings": [
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "clean": 4
+          }
         }
       ]
     },
@@ -4187,7 +5067,11 @@
             "식초",
             "참기름",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 3
+          }
         },
         {
           "id": "japanese_83d36ae439fd",
@@ -4205,7 +5089,11 @@
             "간장",
             "식초",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -4228,7 +5116,11 @@
             "간장",
             "식초",
             "참깨"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "refreshing": 3
+          }
         },
         {
           "id": "japanese_f816f0bbc5ab",
@@ -4247,7 +5139,12 @@
             "미림",
             "설탕",
             "참기름"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4272,7 +5169,11 @@
             "식초",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -4298,7 +5199,12 @@
             "소금",
             "가쓰오부시",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "bitter": 4,
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4320,7 +5226,11 @@
             "고추냉이",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 3
+          }
         },
         {
           "id": "japanese_e63314abc09d",
@@ -4338,7 +5248,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4361,7 +5275,11 @@
           "seasonings": [
             "폰즈소스",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "umami": 3,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -4382,7 +5300,11 @@
           "seasonings": [
             "설탕",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_73f697470080",
@@ -4399,7 +5321,11 @@
             "간장",
             "설탕",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_83f705a4f54d",
@@ -4416,7 +5342,11 @@
           "seasonings": [
             "설탕",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_8599ad06426d",
@@ -4433,7 +5363,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_35f1e879a83a",
@@ -4450,7 +5384,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4471,7 +5409,11 @@
           "seasonings": [
             "설탕",
             "흑설탕시럽"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4492,7 +5434,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "japanese_100b781e8aba",
@@ -4508,7 +5454,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -4531,7 +5481,11 @@
             "미소된장",
             "소금",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -4552,7 +5506,11 @@
           "seasonings": [
             "미소된장",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -4575,7 +5533,11 @@
             "소금",
             "청주",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4601,7 +5563,11 @@
             "소금",
             "청주",
             "스다치즙"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4626,7 +5592,11 @@
             "간장",
             "소금",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         },
         {
           "id": "japanese_bd9bb2c3632c",
@@ -4645,7 +5615,11 @@
             "간장",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4671,7 +5645,11 @@
             "미림",
             "소금",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4695,7 +5673,11 @@
           "seasonings": [
             "미소된장",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 5
+          }
         }
       ]
     },
@@ -4717,7 +5699,11 @@
           "seasonings": [
             "쯔유",
             "간장"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4741,7 +5727,11 @@
             "미소된장",
             "청주",
             "다시마"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4765,7 +5755,11 @@
             "청주",
             "다시마",
             "폰즈소스"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4785,7 +5779,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4807,7 +5805,11 @@
           "seasonings": [
             "쯔유",
             "고추냉이"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4831,7 +5833,11 @@
             "우스터소스",
             "마요네즈",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "clean": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4855,7 +5861,11 @@
             "미림",
             "설탕",
             "가쓰오부시"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4881,7 +5891,11 @@
             "설탕",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4904,7 +5918,11 @@
             "간장",
             "미림",
             "전분"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4927,7 +5945,11 @@
             "간장",
             "미림",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -4950,7 +5972,11 @@
             "미림",
             "설탕",
             "청주"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4973,7 +5999,11 @@
             "미림",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4996,7 +6026,11 @@
             "버터",
             "간장",
             "미림"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5018,7 +6052,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5040,7 +6078,11 @@
             "간장",
             "미림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -5063,7 +6105,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -5084,7 +6130,11 @@
           "seasonings": [
             "설탕",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 5,
+            "savory": 3
+          }
         }
       ]
     },
@@ -5104,7 +6154,11 @@
           ],
           "seasonings": [
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -5127,7 +6181,11 @@
           ],
           "seasonings": [
             "흑설탕시럽"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -5151,7 +6209,11 @@
           "seasonings": [
             "버터",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     }

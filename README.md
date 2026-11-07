@@ -8,6 +8,10 @@
 - 600px 이하에서는 밥그릇 일러스트를 숨기고 검색 폼과 메뉴 카드를 한 열로 표시합니다.
 - 320px 미만에서는 최소 레이아웃 너비를 유지하므로 가로 스크롤이 생길 수 있습니다.
 
+## 디자인 기준
+
+글씨 크기·굵기·간격·모바일 적용 기준은 [UI 디자인 컨벤션](docs/design-conventions.md)을 따릅니다. 공통 토큰은 `src/styles/design-system.css`에서 관리합니다.
+
 ## 스택
 
 React 19 · TS 5.9 · Vite 7 · Tailwind CSS 4 · Cloudflare Workers

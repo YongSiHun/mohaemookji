@@ -23,7 +23,11 @@
             "고춧가루",
             "소금",
             "라임즙"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "refreshing": 4
+          }
         },
         {
           "id": "quesadilla",
@@ -42,7 +46,11 @@
             "식용유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "other_4164288387e1",
@@ -65,7 +73,12 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_25ed1951561d",
@@ -86,7 +99,12 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_04fa776ac466",
@@ -107,7 +125,11 @@
             "고춧가루",
             "식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_9de7c3643979",
@@ -127,7 +149,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_41645e01e950",
@@ -147,7 +173,11 @@
             "소금",
             "라드",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_35b33885cdf3",
@@ -167,7 +197,11 @@
             "마요네즈",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_2cd5f5377ada",
@@ -186,7 +220,11 @@
             "건고추",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_0a7479feee01",
@@ -206,7 +244,11 @@
             "살사소스",
             "사워크림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_65c29799ff7c",
@@ -225,7 +267,11 @@
             "소금",
             "사워크림",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -248,7 +294,11 @@
             "레몬즙",
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "falafel",
@@ -266,7 +316,10 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3
+          }
         },
         {
           "id": "other_43b72c8158b6",
@@ -286,7 +339,11 @@
             "큐민",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         }
       ]
     },
@@ -308,7 +365,11 @@
           "seasonings": [
             "라임즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -333,7 +394,11 @@
             "큐민",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_4a1a6c1be564",
@@ -355,7 +420,12 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_04d87bb75404",
@@ -376,7 +446,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_18bfd242900f",
@@ -396,7 +470,11 @@
             "소금",
             "큐민",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_51504cacfb78",
@@ -416,7 +494,11 @@
             "소금",
             "큐민",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_3a3e0952ea5a",
@@ -437,7 +519,11 @@
             "강황",
             "생강가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_ef63ff7731aa",
@@ -457,7 +543,11 @@
             "후추",
             "식용유",
             "땅콩버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "other_701c8109fd22",
@@ -479,7 +569,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 3
+          }
         },
         {
           "id": "other_5bfd71594dd7",
@@ -499,7 +593,11 @@
             "큐민",
             "오레가노",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_a1a1cc3da83c",
@@ -519,7 +617,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_0b27bdc881dc",
@@ -539,7 +641,11 @@
             "오레가노",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_864abbd4f0da",
@@ -558,7 +664,11 @@
           "seasonings": [
             "소금",
             "고수씨가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_b4a74ca80338",
@@ -579,7 +689,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_766bd9b34407",
@@ -599,7 +713,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_86975256d5e4",
@@ -618,7 +736,11 @@
             "니테르키베",
             "베르베레",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "other_71d9553e172a",
@@ -634,7 +756,11 @@
             "니테르키베",
             "미트미타",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_e8d0268c6859",
@@ -654,7 +780,11 @@
             "정향",
             "식초",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_4d5d85643a90",
@@ -673,7 +803,11 @@
             "소금",
             "호프수넬리",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_64d4f0f3acfb",
@@ -692,7 +826,11 @@
             "트케말리소스",
             "호프수넬리",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -715,7 +853,11 @@
           "seasonings": [
             "사워크림",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "savory": 4
+          }
         },
         {
           "id": "other_1348c3365c6d",
@@ -735,7 +877,12 @@
             "살사소스",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -761,7 +908,12 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_cd86f50aec2c",
@@ -780,7 +932,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_4b2e2b7a9100",
@@ -800,7 +956,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -824,7 +984,12 @@
             "고춧가루",
             "라임즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "sweet": 2
+          }
         },
         {
           "id": "other_9cd1064ba241",
@@ -844,7 +1009,12 @@
             "라임즙",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "sweet": 2
+          }
         },
         {
           "id": "other_f5246d0f15a3",
@@ -863,7 +1033,11 @@
             "설탕",
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_a124736df12e",
@@ -882,7 +1056,11 @@
             "소금",
             "큐민",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_5e85248c4bb2",
@@ -903,7 +1081,11 @@
             "소금",
             "버터",
             "큐민"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -927,7 +1109,11 @@
             "건고추",
             "오레가노",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "other_34fc07c3dbbf",
@@ -946,7 +1132,11 @@
             "아치오테",
             "오레가노",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_642bb32bab87",
@@ -965,7 +1155,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -988,7 +1182,11 @@
             "라드",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_b194ef257db2",
@@ -1004,7 +1202,11 @@
           "seasonings": [
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "other_04eae6be05e4",
@@ -1024,7 +1226,11 @@
             "소금",
             "식용유",
             "살사소스"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_3574d606554a",
@@ -1041,7 +1247,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_f7e7a1fd478a",
@@ -1059,7 +1269,11 @@
             "소금",
             "살사소스",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_ebfe5f785190",
@@ -1076,7 +1290,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1102,7 +1320,11 @@
             "소금",
             "설탕",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 3
+          }
         },
         {
           "id": "other_ea235b75bc04",
@@ -1122,7 +1344,12 @@
             "아히아마리요페이스트",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 4,
+            "rich": 3
+          }
         },
         {
           "id": "other_4bcc28a09995",
@@ -1141,7 +1368,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 3
+          }
         },
         {
           "id": "other_5a7bfdc9f2bb",
@@ -1162,7 +1393,11 @@
             "큐민",
             "파프리카가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_670dd66623e8",
@@ -1182,7 +1417,11 @@
             "생강가루",
             "강황",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_965167c6c3bc",
@@ -1200,7 +1439,11 @@
             "베르베레",
             "니테르키베",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         },
         {
           "id": "other_b6818181444e",
@@ -1220,7 +1463,11 @@
             "후추",
             "고춧가루",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_9bf00b96f9c4",
@@ -1239,7 +1486,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_d555d2b64dee",
@@ -1258,7 +1509,11 @@
             "소금",
             "케이퍼",
             "생크림"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_417bf1044cf4",
@@ -1277,7 +1532,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_61a1cde6a5da",
@@ -1297,7 +1556,11 @@
             "강황",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_c1f9d36df32c",
@@ -1316,7 +1579,11 @@
             "소금",
             "생강",
             "고춧가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "other_2deb260c0f53",
@@ -1334,7 +1601,11 @@
             "고수씨가루",
             "호프수넬리",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1357,7 +1628,11 @@
           "seasonings": [
             "라임즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "refreshing": 4
+          }
         },
         {
           "id": "other_67de842c345f",
@@ -1377,7 +1652,11 @@
             "팜오일",
             "라임즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_98ee3ce37e2e",
@@ -1397,7 +1676,11 @@
             "올리브유",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_e986679cebd4",
@@ -1417,7 +1700,11 @@
             "레몬즙",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1444,7 +1731,11 @@
             "파프리카가루",
             "버터",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_bc9f21b3544e",
@@ -1462,7 +1753,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "greasy": 4
+          }
         },
         {
           "id": "other_6206e9a96062",
@@ -1482,7 +1777,11 @@
             "소금",
             "올리브유",
             "이스트"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_b8be65505c9c",
@@ -1502,7 +1801,11 @@
             "올리브유",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_853f876cc625",
@@ -1521,7 +1824,11 @@
             "버터",
             "소금",
             "이스트"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "other_ad255d6da2c9",
@@ -1540,7 +1847,11 @@
             "소금",
             "후추",
             "큐민"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_7b30f5a0c378",
@@ -1559,7 +1870,11 @@
             "후추",
             "큐민",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_a0aa9431b2c4",
@@ -1579,7 +1894,11 @@
             "소금",
             "큐민",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_ca4837d9f869",
@@ -1597,7 +1916,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_0047f93689d1",
@@ -1615,7 +1938,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_1030e0768679",
@@ -1634,7 +1961,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_2a59fbe5d3c5",
@@ -1651,7 +1982,11 @@
           "seasonings": [
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_e73ef9824e9f",
@@ -1670,7 +2005,11 @@
             "소금",
             "베이킹소다",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "other_27ef0ea74250",
@@ -1688,7 +2027,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "other_1c328f8c3ae0",
@@ -1705,7 +2048,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_ac9dda5ec57a",
@@ -1723,7 +2070,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1749,7 +2100,11 @@
             "후추",
             "월계수잎",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1774,7 +2129,11 @@
             "큐민",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_c89082cc5938",
@@ -1792,7 +2151,11 @@
             "소금",
             "고춧가루",
             "큐민"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "other_35c71e272d40",
@@ -1811,7 +2174,11 @@
             "버터",
             "소금",
             "파프리카가루"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_b158395ef86d",
@@ -1830,7 +2197,11 @@
             "소금",
             "기버터",
             "강황"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_e2165dcfbdf1",
@@ -1852,7 +2223,12 @@
             "생강가루",
             "소금",
             "꿀"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_b240bad4a017",
@@ -1870,7 +2246,11 @@
           "seasonings": [
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_22d6a4455503",
@@ -1890,7 +2270,11 @@
             "소금",
             "큐민",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_e2ffa4be67f8",
@@ -1909,7 +2293,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_fdbbc6d452d1",
@@ -1928,7 +2316,11 @@
             "트케말리소스",
             "화이트와인",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1953,7 +2345,11 @@
             "올리브유",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "other_426bf345db2b",
@@ -1973,7 +2369,11 @@
             "올스파이스",
             "큐민",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_81bbf3794d52",
@@ -1992,7 +2392,11 @@
             "토마토페이스트",
             "석류몰라시스",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_17a615e58e64",
@@ -2013,7 +2417,11 @@
             "석류몰라시스",
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2039,7 +2447,11 @@
             "레몬즙",
             "수막",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         },
         {
           "id": "western_8c32c1edb26e",
@@ -2059,7 +2471,11 @@
             "타히니",
             "레몬즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2082,7 +2498,11 @@
             "레몬즙",
             "올리브유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "light": 3
+          }
         },
         {
           "id": "other_58e1e79f1295",
@@ -2101,7 +2521,11 @@
             "올리브유",
             "소금",
             "설탕"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_a704ca57060e",
@@ -2120,7 +2544,11 @@
             "올리브유",
             "소금",
             "후추"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_b16f2fcd1b56",
@@ -2140,7 +2568,11 @@
             "고수씨가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2165,7 +2597,12 @@
             "올리브유",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "savory": 4,
+            "sweet_sour": 2
+          }
         }
       ]
     },
@@ -2188,7 +2625,11 @@
             "올리브유",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2213,7 +2654,11 @@
             "올스파이스",
             "강황",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_8a6f4f035ecf",
@@ -2235,7 +2680,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_35187196904c",
@@ -2256,7 +2705,11 @@
             "카레가루",
             "타임",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_b91da40f18fe",
@@ -2276,7 +2729,11 @@
             "소금",
             "큐민",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_cd4cca7b8af5",
@@ -2294,7 +2751,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_b9906fcb0419",
@@ -2312,7 +2773,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_f22fdb94ce54",
@@ -2332,7 +2797,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_43add7765f7c",
@@ -2352,7 +2821,11 @@
             "오레가노",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_77ecb6181c9b",
@@ -2373,7 +2846,11 @@
             "소금",
             "식용유",
             "큐민"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_508575b9c133",
@@ -2392,7 +2869,11 @@
             "사프란",
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_eb893c18e86f",
@@ -2411,7 +2892,11 @@
             "설탕",
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_6037f809016b",
@@ -2430,7 +2915,11 @@
             "계피가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_a2a49bfa6ed3",
@@ -2450,7 +2939,11 @@
             "소금",
             "강황",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_9ca1b29bbf89",
@@ -2466,7 +2959,11 @@
           "seasonings": [
             "버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2490,7 +2987,11 @@
             "레몬즙",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_886db05b22a1",
@@ -2510,7 +3011,11 @@
             "고수씨가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2534,7 +3039,11 @@
             "마늘",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3
+          }
         }
       ]
     },
@@ -2553,7 +3062,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 2,
+            "light": 3
+          }
         }
       ]
     },
@@ -2579,7 +3092,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "umami": 3
+          }
         },
         {
           "id": "other_257a5831e75f",
@@ -2599,7 +3116,11 @@
             "고수씨가루",
             "식초",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2622,7 +3143,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "umami": 3
+          }
         },
         {
           "id": "other_f578edcc480c",
@@ -2643,7 +3168,11 @@
             "소금",
             "계피가루",
             "생크림"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2666,7 +3195,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2690,7 +3223,11 @@
             "큐민",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         },
         {
           "id": "other_484a16d51b7e",
@@ -2707,7 +3244,11 @@
           "seasonings": [
             "라드",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2730,7 +3271,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2753,7 +3298,11 @@
           "seasonings": [
             "라임즙",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 4
+          }
         }
       ]
     },
@@ -2773,7 +3322,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "other_9d54ef893e9b",
@@ -2790,7 +3343,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2815,7 +3372,11 @@
             "간장",
             "참기름",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2840,7 +3401,11 @@
             "라임즙",
             "마요네즈",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2865,7 +3430,11 @@
             "식초",
             "소금",
             "오레가노"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2887,7 +3456,11 @@
             "사프란",
             "소금",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2913,7 +3486,11 @@
             "강황",
             "카슈크",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2937,7 +3514,11 @@
             "버터",
             "소금",
             "큐민"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_ce78938ca61b",
@@ -2957,7 +3538,11 @@
             "고춧가루",
             "말린민트",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_a3b359ccddcf",
@@ -2975,7 +3560,11 @@
             "베르베레",
             "니테르키베",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2997,7 +3586,11 @@
             "버터",
             "설탕",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3020,7 +3613,11 @@
             "버터",
             "설탕",
             "레몬즙"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "other_edfb6bb46f07",
@@ -3040,7 +3637,11 @@
             "설탕",
             "계피가루",
             "생강가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 4
+          }
         }
       ]
     },
@@ -3062,7 +3663,11 @@
           "seasonings": [
             "설탕",
             "로즈워터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3088,7 +3693,11 @@
             "큐민",
             "라스엘하누트",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3112,7 +3721,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3137,7 +3750,11 @@
             "큐민",
             "소금",
             "올리브유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3160,7 +3777,11 @@
             "고수씨가루",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -3182,7 +3803,11 @@
           "seasonings": [
             "니테르키베",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -3207,7 +3832,11 @@
             "팜오일",
             "소금",
             "고춧가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_a73cc1d180bb",
@@ -3226,7 +3855,11 @@
             "팜오일",
             "발효캐롭콩",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "other_53b1a4055bc5",
@@ -3245,7 +3878,11 @@
             "식초",
             "고수씨가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -3269,7 +3906,11 @@
             "팜오일",
             "소금",
             "고춧가루"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3288,7 +3929,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3308,7 +3953,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3331,7 +3980,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     }

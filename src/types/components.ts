@@ -1,8 +1,8 @@
 import type { Recipe, SearchQuery } from './recipe.ts';
 
 export interface FlavorSelectorProps {
-  selected: readonly string[];
-  onChange: (flavors: string[]) => void;
+  query: SearchQuery;
+  onChange: (query: SearchQuery) => void;
 }
 
 export interface IngredientSearchProps {

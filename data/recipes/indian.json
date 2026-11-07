@@ -22,7 +22,11 @@
             "가람마살라",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         },
         {
           "id": "indian_b1b08627042e",
@@ -44,7 +48,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "indian_2148f668a6d2",
@@ -64,7 +72,11 @@
             "큐민",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_0786e5017d3c",
@@ -85,7 +97,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_24a674965057",
@@ -106,7 +122,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_88aac02a288b",
@@ -127,7 +147,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_d29c8e88a46f",
@@ -148,7 +172,11 @@
             "고수씨가루",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 4
+          }
         },
         {
           "id": "indian_139d26c4e4d4",
@@ -169,7 +197,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_317604bd0a54",
@@ -191,7 +223,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "indian_c558950dd14f",
@@ -211,7 +247,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_e57bd53f4337",
@@ -231,7 +271,11 @@
             "펜넬씨",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "indian_9be26a432885",
@@ -252,7 +296,11 @@
             "고수씨가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 3
+          }
         },
         {
           "id": "indian_1ccff1990fc9",
@@ -273,7 +321,11 @@
             "레몬즙",
             "소금",
             "겨자유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_32494ff36302",
@@ -294,7 +346,11 @@
             "레몬즙",
             "소금",
             "겨자유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -319,7 +375,11 @@
             "강황",
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -343,7 +403,11 @@
             "큐민",
             "기버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_9d2b5ab58c72",
@@ -363,7 +427,11 @@
             "강황",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -388,7 +456,11 @@
             "고춧가루",
             "식용유",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3
+          }
         },
         {
           "id": "indian_6b2133cd7335",
@@ -409,7 +481,11 @@
             "소금",
             "기버터",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_3d949c2b961e",
@@ -430,7 +506,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_4ae270d80fab",
@@ -450,7 +530,11 @@
             "후추",
             "카다멈",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "indian_3d8b3d117dc9",
@@ -469,7 +553,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -493,7 +581,11 @@
             "가람마살라",
             "기버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         },
         {
           "id": "indian_bdf8f7c5f67e",
@@ -513,7 +605,11 @@
             "가람마살라",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -538,7 +634,11 @@
             "강황",
             "기버터",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "indian_a61b70c0e397",
@@ -559,7 +659,11 @@
             "강황",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "indian_ffc3516281b4",
@@ -579,7 +683,11 @@
             "강황",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "indian_e7fb08fec2cf",
@@ -598,7 +706,11 @@
             "카다멈",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "indian_00c0f6d4f5aa",
@@ -614,7 +726,11 @@
             "큐민",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "indian_8c07b2e74318",
@@ -634,7 +750,11 @@
             "카다멈",
             "사프란",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -660,7 +780,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "sour": 4
+          }
         }
       ]
     },
@@ -685,7 +809,11 @@
             "카다멈",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "indian_432ab122fe13",
@@ -705,7 +833,11 @@
             "카다멈",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_305003ccb548",
@@ -726,7 +858,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_4dc0d0497935",
@@ -746,7 +882,11 @@
             "큐민",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 5,
+            "rich": 4
+          }
         },
         {
           "id": "indian_8f5781913187",
@@ -766,7 +906,11 @@
             "카다멈",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_f33a18c09e20",
@@ -787,7 +931,11 @@
             "큐민",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "indian_58844142e8c8",
@@ -807,7 +955,11 @@
             "가람마살라",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -833,7 +985,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_26854bc632f5",
@@ -854,7 +1010,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_1383ad7ce617",
@@ -874,7 +1034,11 @@
             "가람마살라",
             "고춧가루",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_a58ec3cf62a4",
@@ -895,7 +1059,11 @@
             "큐민",
             "소금",
             "겨자유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "indian_60dc60538781",
@@ -916,7 +1084,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_e11ed4df93c2",
@@ -936,7 +1108,11 @@
             "가람마살라",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_9cd3328b7cff",
@@ -957,7 +1133,11 @@
             "고춧가루",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -982,7 +1162,11 @@
             "큐민",
             "가람마살라",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         },
         {
           "id": "indian_2b128487a5f1",
@@ -1000,7 +1184,11 @@
             "소금",
             "타마린드처트니",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_4ce15a13d8f4",
@@ -1018,7 +1206,11 @@
             "소금",
             "후추",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1044,7 +1236,11 @@
             "고춧가루",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         },
         {
           "id": "indian_d2cdbbf91535",
@@ -1066,7 +1262,11 @@
             "겨자씨",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "sour": 4
+          }
         }
       ]
     },
@@ -1092,7 +1292,12 @@
             "후추",
             "겨자씨",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "sour": 4,
+            "clean": 4
+          }
         }
       ]
     },
@@ -1118,7 +1323,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         },
         {
           "id": "indian_307e007c40d9",
@@ -1139,7 +1348,11 @@
             "후추",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1165,7 +1378,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -1190,7 +1407,11 @@
             "겨자씨",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 4
+          }
         },
         {
           "id": "indian_4e95f311e914",
@@ -1211,7 +1432,11 @@
             "강황",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 4
+          }
         },
         {
           "id": "indian_ce8f0a793db7",
@@ -1232,7 +1457,11 @@
             "고춧가루",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 4
+          }
         }
       ]
     },
@@ -1258,7 +1487,11 @@
             "큐민",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "indian_aed21e3b9f8f",
@@ -1276,7 +1509,11 @@
             "설탕",
             "카다멈",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "indian_e6a2b88b3089",
@@ -1298,7 +1535,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1324,7 +1565,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -1349,7 +1594,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_b120354d6d29",
@@ -1368,7 +1617,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1391,7 +1644,11 @@
             "소금",
             "설탕",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_b331ca1686fc",
@@ -1410,7 +1667,11 @@
             "소금",
             "설탕",
             "버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_0b1c680c76e1",
@@ -1428,7 +1689,11 @@
             "설탕",
             "베이킹소다",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "indian_6c7bf0b93199",
@@ -1449,7 +1714,11 @@
             "가람마살라",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "savory": 3
+          }
         },
         {
           "id": "indian_10a4699f94d3",
@@ -1466,7 +1735,11 @@
             "설탕",
             "사프란",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "indian_6d4238178994",
@@ -1485,7 +1758,11 @@
             "펜넬씨",
             "카다멈",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -1504,7 +1781,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         },
         {
           "id": "indian_e798433f9b1d",
@@ -1519,7 +1800,11 @@
           "seasonings": [
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_a888dab01163",
@@ -1538,7 +1823,11 @@
             "큐민",
             "고춧가루",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_4a1e58d69c4d",
@@ -1553,7 +1842,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "greasy": 4
+          }
         },
         {
           "id": "indian_4f55f9a51a9a",
@@ -1570,7 +1863,11 @@
             "재거리",
             "카다멈",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -1595,7 +1892,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_d210697889ed",
@@ -1610,7 +1911,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 4
+          }
         },
         {
           "id": "indian_3c1f2ba17458",
@@ -1630,7 +1935,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "savory": 4
+          }
         },
         {
           "id": "indian_3f206aa7234f",
@@ -1649,7 +1958,11 @@
             "겨자씨",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "light": 3
+          }
         },
         {
           "id": "indian_17f836e691ea",
@@ -1668,7 +1981,11 @@
             "강황",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
         },
         {
           "id": "indian_789dcac332f4",
@@ -1686,7 +2003,11 @@
             "설탕",
             "카다멈",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         },
         {
           "id": "indian_09cbf5dca251",
@@ -1704,7 +2025,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_61b26e68dd82",
@@ -1722,7 +2047,11 @@
             "설탕",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_93bd08b07632",
@@ -1743,7 +2072,12 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 4,
+            "savory": 4,
+            "umami": 3
+          }
         },
         {
           "id": "indian_633abe881980",
@@ -1764,7 +2098,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "umami": 3
+          }
         },
         {
           "id": "indian_257cfb24fdff",
@@ -1783,7 +2121,11 @@
             "겨자씨",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1807,7 +2149,11 @@
             "카다멈",
             "로즈워터",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "indian_4fd9a57135be",
@@ -1823,7 +2169,11 @@
           "seasonings": [
             "기버터",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -1844,7 +2194,11 @@
           "seasonings": [
             "설탕",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         },
         {
           "id": "indian_df1791399667",
@@ -1861,7 +2215,11 @@
           "seasonings": [
             "설탕",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         },
         {
           "id": "indian_63b15ad3f325",
@@ -1879,7 +2237,11 @@
             "설탕",
             "기버터",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "indian_244186a24329",
@@ -1897,7 +2259,11 @@
             "설탕",
             "카다멈",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -1919,7 +2285,11 @@
             "설탕",
             "카다멈",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -1945,7 +2315,11 @@
             "고춧가루",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 4
+          }
         }
       ]
     },
@@ -1971,7 +2345,11 @@
             "강황",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 4
+          }
         }
       ]
     },
@@ -1997,7 +2375,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2021,7 +2403,11 @@
             "펜넬가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2046,7 +2432,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         },
         {
           "id": "indian_13baa4bcc3fc",
@@ -2066,7 +2456,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_8f20d813a4db",
@@ -2083,7 +2477,11 @@
             "설탕",
             "기버터",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "indian_5309ada5b772",
@@ -2100,7 +2498,11 @@
             "설탕",
             "기버터",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "indian_08e83aa60539",
@@ -2115,7 +2517,11 @@
           "seasonings": [
             "설탕",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2140,7 +2546,11 @@
             "레몬즙",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2166,7 +2576,11 @@
             "고수씨가루",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 2,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2189,7 +2603,11 @@
           "seasonings": [
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -2214,7 +2632,11 @@
             "강황",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2239,7 +2661,11 @@
             "강황",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2263,7 +2689,11 @@
             "강황",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2289,7 +2719,11 @@
             "고춧가루",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "rich": 3
+          }
         }
       ]
     },
@@ -2314,7 +2748,11 @@
             "고춧가루",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "spicy": 1,
+            "sour": 4
+          }
         }
       ]
     },
@@ -2339,7 +2777,11 @@
             "설탕",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet_sour": 3,
+            "refreshing": 3
+          }
         }
       ]
     },
@@ -2364,7 +2806,11 @@
             "강황",
             "큐민",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -2388,7 +2834,11 @@
             "강황",
             "소금",
             "코코넛오일"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -2412,7 +2862,11 @@
             "고춧가루",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2437,7 +2891,11 @@
             "강황",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_a0f81e270a0c",
@@ -2457,7 +2915,11 @@
             "버터",
             "파브바지마살라",
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2483,7 +2945,11 @@
             "차트마살라",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_5bfc2a9d48f4",
@@ -2502,7 +2968,11 @@
             "큐민",
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2527,7 +2997,11 @@
             "타마린드처트니",
             "민트처트니",
             "차트마살라"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2552,7 +3026,11 @@
             "타마린드처트니",
             "민트처트니",
             "차트마살라"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_2cbee13e0159",
@@ -2571,7 +3049,11 @@
             "타마린드처트니",
             "민트처트니",
             "차트마살라"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         }
       ]
     },
@@ -2591,7 +3073,11 @@
           ],
           "seasonings": [
             "소금"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_7442095a0c92",
@@ -2607,7 +3093,11 @@
           "seasonings": [
             "소금",
             "식용유"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          }
         },
         {
           "id": "indian_f07bea850eb3",
@@ -2624,7 +3114,11 @@
             "재거리",
             "카다멈",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 2,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2645,7 +3139,11 @@
           "seasonings": [
             "설탕",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -2665,7 +3163,11 @@
           "seasonings": [
             "설탕",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2689,7 +3191,11 @@
             "기버터",
             "카다멈",
             "사프란"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2713,7 +3219,11 @@
             "설탕",
             "카다멈",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -2734,7 +3244,11 @@
           "seasonings": [
             "설탕",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "savory": 3
+          }
         }
       ]
     },
@@ -2756,7 +3270,11 @@
           "seasonings": [
             "설탕",
             "카다멈"
-          ]
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         },
         {
           "id": "indian_a80c8a6a9ae8",
@@ -2774,7 +3292,11 @@
             "큐민",
             "소금",
             "기버터"
-          ]
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     }

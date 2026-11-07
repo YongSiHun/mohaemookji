@@ -1,0 +1,80 @@
+/* 역할별 타이포그래피와 공통 디자인 토큰. docs/design-conventions.md 참고. */
+:root {
+  --text-display: clamp(2.25rem, 4.3vw + 0.625rem, 3.875rem);
+  --text-page-title: 2.5rem;
+  --text-section-title: 1.75rem;
+  --text-subtitle: 1.375rem;
+  --text-label: 1.125rem;
+  --text-lead: 1.125rem;
+  --text-body: 1rem;
+  --text-helper: 0.875rem;
+  --text-caption: 0.75rem;
+  --text-action: 1.125rem;
+  --text-input: 1.25rem;
+  --text-brand: 2.125rem;
+  --icon-large: 1.75rem;
+  --icon-medium: 1.375rem;
+  --icon-small: 1.125rem;
+  --icon-star: 1.6875rem;
+  --icon-rating-scale: 0.85em;
+  --weight-regular: 400;
+  --weight-medium: 600;
+  --weight-strong: 700;
+  --weight-heading: 800;
+  --leading-display: 1.2;
+  --leading-heading: 1.4;
+  --leading-control: 1.5;
+  --leading-helper: 1.6;
+  --leading-body: 1.75;
+  --leading-icon: 1;
+  --tracking-heading: -0.025em;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --color-action: #b93d15;
+  --color-action-hover: #a83515;
+  --color-text: #38251d;
+  --color-supporting: #59483d;
+  --color-muted: #75665b;
+  --color-surface: #fff;
+  --color-canvas: #fff9f0;
+  --color-border: #ede3d7;
+}
+body {
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-body);
+}
+h1,
+h2,
+h3 {
+  font-weight: var(--weight-heading);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-heading);
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+h1 {
+  font-size: var(--text-page-title);
+}
+h2 {
+  font-size: var(--text-section-title);
+}
+h3 {
+  font-size: var(--text-subtitle);
+  font-weight: var(--weight-strong);
+}
+@media (max-width: 600px) {
+  :root {
+    --text-page-title: 2rem;
+    --text-section-title: 1.5rem;
+    --text-subtitle: 1.25rem;
+    --text-input: 1.125rem;
+    --text-brand: 1.75rem;
+  }
+}
