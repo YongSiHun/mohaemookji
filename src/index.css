@@ -1171,7 +1171,7 @@ mark {
 .recommendation-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--space-2);
 }
 .recommendation-list button {
   max-width: 100%;
@@ -1179,10 +1179,10 @@ mark {
   background: #fff3e6;
   color: #6b4b35;
   border: 1px solid #e7cdb6;
-  border-radius: 10px;
-  padding: 11px 16px;
-  min-height: 48px;
-  font-size: var(--text-label);
+  border-radius: 8px;
+  padding: 6px 12px;
+  min-height: 38px;
+  font-size: var(--text-body);
   font-weight: var(--weight-strong);
   line-height: var(--leading-control);
   text-align: left;
@@ -1193,8 +1193,8 @@ mark {
 }
 @media (max-width: 600px) {
   .recommendation-list button {
-    min-height: 46px;
-    padding: 10px 14px;
+    min-height: 40px;
+    padding: 7px 11px;
   }
 }
 
