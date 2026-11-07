@@ -4,7 +4,12 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createServer } from 'vite';
 import { fileURLToPath } from 'node:url';
-import { selectFlavorLevel, toggleFlavor, removeFlavor } from '../src/services/flavorSelection.ts';
+import {
+  selectFlavorLevel,
+  toggleFlavor,
+  removeFlavor,
+  toggleFlavorInclusion,
+} from '../src/services/flavorSelection.ts';
 import { searchRecipes, queryKey } from '../src/services/recipeSearch.ts';
 import { menuSearchReducer } from '../src/services/menuSearchState.ts';
 import { INITIAL_MENU_SEARCH_STATE, EMPTY_SEARCH_QUERY } from '../src/constants/recipes.ts';
@@ -34,6 +39,22 @@ test('별로 맛을 선택·수정하고 강도 무관 전환과 맛 해제를 �
   assert.deepEqual(toggleFlavor(empty, 'spicy').flavors, ['spicy']);
   assert.equal(selected.flavorLevels?.spicy, 3);
   assert.deepEqual(empty.flavors, []);
+});
+
+test('카드 선택은 맛 포함과 해제를 전환하고 지정한 별만 초기화한다', () => {
+  const first = toggleFlavorInclusion(empty, 'spicy');
+  assert.deepEqual(first.flavors, ['spicy']);
+  assert.equal(first.flavorLevels?.spicy, undefined);
+  const other = selectFlavorLevel(first, 'savory', 5);
+  const starred = selectFlavorLevel(other, 'spicy', 3);
+  const included = toggleFlavorInclusion(starred, 'spicy');
+  assert.deepEqual(included.flavors, ['spicy', 'savory']);
+  assert.equal(included.flavorLevels?.spicy, undefined);
+  assert.equal(included.flavorLevels?.savory, 5);
+  const removed = toggleFlavorInclusion(included, 'spicy');
+  assert.deepEqual(removed.flavors, ['savory']);
+  assert.equal(removed.flavorLevels?.savory, 5);
+  assert.equal(starred.flavorLevels?.spicy, 3);
 });
 
 test('강도를 지정한 여러 맛은 모두 정확히 일치하고 재료와도 AND로 검색한다', () => {
@@ -159,7 +180,19 @@ test('14가지 맛에 별 다섯 개씩 제공하고 현재 강도와 적용 조
     assert.equal((html.match(/class="flavor-star-button/g) ?? []).length, 70);
     assert.equal((html.match(/class="flavor-star-button filled"/g) ?? []).length, 3);
     assert.match(html, /aria-label="매운 맛 강도 3\/5 선택" aria-pressed="true"/);
-    assert.equal((html.match(/강도 무관/g) ?? []).length, 14);
+    assert.doesNotMatch(html, /flavor-any-level|강도 무관/);
+    assert.equal((html.match(/class="flavor-card-select"/g) ?? []).length, 14);
+    assert.ok(html.includes('aria-label="매운 맛 포함 선택 (별 0개, 강도 제한 없음)"'));
+    const includedQuery = toggleFlavorInclusion(query, 'spicy');
+    const includedHtml = renderToStaticMarkup(
+      createElement(FlavorSelector, { query: includedQuery, onChange: () => {} }),
+    );
+    assert.ok(
+      includedHtml.includes(
+        'aria-label="매운 맛 포함 선택 (별 0개, 강도 제한 없음)" aria-pressed="true"',
+      ),
+    );
+    assert.doesNotMatch(includedHtml, /flavor-star-button filled/);
     const conditions = renderToStaticMarkup(
       createElement(ActiveConditions, { query, onApply: () => {} }),
     );

@@ -27,3 +27,9 @@ export function selectFlavorLevel(
   const flavors = query.flavors.includes(id) ? query.flavors : [...query.flavors, id];
   return { ...query, flavors, flavorLevels };
 }
+
+/** 카드 바탕: 미선택/강도 지정 → 맛 포함, 맛 포함 상태 → 선택 해제. */
+export function toggleFlavorInclusion(query: SearchQuery, id: string): SearchQuery {
+  const included = query.flavors.includes(id) && query.flavorLevels?.[id] === undefined;
+  return included ? removeFlavor(query, id) : selectFlavorLevel(query, id);
+}

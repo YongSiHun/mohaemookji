@@ -1,6 +1,6 @@
 import type { FlavorSelectorProps } from '../types/components';
 import type { FlavorLevel } from '../types/recipe';
-import { selectFlavorLevel, toggleFlavor } from '../services/flavorSelection';
+import { selectFlavorLevel, toggleFlavorInclusion } from '../services/flavorSelection';
 import flavors from '../../data/flavors.json' with { type: 'json' };
 import groups from '../../data/flavor_groups.json' with { type: 'json' };
 
@@ -11,20 +11,23 @@ function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: strin
   const active = query.flavors.includes(id);
   const level = active ? query.flavorLevels?.[id] : undefined;
   const choose = (value?: FlavorLevel) => onChange(selectFlavorLevel(query, id, value));
+  const included = active && level === undefined;
   return (
     <div className={'flavor-option' + (active ? ' selected' : '')}>
+      <button
+        type="button"
+        className="flavor-card-select"
+        aria-label={name + ' 맛 포함 선택 (별 0개, 강도 제한 없음)'}
+        aria-pressed={included}
+        onClick={() => onChange(toggleFlavorInclusion(query, id))}
+      />
       <div className="flavor-option-heading">
-        <button
-          type="button"
-          className="flavor-toggle"
-          aria-pressed={active}
-          onClick={() => onChange(toggleFlavor(query, id))}
-        >
+        <span className="flavor-toggle">
           <span className="flavor-toggle-mark" aria-hidden="true">
             {active ? '✓' : '+'}
           </span>
           {name}
-        </button>
+        </span>
         {level && <span className="flavor-level-value">{level}/5</span>}
       </div>
       <div className="flavor-level-input" role="group" aria-label={name + ' 맛 강도 선택'}>
@@ -41,9 +44,6 @@ function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: strin
           </button>
         ))}
       </div>
-      <button type="button" className="flavor-any-level" disabled={!level} onClick={() => choose()}>
-        강도 무관
-      </button>
     </div>
   );
 }

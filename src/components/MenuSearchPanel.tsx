@@ -49,7 +49,7 @@ export function MenuSearchPanel({
         </div>
         <p className="flavor-help" id="flavor-help">
           맛 이름으로 선택하고, 별 1~5개로 원하는 강도를 골라보세요. 별이 많을수록 강한 맛이에요.
-          선택한 맛은 모두 포함되고, 지정한 강도도 모두 일치하는 메뉴를 찾아요.
+          선택한 맛의 별이 0개면 강도와 관계없이 그 맛이 포함된 메뉴를 찾아요.
         </p>
         <FlavorSelector query={draft} onChange={onDraftChange} />
         <div className="search-divider" />
