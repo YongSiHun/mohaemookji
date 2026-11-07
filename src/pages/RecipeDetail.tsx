@@ -52,17 +52,22 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
   const summary = content?.introduction ?? recipe.description;
   return (
     <header className="detail-header">
-      <p className="eyebrow">
-        {cuisineNames[recipe.cuisine]}
-        {recipe.category && ' · ' + recipe.category}
-      </p>
       <h1>{recipe.name}</h1>
-      {summary && <p className="detail-intro">{summary}</p>}
-      <div className="card-flavors">
-        {recipe.flavors.map((id) => (
-          <span key={id}>{flavors.find((f) => f.id === id)?.name}</span>
-        ))}
+      <div className="detail-meta">
+        <p>
+          {cuisineNames[recipe.cuisine]}
+          {recipe.category && ' · ' + recipe.category}
+        </p>
+        {recipe.flavors.length > 0 && (
+          <>
+            <span className="detail-meta-divider" aria-hidden="true">
+              /
+            </span>
+            <p>{recipe.flavors.map((id) => flavors.find((f) => f.id === id)?.name).join(' · ')}</p>
+          </>
+        )}
       </div>
+      {summary && <p className="detail-intro">{summary}</p>}
       {content && (
         <dl className="recipe-facts">
           {content.totalMinutes && (
@@ -189,11 +194,6 @@ export function RecipeDetail({ recipe, recipes }: { recipe: Recipe; recipes: rea
       </a>
       <SiteHeader />
       <main id="recipe-detail" className="shell recipe-detail" tabIndex={-1}>
-        <nav className="detail-breadcrumb" aria-label="현재 위치">
-          <a href="/">메뉴 검색</a>
-          <span aria-hidden="true"> / </span>
-          <span aria-current="page">{recipe.name}</span>
-        </nav>
         <RecipeBody recipe={recipe} />
         {related.length > 0 && (
           <section className="related-recipes">

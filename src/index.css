@@ -1256,10 +1256,6 @@ mark {
   line-height: 1.85;
   overflow-wrap: anywhere;
 }
-.detail-breadcrumb {
-  font-size: 14px;
-  margin-bottom: 30px;
-}
 .recipe-detail a:not(.recipe-overlay),
 .detail-sources a {
   text-decoration: underline;
@@ -1275,8 +1271,27 @@ mark {
   font-size: clamp(32px, 5vw, 48px);
   line-height: 1.35;
   letter-spacing: -1px;
+  margin: 0 0 12px;
+}
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.6;
+  color: #8d4d33;
+}
+.detail-meta p {
+  margin: 0;
+}
+.detail-meta-divider {
+  color: #9a8070;
 }
 .detail-intro {
+  margin: 0;
   font-size: 18px;
   color: #59483d;
 }
@@ -1354,6 +1369,14 @@ mark {
 }
 .detail-youtube {
   padding-block: 8px 24px;
+}
+.detail-youtube > h2,
+.related-recipes > h2 {
+  margin-bottom: 12px;
+}
+.detail-youtube > p,
+.related-recipes > p {
+  margin: 0 0 24px;
 }
 .recipe-detail a.detail-button {
   display: flex;
