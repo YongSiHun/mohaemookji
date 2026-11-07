@@ -129,7 +129,7 @@ test('추천 개수 제한·중복 방지·기존 제안 교체', () => {
   assert.deepEqual(pickRecommendedKeywords([], 6), []);
   assert.equal(pickRecommendedKeywords(['두부', '두부'], 6).length, 1);
 });
-test('실제 2,000개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
+test('실제 2,100개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
   const content = await readFile(
     new URL('../public/data/recipe_index.json', import.meta.url),
     'utf8',
@@ -138,10 +138,10 @@ test('실제 2,000개 데이터 버전·권역·동일 메뉴 중복 검증', as
   const manifest = JSON.parse(
     await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'),
   );
-  assert.equal(data.length, 2000);
-  assert.equal(manifest.count, 2000);
+  assert.equal(data.length, 2100);
+  assert.equal(manifest.count, 2100);
   assert.equal(manifest.version, createHash('sha256').update(content).digest('hex'));
-  assert.equal(new Set(data.map((r) => r.id)).size, 2000);
+  assert.equal(new Set(data.map((r) => r.id)).size, 2100);
   assert.equal(
     new Set(
       data.map((r) =>
@@ -151,7 +151,7 @@ test('실제 2,000개 데이터 버전·권역·동일 메뉴 중복 검증', as
           .toLowerCase(),
       ),
     ).size,
-    2000,
+    2100,
   );
   const counts: Record<string, number> = {};
   for (const recipe of data) counts[recipe.cuisine] = (counts[recipe.cuisine] ?? 0) + 1;
@@ -159,13 +159,13 @@ test('실제 2,000개 데이터 버전·권역·동일 메뉴 중복 검증', as
     chinese: 220,
     indian: 130,
     japanese: 250,
-    korean: 500,
-    other: 161,
+    korean: 560,
+    other: 201,
     southeast_asian: 140,
     western: 599,
   });
 });
-test('실제 2,000개 검색 결과 Cursor 전체 순회', async () => {
+test('실제 2,100개 검색 결과 Cursor 전체 순회', async () => {
   const data = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
@@ -208,4 +208,79 @@ test('생소한 요리의 한글 설명과 다양한 식재료 검색', async ()
     assert.ok(searchRecipes(data, { ...q, ingredient }).length > 0, ingredient);
   assert.ok(new Set(data.flatMap((r) => r.ingredients)).size > 200);
   assert.ok(new Set(data.flatMap((r) => r.seasonings)).size > 100);
+});
+
+test('퓨전·이색 메뉴를 재료와 소스 조합으로 찾고 초장 별칭을 지원한다', async () => {
+  const data = JSON.parse(
+    await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
+  ) as Recipe[];
+  for (const [ingredient, name] of [
+    ['소고기,참소스', '참소스 소고기 샐러드'],
+    ['새우,초장', '초장 새우 냉파스타'],
+    ['새우,초고추장', '초장 새우 냉파스타'],
+    ['고수,멸치액젓', '고수김치'],
+    ['수박껍질,고춧가루', '수박껍질김치'],
+    ['아보카도,간장', '아보카도장'],
+    ['김치,땅콩버터', '김치 땅콩버터 비빔면'],
+    ['딸기,바질,초고추장', '딸기 바질 비빔국수'],
+  ]) {
+    const found = searchRecipes(data, { ...q, ingredient });
+    assert.ok(
+      found.some(({ recipe }) => recipe.name === name && recipe.cuisine === 'other'),
+      ingredient,
+    );
+  }
+  const ids = (ingredient: string) =>
+    searchRecipes(data, { ...q, ingredient })
+      .map(({ recipe }) => recipe.id)
+      .sort();
+  assert.deepEqual(ids('초장'), ids('초고추장'));
+  assert.ok(ids('초장').length > 0);
+  assert.ok(
+    searchRecipes(data, {
+      flavors: ['spicy', 'sweet_sour'],
+      flavorLevels: { spicy: 3, sweet_sour: 4 },
+      ingredient: '새우,초고추장',
+    }).some(({ recipe }) => recipe.name === '초장 새우 냉파스타'),
+  );
+  const suggestions = buildSuggestionIndex(data);
+  assert.ok(suggestSearchTerms(suggestions, '참소').includes('참소스'));
+  assert.ok(suggestSearchTerms(suggestions, '초고추장').includes('초장'));
+  assert.ok(suggestSearchTerms(suggestions, '고수김').includes('고수김치'));
+});
+
+test('한식의 다양한 주재료·양념 조합과 맛 강도로 새 메뉴를 찾는다', async () => {
+  const data = JSON.parse(
+    await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
+  ) as Recipe[];
+  for (const [ingredient, name] of [
+    ['톳,쌀', '톳밥'],
+    ['우엉,표고버섯', '우엉솥밥'],
+    ['팥,칼국수면', '팥칼국수'],
+    ['토란,들깻가루', '들깨토란탕'],
+    ['감태,계란', '감태계란국'],
+    ['오징어,찹쌀', '오징어순대'],
+    ['고등어,시래기', '시래기고등어조림'],
+    ['오크라,된장', '오크라된장무침'],
+    ['콜라비,식초', '콜라비생채'],
+    ['순무,새우젓', '순무김치'],
+    ['새송이버섯,식초', '새송이버섯장아찌'],
+    ['연근,찹쌀가루', '연근부각'],
+    ['보리가루,막걸리', '보리술빵'],
+  ]) {
+    assert.ok(
+      searchRecipes(data, { ...q, ingredient }).some(
+        ({ recipe }) => recipe.name === name && recipe.cuisine === 'korean',
+      ),
+      ingredient,
+    );
+  }
+  assert.ok(
+    searchRecipes(data, {
+      flavors: ['savory', 'rich'],
+      flavorLevels: { savory: 5, rich: 4 },
+      ingredient: '토란,들깻가루',
+    }).some(({ recipe }) => recipe.name === '들깨토란탕'),
+  );
+  assert.ok(suggestSearchTerms(buildSuggestionIndex(data), '콜라비생').includes('콜라비생채'));
 });

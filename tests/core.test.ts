@@ -232,8 +232,8 @@ test('실제 인덱스 및 30개 초과 검색', async () => {
   const data = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
-  assert.equal(data.length, 2000);
-  assert.equal(new Set(data.map((r) => r.id)).size, 2000);
+  assert.equal(data.length, 2100);
+  assert.equal(new Set(data.map((r) => r.id)).size, 2100);
   assert.ok(searchRecipes(data, { ...q, ingredient: '간장' }).length > 30);
   assert.equal(new Set(data.map((r) => r.cuisine)).size, 7);
 });

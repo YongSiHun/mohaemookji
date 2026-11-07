@@ -54,7 +54,7 @@ test('전체 메뉴 인덱스의 모든 맛에 강도가 저장되어 있다', a
   const recipes = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
-  assert.equal(recipes.length, 2000);
+  assert.equal(recipes.length, 2100);
   for (const item of recipes) {
     assert.ok(item.flavorLevels, item.id);
     assert.equal(isFlavorLevels(item.flavorLevels, item.flavors), true, item.id);
