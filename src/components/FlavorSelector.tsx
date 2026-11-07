@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { FlavorSelectorProps } from '../types/components';
 import type { FlavorLevel } from '../types/recipe';
 import { selectFlavorLevel, toggleFlavorInclusion } from '../services/flavorSelection';
@@ -7,9 +8,11 @@ import groups from '../../data/flavor_groups.json' with { type: 'json' };
 const levels: FlavorLevel[] = [1, 2, 3, 4, 5];
 
 function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: string }) {
+  const [hoveredLevel, setHoveredLevel] = useState<FlavorLevel>();
   const name = flavors.find((flavor) => flavor.id === id)?.name ?? id;
   const active = query.flavors.includes(id);
   const level = active ? query.flavorLevels?.[id] : undefined;
+  const displayLevel = hoveredLevel ?? level;
   const choose = (value?: FlavorLevel) => onChange(selectFlavorLevel(query, id, value));
   const included = active && level === undefined;
   return (
@@ -28,19 +31,25 @@ function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: strin
           </span>
           {name}
         </span>
-        {level && <span className="flavor-level-value">{level}/5</span>}
+        {displayLevel && <span className="flavor-level-value">{displayLevel}/5</span>}
       </div>
-      <div className="flavor-level-input" role="group" aria-label={name + ' 맛 강도 선택'}>
+      <div
+        className="flavor-level-input"
+        role="group"
+        aria-label={name + ' 맛 강도 선택'}
+        onMouseLeave={() => setHoveredLevel(undefined)}
+      >
         {levels.map((value) => (
           <button
             key={value}
             type="button"
-            className={'flavor-star-button' + (value <= (level ?? 0) ? ' filled' : '')}
+            className={'flavor-star-button' + (value <= (displayLevel ?? 0) ? ' filled' : '')}
             aria-label={name + ' 맛 강도 ' + value + '/5 선택'}
             aria-pressed={level === value}
+            onMouseEnter={() => setHoveredLevel(value)}
             onClick={() => choose(value)}
           >
-            <span aria-hidden="true">{value <= (level ?? 0) ? '★' : '☆'}</span>
+            <span aria-hidden="true">{value <= (displayLevel ?? 0) ? '★' : '☆'}</span>
           </button>
         ))}
       </div>
