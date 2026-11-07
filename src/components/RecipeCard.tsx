@@ -1,3 +1,4 @@
+import type { RecipeContent } from '../types/recipe';
 import { CARD_INGREDIENT_LIMIT } from '../constants/recipes';
 import { Highlight } from './Highlight';
 import { Fragment, memo } from 'react';
@@ -23,8 +24,20 @@ function IngredientLine({ items, keyword }: IngredientLineProps) {
   );
 }
 
+function CardSummary({ content }: { content?: RecipeContent }) {
+  const absent = !content;
+  if (absent) return null;
+  return (
+    <p className="card-summary">
+      {content.totalMinutes && <>약 {content.totalMinutes}분 · </>}
+      {difficultyNames[content.difficulty]} · {content.servings}
+    </p>
+  );
+}
+
 /** 메뉴 카드 */
 export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCardProps) {
+  const description = recipe.content?.introduction ?? recipe.description;
   return (
     <article className="recipe-card">
       <div className="card-top">
@@ -37,9 +50,7 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
         <Highlight text={recipe.name} keyword={keyword} />
       </h3>
       <FlavorRatings recipe={recipe} />
-      {(recipe.content?.introduction ?? recipe.description) && (
-        <p className="recipe-description">{recipe.content?.introduction ?? recipe.description}</p>
-      )}
+      {description && <p className="recipe-description">{description}</p>}
       {recipe.image && (
         <img
           className="card-image"
@@ -50,12 +61,7 @@ export const RecipeCard = memo(function RecipeCard({ recipe, keyword }: RecipeCa
           loading="lazy"
         />
       )}
-      {recipe.content && (
-        <p className="card-summary">
-          {recipe.content.totalMinutes && <>약 {recipe.content.totalMinutes}분 · </>}
-          {difficultyNames[recipe.content.difficulty]} · {recipe.content.servings}
-        </p>
-      )}
+      <CardSummary content={recipe.content} />
       <dl>
         <div>
           <dt>주재료</dt>

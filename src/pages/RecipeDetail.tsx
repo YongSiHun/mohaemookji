@@ -1,17 +1,13 @@
+import { getRelatedRecipes } from '../services/relatedRecipes';
 import { useEffect, useMemo } from 'react';
-import type { Recipe, RecipeAmount } from '../types/recipe';
+import type { Recipe, RecipeAmount, RecipeContent } from '../types/recipe';
 import { SiteHeader, SiteFooter } from '../components/SiteLayout';
 import { RecipeCard } from '../components/RecipeCard';
 import { useRecipeData } from '../hooks/useRecipeData';
 import { cuisineNames } from '../constants/cuisines';
 import { FlavorRatings } from '../components/FlavorRatings';
 import { getYouTubeRecipeUrl } from '../services/youtube';
-import {
-  difficultyNames,
-  findRecipeByPath,
-  getRelatedRecipes,
-  getRecipeMetadata,
-} from '../services/recipeDetails';
+import { difficultyNames, findRecipeByPath, getRecipeMetadata } from '../services/recipeDetails';
 
 function Amounts({ title, items }: { title: string; items: RecipeAmount[] }) {
   const empty = items.length === 0;
@@ -60,6 +56,29 @@ function FlavorNote({ recipe }: { recipe: Recipe }) {
   );
 }
 
+function RecipeFacts({ content }: { content?: RecipeContent }) {
+  const absent = !content;
+  if (absent) return null;
+  return (
+    <dl className="recipe-facts">
+      {content.totalMinutes && (
+        <div>
+          <dt>예상 총 시간</dt>
+          <dd>약 {content.totalMinutes}분</dd>
+        </div>
+      )}
+      <div>
+        <dt>난이도</dt>
+        <dd>{difficultyNames[content.difficulty]}</dd>
+      </div>
+      <div>
+        <dt>기준 분량</dt>
+        <dd>{content.servings}</dd>
+      </div>
+    </dl>
+  );
+}
+
 function RecipeHeader({ recipe }: { recipe: Recipe }) {
   const content = recipe.content;
   const summary = content?.introduction ?? recipe.description;
@@ -82,24 +101,7 @@ function RecipeHeader({ recipe }: { recipe: Recipe }) {
       </div>
       <FlavorNote recipe={recipe} />
       {summary && <p className="detail-intro">{summary}</p>}
-      {content && (
-        <dl className="recipe-facts">
-          {content.totalMinutes && (
-            <div>
-              <dt>예상 총 시간</dt>
-              <dd>약 {content.totalMinutes}분</dd>
-            </div>
-          )}
-          <div>
-            <dt>난이도</dt>
-            <dd>{difficultyNames[content.difficulty]}</dd>
-          </div>
-          <div>
-            <dt>기준 분량</dt>
-            <dd>{content.servings}</dd>
-          </div>
-        </dl>
-      )}
+      <RecipeFacts content={content} />
       {content?.timeNote && <p className="detail-note">{content.timeNote}</p>}
     </header>
   );
@@ -226,6 +228,12 @@ export function RecipeDetail({ recipe, recipes }: { recipe: Recipe; recipes: rea
   );
 }
 
+function getRecipeLoadTitle(error: string, ready: boolean): string {
+  if (error) return '요리를 불러오지 못했어요';
+  if (ready) return '요리를 찾을 수 없어요';
+  return '요리를 불러오는 중이에요';
+}
+
 /** 개발 서버 및 브라우저 진입. 프로덕션 본문은 빌드 시 같은 컴포넌트로 생성한다. */
 export function RecipeDetailPage({ path }: { path: string }) {
   const { data, error, retry } = useRecipeData();
@@ -247,13 +255,7 @@ export function RecipeDetailPage({ path }: { path: string }) {
     <>
       <SiteHeader />
       <main className="shell information">
-        <h1>
-          {error
-            ? '요리를 불러오지 못했어요'
-            : ready
-              ? '요리를 찾을 수 없어요'
-              : '요리를 불러오는 중이에요'}
-        </h1>
+        <h1>{getRecipeLoadTitle(error, ready)}</h1>
         {error && (
           <div role="alert">
             <p>{error}</p>

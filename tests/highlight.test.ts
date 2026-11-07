@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { getHighlightSpans } from '../src/utils/highlight.ts';
+import { getHighlightSpans } from '../src/services/highlight.ts';
 
 test('강조 범위는 겹친 검색어를 병합하고 반복·별칭을 모두 반영한다', () => {
   assert.deepEqual(getHighlightSpans('두부두부', '두부, 부'), [[0, 4]]);

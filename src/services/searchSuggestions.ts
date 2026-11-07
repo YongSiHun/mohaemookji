@@ -1,7 +1,7 @@
 import { SUGGESTION_LIMIT } from '../constants/search.ts';
 import type { Recipe } from '../types/recipe.ts';
 import { normalize, compareText } from '../utils/normalize.ts';
-import { queryTerms } from './recipeSearch.ts';
+import { queryTerms } from './searchTerms.ts';
 import { getActiveKeyword, parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
 
 /** 자동완성 인덱스 */
@@ -21,6 +21,19 @@ export function buildSuggestionIndex(recipes: readonly Recipe[]): string[] {
   return [...unique.values()];
 }
 
+interface PreparedSuggestion {
+  label: string;
+  value: string;
+}
+const preparedIndexes = new WeakMap<readonly string[], PreparedSuggestion[]>();
+function prepareSuggestions(index: readonly string[]): PreparedSuggestion[] {
+  const cached = preparedIndexes.get(index);
+  if (cached) return cached;
+  const prepared = index.map((label) => ({ label, value: normalize(label) }));
+  preparedIndexes.set(index, prepared);
+  return prepared;
+}
+
 /** 자동완성 관련도 */
 function rankSuggestion(value: string, terms: readonly string[]): number {
   const isExact = terms.includes(value);
@@ -38,21 +51,16 @@ export function suggestSearchTerms(
   limit = SUGGESTION_LIMIT,
 ): string[] {
   const query = normalize(getActiveKeyword(keyword));
-  const previous = parseIngredientKeywords(keyword.split(/[,，]/).slice(0, -1).join(',')).flatMap(
-    queryTerms,
+  const previous = new Set(
+    parseIngredientKeywords(keyword.split(/[,，]/).slice(0, -1).join(',')).flatMap(queryTerms),
   );
   const cannotSuggest = !query || limit <= 0;
   if (cannotSuggest) return [];
   const terms = queryTerms(query);
-  return index
-    .map((label) => {
-      const value = normalize(label);
-      const rank = rankSuggestion(value, terms);
-      return { label, value, rank };
-    })
+  return prepareSuggestions(index)
+    .map(({ label, value }) => ({ label, value, rank: rankSuggestion(value, terms) }))
     .filter(
-      (item) =>
-        item.value !== query && !previous.includes(item.value) && Number.isFinite(item.rank),
+      (item) => item.value !== query && !previous.has(item.value) && Number.isFinite(item.rank),
     )
     .sort(
       (a, b) => a.rank - b.rank || a.label.length - b.label.length || compareText(a.label, b.label),

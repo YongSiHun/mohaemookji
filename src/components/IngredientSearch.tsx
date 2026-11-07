@@ -4,6 +4,11 @@ import { getActiveKeyword } from '../utils/ingredientKeywords';
 import { useIngredientAutocomplete } from '../hooks/useIngredientAutocomplete';
 import { Highlight } from './Highlight';
 
+function getActiveDescendant(expanded: boolean, activeIndex: number) {
+  const selected = expanded && activeIndex >= 0;
+  return selected ? 'ingredient-option-' + activeIndex : undefined;
+}
+
 /** 재료 검색 입력 */
 export function IngredientSearch(props: IngredientSearchProps) {
   const { value, suggestions } = props;
@@ -40,9 +45,7 @@ export function IngredientSearch(props: IngredientSearchProps) {
           aria-autocomplete="list"
           aria-expanded={expanded}
           aria-controls={expanded ? 'ingredient-suggestions' : undefined}
-          aria-activedescendant={
-            expanded && activeIndex >= 0 ? 'ingredient-option-' + activeIndex : undefined
-          }
+          aria-activedescendant={getActiveDescendant(expanded, activeIndex)}
           aria-describedby="input-help"
           autoComplete="off"
           maxLength={INGREDIENT_INPUT_MAX_LENGTH}

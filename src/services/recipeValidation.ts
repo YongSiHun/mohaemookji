@@ -1,8 +1,8 @@
+import { FLAVOR_IDS } from './flavorCatalog.ts';
 import { isFlavorLevels } from './flavorLevels.ts';
 import { isRecipeExtension } from './recipeContentValidation.ts';
 import {
   CUISINE_IDS,
-  FLAVOR_IDS,
   MAX_TEXT_LENGTH,
   MAX_LIST_LENGTH,
   MAX_RECIPE_COUNT,

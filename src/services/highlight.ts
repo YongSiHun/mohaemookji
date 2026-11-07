@@ -1,7 +1,7 @@
 import type { HighlightSpan } from '../types/search.ts';
-import { normalize } from './normalize.ts';
-import { parseIngredientKeywords } from './ingredientKeywords.ts';
-import { queryTerms } from '../services/recipeSearch.ts';
+import { normalize } from '../utils/normalize.ts';
+import { parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
+import { queryTerms } from './searchTerms.ts';
 
 /** 단일 검색어 위치 */
 function findTermSpans(text: string, term: string): HighlightSpan[] {

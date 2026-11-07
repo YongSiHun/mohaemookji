@@ -1,26 +1,8 @@
 import type { PreparedRecipe } from '../types/search.ts';
-import { ALIAS_GROUPS } from '../constants/search.ts';
+import { queryTerms } from './searchTerms.ts';
 import type { Recipe, SearchQuery, RankedRecipe } from '../types/recipe.ts';
 import { normalize, compareText } from '../utils/normalize.ts';
 import { parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
-
-/** 별칭 그룹 확장 */
-function expandAliasGroup(keyword: string, group: readonly string[]): string[] {
-  return group.flatMap((alias) => {
-    const isAbsent = !keyword.includes(alias);
-    if (isAbsent) return [];
-    return group.map((replacement) => keyword.replaceAll(alias, replacement));
-  });
-}
-
-/** 검색어 확장 */
-export function queryTerms(keyword: string): string[] {
-  const query = normalize(keyword);
-  const isEmpty = query.length === 0;
-  if (isEmpty) return [];
-  const aliases = ALIAS_GROUPS.flatMap((group) => expandAliasGroup(query, group));
-  return [...new Set([query, ...aliases])];
-}
 
 /** 검색 키 생성 */
 export const queryKey = (query: SearchQuery): string =>
@@ -40,21 +22,24 @@ export function buildRecipeSearchIndex(recipes: readonly Recipe[]): PreparedReci
     seasonings: recipe.seasonings.map(normalize),
   }));
 }
+type RankRule = (entry: PreparedRecipe, matches: (value: string) => boolean) => boolean;
+const matchName: RankRule = (entry, matches) => matches(entry.name);
+const matchIngredients: RankRule = (entry, matches) => entry.ingredients.some(matches);
+const matchSeasonings: RankRule = (entry, matches) => entry.seasonings.some(matches);
+/** 우선순위 확장은 기존 분기 대신 규칙 목록에 추가한다. */
+const rankingRules = [
+  { match: matchName, exact: true },
+  { match: matchName, exact: false },
+  { match: matchIngredients, exact: true },
+  { match: matchSeasonings, exact: true },
+  { match: matchIngredients, exact: false },
+  { match: matchSeasonings, exact: false },
+] as const;
 function rankPrepared(recipe: PreparedRecipe, terms: readonly string[]): number {
   const exact = (value: string) => terms.includes(value);
   const partial = (value: string) => terms.some((term) => value.includes(term));
-  const nameExact = exact(recipe.name);
-  if (nameExact) return 0;
-  const namePartial = partial(recipe.name);
-  if (namePartial) return 1;
-  const ingredientExact = recipe.ingredients.some(exact);
-  if (ingredientExact) return 2;
-  const seasoningExact = recipe.seasonings.some(exact);
-  if (seasoningExact) return 3;
-  const ingredientPartial = recipe.ingredients.some(partial);
-  if (ingredientPartial) return 4;
-  const seasoningPartial = recipe.seasonings.some(partial);
-  return seasoningPartial ? 5 : Infinity;
+  const rank = rankingRules.findIndex((rule) => rule.match(recipe, rule.exact ? exact : partial));
+  return rank < 0 ? Infinity : rank;
 }
 /** 공개 단건 API의 관련도 규칙은 유지한다. */
 export function rankRecipe(recipe: Recipe, terms: string[]): number {
@@ -90,6 +75,17 @@ function matchesFlavors(recipe: Recipe, query: SearchQuery): boolean {
   });
 }
 
+function rankEntry(
+  entry: PreparedRecipe,
+  query: SearchQuery,
+  groups: string[][],
+): RankedRecipe | undefined {
+  const excluded = !matchesFlavors(entry.recipe, query);
+  if (excluded) return undefined;
+  const rank = rankKeywordGroups(entry, groups);
+  return Number.isFinite(rank) ? { recipe: entry.recipe, rank } : undefined;
+}
+
 /** 준비된 인덱스를 재사용하는 메뉴 검색 */
 export function searchRecipeIndex(
   index: readonly PreparedRecipe[],
@@ -97,10 +93,11 @@ export function searchRecipeIndex(
   sort = true,
 ): RankedRecipe[] {
   const groups = parseIngredientKeywords(query.ingredient).map(queryTerms);
-  const found = index
-    .filter(({ recipe }) => matchesFlavors(recipe, query))
-    .map((entry) => ({ recipe: entry.recipe, rank: rankKeywordGroups(entry, groups) }))
-    .filter((item) => Number.isFinite(item.rank));
+  const found: RankedRecipe[] = [];
+  for (const entry of index) {
+    const ranked = rankEntry(entry, query, groups);
+    if (ranked) found.push(ranked);
+  }
   return sort ? found.sort(compareRanked) : found;
 }
 /** 기존 호출부와 하위 호환 */

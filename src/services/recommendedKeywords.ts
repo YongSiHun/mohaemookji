@@ -21,15 +21,18 @@ function getRecipeKeywords(recipe: Recipe): Map<string, string> {
   return keywords;
 }
 
+function countKeywords(counts: Map<string, KeywordFrequency>, keywords: Map<string, string>): void {
+  for (const [key, label] of keywords) {
+    const current = counts.get(key);
+    counts.set(key, { label, count: (current?.count ?? 0) + 1 });
+  }
+}
+
 /** 추천어 풀 생성 */
 export function buildRecommendationPool(recipes: readonly Recipe[]): string[] {
   const counts = new Map<string, KeywordFrequency>();
   for (const recipe of recipes) {
-    const keywords = getRecipeKeywords(recipe);
-    for (const [key, label] of keywords) {
-      const current = counts.get(key);
-      counts.set(key, { label, count: (current?.count ?? 0) + 1 });
-    }
+    countKeywords(counts, getRecipeKeywords(recipe));
   }
   const ordered = [...counts.values()].sort(
     (a, b) => b.count - a.count || compareText(a.label, b.label),
@@ -48,7 +51,8 @@ export function pickRecommendedKeywords(
   random: () => number = Math.random,
 ): string[] {
   const unique = [...new Set(pool)];
-  const fresh = unique.filter((keyword) => !previous.includes(keyword));
+  const excluded = new Set(previous);
+  const fresh = unique.filter((keyword) => !excluded.has(keyword));
   const hasEnoughFresh = fresh.length >= count;
   const candidates = shuffle(hasEnoughFresh ? fresh : unique, random);
   return candidates.slice(0, Math.max(0, Math.floor(count)));

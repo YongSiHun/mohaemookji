@@ -46,6 +46,12 @@ const rules: Record<string, Rule[]> = {
 rules.sweet_sour = rules.sour;
 rules.clean = rules.light;
 
+function moderateSpicyLevel(items: string): FlavorLevel {
+  return /생크림|우유|치즈|코코넛밀크/.test(items) ? 2 : 3;
+}
+function mildSpicyLevel(items: string): FlavorLevel {
+  return /후추|겨자|와사비|생강/.test(items) ? 2 : 1;
+}
 function estimateSpicy(recipe: RecipeSource, items: string): FlavorLevel {
   const intense = /불닭|불곱창|불막창|매운|마라|사천|쓰촨|핫윙|빈달루/.test(recipe.name);
   if (intense) return 5;
@@ -55,8 +61,8 @@ function estimateSpicy(recipe: RecipeSource, items: string): FlavorLevel {
   const strong = peppers >= 2 || /청양고추|태국고추|프릭키누/.test(items);
   if (strong) return 4;
   const moderate = peppers > 0 || /고추|할라페뇨|페페론치노/.test(items);
-  if (moderate) return /생크림|우유|치즈|코코넛밀크/.test(items) ? 2 : 3;
-  return /후추|겨자|와사비|생강/.test(items) ? 2 : 1;
+  if (moderate) return moderateSpicyLevel(items);
+  return mildSpicyLevel(items);
 }
 
 function estimate(recipe: RecipeSource, flavor: string): FlavorLevel {
@@ -77,21 +83,23 @@ function seedRecipe(recipe: RecipeSource): boolean {
   return true;
 }
 
-let count = 0;
-for (const file of (await readdir(RECIPE_SOURCE_DIRECTORY)).filter((name) =>
-  name.endsWith('.json'),
-)) {
+function seedRecipes(recipes: readonly RecipeSource[]): number {
+  let count = 0;
+  for (const recipe of recipes) count += Number(seedRecipe(recipe));
+  return count;
+}
+async function seedFile(file: string): Promise<number> {
   const url = new URL(file, RECIPE_SOURCE_DIRECTORY);
   const source = JSON.parse(await readFile(url, 'utf8')) as {
     categories: Record<string, { recipes: RecipeSource[] }>;
   };
-  let changed = false;
   const recipes = Object.values(source.categories).flatMap((category) => category.recipes);
-  for (const recipe of recipes) {
-    const seeded = seedRecipe(recipe);
-    count += Number(seeded);
-    changed ||= seeded;
-  }
+  const count = seedRecipes(recipes);
+  const changed = count > 0;
   if (changed) await writeFile(url, JSON.stringify(source, null, 2) + '\n');
+  return count;
 }
+let count = 0;
+const files = (await readdir(RECIPE_SOURCE_DIRECTORY)).filter((name) => name.endsWith('.json'));
+for (const file of files) count += await seedFile(file);
 console.log('맛 강도 초기값 추가: ' + count + '개');

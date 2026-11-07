@@ -8,18 +8,28 @@ function nextSuggestionIndex(state: AutocompleteKeyState): number {
   return movesDown ? (current + 1) % state.count : previous;
 }
 
-/** 자동완성 키 입력 해석 */
+const ignored = { kind: 'ignore', preventDefault: false } as const;
+function move(state: AutocompleteKeyState): AutocompleteAction {
+  const empty = state.count <= 0;
+  if (empty) return ignored;
+  return { kind: 'move', preventDefault: true, index: nextSuggestionIndex(state) };
+}
+function select(state: AutocompleteKeyState): AutocompleteAction {
+  const canSelect = state.expanded && state.activeIndex >= 0 && state.activeIndex < state.count;
+  return canSelect
+    ? { kind: 'select', preventDefault: true, index: state.activeIndex }
+    : { kind: 'close', preventDefault: false };
+}
+const keyActions: Readonly<Record<string, (state: AutocompleteKeyState) => AutocompleteAction>> = {
+  Escape: () => ({ kind: 'close', preventDefault: true }),
+  ArrowDown: move,
+  ArrowUp: move,
+  Enter: select,
+};
+/** 새 키 동작은 핸들러 목록으로 확장한다. */
 export function getAutocompleteAction(state: AutocompleteKeyState): AutocompleteAction {
   const isComposing = state.isComposing;
-  if (isComposing) return { kind: 'ignore', preventDefault: false };
-  const isEscape = state.key === 'Escape';
-  if (isEscape) return { kind: 'close', preventDefault: true };
-  const isArrowKey = state.key === 'ArrowDown' || state.key === 'ArrowUp';
-  const canMove = isArrowKey && state.count > 0;
-  if (canMove) return { kind: 'move', preventDefault: true, index: nextSuggestionIndex(state) };
-  const isNotEnter = state.key !== 'Enter';
-  if (isNotEnter) return { kind: 'ignore', preventDefault: false };
-  const canSelect = state.expanded && state.activeIndex >= 0 && state.activeIndex < state.count;
-  if (canSelect) return { kind: 'select', preventDefault: true, index: state.activeIndex };
-  return { kind: 'close', preventDefault: false };
+  if (isComposing) return ignored;
+  const action = Object.hasOwn(keyActions, state.key) ? keyActions[state.key] : undefined;
+  return action?.(state) ?? ignored;
 }

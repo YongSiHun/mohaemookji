@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import type { HighlightProps } from '../types/components';
-import { getHighlightSpans } from '../utils/highlight';
+import { getHighlightSpans } from '../services/highlight';
 
 /** 검색어 강조 */
 export function Highlight({ text, keyword }: HighlightProps) {

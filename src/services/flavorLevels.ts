@@ -11,9 +11,10 @@ export function isFlavorLevels(
   const invalid = !isRecord(value);
   if (invalid) return false;
   const keys = Object.keys(value);
+  const registered = new Set(flavors);
   return (
-    keys.length === new Set(flavors).size &&
-    keys.every((key) => flavors.includes(key)) &&
+    keys.length === registered.size &&
+    keys.every((key) => registered.has(key)) &&
     flavors.every(
       (id) => Number.isInteger(value[id]) && Number(value[id]) >= 1 && Number(value[id]) <= 5,
     )

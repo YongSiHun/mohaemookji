@@ -59,6 +59,26 @@ function registerIdentity(id: string, name: string, context: SourceValidationCon
   context.names.add(nameKey);
 }
 
+function getOptionalExtension(
+  raw: Record<string, unknown>,
+): Pick<Recipe, 'slug' | 'content' | 'image'> {
+  return {
+    ...(typeof raw.slug === 'string' ? { slug: raw.slug } : {}),
+    ...(raw.content !== undefined ? { content: raw.content as Recipe['content'] } : {}),
+    ...(raw.image !== undefined ? { image: raw.image as Recipe['image'] } : {}),
+  };
+}
+function parseDescription(
+  description: unknown,
+  id: string,
+  context: SourceValidationContext,
+): Pick<Recipe, 'description'> {
+  const absent = description === undefined;
+  if (absent) return {};
+  const invalid = !isNonEmptyText(description) || description.length > 256;
+  if (invalid) fail(context, id + ' description는 1~256자 문자열이어야 합니다');
+  return { description: description.trim().normalize('NFC') };
+}
 function parseExtension(
   raw: Record<string, unknown>,
   id: string,
@@ -69,11 +89,7 @@ function parseExtension(
   const routeId = typeof raw.slug === 'string' ? raw.slug : id;
   const invalidRoute = !RECIPE_SLUG_PATTERN.test(routeId);
   if (invalidRoute) fail(context, id + ' 상세 페이지 경로 오류');
-  return {
-    ...(typeof raw.slug === 'string' ? { slug: raw.slug } : {}),
-    ...(raw.content !== undefined ? { content: raw.content as Recipe['content'] } : {}),
-    ...(raw.image !== undefined ? { image: raw.image as Recipe['image'] } : {}),
-  };
+  return getOptionalExtension(raw);
 }
 
 function parseFlavorLevels(
@@ -106,10 +122,7 @@ function parseRecipe(
   const seasonings = parseTextList(raw.seasonings, id + ' seasonings', context);
   const hasUnknownFlavor = flavors.some((flavor) => !context.flavors.includes(flavor));
   if (hasUnknownFlavor) fail(context, id + ' 잘못된 맛 태그');
-  const description = raw.description;
-  const hasInvalidDescription =
-    description !== undefined && (!isNonEmptyText(description) || description.length > 256);
-  if (hasInvalidDescription) fail(context, id + ' description는 1~256자 문자열이어야 합니다');
+  const description = parseDescription(raw.description, id, context);
   const extension = parseExtension(raw, id, context);
   registerIdentity(id, name, context);
   return {
@@ -122,9 +135,7 @@ function parseRecipe(
     ingredients,
     seasonings,
     ...extension,
-    ...(typeof description === 'string'
-      ? { description: description.trim().normalize('NFC') }
-      : {}),
+    ...description,
   };
 }
 

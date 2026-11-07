@@ -10,6 +10,32 @@ function getEmptyKeywordMessage(isLoading: boolean, error: string): string {
   return '추천할 검색어가 없어요.';
 }
 
+function getSearchButtonLabel(isLoading: boolean, error: string): string {
+  if (isLoading) return '메뉴 준비 중…';
+  if (error) return '데이터 다시 불러오기';
+  return '메뉴 찾아보기';
+}
+function SearchActions({ isLoading, error }: { isLoading: boolean; error: string }) {
+  return (
+    <div className="search-actions">
+      {error && (
+        <p id="search-data-error" className="search-data-error" role="alert">
+          {error}
+        </p>
+      )}
+      <button
+        type="submit"
+        className="primary-button"
+        disabled={isLoading}
+        aria-busy={isLoading}
+        aria-describedby={error ? 'search-data-error' : undefined}
+      >
+        {getSearchButtonLabel(isLoading, error)}
+      </button>
+    </div>
+  );
+}
+
 /** 메뉴 검색 폼 */
 export function MenuSearchPanel({
   draft,
@@ -101,22 +127,7 @@ export function MenuSearchPanel({
             </div>
           </div>
         </div>
-        <div className="search-actions">
-          {error && (
-            <p id="search-data-error" className="search-data-error" role="alert">
-              {error}
-            </p>
-          )}
-          <button
-            type="submit"
-            className="primary-button"
-            disabled={isLoading}
-            aria-busy={isLoading}
-            aria-describedby={error ? 'search-data-error' : undefined}
-          >
-            {isLoading ? '메뉴 준비 중…' : error ? '데이터 다시 불러오기' : '메뉴 찾아보기'}
-          </button>
-        </div>
+        <SearchActions isLoading={isLoading} error={error} />
       </form>
     </section>
   );

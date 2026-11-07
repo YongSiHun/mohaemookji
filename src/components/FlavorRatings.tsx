@@ -1,4 +1,4 @@
-import flavors from '../../data/flavors.json' with { type: 'json' };
+import { getFlavorName } from '../services/flavorCatalog';
 import type { Recipe } from '../types/recipe';
 
 /** 별은 평점이 아닌 해당 맛의 예상 강도다. */
@@ -6,7 +6,7 @@ export function FlavorRatings({ recipe }: { recipe: Recipe }) {
   return (
     <div className="flavor-ratings" aria-label="예상 맛 강도">
       {recipe.flavors.map((id) => {
-        const name = flavors.find((flavor) => flavor.id === id)?.name ?? id;
+        const name = getFlavorName(id);
         const level = recipe.flavorLevels?.[id];
         return (
           <span

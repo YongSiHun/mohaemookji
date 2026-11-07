@@ -49,6 +49,37 @@ function shouldRedirectToHttps(url: URL): boolean {
   return url.protocol === 'http:' && !local;
 }
 
+function htmlHeaders(asset: Response, url: URL, nonce: string): Headers {
+  const headers = new Headers(asset.headers);
+  // HTTP에서 강제 업그레이드하면 module JS와 fetch의 origin이 달라질 수 있다.
+  // HTTPS 문서에서만 혼합 콘텐츠 방지 정책을 적용한다.
+  headers.set(
+    'Content-Security-Policy',
+    "object-src 'none'; base-uri 'none'; script-src 'nonce-" +
+      nonce +
+      "' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' https: http:; frame-ancestors 'none'; form-action 'self'" +
+      (url.protocol === 'https:' ? '; upgrade-insecure-requests' : ''),
+  );
+  headers.set('Cache-Control', 'no-store');
+  headers.delete('etag');
+  headers.delete('content-length');
+
+  const queryPage = url.search.length > 0;
+  if (queryPage) headers.set('X-Robots-Tag', 'noindex, follow');
+  return headers;
+}
+function getCmpTag(asset: Response, url: URL, env: Env, nonce: string): string {
+  const knownPage = ['/', '/about/', '/privacy/', '/terms/'].includes(url.pathname);
+  const canLoadCmp = asset.status === 200 && knownPage;
+  const skip = !canLoadCmp;
+  if (skip) return '';
+  try {
+    return cmpTag(env.GOOGLE_CMP_SCRIPT_URL, nonce);
+  } catch {
+    return '';
+  }
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -62,29 +93,8 @@ export default {
     const notHtml = !html;
     if (notHtml) return asset;
     const nonce = btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(24))));
-    const headers = new Headers(asset.headers);
-    // HTTP에서 강제 업그레이드하면 module JS와 fetch의 origin이 달라질 수 있다.
-    // HTTPS 문서에서만 혼합 콘텐츠 방지 정책을 적용한다.
-    headers.set(
-      'Content-Security-Policy',
-      "object-src 'none'; base-uri 'none'; script-src 'nonce-" +
-        nonce +
-        "' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' https: http:; frame-ancestors 'none'; form-action 'self'" +
-        (url.protocol === 'https:' ? '; upgrade-insecure-requests' : ''),
-    );
-    headers.set('Cache-Control', 'no-store');
-    headers.delete('etag');
-    headers.delete('content-length');
-    const queryPage = url.search.length > 0;
-    if (queryPage) headers.set('X-Robots-Tag', 'noindex, follow');
-    const knownPage = ['/', '/about/', '/privacy/', '/terms/'].includes(url.pathname);
-    const canLoadCmp = asset.status === 200 && knownPage;
-    let cmp = '';
-    try {
-      cmp = canLoadCmp ? cmpTag(env.GOOGLE_CMP_SCRIPT_URL, nonce) : '';
-    } catch {
-      /* CMP 설정 오류는 광고만 보류하고 서비스를 계속 제공한다. */
-    }
+    const headers = htmlHeaders(asset, url, nonce);
+    const cmp = getCmpTag(asset, url, env, nonce);
     return new HTMLRewriter()
       .on('script', {
         element(element) {

@@ -1,10 +1,10 @@
+import { queryTerms } from '../src/services/searchTerms.ts';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import {
   searchRecipes,
   rankRecipe,
-  queryTerms,
   compareRanked,
   queryKey,
 } from '../src/services/recipeSearch.ts';

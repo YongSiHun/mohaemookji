@@ -1,6 +1,6 @@
 import { normalize } from '../utils/normalize.ts';
 import { parseIngredientKeywords } from '../utils/ingredientKeywords.ts';
-import { queryTerms } from './recipeSearch.ts';
+import { queryTerms } from './searchTerms.ts';
 
 /** 유튜브 검색 URL */
 export function getYouTubeRecipeUrl(recipeName: string, ingredient = ''): string {

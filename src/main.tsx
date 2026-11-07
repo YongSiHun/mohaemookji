@@ -8,4 +8,4 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>,
 );
 
-import './services/privacySettings';
+import './browser/privacySettings';

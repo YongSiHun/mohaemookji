@@ -1,5 +1,4 @@
 import type { Recipe } from '../types/recipe.ts';
-import { normalize } from '../utils/normalize.ts';
 import { cuisineNames } from '../constants/cuisines.ts';
 
 export const difficultyNames = { easy: '쉬움', medium: '보통', hard: '어려움' } as const;
@@ -28,81 +27,6 @@ export function getRecipeMetadata(recipe: Recipe) {
       .slice(0, 155),
   };
 }
-interface RelatedEntry {
-  recipe: Recipe;
-  ingredients: Set<string>;
-  flavors: Set<string>;
-}
-// 읽기 전용 JSON 목록은 데이터 갱신 시 새 배열로 교체된다. 이전 목록은 GC 대상이다.
-const relatedIndexes = new WeakMap<readonly Recipe[], Map<Recipe, RelatedEntry>>();
-function prepareRelated(recipe: Recipe): RelatedEntry {
-  return {
-    recipe,
-    ingredients: new Set(recipe.ingredients.map(normalize)),
-    flavors: new Set(recipe.flavors.map(normalize)),
-  };
-}
-function getRelatedIndex(recipes: readonly Recipe[]): Map<Recipe, RelatedEntry> {
-  let index = relatedIndexes.get(recipes);
-  const missing = !index;
-  if (missing) {
-    const unique = new Map(recipes.map((recipe) => [recipe.id, recipe]));
-    index = new Map([...unique.values()].map((recipe) => [recipe, prepareRelated(recipe)]));
-    relatedIndexes.set(recipes, index);
-  }
-  return index!;
-}
-function sharedCount(a: ReadonlySet<string>, b: ReadonlySet<string>): number {
-  let count = 0;
-  for (const value of a) count += Number(b.has(value));
-  return count;
-}
-function relatedScore(current: RelatedEntry, candidate: RelatedEntry): number {
-  return (
-    sharedCount(current.ingredients, candidate.ingredients) * 3 +
-    sharedCount(current.flavors, candidate.flavors) * 2 +
-    Number(current.recipe.cuisine === candidate.recipe.cuisine) +
-    Number(
-      Boolean(current.recipe.category) && current.recipe.category === candidate.recipe.category,
-    )
-  );
-}
-interface ScoredRecipe {
-  recipe: Recipe;
-  score: number;
-}
-const compareRelated = (a: ScoredRecipe, b: ScoredRecipe) =>
-  b.score - a.score || a.recipe.id.localeCompare(b.recipe.id, 'en');
-function insertRelated(best: ScoredRecipe[], entry: ScoredRecipe, limit: number): void {
-  const position = best.findIndex((item) => compareRelated(entry, item) < 0);
-  const shouldAppend = position < 0;
-  const insertAt = shouldAppend ? best.length : position;
-  const outsideLimit = insertAt >= limit;
-  if (outsideLimit) return;
-  best.splice(insertAt, 0, entry);
-  best.length = Math.min(best.length, limit);
-}
-export function getRelatedRecipes(
-  current: Recipe,
-  recipes: readonly Recipe[],
-  limit = 4,
-): Recipe[] {
-  const count = Math.max(0, Math.floor(limit));
-  const empty = count === 0;
-  if (empty) return [];
-  const index = getRelatedIndex(recipes);
-  const prepared = index.get(current) ?? prepareRelated(current);
-  const best: ScoredRecipe[] = [];
-  for (const candidate of index.values()) {
-    const same = candidate.recipe.id === current.id;
-    if (same) continue;
-    const score = relatedScore(prepared, candidate);
-    const related = score > 0;
-    if (related) insertRelated(best, { recipe: candidate.recipe, score }, count);
-  }
-  return best.map(({ recipe }) => recipe);
-}
-
 /** 사용 권한이 기재된 사진·조리 본문·실제 origin이 있을 때만 Recipe 출력 */
 export function getRecipeStructuredData(recipe: Recipe, origin: string) {
   const content = recipe.content;

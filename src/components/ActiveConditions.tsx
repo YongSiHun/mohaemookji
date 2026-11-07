@@ -1,11 +1,12 @@
 import { removeFlavor } from '../services/flavorSelection';
 import type { ActiveConditionsProps } from '../types/components';
-import flavors from '../../data/flavors.json' with { type: 'json' };
+import { getFlavorName } from '../services/flavorCatalog';
 import { EMPTY_SEARCH_QUERY } from '../constants/recipes';
 import { parseIngredientKeywords } from '../utils/ingredientKeywords';
 
 /** 검색 조건 표시 */
 export function ActiveConditions({ query, onApply }: ActiveConditionsProps) {
+  const keywords = parseIngredientKeywords(query.ingredient);
   const hasNoConditions = query.flavors.length === 0 && !query.ingredient;
   if (hasNoConditions)
     return (
@@ -20,10 +21,10 @@ export function ActiveConditions({ query, onApply }: ActiveConditionsProps) {
         {query.flavors.map((flavor) => (
           <button
             key={flavor}
-            aria-label={(flavors.find((f) => f.id === flavor)?.name ?? flavor) + ' 맛 조건 제거'}
+            aria-label={getFlavorName(flavor) + ' 맛 조건 제거'}
             onClick={() => onApply(removeFlavor(query, flavor), false)}
           >
-            {flavors.find((f) => f.id === flavor)?.name}
+            {getFlavorName(flavor)}
             {query.flavorLevels?.[flavor] && (
               <span className="condition-flavor-level">
                 {'★'.repeat(query.flavorLevels[flavor])} {query.flavorLevels[flavor]}/5
@@ -32,7 +33,7 @@ export function ActiveConditions({ query, onApply }: ActiveConditionsProps) {
             <span aria-hidden="true">×</span>
           </button>
         ))}
-        {parseIngredientKeywords(query.ingredient).map((keyword) => (
+        {keywords.map((keyword) => (
           <button
             key={keyword}
             aria-label={keyword + ' 검색 조건 제거'}
@@ -40,9 +41,7 @@ export function ActiveConditions({ query, onApply }: ActiveConditionsProps) {
               onApply(
                 {
                   ...query,
-                  ingredient: parseIngredientKeywords(query.ingredient)
-                    .filter((value) => value !== keyword)
-                    .join(', '),
+                  ingredient: keywords.filter((value) => value !== keyword).join(', '),
                 },
                 false,
               )

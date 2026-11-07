@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { shuffleRecipes } from '../src/services/shuffleRecipes.ts';
+import { shuffle } from '../src/utils/shuffle.ts';
 import { paginateRecipes } from '../src/services/pagination.ts';
 import type { RankedRecipe } from '../src/types/recipe.ts';
 
@@ -19,7 +19,7 @@ const recipes: RankedRecipe[] = Array.from({ length: 95 }, (_, i) => ({
 
 test('무작위 순서는 원본을 보존하고 모든 메뉴를 포함한다', () => {
   const original = recipes.map((r) => r.recipe.id);
-  const shuffled = shuffleRecipes(recipes, () => 0);
+  const shuffled = shuffle(recipes, () => 0);
   assert.notDeepEqual(
     shuffled.map((r) => r.recipe.id),
     original,
@@ -29,12 +29,12 @@ test('무작위 순서는 원본을 보존하고 모든 메뉴를 포함한다',
     original,
   );
   assert.deepEqual(new Set(shuffled.map((r) => r.recipe.id)), new Set(original));
-  assert.deepEqual(shuffleRecipes([]), []);
-  assert.deepEqual(shuffleRecipes(recipes.slice(0, 1)), recipes.slice(0, 1));
+  assert.deepEqual(shuffle([]), []);
+  assert.deepEqual(shuffle(recipes.slice(0, 1)), recipes.slice(0, 1));
 });
 
 test('랜덤 후보 전체 순회는 관련도·이름과 무관하게 중복 및 누락이 없다', () => {
-  const shuffled = shuffleRecipes(recipes, () => 0.3);
+  const shuffled = shuffle(recipes, () => 0.3);
   const seen: string[] = [];
   let cursor: string | null = null;
   do {
@@ -52,7 +52,7 @@ test('랜덤 후보 전체 순회는 관련도·이름과 무관하게 중복 �
 
 test('후보 새로고침은 이전 순서의 커서를 초기화한다', () => {
   const previous = paginateRecipes(recipes, query, 'snapshot:0');
-  const refreshed = shuffleRecipes(recipes, () => 0);
+  const refreshed = shuffle(recipes, () => 0);
   assert.deepEqual(
     paginateRecipes(refreshed, query, 'snapshot:1', previous.nextCursor),
     paginateRecipes(refreshed, query, 'snapshot:1'),

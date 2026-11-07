@@ -10,3 +10,8 @@ artifacts/
 yarn-error.log
 
 .husky/_/
+
+.env
+.env.*
+.dev.vars
+.dev.vars.*

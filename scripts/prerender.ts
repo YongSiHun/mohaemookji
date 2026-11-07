@@ -14,16 +14,18 @@ import type { Recipe } from '../src/types/recipe.ts';
 
 const env = loadEnv(process.env.BUILD_MODE ?? 'production', process.cwd(), '');
 const configured = env.SITE_URL;
-let origin = '';
-if (configured) {
+function getSiteOrigin(configured: string | undefined): string {
+  const missing = !configured;
+  if (missing) return '';
   const url = new URL(configured);
   const invalid =
     url.protocol !== 'https:' ||
     url.pathname !== '/' ||
     Boolean(url.search || url.hash || url.username || url.password);
   if (invalid) throw new Error('SITE_URL은 경로·쿼리·인증 정보 없는 HTTPS origin이어야 합니다.');
-  origin = url.origin;
+  return url.origin;
 }
+const origin = getSiteOrigin(configured);
 const escape = (text: string) =>
   text
     .replaceAll('&', '&amp;')
@@ -61,16 +63,35 @@ try {
   const { Information } = await server.ssrLoadModule('/src/pages/Information.tsx');
   const { RecipeDetail } = await server.ssrLoadModule('/src/pages/RecipeDetail.tsx');
   const { StaticHome } = await server.ssrLoadModule('/src/pages/StaticHome.tsx');
+  function renderBody(path: string, recipe: Recipe | undefined): string {
+    if (recipe) return renderToStaticMarkup(createElement(RecipeDetail, { recipe, recipes }));
+    const home = path === '/';
+    if (home)
+      return renderToStaticMarkup(
+        createElement(StaticHome, { recipes: recipes.filter((r) => r.content).slice(0, 6) }),
+      );
+    return renderToStaticMarkup(createElement(Information, { path }));
+  }
+  function withRecipeMetadata(html: string, recipe: Recipe | undefined): string {
+    const missing = !recipe;
+    if (missing) return html;
+    const summaryOnly = !recipe.content;
+    if (summaryOnly)
+      return html.replace('</head>', '<meta name="robots" content="noindex, follow" /></head>');
+    const structured = getRecipeStructuredData(recipe, origin);
+    const unavailable = !structured;
+    if (unavailable) return html;
+    return html.replace(
+      '</head>',
+      '<script type="application/ld+json">' +
+        serializeStructuredData(structured) +
+        '</script></head>',
+    );
+  }
   async function renderPage(page: { path: string; title: string; description: string }) {
     const home = page.path === '/';
     const recipe = recipeByPath.get(page.path);
-    const body = recipe
-      ? renderToStaticMarkup(createElement(RecipeDetail, { recipe, recipes }))
-      : home
-        ? renderToStaticMarkup(
-            createElement(StaticHome, { recipes: recipes.filter((r) => r.content).slice(0, 6) }),
-          )
-        : renderToStaticMarkup(createElement(Information, { path: page.path }));
+    const body = renderBody(page.path, recipe);
     let html = withBody(template, body)
       .replace(/<title>.*?<\/title>/, '<title>' + escape(page.title) + '</title>')
       .replace(
@@ -81,17 +102,7 @@ try {
         /(<meta property="og:title" content=")[^"]*("\s*\/?>)/,
         '$1' + escape(page.title) + '$2',
       );
-    const summaryOnly = recipe && !recipe.content;
-    if (summaryOnly)
-      html = html.replace('</head>', '<meta name="robots" content="noindex, follow" /></head>');
-    const structured = recipe ? getRecipeStructuredData(recipe, origin) : undefined;
-    if (structured)
-      html = html.replace(
-        '</head>',
-        '<script type="application/ld+json">' +
-          serializeStructuredData(structured) +
-          '</script></head>',
-      );
+    html = withRecipeMetadata(html, recipe);
     const informationPage = !home;
     if (informationPage)
       html = html.replace(/<script\b(?=[^>]*data-ads-loader)[^>]*><\/script>/g, '');
