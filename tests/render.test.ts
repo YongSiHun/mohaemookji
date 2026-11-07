@@ -94,6 +94,7 @@ test('화면 통합: 검색 폼·조건·상태별 결과·유튜브 링크·안
     assert.doesNotMatch(result, /30 [/] 2000|2000개 메뉴|<script>/);
     assert.ok(result.includes('href="/recipes/'));
     assert.match(result, /요리 상세 보기/);
+    assert.doesNotMatch(result, /분류 기준 재료/);
     const finished = renderToStaticMarkup(createElement(MenuResults, { ...props, hasNext: false }));
     assert.match(finished, /모든 메뉴를 확인했어요/);
     assert.doesNotMatch(finished, /메뉴 더 보기/);

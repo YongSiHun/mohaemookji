@@ -49,18 +49,40 @@ test('쉼표 입력 정규화·중복·빈 구간', () => {
   assert.deepEqual(parseIngredientKeywords('TOFU, tofu, 김치'.normalize('NFD')), ['TOFU', '김치']);
   assert.deepEqual(parseIngredientKeywords('두부，김치'), ['두부', '김치']);
 });
-test('여러 재료 AND 검색', () => {
+test('여러 재료·소스 검색어가 모두 일치해야 검색한다', () => {
+  const ids = (ingredient: string) =>
+    searchRecipes(recipes, { ...q, ingredient })
+      .map((item) => item.recipe.id)
+      .sort();
+  assert.deepEqual(ids('김치,두부'), ['a']);
+  assert.deepEqual(ids('김치,새우'), []);
+  assert.deepEqual(ids('김치,고추가루,다진마늘'), ['a']);
+  assert.deepEqual(ids('소금,고추가루'), []);
+  assert.deepEqual(ids('두부,간장'), []);
+  assert.deepEqual(ids('새우,굴소스'), []);
+  assert.deepEqual(ids(', ,'), ['a', 'b', 'c']);
   assert.deepEqual(
-    searchRecipes(recipes, { ...q, ingredient: '김치,두부' }).map((r) => r.recipe.id),
-    ['a'],
+    searchRecipes(recipes, { flavors: ['savory'], ingredient: '김치,두부' }).map(
+      (item) => item.recipe.id,
+    ),
+    [],
   );
-  assert.equal(searchRecipes(recipes, { ...q, ingredient: '김치,새우' }).length, 0);
-  assert.deepEqual(
-    searchRecipes(recipes, { ...q, ingredient: '김치,고추가루,다진마늘' }).map((r) => r.recipe.id),
-    ['a'],
-  );
-  assert.equal(searchRecipes(recipes, { flavors: ['savory'], ingredient: '김치,두부' }).length, 0);
-  assert.equal(searchRecipes(recipes, { ...q, ingredient: ', ,' }).length, 3);
+  assert.deepEqual(ids('두부,소금'), ['b']);
+});
+test('검색은 주재료·소스의 첫 항목뿐 아니라 전체 목록을 검사한다', () => {
+  const rows = [
+    {
+      ...recipes[0],
+      name: '테스트 메뉴',
+      ingredients: ['밥', '두부'],
+      seasonings: ['후추', '굴소스'],
+    },
+  ];
+  for (const ingredient of ['두부', '굴소스', '두부,굴소스']) {
+    assert.equal(searchRecipes(rows, { ...q, ingredient }).length, 1);
+  }
+  assert.equal(searchRecipes(rows, { ...q, ingredient: '새우,설탕' }).length, 0);
+  assert.equal(searchRecipes(rows, { ...q, ingredient: '없는재료,굴소스' }).length, 0);
 });
 test('재료 순서·중복에 독립적인 Cursor 키', () => {
   assert.equal(

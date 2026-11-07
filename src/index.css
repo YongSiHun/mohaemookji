@@ -1259,11 +1259,6 @@ mark {
   color: var(--color-supporting);
   margin-block: 14px 0;
 }
-.recipe-category {
-  font-size: var(--text-caption);
-  color: #655044;
-  margin-block: 10px 0;
-}
 .input-wrap input::placeholder {
   color: var(--color-muted);
   opacity: 1;

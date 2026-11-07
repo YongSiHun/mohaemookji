@@ -58,7 +58,7 @@ export function MenuSearchPanel({
           <label htmlFor="ingredient">어떤 재료를 사용하고 싶으세요?</label>
         </div>
         <p className="ingredient-help" id="input-help">
-          재료가 여러 개라면 쉼표(,)로 구분해 주세요.
+          재료가 여러 개라면 쉼표(,)로 구분해 주세요. 입력한 검색어가 모두 포함된 메뉴를 찾아요.
         </p>
         <div className="input-row">
           <IngredientSearch

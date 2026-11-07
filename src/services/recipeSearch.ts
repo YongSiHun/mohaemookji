@@ -62,6 +62,7 @@ export function rankRecipe(recipe: Recipe, terms: string[]): number {
   if (empty) return 0;
   return rankPrepared(buildRecipeSearchIndex([recipe])[0], terms);
 }
+/** 모든 검색어가 각각 이름·주재료·소스 중 하나에 일치해야 포함한다. */
 function rankKeywordGroups(recipe: PreparedRecipe, groups: string[][]): number {
   let rank = Infinity;
   for (const terms of groups) {
