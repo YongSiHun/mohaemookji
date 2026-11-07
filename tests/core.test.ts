@@ -243,15 +243,16 @@ test('새 탭 보안 속성', async () => {
   assert.ok(card.includes('rel="noopener noreferrer"'));
 });
 
-test('복수 맛 OR 검색 및 중복 메뉴 방지', () => {
-  const found = searchRecipes(rows, { ...q, flavors: ['spicy', 'light'] });
-  assert.equal(found.length, 3);
-  assert.equal(new Set(found.map((r) => r.recipe.id)).size, 3);
+test('복수 맛 AND 검색 및 중복 메뉴 방지', () => {
+  const found = searchRecipes(rows, { ...q, flavors: ['spicy', 'spicy', 'umami'] });
+  assert.equal(found.length, 2);
+  assert.equal(new Set(found.map((r) => r.recipe.id)).size, 2);
+  assert.equal(searchRecipes(rows, { ...q, flavors: ['spicy', 'light'] }).length, 0);
   assert.equal(searchRecipes(rows, { ...q, flavors: ['spicy', 'umami'] }).length, 2);
 });
 test('복수 맛과 재료 AND', () => {
   assert.deepEqual(
-    searchRecipes(rows, { flavors: ['spicy', 'light'], ingredient: '고추장' }).map(
+    searchRecipes(rows, { flavors: ['spicy', 'umami'], ingredient: '고추장' }).map(
       (r) => r.recipe.id,
     ),
     ['b'],
@@ -271,7 +272,7 @@ test('맛 순서와 중복에 독립적인 검색 키', () => {
 test('복수 맛 Cursor 순회 및 조건 변경 초기화', () => {
   const data = Array.from({ length: 61 }, (_, i) => ({
     ...make(String(i).padStart(3, '0')),
-    flavors: [i % 2 ? 'spicy' : 'light'],
+    flavors: ['spicy', 'light'],
   }));
   const query = { ...q, flavors: ['spicy', 'light'] };
   const sorted = searchRecipes(data, query);

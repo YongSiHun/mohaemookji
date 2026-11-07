@@ -80,10 +80,9 @@ export const compareRanked = (a: RankedRecipe, b: RankedRecipe): number =>
   compareText(a.recipe.name, b.recipe.name) ||
   compareText(a.recipe.id, b.recipe.id);
 
+/** 선택한 맛을 모두 포함하고 지정한 강도도 모두 일치해야 한다. */
 function matchesFlavors(recipe: Recipe, query: SearchQuery): boolean {
-  const unrestricted = query.flavors.length === 0;
-  if (unrestricted) return true;
-  return query.flavors.some((id) => {
+  return query.flavors.every((id) => {
     const level = query.flavorLevels?.[id];
     return (
       recipe.flavors.includes(id) && (level === undefined || recipe.flavorLevels?.[id] === level)

@@ -49,7 +49,7 @@ export function MenuSearchPanel({
         </div>
         <p className="flavor-help" id="flavor-help">
           맛 이름으로 선택하고, 별 1~5개로 원하는 강도를 골라보세요. 별이 많을수록 강한 맛이에요.
-          선택한 맛과 강도 중 하나 이상에 맞는 메뉴를 찾아요.
+          선택한 맛은 모두 포함되고, 지정한 강도도 모두 일치하는 메뉴를 찾아요.
         </p>
         <FlavorSelector query={draft} onChange={onDraftChange} />
         <div className="search-divider" />
@@ -58,7 +58,8 @@ export function MenuSearchPanel({
           <label htmlFor="ingredient">어떤 재료를 사용하고 싶으세요?</label>
         </div>
         <p className="ingredient-help" id="input-help">
-          재료가 여러 개라면 쉼표(,)로 구분해 주세요. 입력한 검색어가 모두 포함된 메뉴를 찾아요.
+          재료가 여러 개라면 쉼표(,)로 구분해 주세요. 각 검색어는 부분 일치로 찾으며, 모두
+          포함되어야 해요.
         </p>
         <div className="input-row">
           <IngredientSearch

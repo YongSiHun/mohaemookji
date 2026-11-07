@@ -36,7 +36,7 @@ test('별로 맛을 선택·수정하고 강도 무관 전환과 맛 해제를 �
   assert.deepEqual(empty.flavors, []);
 });
 
-test('맛 강도는 정확히 일치하고 여러 맛은 OR, 재료와는 AND로 검색한다', () => {
+test('강도를 지정한 여러 맛은 모두 정확히 일치하고 재료와도 AND로 검색한다', () => {
   const data = [make('mild', 1), make('medium', 3), make('strong', 5), make('legacy')];
   const query = selectFlavorLevel(empty, 'spicy', 3);
   assert.deepEqual(
@@ -44,14 +44,76 @@ test('맛 강도는 정확히 일치하고 여러 맛은 OR, 재료와는 AND로
     ['medium'],
   );
   assert.equal(searchRecipes(data, toggleFlavor(empty, 'spicy')).length, 4);
-  assert.equal(searchRecipes(data, { ...query, ingredient: '김치' }).length, 0);
-  const savory = { ...make('savory'), flavors: ['savory'], flavorLevels: { savory: 5 as const } };
-  const either = selectFlavorLevel(query, 'savory', 5);
+  const savory: Recipe = { ...make('savory'), flavors: ['savory'], flavorLevels: { savory: 5 } };
+  const both: Recipe = {
+    ...make('both'),
+    flavors: ['spicy', 'savory'],
+    flavorLevels: { spicy: 3, savory: 5 },
+  };
+  const wrong: Recipe = { ...both, id: 'wrong', flavorLevels: { spicy: 5, savory: 5 } };
+  const unmeasured: Recipe = { ...both, id: 'unmeasured', flavorLevels: undefined };
+  const all = [...data, savory, both, wrong, unmeasured];
+  const combined = selectFlavorLevel(query, 'savory', 5);
   assert.deepEqual(
-    searchRecipes([...data, savory], either).map((item) => item.recipe.id),
-    ['medium', 'savory'],
+    searchRecipes(all, combined).map((item) => item.recipe.id),
+    ['both'],
   );
-  assert.equal(searchRecipes([...data, savory], { ...either, ingredient: '두부' }).length, 2);
+  assert.equal(searchRecipes(all, { ...combined, ingredient: '두부,소금' }).length, 1);
+  assert.equal(searchRecipes(all, { ...combined, ingredient: '두부,김치' }).length, 0);
+  assert.equal(searchRecipes(data, combined).length, 0);
+});
+
+test('강도 무관 맛도 모두 포함되고 지정 강도는 정확히 일치해야 한다', () => {
+  const spicy = make('spicy', 3);
+  const savory: Recipe = { ...make('savory'), flavors: ['savory'], flavorLevels: { savory: 5 } };
+  const both: Recipe = {
+    ...spicy,
+    id: 'both',
+    flavors: ['spicy', 'savory'],
+    flavorLevels: { spicy: 3, savory: 5 },
+  };
+  const wrong: Recipe = { ...both, id: 'wrong', flavorLevels: { spicy: 5, savory: 5 } };
+  const query = toggleFlavor(toggleFlavor(empty, 'spicy'), 'savory');
+  const rows = [spicy, savory, both, wrong];
+  assert.deepEqual(
+    searchRecipes(rows, query).map((item) => item.recipe.id),
+    ['both', 'wrong'],
+  );
+  const mixed = selectFlavorLevel(query, 'spicy', 3);
+  assert.deepEqual(
+    searchRecipes(rows, mixed).map((item) => item.recipe.id),
+    ['both'],
+  );
+  assert.equal(searchRecipes(rows, empty).length, 4);
+  assert.equal(searchRecipes(rows, { ...empty, flavorLevels: { spicy: 5 } }).length, 4);
+});
+
+test('맛·강도·여러 부분 검색어를 모두 AND로 결합한다', () => {
+  const matching: Recipe = {
+    ...make('matching'),
+    name: '두부볶음',
+    flavors: ['spicy', 'savory', 'light'],
+    flavorLevels: { spicy: 3, savory: 5, light: 4 },
+    ingredients: ['단단한 두부', '표고버섯'],
+    seasonings: ['진간장', '참기름'],
+  };
+  const rows: Recipe[] = [
+    matching,
+    { ...matching, id: 'missing-flavor', flavors: ['spicy', 'savory'] },
+    { ...matching, id: 'wrong-level', flavorLevels: { spicy: 5, savory: 5, light: 4 } },
+    { ...matching, id: 'missing-keyword', seasonings: ['소금'] },
+  ];
+  const query: SearchQuery = {
+    flavors: ['spicy', 'savory', 'light'],
+    flavorLevels: { spicy: 3, savory: 5 },
+    ingredient: '두부,버섯,간장',
+  };
+  assert.deepEqual(
+    searchRecipes(rows, query).map((item) => item.recipe.id),
+    ['matching'],
+  );
+  assert.equal(searchRecipes(rows, { ...query, ingredient: '두부,없는재료' }).length, 0);
+  assert.equal(searchRecipes(rows, empty).length, 4);
 });
 
 test('강도를 바꾸면 검색 키가 바뀌고 선택 순서와 무관하다', () => {
