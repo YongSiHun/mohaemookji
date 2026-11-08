@@ -4,7 +4,7 @@ import { RecipeGuide } from '../components/RecipeGuide';
 import { RecipeCard } from '../components/RecipeCard';
 import type { Recipe } from '../types/recipe';
 
-/** JS 실행 전에도 접근 가능한 실제 메뉴 예시와 연결 안내 */
+/** JS 실행 전 메뉴 예시·링크 안내 */
 export function StaticHome({ recipes }: { recipes: Recipe[] }) {
   return (
     <>

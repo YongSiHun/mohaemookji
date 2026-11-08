@@ -19,7 +19,7 @@ let allowed = false;
 let subscribed = false;
 let loaded = false;
 
-/** 광고는 핵심 앱과 별도로, 동의와 콘텐츠 준비 후 head에 한 번만 삽입 */
+/** 앱과 별도 로드 · 동의·콘텐츠 준비 후 head에 광고 1회 삽입 */
 function loadAdSense() {
   const ready = document.documentElement.dataset.adsContentReady === 'true';
   const skip =
@@ -39,7 +39,7 @@ function loadAdSense() {
   script.async = true;
   script.src = AD_URL;
   script.crossOrigin = 'anonymous';
-  // strict-dynamic도 동적 스크립트를 허용하지만 nonce 역시 전달한다.
+  // strict-dynamic 허용 스크립트에도 nonce 전달
   script.nonce = document.querySelector<HTMLScriptElement>('script[nonce]')?.nonce ?? '';
   script.onerror = () => {
     script.dataset.loadFailed = 'true';
@@ -47,7 +47,7 @@ function loadAdSense() {
   document.head.append(script);
 }
 
-/** 인증 CMP의 TCF 신호 구독. 미연결·오류 시 광고를 요청하지 않는다. */
+/** 인증 CMP TCF 구독 · 미연결·오류 시 광고 보류 */
 function subscribe(): boolean {
   const api = window.__tcfapi;
   const unavailable = !api || subscribed;
@@ -72,7 +72,7 @@ function subscribe(): boolean {
   return subscribed;
 }
 
-/** 안내·오류·쿼리 URL에서는 광고 동의 대기를 시작하지 않는다. */
+/** 안내·오류·쿼리 URL: 광고 동의 대기 제외 */
 function start() {
   const eligible = import.meta.env.PROD && location.pathname === '/' && location.search === '';
   const skip = !eligible;

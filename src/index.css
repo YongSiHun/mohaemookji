@@ -16,7 +16,7 @@
 * {
   box-sizing: border-box;
 }
-/* 최소 지원 뷰포트 너비: 320px. 더 좁은 화면에서는 레이아웃 너비를 유지한다. */
+/* 최소 뷰포트 320px · 미만 시 너비 유지 */
 html,
 body {
   min-width: 320px;
@@ -1573,7 +1573,7 @@ button:disabled {
   scroll-margin-top: 24px;
 }
 
-/* 메인 소개는 브랜드용 디스플레이, 각 화면의 h1은 페이지 제목 규칙을 따른다. */
+/* 메인 소개: 브랜드 display · h1: 페이지 제목 */
 #hero-title {
   font-size: var(--text-display);
   line-height: var(--leading-display);

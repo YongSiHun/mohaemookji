@@ -1,7 +1,7 @@
 import type { FlavorLevel } from '../types/recipe.ts';
 import { isRecord } from '../utils/validation.ts';
 
-/** 등록된 맛마다 1~5 정수만 허용한다. 기존 데이터의 미등록 값은 유지한다. */
+/** 등록 맛별 1~5 정수 검증 · 기존 데이터의 undefined 허용 */
 export function isFlavorLevels(
   value: unknown,
   flavors: readonly string[],

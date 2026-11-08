@@ -1,6 +1,6 @@
 import type { FlavorLevel, SearchQuery } from '../types/recipe.ts';
 
-/** 맛을 해제하면 해당 강도도 함께 제거한다. */
+/** 맛 해제 → 강도 제거 */
 export function removeFlavor(query: SearchQuery, id: string): SearchQuery {
   const flavors = query.flavors.filter((flavor) => flavor !== id);
   const flavorLevels = Object.fromEntries(
@@ -14,7 +14,7 @@ export function toggleFlavor(query: SearchQuery, id: string): SearchQuery {
   return active ? removeFlavor(query, id) : { ...query, flavors: [...query.flavors, id] };
 }
 
-/** 별을 누르면 맛도 선택한다. undefined는 강도를 제한하지 않는다. */
+/** 별 선택 → 맛 포함 · undefined: 강도 무관 */
 export function selectFlavorLevel(
   query: SearchQuery,
   id: string,
@@ -28,7 +28,7 @@ export function selectFlavorLevel(
   return { ...query, flavors, flavorLevels };
 }
 
-/** 카드 바탕: 미선택/강도 지정 → 맛 포함, 맛 포함 상태 → 선택 해제. */
+/** 카드: 미선택·강도 지정 → 강도 무관 포함 · 이미 포함 → 해제 */
 export function toggleFlavorInclusion(query: SearchQuery, id: string): SearchQuery {
   const included = query.flavors.includes(id) && query.flavorLevels?.[id] === undefined;
   return included ? removeFlavor(query, id) : selectFlavorLevel(query, id);

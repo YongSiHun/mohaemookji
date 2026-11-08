@@ -32,7 +32,7 @@ const escape = (text: string) =>
     .replaceAll('"', '&quot;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;');
-// 이미지 내용이 바뀌면 새 URL로 발행해 공유 서비스의 이미지 캐시를 갱신한다.
+// 이미지 변경 → 새 URL 발행·공유 캐시 갱신
 const preview = await readFile('public/social-preview.jpg');
 const previewHash = createHash('sha256').update(preview).digest('hex').slice(0, 12);
 const previewPath = '/social-preview-' + previewHash + '.jpg';

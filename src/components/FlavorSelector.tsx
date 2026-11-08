@@ -90,7 +90,7 @@ function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: strin
   );
 }
 
-/** 맛과 원하는 강도를 함께 선택한다. */
+/** 맛·강도 선택 */
 export function FlavorSelector({ query, onChange }: FlavorSelectorProps) {
   return (
     <div className="flavor-groups" aria-describedby="flavor-help">

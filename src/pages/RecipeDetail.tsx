@@ -234,7 +234,7 @@ function getRecipeLoadTitle(error: string, ready: boolean): string {
   return '요리를 불러오는 중이에요';
 }
 
-/** 개발 서버 및 브라우저 진입. 프로덕션 본문은 빌드 시 같은 컴포넌트로 생성한다. */
+/** dev·브라우저 진입 · prod 본문: 동일 컴포넌트로 빌드 */
 export function RecipeDetailPage({ path }: { path: string }) {
   const { data, error, retry } = useRecipeData();
   const recipe = findRecipeByPath(data?.recipes ?? [], path);

@@ -20,7 +20,7 @@ function isSettled(data: ConsentData, success: boolean): boolean {
   return success && data.cmpStatus === 'loaded' && settled;
 }
 
-/** 동의 미확인·오류·거부 시 요청 보류. 개별 광고 목적은 Google에서도 판단. */
+/** 동의 미확인·오류·거부: 요청 보류 · 광고 목적: Google 추가 판단 */
 export function mayRequestAds(data: ConsentData | null | undefined, success: boolean): boolean {
   const missing = !data;
   if (missing) return false;

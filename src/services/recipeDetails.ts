@@ -27,7 +27,7 @@ export function getRecipeMetadata(recipe: Recipe) {
       .slice(0, 155),
   };
 }
-/** 사용 권한이 기재된 사진·조리 본문·실제 origin이 있을 때만 Recipe 출력 */
+/** Recipe JSON-LD: 권한 기재 사진·조리 본문·실제 origin 필수 */
 export function getRecipeStructuredData(recipe: Recipe, origin: string) {
   const content = recipe.content;
   const image = recipe.image;

@@ -1,4 +1,4 @@
-/* 역할별 타이포그래피와 공통 디자인 토큰. docs/design-conventions.md 참고. */
+/* 역할별 글꼴·공통 토큰 · docs/design-conventions.md 참조 */
 :root {
   --text-display: clamp(2.25rem, 4.3vw + 0.625rem, 3.875rem);
   --text-page-title: 2.5rem;

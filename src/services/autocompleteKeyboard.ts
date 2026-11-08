@@ -26,7 +26,7 @@ const keyActions: Readonly<Record<string, (state: AutocompleteKeyState) => Autoc
   ArrowUp: move,
   Enter: select,
 };
-/** 새 키 동작은 핸들러 목록으로 확장한다. */
+/** 키 동작 확장: 핸들러 추가 */
 export function getAutocompleteAction(state: AutocompleteKeyState): AutocompleteAction {
   const isComposing = state.isComposing;
   if (isComposing) return ignored;

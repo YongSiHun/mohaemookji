@@ -32,7 +32,7 @@ async function loadWithRecovery(
     throw error;
   }
 }
-/** 저장소별 캐시를 격리하고 동시 요청·형식 오류 복구·시간 제한을 관리한다. */
+/** 저장소별 캐시 격리 · 동시 요청·형식 오류 복구·타임아웃 관리 */
 export function createRecipeService(repository: RecipeRepository) {
   let cached: Promise<RecipeData> | undefined;
   let resolved: RecipeData | undefined;

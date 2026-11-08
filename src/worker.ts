@@ -1,4 +1,4 @@
-/** 정적 자산을 같은 origin에서 제공하고 HTML에 요청별 CSP nonce를 적용한다. */
+/** 정적 자산: 동일 origin · HTML: 요청별 CSP nonce */
 interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
   GOOGLE_CMP_SCRIPT_URL?: string;
@@ -17,7 +17,7 @@ declare const HTMLRewriter: {
   };
 };
 
-/** 운영자가 Google 관리 화면에서 받은 CMP 스크립트 URL만 연결 */
+/** Google 발급 CMP 스크립트 URL만 연결 */
 function cmpTag(value: string | undefined, nonce: string): string {
   const missing = !value;
   if (missing) return '';
@@ -39,7 +39,7 @@ function cmpTag(value: string | undefined, nonce: string): string {
   );
 }
 
-/** 모든 운영 HTTP 요청을 HTTPS로 연결하고 로컬 개발 환경은 유지한다. */
+/** prod HTTP → HTTPS 리디렉션 · 로컬 제외 */
 function shouldRedirectToHttps(url: URL): boolean {
   const local =
     url.hostname === 'localhost' ||
@@ -51,8 +51,8 @@ function shouldRedirectToHttps(url: URL): boolean {
 
 function htmlHeaders(asset: Response, url: URL, nonce: string): Headers {
   const headers = new Headers(asset.headers);
-  // HTTP에서 강제 업그레이드하면 module JS와 fetch의 origin이 달라질 수 있다.
-  // HTTPS 문서에서만 혼합 콘텐츠 방지 정책을 적용한다.
+  // HTTP 강제 업그레이드 시 module JS·fetch origin 불일치 가능
+  // HTTPS 문서에만 혼합 콘텐츠 차단 적용
   headers.set(
     'Content-Security-Policy',
     "object-src 'none'; base-uri 'none'; script-src 'nonce-" +

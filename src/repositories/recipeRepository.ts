@@ -19,7 +19,7 @@ async function readJson(response: Response): Promise<unknown> {
     throw error;
   }
 }
-/** HTTP 전송·캐시 모드·응답 해석만 담당한다. */
+/** HTTP 전송·캐시 모드·응답 파싱 전담 */
 export const httpRecipeRepository: RecipeRepository = {
   async readManifest(signal, fresh) {
     return readJson(

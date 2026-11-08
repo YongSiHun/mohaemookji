@@ -1,4 +1,4 @@
-/** 검색 결과와 무관하게 제공하는 메뉴 선택 안내 */
+/** 메뉴 선택 안내 · 검색 결과 무관 */
 export function MenuHelp() {
   return (
     <section className="reading-panel" aria-labelledby="menu-help-title">

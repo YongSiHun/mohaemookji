@@ -6,7 +6,7 @@ interface RelatedEntry {
   ingredients: Set<string>;
   flavors: Set<string>;
 }
-// 읽기 전용 JSON 목록은 데이터 갱신 시 새 배열로 교체된다. 이전 목록은 GC 대상이다.
+// 읽기 전용 JSON 목록: 갱신 시 새 배열 교체 · 이전 배열 GC
 const relatedIndexes = new WeakMap<readonly Recipe[], Map<Recipe, RelatedEntry>>();
 function prepareRelated(recipe: Recipe): RelatedEntry {
   return {
