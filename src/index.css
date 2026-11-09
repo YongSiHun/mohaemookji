@@ -798,23 +798,51 @@ mark {
   border-radius: 14px;
   background: #fffcf7;
 }
+.flavor-group-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  cursor: pointer;
+  list-style: none;
+}
+.flavor-group-summary::-webkit-details-marker {
+  display: none;
+}
+.flavor-group-summary::after {
+  content: '▾';
+  color: var(--color-supporting);
+}
+.flavor-group[open] > .flavor-group-summary {
+  margin-bottom: 14px;
+}
+.flavor-group[open] > .flavor-group-summary::after {
+  content: '▴';
+}
 .flavor-group h3 {
-  margin: 0 0 14px;
+  margin: 0;
   font-size: var(--text-subtitle);
   line-height: var(--leading-heading);
   font-weight: var(--weight-strong);
   color: #6b4b35;
 }
 .flavor-options {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--space-3);
 }
 .flavor-option {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 160px);
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
   position: relative;
   isolation: isolate;
   min-width: 0;
-  padding: 12px;
+  max-width: 100%;
+  padding: 12px 8px;
   border: 1px solid var(--border);
   border-radius: 12px;
   background: #fff;
@@ -892,11 +920,6 @@ mark {
 .condition-flavor-level {
   font-size: var(--text-caption);
 }
-@media (max-width: 1000px) {
-  .flavor-options {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 @media (max-width: 600px) {
   .flavor-groups {
     gap: var(--space-3);
@@ -905,15 +928,14 @@ mark {
     padding: 12px;
   }
   .flavor-options {
-    grid-template-columns: minmax(0, 1fr);
     gap: var(--space-2);
   }
   .flavor-option {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 180px);
+    grid-template-columns: max-content minmax(0, 150px);
     align-items: center;
     gap: 0 8px;
-    padding: 8px 12px;
+    padding: 8px;
   }
   .flavor-option-heading {
     flex-direction: column;
@@ -922,15 +944,6 @@ mark {
   }
   .flavor-star-button {
     min-height: 44px;
-  }
-}
-@media (max-width: 420px) {
-  .flavor-option {
-    display: block;
-  }
-  .flavor-option-heading {
-    flex-direction: row;
-    align-items: center;
   }
 }
 

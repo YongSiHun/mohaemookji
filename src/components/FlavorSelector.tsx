@@ -55,12 +55,31 @@ function FlavorToggleMark({ active }: { active: boolean }) {
   );
 }
 
-function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: string }) {
+function FlavorStrength({
+  name,
+  level,
+  onChoose,
+}: {
+  name: string;
+  level?: FlavorLevel;
+  onChoose: (value: FlavorLevel) => void;
+}) {
   const [hoveredLevel, setHoveredLevel] = useState<FlavorLevel>();
+  return (
+    <FlavorStars
+      name={name}
+      level={level}
+      displayLevel={hoveredLevel ?? level}
+      onHover={setHoveredLevel}
+      onChoose={onChoose}
+    />
+  );
+}
+
+function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: string }) {
   const name = getFlavorName(id);
   const active = query.flavors.includes(id);
   const level = active ? query.flavorLevels?.[id] : undefined;
-  const displayLevel = hoveredLevel ?? level;
   const choose = (value?: FlavorLevel) => onChange(selectFlavorLevel(query, id, value));
   const included = active && level === undefined;
   return (
@@ -77,15 +96,9 @@ function FlavorOption({ id, query, onChange }: FlavorSelectorProps & { id: strin
           <FlavorToggleMark active={active} />
           {name}
         </span>
-        {displayLevel && <span className="flavor-level-value">{displayLevel}/5</span>}
+        {level && <span className="flavor-level-value">{level}/5</span>}
       </div>
-      <FlavorStars
-        name={name}
-        level={level}
-        displayLevel={displayLevel}
-        onHover={setHoveredLevel}
-        onChoose={choose}
-      />
+      <FlavorStrength name={name} level={level} onChoose={choose} />
     </div>
   );
 }
@@ -95,19 +108,21 @@ export function FlavorSelector({ query, onChange }: FlavorSelectorProps) {
   return (
     <div className="flavor-groups" aria-describedby="flavor-help">
       {groups.map((group) => (
-        <div
+        <details
           className="flavor-group"
           key={group.id}
           role="group"
           aria-labelledby={'flavor-group-' + group.id}
         >
-          <h3 id={'flavor-group-' + group.id}>{group.name}</h3>
+          <summary className="flavor-group-summary">
+            <h3 id={'flavor-group-' + group.id}>{group.name}</h3>
+          </summary>
           <div className="flavor-options">
             {group.flavors.map((id) => (
               <FlavorOption key={id} id={id} query={query} onChange={onChange} />
             ))}
           </div>
-        </div>
+        </details>
       ))}
     </div>
   );

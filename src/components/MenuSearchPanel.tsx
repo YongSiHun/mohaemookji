@@ -65,22 +65,6 @@ export function MenuSearchPanel({
       >
         <div className="section-label">
           <span className="step">01</span>
-          <h2>어떤 맛이 당기세요?</h2>
-          <div className="flavor-selection-info">
-            <span className="selection-count" role="status" aria-live="polite" aria-atomic="true">
-              {draft.flavors.length > 0 ? draft.flavors.length + '개 선택됨' : null}
-            </span>
-            <span className="search-guidance">원하는 조건만 골라 검색해 보세요.</span>
-          </div>
-        </div>
-        <p className="flavor-help" id="flavor-help">
-          맛 이름으로 선택하고, 별 1~5개로 원하는 강도를 골라보세요. 별이 많을수록 강한 맛이에요.
-          선택한 맛의 별이 0개면 강도와 관계없이 그 맛이 포함된 메뉴를 찾아요.
-        </p>
-        <FlavorSelector query={draft} onChange={onDraftChange} />
-        <div className="search-divider" />
-        <div className="section-label">
-          <span className="step">02</span>
           <label htmlFor="ingredient">어떤 재료를 사용하고 싶으세요?</label>
         </div>
         <p className="ingredient-help" id="input-help">
@@ -127,6 +111,22 @@ export function MenuSearchPanel({
             </div>
           </div>
         </div>
+        <div className="search-divider" />
+        <div className="section-label">
+          <span className="step">02</span>
+          <h2>어떤 맛이 당기세요?</h2>
+          <div className="flavor-selection-info">
+            <span className="selection-count" role="status" aria-live="polite" aria-atomic="true">
+              {draft.flavors.length > 0 ? draft.flavors.length + '개 선택됨' : null}
+            </span>
+            <span className="search-guidance">원하는 조건만 골라 검색해 보세요.</span>
+          </div>
+        </div>
+        <p className="flavor-help" id="flavor-help">
+          카드를 누르면 별 0개로 맛을 선택해요. 맛 이름 옆의 별 1~5개로 강도를 골라보세요. 별이
+          많을수록 강한 맛이며, 별 0개는 강도와 관계없이 검색해요.
+        </p>
+        <FlavorSelector query={draft} onChange={onDraftChange} />
         <SearchActions isLoading={isLoading} error={error} />
       </form>
     </section>

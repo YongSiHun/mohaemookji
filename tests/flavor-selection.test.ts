@@ -164,7 +164,7 @@ test('검색 적용·새로고침·초기화는 강도 상태를 올바르게 �
   );
 });
 
-test('14가지 맛에 별 다섯 개씩 제공하고 현재 강도와 적용 조건을 표시한다', async () => {
+test('14가지 맛 카드에 별 다섯 개씩 제공하고 현재 강도와 적용 조건을 표시한다', async () => {
   const server = await createServer({
     root: fileURLToPath(new URL('../', import.meta.url)),
     configFile: false,
@@ -180,6 +180,13 @@ test('14가지 맛에 별 다섯 개씩 제공하고 현재 강도와 적용 조
     assert.equal((html.match(/class="flavor-star-button/g) ?? []).length, 70);
     assert.equal((html.match(/class="flavor-star-button filled"/g) ?? []).length, 3);
     assert.match(html, /aria-label="매운 맛 강도 3\/5 선택" aria-pressed="true"/);
+    assert.doesNotMatch(html, /flavor-expand-button|flavor-level-panel/);
+    const groupCount = (html.match(/<details class="flavor-group"/g) ?? []).length;
+    assert.ok(groupCount > 0);
+    assert.equal((html.match(/<summary class="flavor-group-summary"/g) ?? []).length, groupCount);
+    assert.doesNotMatch(html, /<details[^>]*\bopen(?:[=>\s])/);
+    assert.match(html, /<summary[^>]*><h3[^>]*>자극적인 맛/);
+    assert.match(html, /class="flavor-level-value">3\/5/);
     assert.doesNotMatch(html, /flavor-any-level|강도 무관/);
     assert.equal((html.match(/class="flavor-card-select"/g) ?? []).length, 14);
     assert.ok(html.includes('aria-label="매운 맛 포함 선택 (별 0개, 강도 제한 없음)"'));

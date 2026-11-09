@@ -38,6 +38,10 @@ test('화면 통합: 검색 폼·조건·상태별 결과·유튜브 링크·안
       }),
     );
     assert.match(panel, /1개 선택됨/);
+    assert.ok(panel.includes('class="step">01</span><label for="ingredient"'));
+    assert.ok(panel.includes('class="step">02</span><h2>어떤 맛이 당기세요'));
+    assert.ok(panel.indexOf('id="ingredient"') < panel.indexOf('class="flavor-groups"'));
+    assert.ok(panel.indexOf('추천 검색어') < panel.indexOf('class="flavor-groups"'));
     assert.match(panel, /추천 검색어 새로고침/);
     assert.match(panel, /예: 돼지고기, 김치, 고춧가루/);
     assert.match(panel, /재료가 여러 개라면 쉼표/);
