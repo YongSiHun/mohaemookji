@@ -763,6 +763,104 @@
             "umami": 4,
             "sweet": 2
           }
+        },
+        {
+          "id": "korean_pork_lotus_jorim",
+          "name": "돼지고기 연근조림",
+          "ingredients": [
+            "돼지고기",
+            "연근",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "돼지고기와 연근을 간장 양념에 함께 조려내는 반찬."
+        },
+        {
+          "id": "korean_pork_shishito_stir",
+          "name": "돼지고기 꽈리고추볶음",
+          "ingredients": [
+            "돼지고기",
+            "꽈리고추",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "돼지고기를 볶다가 꽈리고추를 넣고 간장 양념에 볶아내는 요리."
+        },
+        {
+          "id": "korean_pork_cabbage_jeongol",
+          "name": "돼지고기 우거지전골",
+          "ingredients": [
+            "돼지고기",
+            "우거지",
+            "대파",
+            "두부"
+          ],
+          "seasonings": [
+            "된장",
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "돼지고기와 삶은 우거지를 된장 국물에 푹 끓이는 전골."
+        },
+        {
+          "id": "korean_pork_tofu_roll",
+          "name": "돼지고기 두부말이",
+          "ingredients": [
+            "돼지고기",
+            "두부",
+            "깻잎",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "소금",
+            "후추",
+            "식용유"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "얇은 돼지고기에 물기를 뺀 두부와 깻잎을 말아 익히는 요리."
         }
       ]
     },
@@ -1227,6 +1325,30 @@
           "flavorLevels": {
             "savory": 3,
             "greasy": 3
+          }
+        },
+        {
+          "id": "korean_tofu_jangajji",
+          "name": "두부장아찌",
+          "flavors": [
+            "salty",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "두부",
+            "양파",
+            "청양고추"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "설탕",
+            "식용유"
+          ],
+          "description": "단단하게 구운 두부를 식힌 간장 절임물에 담가 먹는 반찬.",
+          "flavorLevels": {
+            "salty": 3,
+            "sweet_sour": 3
           }
         }
       ]
@@ -1891,6 +2013,131 @@
             "umami": 4,
             "light": 3
           }
+        },
+        {
+          "id": "korean_beef_lotus_jjim",
+          "name": "소고기 연근찜",
+          "ingredients": [
+            "소고기",
+            "연근",
+            "표고버섯",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "소고기와 연근, 버섯을 간장 양념에 푹 익히는 찜."
+        },
+        {
+          "id": "korean_beef_chive_jeongol",
+          "name": "소고기 부추전골",
+          "ingredients": [
+            "소고기",
+            "부추",
+            "배추",
+            "팽이버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "소고기와 채소를 맑은 국물에 끓이고 부추를 더하는 전골."
+        },
+        {
+          "id": "korean_beef_cucumber_stir",
+          "name": "소고기 오이볶음",
+          "ingredients": [
+            "소고기",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "참기름",
+            "소금"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "살짝 절인 오이와 가늘게 썬 소고기를 빠르게 볶는 반찬."
+        },
+        {
+          "id": "korean_beef_radish_wrap",
+          "name": "소고기 무쌈말이",
+          "ingredients": [
+            "소고기",
+            "쌈무",
+            "오이",
+            "당근",
+            "깻잎"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "겨자"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "양념해 익힌 소고기와 채소를 쌈무로 말아 먹는 요리."
+        },
+        {
+          "id": "korean_beef_perilla_tofu",
+          "name": "소고기 들깨 두부탕",
+          "ingredients": [
+            "소고기",
+            "두부",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "소고기와 두부를 끓인 국물에 들깻가루를 풀어 구수하게 만드는 탕."
         }
       ]
     },
@@ -2299,6 +2546,105 @@
             "sweet": 3,
             "umami": 4
           }
+        },
+        {
+          "id": "korean_chicken_lotus_jorim",
+          "name": "닭고기 연근조림",
+          "ingredients": [
+            "닭고기",
+            "연근",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "닭고기와 연근을 간장 양념에 함께 조리는 요리."
+        },
+        {
+          "id": "korean_chicken_perilla_jeongol",
+          "name": "닭고기 들깨전골",
+          "ingredients": [
+            "닭고기",
+            "느타리버섯",
+            "배추",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "닭고기와 채소를 푹 끓인 뒤 들깻가루를 풀어 마무리하는 전골."
+        },
+        {
+          "id": "korean_chicken_minari_jjim",
+          "name": "닭고기 미나리찜",
+          "ingredients": [
+            "닭고기",
+            "미나리",
+            "콩나물",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "전분"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "닭고기와 콩나물을 매콤하게 익히고 미나리를 넣어 버무리는 찜."
+        },
+        {
+          "id": "korean_chicken_radish_soup",
+          "name": "닭고기 무맑은탕",
+          "ingredients": [
+            "닭고기",
+            "무",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "닭고기와 무를 함께 푹 끓여 맑게 간하는 탕."
         }
       ]
     },
@@ -2959,6 +3305,206 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "korean_fried_rice_garlic_butter",
+          "name": "마늘 버터 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "마늘",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "버터",
+            "간장",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "편으로 썬 마늘을 버터에 볶고 밥과 계란을 넣어 고슬하게 볶는 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_beef_burdock",
+          "name": "소고기 우엉 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "소고기",
+            "우엉",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "다진 마늘",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "잘게 썬 소고기와 우엉을 볶아 밥과 함께 간장으로 간하는 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_anchovy",
+          "name": "멸치 주먹 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "잔멸치",
+            "김",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "깨",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "잔멸치와 대파를 볶아 밥을 섞고 한입 크기로 뭉쳐 먹는 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_octopus",
+          "name": "낙지 볶음밥",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "낙지",
+            "양파",
+            "대파",
+            "김"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "참기름",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "umami": 4
+          },
+          "description": "낙지와 채소를 매콤하게 볶은 뒤 밥과 김을 넣어 볶는 요리."
+        },
+        {
+          "id": "korean_fried_rice_squid",
+          "name": "오징어 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "오징어",
+            "당근",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "식용유",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "잘게 썬 오징어와 채소를 밥과 함께 빠르게 볶는 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_cabbage_egg",
+          "name": "양배추 계란 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "양배추",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "식용유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "채 썬 양배추와 계란을 볶아 밥과 섞는 간단한 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_mushroom_perilla",
+          "name": "버섯 들기름 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "표고버섯",
+            "새송이버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들기름",
+            "간장",
+            "소금",
+            "깨"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "잘게 썬 버섯과 밥을 볶고 들기름을 더해 마무리하는 볶음밥."
+        },
+        {
+          "id": "korean_fried_rice_myeongran",
+          "name": "명란 볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "명란",
+            "계란",
+            "쪽파"
+          ],
+          "seasonings": [
+            "버터",
+            "간장",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "명란과 계란을 버터에 볶은 밥에 섞고 쪽파를 올리는 볶음밥."
         }
       ]
     },
@@ -3056,6 +3602,130 @@
             "sweet_sour": 3,
             "savory": 3
           }
+        },
+        {
+          "id": "korean_noodles_anchovy_kimchi",
+          "name": "멸치 김치국수",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "김치",
+            "멸치",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "고춧가루",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "멸치 육수에 김치를 넣어 끓이고 삶은 소면을 말아 먹는 국수."
+        },
+        {
+          "id": "korean_noodles_oyster",
+          "name": "굴 잔치국수",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "굴",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 4
+          },
+          "description": "굴과 채소를 익힌 맑은 국물에 소면을 말아 먹는 국수."
+        },
+        {
+          "id": "korean_noodles_beef_jang",
+          "name": "소고기 장국수",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "소고기",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "다진 마늘",
+            "후추"
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 4
+          },
+          "description": "소고기와 표고버섯으로 국물을 내고 소면을 넣어 먹는 국수."
+        },
+        {
+          "id": "korean_noodles_chicken_cold",
+          "name": "초계국수",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "소면",
+            "닭고기",
+            "오이",
+            "무"
+          ],
+          "seasonings": [
+            "식초",
+            "겨자",
+            "설탕",
+            "소금"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "삶아 찢은 닭고기와 소면에 차게 식힌 새콤한 겨자 육수를 붓는 국수."
+        },
+        {
+          "id": "korean_noodles_whelk",
+          "name": "골뱅이 비빔국수",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "골뱅이",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "골뱅이와 채소를 소면과 함께 새콤매콤하게 비비는 국수."
         }
       ]
     },
@@ -3301,6 +3971,55 @@
             "savory": 4,
             "umami": 4
           }
+        },
+        {
+          "id": "korean_seafood_squid_radish_jjim",
+          "name": "오징어 무찜",
+          "ingredients": [
+            "오징어",
+            "무",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "설탕"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "무를 먼저 익힌 뒤 오징어를 넣어 매콤하게 조리는 찜."
+        },
+        {
+          "id": "korean_seafood_squid_perilla_soup",
+          "name": "오징어 들깨탕",
+          "ingredients": [
+            "오징어",
+            "무",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "오징어와 무, 버섯을 끓이고 들깻가루를 풀어 구수하게 만드는 탕."
         }
       ]
     },
@@ -3755,6 +4474,29 @@
             "umami": 4,
             "rich": 3
           }
+        },
+        {
+          "id": "korean_seafood_mackerel_perilla_grill",
+          "name": "고등어 들깨구이",
+          "ingredients": [
+            "고등어",
+            "레몬"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "소금",
+            "식용유",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "고등어에 들깻가루를 얇게 묻혀 노릇하게 굽는 생선요리."
         }
       ]
     },
@@ -3991,6 +4733,131 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "korean_noodles_perilla_potato",
+          "name": "감자 들깨수제비",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ],
+          "flavorLevels": {
+            "light": 3,
+            "umami": 4
+          },
+          "description": "감자 국물에 손으로 뜯은 밀 반죽을 익히고 들깻가루로 마무리하는 수제비."
+        },
+        {
+          "id": "korean_wheat_zucchini_shrimp_sujebi",
+          "name": "애호박 새우 수제비",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "밀가루",
+            "새우",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          },
+          "description": "새우와 애호박으로 국물을 내고 얇게 뜯은 밀 반죽을 익히는 수제비."
+        },
+        {
+          "id": "korean_wheat_potato_ongshimi_noodles",
+          "name": "감자옹심이 칼국수",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "감자",
+            "전분",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "밀가루로 만든 칼국수면과 감자옹심이를 채소 국물에 함께 끓이는 요리."
+        },
+        {
+          "id": "korean_wheat_vegetable_steamed_bun",
+          "name": "채소찐빵",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "양배추",
+            "당근",
+            "양파",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "이스트",
+            "설탕",
+            "소금",
+            "간장",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "발효한 밀 반죽에 볶은 채소 소를 넣어 김이 오른 찜기에 찌는 찐빵."
+        },
+        {
+          "id": "korean_wheat_corn_sujebi",
+          "name": "옥수수 수제비",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "옥수수가루",
+            "감자",
+            "애호박"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "밀가루와 옥수수가루를 섞은 반죽을 얇게 뜯어 채소 국물에 익히는 수제비."
         }
       ]
     },
@@ -4997,6 +5864,31 @@
             "clean": 4,
             "umami": 4
           }
+        },
+        {
+          "id": "korean_seafood_mussel_gochujang_jjim",
+          "name": "홍합 고추장찜",
+          "ingredients": [
+            "홍합",
+            "콩나물",
+            "대파",
+            "청양고추"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "홍합과 콩나물을 고추장 양념에 자작하게 익히는 찜."
         }
       ]
     },
@@ -5112,6 +6004,29 @@
             "sweet_sour": 4,
             "refreshing": 4
           }
+        },
+        {
+          "id": "korean_seafood_clam_cabbage_soup",
+          "name": "바지락 배추국",
+          "ingredients": [
+            "바지락",
+            "배추",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "국간장"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "해감한 바지락과 배추를 된장 국물에 끓이는 국."
         }
       ]
     },
@@ -5256,6 +6171,33 @@
             "light": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "korean_eggplant_gangjeong",
+          "name": "가지강정",
+          "flavors": [
+            "sweet",
+            "spicy",
+            "savory"
+          ],
+          "ingredients": [
+            "가지",
+            "전분",
+            "땅콩"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "물엿",
+            "식초",
+            "식용유"
+          ],
+          "description": "전분을 묻혀 튀긴 가지를 매콤달콤한 강정 소스에 버무리는 요리.",
+          "flavorLevels": {
+            "sweet": 4,
+            "spicy": 2,
+            "savory": 3
+          }
         }
       ]
     },
@@ -5374,6 +6316,55 @@
             "spicy": 1,
             "refreshing": 3
           }
+        },
+        {
+          "id": "korean_seafood_oyster_tofu_jeongol",
+          "name": "굴 두부전골",
+          "ingredients": [
+            "굴",
+            "두부",
+            "배추",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "굴과 두부, 채소를 맑은 국물에 함께 끓이는 전골."
+        },
+        {
+          "id": "korean_seafood_oyster_minari_egg",
+          "name": "굴 미나리 달걀찜",
+          "ingredients": [
+            "굴",
+            "미나리",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "소금",
+            "참기름"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 4
+          },
+          "description": "계란물에 굴과 잘게 썬 미나리를 넣어 속까지 익히는 해물 달걀찜."
         }
       ]
     },
@@ -6280,6 +7271,130 @@
             "rich": 5,
             "savory": 4
           }
+        },
+        {
+          "id": "korean_duck_burdock_jorim",
+          "name": "오리고기 우엉조림",
+          "ingredients": [
+            "오리고기",
+            "우엉",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "다진 마늘",
+            "생강"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "오리고기와 우엉을 간장 양념에 자작하게 조리는 요리."
+        },
+        {
+          "id": "korean_duck_cabbage_jeongol",
+          "name": "오리고기 우거지전골",
+          "ingredients": [
+            "오리고기",
+            "우거지",
+            "대파",
+            "느타리버섯"
+          ],
+          "seasonings": [
+            "된장",
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "오리고기와 삶은 우거지를 된장 국물에 푹 끓이는 전골."
+        },
+        {
+          "id": "korean_duck_minari_stir",
+          "name": "오리고기 미나리볶음",
+          "ingredients": [
+            "오리고기",
+            "미나리",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "후추",
+            "소금"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "오리고기를 구워 기름을 내고 미나리와 양파를 넣어 볶는 요리."
+        },
+        {
+          "id": "korean_duck_pumpkin_jjim",
+          "name": "오리고기 단호박찜",
+          "ingredients": [
+            "오리고기",
+            "단호박",
+            "밤",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "설탕",
+            "생강"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "오리고기를 간장 양념에 익힌 뒤 단호박과 밤을 넣어 함께 찌는 요리."
+        },
+        {
+          "id": "korean_duck_potato_jjim",
+          "name": "오리고기 감자찜",
+          "ingredients": [
+            "오리고기",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "고춧가루"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "오리고기와 감자를 간장 양념에 푹 익혀내는 찜."
         }
       ]
     },
@@ -6577,6 +7692,31 @@
             "clean": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "korean_seafood_cod_bean_sprout_jjim",
+          "name": "대구 콩나물찜",
+          "ingredients": [
+            "대구",
+            "콩나물",
+            "미나리",
+            "대파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "전분"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "대구와 콩나물을 매콤한 양념에 익히고 전분으로 농도를 맞추는 찜."
         }
       ]
     },
@@ -7817,6 +8957,31 @@
             "savory": 4,
             "rich": 4
           }
+        },
+        {
+          "id": "korean_seafood_abalone_mushroom_jjim",
+          "name": "전복 버섯찜",
+          "ingredients": [
+            "전복",
+            "표고버섯",
+            "새송이버섯",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "청주",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "손질한 전복과 버섯을 간장 양념으로 함께 찌는 요리."
         }
       ]
     },
@@ -7937,6 +9102,78 @@
             "savory": 3,
             "greasy": 3
           }
+        },
+        {
+          "id": "korean_seafood_shrimp_radish_soup",
+          "name": "새우 맑은 뭇국",
+          "ingredients": [
+            "새우",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "새우와 무를 함께 끓여 맑게 간하는 시원한 국."
+        },
+        {
+          "id": "korean_seafood_shrimp_garlic_jjim",
+          "name": "새우 마늘찜",
+          "ingredients": [
+            "새우",
+            "마늘",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "청주",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "손질한 새우 위에 다진 마늘을 올려 찌고 간장 소스를 곁들이는 찜."
+        },
+        {
+          "id": "korean_seafood_shrimp_perilla_stir",
+          "name": "새우 깻잎볶음",
+          "ingredients": [
+            "새우",
+            "깻잎",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "새우와 양파를 매콤하게 볶고 깻잎을 넣어 마무리하는 요리."
         }
       ]
     },
@@ -8234,6 +9471,31 @@
             "spicy": 3,
             "umami": 4
           }
+        },
+        {
+          "id": "korean_seafood_flatfish_radish_jorim",
+          "name": "가자미 무조림",
+          "ingredients": [
+            "가자미",
+            "무",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "청주"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "무를 깔고 가자미를 올려 매콤한 간장 양념에 조리는 생선요리."
         }
       ]
     },
@@ -9107,6 +10369,197 @@
             "sweet": 3,
             "greasy": 3
           }
+        },
+        {
+          "id": "korean_ramen_scallion_egg",
+          "name": "대파 계란 라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "대파",
+            "계란"
+          ],
+          "seasonings": [
+            "라면스프",
+            "식용유",
+            "후추"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "대파를 볶아 향을 낸 국물에 라면과 계란을 넣어 끓이는 라면."
+        },
+        {
+          "id": "korean_ramen_bean_sprout",
+          "name": "콩나물 해장라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "콩나물",
+            "대파",
+            "청양고추"
+          ],
+          "seasonings": [
+            "라면스프",
+            "고춧가루",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "콩나물을 넣어 국물을 시원하게 끓이고 청양고추로 칼칼함을 더한 라면."
+        },
+        {
+          "id": "korean_ramen_clam",
+          "name": "바지락 라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "바지락",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "라면스프",
+            "후추"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "해감한 바지락을 끓인 국물에 면과 스프를 넣는 해물 라면."
+        },
+        {
+          "id": "korean_ramen_dried_pollock",
+          "name": "황태 라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "황태",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "라면스프",
+            "참기름",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "황태를 참기름에 볶아 국물을 내고 면과 계란을 넣어 끓이는 라면."
+        },
+        {
+          "id": "korean_ramen_perilla_mushroom",
+          "name": "들깨 버섯 라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "라면스프",
+            "들깻가루",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "버섯을 넣어 끓인 라면에 들깻가루를 풀어 구수하게 만드는 라면."
+        },
+        {
+          "id": "korean_ramen_pork_belly",
+          "name": "삼겹살 볶음라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "삼겹살",
+            "양배추",
+            "대파"
+          ],
+          "seasonings": [
+            "라면스프",
+            "간장",
+            "설탕",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "삶아 건진 면을 구운 삼겹살과 양배추에 볶아내는 국물 없는 라면."
+        },
+        {
+          "id": "korean_ramen_chive",
+          "name": "부추 간장 비빔라면",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "부추",
+            "계란",
+            "김"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "설탕",
+            "깨"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          },
+          "description": "삶은 라면을 간장 양념에 비비고 부추와 익힌 계란을 올리는 비빔라면."
+        },
+        {
+          "id": "korean_ramen_kimchi_tuna",
+          "name": "김치 참치 라면",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "라면",
+            "김치",
+            "참치",
+            "대파"
+          ],
+          "seasonings": [
+            "라면스프",
+            "고춧가루",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "김치와 참치를 볶아 물을 붓고 면을 넣어 끓이는 라면."
         }
       ]
     },
@@ -10399,6 +11852,53 @@
             "umami": 3,
             "greasy": 3
           }
+        },
+        {
+          "id": "korean_gim_jaban",
+          "name": "김자반볶음",
+          "flavors": [
+            "savory",
+            "salty"
+          ],
+          "ingredients": [
+            "김"
+          ],
+          "seasonings": [
+            "들기름",
+            "식용유",
+            "소금",
+            "설탕",
+            "깨"
+          ],
+          "description": "김을 잘게 뜯어 기름에 바삭하게 볶고 깨와 소금으로 간하는 반찬.",
+          "flavorLevels": {
+            "savory": 5,
+            "salty": 2
+          }
+        },
+        {
+          "id": "korean_gim_buchimgae",
+          "name": "김부침개",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "김",
+            "부침가루",
+            "계란",
+            "쪽파"
+          ],
+          "seasonings": [
+            "식용유",
+            "간장",
+            "식초"
+          ],
+          "description": "김과 쪽파를 부침 반죽에 섞어 얇게 부치고 초간장을 곁들이는 전.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -11365,6 +12865,30 @@
             "savory": 5,
             "rich": 4
           }
+        },
+        {
+          "id": "korean_noodles_clam_spicy",
+          "name": "얼큰 바지락칼국수",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "칼국수면",
+            "바지락",
+            "애호박",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "바지락 육수에 고춧가루를 풀어 칼국수면과 채소를 익히는 국수."
         }
       ]
     },
@@ -11471,6 +12995,30 @@
             "savory": 4,
             "light": 4
           }
+        },
+        {
+          "id": "korean_noodles_radish_water",
+          "name": "동치미 메밀국수",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "메밀면",
+            "동치미",
+            "오이",
+            "계란"
+          ],
+          "seasonings": [
+            "식초",
+            "설탕",
+            "겨자"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "차가운 동치미 국물에 메밀면을 말고 오이와 삶은 계란을 올리는 국수."
         }
       ]
     },
@@ -11944,6 +13492,333 @@
             "umami": 4,
             "savory": 4
           }
+        },
+        {
+          "id": "korean_porridge_shrimp",
+          "name": "새우죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "새우",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "참기름",
+            "소금",
+            "국간장"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "불린 쌀과 새우를 볶다가 물을 부어 부드럽게 끓이는 죽."
+        },
+        {
+          "id": "korean_porridge_oyster",
+          "name": "굴죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "굴",
+            "무",
+            "쪽파"
+          ],
+          "seasonings": [
+            "참기름",
+            "국간장",
+            "소금"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "불린 쌀과 무를 끓여 쌀이 퍼지면 굴을 넣고 충분히 익히는 죽."
+        },
+        {
+          "id": "korean_porridge_mussel",
+          "name": "홍합죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "홍합",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "참기름",
+            "소금",
+            "국간장"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "홍합 삶은 국물에 쌀과 채소를 넣고 홍합살을 더해 끓이는 죽."
+        },
+        {
+          "id": "korean_porridge_mushroom_perilla",
+          "name": "버섯 들깨죽",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "표고버섯",
+            "느타리버섯"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "들기름",
+            "국간장",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          },
+          "description": "불린 쌀과 버섯을 끓여 들깻가루를 풀어 구수하게 만드는 죽."
+        },
+        {
+          "id": "korean_porridge_mung_bean",
+          "name": "녹두죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "깐녹두"
+          ],
+          "seasonings": [
+            "소금",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "불린 녹두를 부드럽게 삶아 쌀과 함께 끓이는 담백한 죽."
+        },
+        {
+          "id": "korean_porridge_sweet_potato",
+          "name": "고구마죽",
+          "flavors": [
+            "sweet",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "고구마"
+          ],
+          "seasonings": [
+            "소금",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "light": 3
+          },
+          "description": "잘게 썬 고구마를 불린 쌀과 함께 푹 끓이는 달큰한 죽."
+        },
+        {
+          "id": "korean_porridge_chestnut",
+          "name": "밤죽",
+          "flavors": [
+            "sweet",
+            "light"
+          ],
+          "ingredients": [
+            "쌀",
+            "밤"
+          ],
+          "seasonings": [
+            "소금",
+            "꿀"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "light": 3
+          },
+          "description": "껍질을 벗긴 밤을 쌀과 함께 익혀 부드럽게 끓이는 죽."
+        },
+        {
+          "id": "korean_porridge_broccoli_chicken",
+          "name": "브로콜리 닭죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "닭고기",
+            "브로콜리",
+            "당근"
+          ],
+          "seasonings": [
+            "참기름",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "닭고기와 쌀을 푹 끓이고 잘게 썬 브로콜리를 넣어 익히는 죽."
+        },
+        {
+          "id": "korean_porridge_seaweed_beef",
+          "name": "미역 소고기죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "미역",
+            "소고기"
+          ],
+          "seasonings": [
+            "참기름",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "소고기와 불린 미역을 볶고 쌀과 물을 넣어 끓이는 죽."
+        },
+        {
+          "id": "korean_porridge_egg_vegetable",
+          "name": "계란 채소죽",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "계란",
+            "애호박",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "참기름",
+            "소금",
+            "국간장"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "쌀과 잘게 썬 채소를 푹 끓인 뒤 계란을 풀어 익히는 죽."
+        },
+        {
+          "id": "korean_rice_oyster_pot",
+          "name": "굴솥밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "굴",
+            "무",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "깨"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "쌀 위에 무와 굴을 올려 밥을 짓고 쪽파 양념장을 곁들이는 솥밥."
+        },
+        {
+          "id": "korean_rice_octopus_pot",
+          "name": "문어솥밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "문어",
+            "표고버섯",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "쌀에 문어와 표고버섯을 넣어 밥을 짓는 솥밥."
+        },
+        {
+          "id": "korean_rice_lotus_chestnut_pot",
+          "name": "연근 밤 솥밥",
+          "flavors": [
+            "savory",
+            "sweet"
+          ],
+          "ingredients": [
+            "쌀",
+            "연근",
+            "밤",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "sweet": 2
+          },
+          "description": "연근과 밤, 버섯을 쌀 위에 올려 은근하게 짓는 솥밥."
+        },
+        {
+          "id": "korean_rice_dried_radish_pot",
+          "name": "무청시래기 솥밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀",
+            "시래기",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "된장",
+            "들기름",
+            "간장",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "삶은 시래기를 된장에 무쳐 쌀과 함께 밥을 짓는 솥밥."
         }
       ]
     },
@@ -12305,6 +14180,30 @@
             "sweet_sour": 4,
             "refreshing": 4
           }
+        },
+        {
+          "id": "korean_chicken_shishito",
+          "name": "닭안심 꽈리고추볶음",
+          "ingredients": [
+            "닭안심",
+            "꽈리고추",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "물엿",
+            "식용유"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "닭안심을 익힌 뒤 꽈리고추와 함께 간장 양념에 볶는 요리."
         }
       ]
     },
@@ -13418,6 +15317,55 @@
             "sweet_sour": 4,
             "refreshing": 4
           }
+        },
+        {
+          "id": "korean_seafood_octopus_potato_jorim",
+          "name": "문어 감자조림",
+          "ingredients": [
+            "문어",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "물엿",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "삶은 문어와 감자를 간장 양념에 부드럽게 조리는 반찬."
+        },
+        {
+          "id": "korean_seafood_octopus_chive_muchim",
+          "name": "문어 부추무침",
+          "ingredients": [
+            "문어",
+            "부추",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "깨"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "삶은 문어를 채소와 함께 새콤한 고추장 양념에 무치는 요리."
         }
       ]
     },
@@ -14042,6 +15990,679 @@
             "sweet": 3,
             "savory": 3
           }
+        }
+      ]
+    },
+    "돼지머리고기": {
+      "name": "돼지머리고기",
+      "recipes": [
+        {
+          "id": "korean_pork_head_suyuk",
+          "name": "돼지머리수육",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "대파",
+            "양파",
+            "마늘"
+          ],
+          "seasonings": [
+            "된장",
+            "생강",
+            "월계수잎",
+            "새우젓"
+          ],
+          "description": "돼지머리고기를 향신채와 함께 푹 삶아 새우젓을 곁들이는 수육.",
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
+          }
+        },
+        {
+          "id": "korean_pork_head_pyeonyuk",
+          "name": "돼지머리편육",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "된장",
+            "생강",
+            "소금",
+            "새우젓"
+          ],
+          "description": "삶은 돼지머리고기를 틀에 눌러 차게 굳힌 뒤 얇게 썰어 먹는 편육.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "korean_pork_head_gukbap",
+          "name": "돼지머리국밥",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "밥",
+            "부추",
+            "대파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "소금",
+            "후추",
+            "다진 마늘"
+          ],
+          "description": "푹 삶은 돼지머리고기와 국물에 밥을 말고 부추를 곁들이는 국밥.",
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "korean_pork_head_duruchigi",
+          "name": "돼지머리고기 두루치기",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "양배추",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "설탕"
+          ],
+          "description": "삶은 돼지머리고기를 채소와 함께 매콤한 양념에 볶는 두루치기.",
+          "flavorLevels": {
+            "spicy": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "korean_pork_head_muchim",
+          "name": "돼지머리고기 초무침",
+          "flavors": [
+            "spicy",
+            "sweet_sour"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "오이",
+            "미나리",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "다진 마늘",
+            "깨"
+          ],
+          "description": "삶아 식힌 돼지머리고기를 미나리와 오이에 새콤매콤하게 무치는 요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet_sour": 4
+          }
+        },
+        {
+          "id": "korean_pork_head_naengchae",
+          "name": "돼지머리 겨자냉채",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "오이",
+            "당근",
+            "양배추"
+          ],
+          "seasonings": [
+            "겨자",
+            "식초",
+            "설탕",
+            "간장"
+          ],
+          "description": "차게 식힌 돼지머리 편육과 채 썬 채소를 겨자 소스에 버무리는 냉채.",
+          "flavorLevels": {
+            "sour": 4,
+            "light": 3
+          }
+        },
+        {
+          "id": "korean_pork_head_jeongol",
+          "name": "돼지머리고기 전골",
+          "flavors": [
+            "spicy",
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "배추",
+            "느타리버섯",
+            "대파",
+            "두부"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "새우젓"
+          ],
+          "description": "삶은 돼지머리고기와 채소, 두부를 국물에 함께 끓여 먹는 전골.",
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "korean_pork_head_buchu",
+          "name": "돼지머리고기 부추찜",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "부추",
+            "양파"
+          ],
+          "seasonings": [
+            "새우젓",
+            "간장",
+            "다진 마늘",
+            "후추"
+          ],
+          "description": "삶은 돼지머리고기를 부추 위에 올려 따뜻하게 쪄내는 요리.",
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
+        }
+      ]
+    },
+    "돼지껍데기": {
+      "name": "돼지껍데기",
+      "recipes": [
+        {
+          "id": "korean_pork_rind_grill",
+          "name": "돼지껍데기구이",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지껍데기",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "된장",
+            "생강",
+            "소금",
+            "후추",
+            "콩가루"
+          ],
+          "description": "향신채와 삶은 돼지껍데기를 노릇하게 구워 콩가루를 곁들이는 구이.",
+          "flavorLevels": {
+            "savory": 5,
+            "greasy": 3
+          }
+        },
+        {
+          "id": "korean_pork_rind_spicy_grill",
+          "name": "양념 돼지껍데기구이",
+          "flavors": [
+            "spicy",
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "돼지껍데기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "참기름"
+          ],
+          "description": "삶은 돼지껍데기에 고추장 양념을 발라 구워내는 매콤한 구이.",
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3,
+            "savory": 4
+          }
+        },
+        {
+          "id": "korean_pork_rind_stir_fry",
+          "name": "돼지껍데기볶음",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지껍데기",
+            "양배추",
+            "양파",
+            "청양고추"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "고추장",
+            "간장",
+            "다진 마늘",
+            "식용유"
+          ],
+          "description": "삶아 썬 돼지껍데기를 양배추와 매운 양념에 볶아내는 요리.",
+          "flavorLevels": {
+            "spicy": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "korean_pork_rind_muchim",
+          "name": "돼지껍데기 초무침",
+          "flavors": [
+            "sweet_sour",
+            "spicy"
+          ],
+          "ingredients": [
+            "돼지껍데기",
+            "오이",
+            "양파",
+            "깻잎"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "다진 마늘",
+            "깨"
+          ],
+          "description": "부드럽게 삶아 식힌 돼지껍데기를 채소와 초고추장에 무치는 안주.",
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "spicy": 3
+          }
+        },
+        {
+          "id": "korean_pork_rind_jelly",
+          "name": "돼지껍데기 묵",
+          "flavors": [
+            "light",
+            "savory"
+          ],
+          "ingredients": [
+            "돼지껍데기",
+            "당근",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "소금",
+            "생강",
+            "간장",
+            "식초"
+          ],
+          "description": "돼지껍데기를 푹 끓여 잘게 다진 뒤 국물과 굳혀 썰어 먹는 묵.",
+          "flavorLevels": {
+            "light": 3,
+            "savory": 3
+          }
+        }
+      ]
+    },
+    "꼬시래기": {
+      "name": "꼬시래기",
+      "recipes": [
+        {
+          "id": "korean_kkosiraegi_muchim",
+          "name": "꼬시래기 초무침",
+          "flavors": [
+            "sweet_sour",
+            "spicy"
+          ],
+          "ingredients": [
+            "꼬시래기",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "식초",
+            "설탕",
+            "다진 마늘",
+            "깨"
+          ],
+          "description": "데쳐서 식힌 꼬시래기를 오이와 함께 새콤달콤하게 무치는 해초 반찬.",
+          "flavorLevels": {
+            "sweet_sour": 4,
+            "spicy": 2
+          }
+        }
+      ]
+    },
+    "쌀가루": {
+      "name": "쌀가루",
+      "recipes": [
+        {
+          "id": "korean_rice_rice_flour_pancake",
+          "name": "쌀가루 채소전",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "애호박",
+            "당근",
+            "부추",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "간장",
+            "식초"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "쌀가루 반죽에 채소를 섞어 얇고 바삭하게 부치는 전."
+        },
+        {
+          "id": "korean_rice_rice_flour_sujebi",
+          "name": "쌀수제비",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "쌀가루",
+            "찹쌀가루",
+            "감자",
+            "애호박",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "소금",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "쌀가루와 찹쌀가루를 뜨거운 물로 반죽해 얇게 떼어 감자 국물에 익히는 수제비."
+        }
+      ]
+    },
+    "가리비": {
+      "name": "가리비",
+      "recipes": [
+        {
+          "id": "korean_seafood_scallop_soy_grill",
+          "name": "가리비 간장구이",
+          "ingredients": [
+            "가리비",
+            "마늘",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "버터",
+            "청주",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "가리비를 익혀 간장버터와 다진 마늘을 얹어 굽는 요리."
+        },
+        {
+          "id": "korean_seafood_scallop_minari_soup",
+          "name": "가리비 미나리탕",
+          "ingredients": [
+            "가리비",
+            "무",
+            "미나리",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "가리비와 무로 국물을 내고 미나리를 넣어 향을 더하는 맑은 탕."
+        }
+      ]
+    },
+    "바지락살": {
+      "name": "바지락살",
+      "recipes": [
+        {
+          "id": "korean_seafood_clam_chive_pancake",
+          "name": "바지락 부추전",
+          "ingredients": [
+            "바지락살",
+            "부추",
+            "부침가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "간장",
+            "식초"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "바지락살과 부추를 반죽에 섞어 얇게 부치는 해물전."
+        }
+      ]
+    },
+    "다진 돼지고기": {
+      "name": "다진 돼지고기",
+      "recipes": [
+        {
+          "id": "korean_pork_perilla_wanja",
+          "name": "돼지고기 깻잎완자",
+          "ingredients": [
+            "다진 돼지고기",
+            "깻잎",
+            "두부",
+            "계란",
+            "밀가루"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "다진 돼지고기에 두부와 깻잎을 섞어 둥글게 빚고 팬에 익히는 완자."
+        }
+      ]
+    },
+    "양고기": {
+      "name": "양고기",
+      "recipes": [
+        {
+          "id": "korean_lamb_gochujang_stir",
+          "name": "양고기 고추장볶음",
+          "ingredients": [
+            "양고기",
+            "양파",
+            "대파",
+            "깻잎"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "설탕",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          },
+          "description": "얇게 썬 양고기와 채소를 고추장 양념에 볶는 요리."
+        },
+        {
+          "id": "korean_lamb_soy_jjim",
+          "name": "양고기 간장찜",
+          "ingredients": [
+            "양고기",
+            "무",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "생강"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "양고기를 무와 당근에 넣어 간장 양념으로 푹 익히는 찜."
+        },
+        {
+          "id": "korean_lamb_perilla_tang",
+          "name": "양고기 들깨탕",
+          "ingredients": [
+            "양고기",
+            "우거지",
+            "대파",
+            "깻잎"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "양고기와 우거지를 부드럽게 끓이고 들깻가루와 깻잎을 더하는 탕."
+        },
+        {
+          "id": "korean_lamb_bulgogi",
+          "name": "양고기 불고기",
+          "ingredients": [
+            "양고기",
+            "양파",
+            "표고버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "배즙",
+            "설탕",
+            "참기름",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "얇게 썬 양고기를 배즙 간장 양념에 재워 채소와 함께 볶는 불고기."
+        },
+        {
+          "id": "korean_lamb_minari_jeongol",
+          "name": "양고기 미나리전골",
+          "ingredients": [
+            "양고기",
+            "미나리",
+            "배추",
+            "팽이버섯"
+          ],
+          "seasonings": [
+            "국간장",
+            "된장",
+            "다진 마늘",
+            "후추"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "양고기와 채소를 끓인 국물에 미나리를 넣어 향을 더하는 전골."
         }
       ]
     }

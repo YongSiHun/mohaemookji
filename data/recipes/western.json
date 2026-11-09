@@ -618,6 +618,179 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_roasted_pepper_pasta",
+          "name": "구운 파프리카 파스타",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "스파게티",
+            "빨간 파프리카",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "다진 마늘"
+          ],
+          "description": "구운 파프리카와 양파를 갈아 만든 소스로 버무리는 부드러운 파스타.",
+          "flavorLevels": {
+            "sweet": 2,
+            "rich": 3
+          }
+        },
+        {
+          "id": "western_pasta_broccoli_anchovy",
+          "name": "브로콜리 앤초비 파스타",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "브로콜리",
+            "앤초비",
+            "마늘"
+          ],
+          "seasonings": [
+            "올리브유",
+            "후추",
+            "레몬즙"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 4
+          },
+          "description": "브로콜리와 앤초비를 마늘 오일에 볶아 면과 버무리는 파스타."
+        },
+        {
+          "id": "western_pasta_tuna_lemon",
+          "name": "참치 레몬 파스타",
+          "flavors": [
+            "refreshing",
+            "light"
+          ],
+          "ingredients": [
+            "스파게티",
+            "참치",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "light": 3
+          },
+          "description": "참치와 레몬을 마늘 오일에 더해 가볍게 버무리는 파스타."
+        },
+        {
+          "id": "western_pasta_crab_cream",
+          "name": "게살 크림 파스타",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "게살",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 4
+          },
+          "description": "게살과 양파를 크림소스에 익혀 면과 버무리는 파스타."
+        },
+        {
+          "id": "western_pasta_scallop_butter",
+          "name": "가리비 버터 파스타",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "가리비",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "올리브유",
+            "소금",
+            "후추",
+            "레몬즙"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 4
+          },
+          "description": "노릇하게 구운 가리비를 버터 소스와 면에 곁들이는 파스타."
+        },
+        {
+          "id": "western_pasta_beet_ricotta",
+          "name": "비트 리코타 파스타",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "비트",
+            "리코타 치즈",
+            "호두"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "레몬즙"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 4
+          },
+          "description": "익힌 비트를 갈아 소스를 만들고 리코타와 호두를 곁들이는 파스타."
+        },
+        {
+          "id": "western_pasta_pumpkin_sage",
+          "name": "단호박 세이지 파스타",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "스파게티",
+            "단호박",
+            "세이지",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 4
+          },
+          "description": "부드럽게 익힌 단호박을 세이지 버터에 볶아 면과 섞는 파스타."
         }
       ]
     },
@@ -1127,6 +1300,34 @@
           "flavorLevels": {
             "savory": 3,
             "umami": 3
+          }
+        },
+        {
+          "id": "western_lemon_shrimp_risotto",
+          "name": "레몬 새우 리소토",
+          "flavors": [
+            "umami",
+            "refreshing",
+            "rich"
+          ],
+          "ingredients": [
+            "쌀",
+            "새우",
+            "양파",
+            "레몬",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "새우와 쌀을 익혀 치즈를 넣고 레몬 향을 더하는 리소토.",
+          "flavorLevels": {
+            "umami": 4,
+            "refreshing": 3,
+            "rich": 3
           }
         }
       ]
@@ -2045,6 +2246,80 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_beef_balsamic_mushroom",
+          "name": "발사믹 버섯 스테이크",
+          "ingredients": [
+            "소고기",
+            "양송이버섯",
+            "양파"
+          ],
+          "seasonings": [
+            "발사믹식초",
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "구운 소고기에 발사믹식초로 졸인 버섯 소스를 곁들이는 스테이크."
+        },
+        {
+          "id": "western_beef_paprika_cream",
+          "name": "소고기 파프리카 크림볶음",
+          "ingredients": [
+            "소고기",
+            "파프리카",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "파프리카가루",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "소고기와 파프리카를 볶아 파프리카 크림소스로 마무리하는 요리."
+        },
+        {
+          "id": "western_beef_rosemary_skewer",
+          "name": "소고기 로즈마리 꼬치",
+          "ingredients": [
+            "소고기",
+            "양파",
+            "주키니",
+            "로즈마리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "레몬즙"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "소고기와 채소를 꼬치에 꿰어 로즈마리 향을 더해 굽는 요리."
         }
       ]
     },
@@ -3237,6 +3512,32 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "western_potato_bacon_chowder",
+          "name": "감자 베이컨 차우더",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "감자",
+            "베이컨",
+            "양파",
+            "셀러리",
+            "우유",
+            "밀가루"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "description": "감자와 베이컨을 우유와 함께 걸쭉하게 끓이는 따뜻한 수프.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -3742,6 +4043,84 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_shrimp_scampi",
+          "name": "새우 스캄피",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "마늘",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "올리브유",
+            "화이트와인",
+            "소금",
+            "후추"
+          ],
+          "description": "새우를 마늘버터에 볶고 화이트와인과 레몬즙으로 소스를 만드는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "western_seafood_shrimp_couscous",
+          "name": "새우 쿠스쿠스 샐러드",
+          "ingredients": [
+            "새우",
+            "쿠스쿠스",
+            "오이",
+            "토마토",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "익힌 새우와 불린 쿠스쿠스를 채소와 레몬 드레싱에 버무리는 샐러드."
+        },
+        {
+          "id": "western_seafood_shrimp_asparagus_galette",
+          "name": "새우 아스파라거스 갈레트",
+          "ingredients": [
+            "새우",
+            "아스파라거스",
+            "메밀가루",
+            "밀가루",
+            "계란",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          },
+          "description": "메밀가루와 밀가루 반죽을 얇게 부쳐 익힌 새우와 아스파라거스, 치즈를 넣고 접는 갈레트."
         }
       ]
     },
@@ -3968,6 +4347,32 @@
           "flavorLevels": {
             "savory": 4,
             "umami": 3
+          }
+        },
+        {
+          "id": "western_spinach_chicken_penne",
+          "name": "시금치 치킨 펜네",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "펜네",
+            "닭고기",
+            "시금치",
+            "생크림",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "description": "닭고기와 시금치를 크림소스에 익혀 펜네와 함께 버무리는 파스타.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 3
           }
         }
       ]
@@ -5450,6 +5855,55 @@
             "savory": 4,
             "rich": 4
           }
+        },
+        {
+          "id": "western_wheat_garlic_rosemary_breadsticks",
+          "name": "마늘 로즈마리 브레드스틱",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "마늘",
+            "로즈마리"
+          ],
+          "seasonings": [
+            "이스트",
+            "버터",
+            "소금",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "발효한 밀 반죽을 막대 모양으로 빚어 마늘버터와 로즈마리를 발라 굽는 빵."
+        },
+        {
+          "id": "western_wheat_spinach_savory_pancake",
+          "name": "시금치 치즈 팬케이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "밀가루",
+            "시금치",
+            "계란",
+            "우유",
+            "체더 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "베이킹파우더"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "밀 반죽에 다진 시금치와 치즈를 섞어 작게 부치는 짭짤한 팬케이크."
         }
       ]
     },
@@ -7350,6 +7804,32 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_chickpea_spinach_stew",
+          "name": "병아리콩 시금치 토마토 스튜",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "시금치",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "파프리카가루",
+            "소금",
+            "후추"
+          ],
+          "description": "삶은 병아리콩을 토마토와 끓인 뒤 시금치를 넣어 마무리하는 채소 스튜.",
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
         }
       ]
     },
@@ -7700,6 +8180,31 @@
           "flavorLevels": {
             "savory": 4,
             "rich": 4
+          }
+        },
+        {
+          "id": "western_mushroom_melt",
+          "name": "버섯 치즈 멜트 샌드위치",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "양송이버섯",
+            "양파",
+            "체더 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "description": "볶은 버섯과 양파, 치즈를 빵 사이에 넣어 치즈가 녹도록 굽는 샌드위치.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
           }
         }
       ]
@@ -8208,6 +8713,108 @@
             "savory": 4,
             "umami": 4
           }
+        },
+        {
+          "id": "western_chicken_lemon_orzo",
+          "name": "레몬 치킨 오르조",
+          "flavors": [
+            "refreshing",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "오르조",
+            "시금치",
+            "양파",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "다진 마늘"
+          ],
+          "description": "구운 닭고기와 오르조를 함께 익히고 레몬과 시금치로 마무리하는 요리.",
+          "flavorLevels": {
+            "refreshing": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "western_chicken_tomato_cream",
+          "name": "선드라이토마토 크림 치킨",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "선드라이토마토",
+            "생크림",
+            "시금치"
+          ],
+          "seasonings": [
+            "버터",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "description": "노릇하게 구운 닭고기를 선드라이토마토와 시금치 크림소스에 조리는 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "western_chicken_white_bean",
+          "name": "닭고기 흰콩 스튜",
+          "ingredients": [
+            "닭고기",
+            "흰강낭콩",
+            "셀러리",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "월계수잎"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "닭고기와 삶은 흰콩을 채소와 함께 끓이는 스튜."
+        },
+        {
+          "id": "western_chicken_balsamic_tomato",
+          "name": "발사믹 토마토 치킨",
+          "ingredients": [
+            "닭고기",
+            "방울토마토",
+            "양파",
+            "바질"
+          ],
+          "seasonings": [
+            "발사믹식초",
+            "올리브유",
+            "꿀",
+            "소금"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "닭고기를 토마토와 함께 굽고 발사믹 소스로 마무리하는 요리."
         }
       ]
     },
@@ -8682,6 +9289,31 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_clam_white_bean",
+          "name": "조개 흰콩 스튜",
+          "ingredients": [
+            "바지락",
+            "흰강낭콩",
+            "토마토",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "삶은 흰콩과 채소를 끓이다 조개를 넣어 익히는 스튜."
         }
       ]
     },
@@ -8987,6 +9619,30 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_duck_rosemary_potato",
+          "name": "로즈마리 오리다리 감자구이",
+          "ingredients": [
+            "오리다리",
+            "감자",
+            "마늘",
+            "로즈마리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "오리다리에 허브를 발라 감자와 함께 천천히 굽는 요리."
         }
       ]
     },
@@ -9310,6 +9966,30 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_chicken_spinach_roll",
+          "name": "시금치 리코타 치킨롤",
+          "ingredients": [
+            "닭가슴살",
+            "시금치",
+            "리코타 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "올리브유"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "얇게 편 닭가슴살에 시금치와 리코타를 넣어 말아 굽는 요리."
         }
       ]
     },
@@ -9519,6 +10199,56 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_cod_tomato_olive",
+          "name": "대구 토마토 올리브구이",
+          "ingredients": [
+            "대구",
+            "토마토",
+            "올리브",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "오레가노"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "대구를 토마토와 올리브 위에 얹어 촉촉하게 굽는 생선요리."
+        },
+        {
+          "id": "western_seafood_cod_herb_crumb",
+          "name": "허브 빵가루 대구구이",
+          "ingredients": [
+            "대구",
+            "빵가루",
+            "파슬리",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "대구에 머스터드를 바르고 허브 빵가루를 얹어 바삭하게 굽는 요리."
         }
       ]
     },
@@ -9666,6 +10396,80 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_salmon_lemon_dill",
+          "name": "레몬 딜 연어구이",
+          "flavors": [
+            "refreshing",
+            "savory"
+          ],
+          "ingredients": [
+            "연어",
+            "레몬",
+            "딜",
+            "아스파라거스"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "연어에 레몬과 딜을 곁들여 아스파라거스와 함께 굽는 생선요리.",
+          "flavorLevels": {
+            "refreshing": 3,
+            "savory": 4
+          }
+        },
+        {
+          "id": "western_seafood_salmon_mustard_cream",
+          "name": "연어 머스터드 크림구이",
+          "ingredients": [
+            "연어",
+            "생크림",
+            "양파",
+            "딜"
+          ],
+          "seasonings": [
+            "디종 머스터드",
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "구운 연어에 머스터드 크림소스와 딜을 곁들이는 요리."
+        },
+        {
+          "id": "western_seafood_salmon_potato_hash",
+          "name": "연어 감자 해시",
+          "ingredients": [
+            "연어",
+            "감자",
+            "양파",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "깍둑 썬 감자와 연어를 팬에 노릇하게 볶는 해시."
         }
       ]
     },
@@ -9748,6 +10552,32 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_mussel_lemon_cream",
+          "name": "홍합 레몬 크림찜",
+          "ingredients": [
+            "홍합",
+            "생크림",
+            "양파",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "버터",
+            "화이트와인",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "홍합을 와인과 크림에 익히고 레몬 향을 더하는 찜."
         }
       ]
     },
@@ -11815,6 +12645,56 @@
             "savory": 4,
             "rich": 4
           }
+        },
+        {
+          "id": "western_duck_lentil_salad",
+          "name": "오리고기 렌틸 샐러드",
+          "ingredients": [
+            "오리고기",
+            "렌틸콩",
+            "루콜라",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "디종 머스터드",
+            "레몬즙",
+            "소금"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "익힌 오리고기와 렌틸콩을 채소와 머스터드 드레싱에 버무리는 샐러드."
+        },
+        {
+          "id": "western_duck_mushroom_cream",
+          "name": "오리고기 버섯 크림스튜",
+          "ingredients": [
+            "오리고기",
+            "양송이버섯",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "타임"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "오리고기와 버섯을 볶아 크림소스에 부드럽게 익히는 스튜."
         }
       ]
     },
@@ -11842,6 +12722,31 @@
             "savory": 3,
             "rich": 3
           }
+        },
+        {
+          "id": "western_duck_cherry_sauce",
+          "name": "체리소스 오리가슴살",
+          "ingredients": [
+            "오리가슴살",
+            "체리",
+            "양파"
+          ],
+          "seasonings": [
+            "발사믹식초",
+            "버터",
+            "꿀",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "구운 오리가슴살에 체리를 졸인 소스를 곁들이는 요리."
         }
       ]
     },
@@ -12137,6 +13042,107 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_pork_schnitzel",
+          "name": "돼지고기 슈니첼",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "밀가루",
+            "계란",
+            "빵가루",
+            "레몬"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "버터",
+            "식용유"
+          ],
+          "description": "얇게 편 돼지고기에 빵가루를 입혀 노릇하게 튀기고 레몬을 곁들이는 커틀릿.",
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "western_pork_apple_cream",
+          "name": "돼지고기 사과 크림소스",
+          "flavors": [
+            "rich",
+            "sweet"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "사과",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "디종 머스터드",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 돼지고기에 사과와 양파를 익힌 머스터드 크림소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "sweet": 2
+          }
+        },
+        {
+          "id": "western_pork_tenderloin_herb",
+          "name": "허브 돼지안심구이",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "돼지안심",
+            "마늘",
+            "로즈마리",
+            "감자"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "description": "돼지안심에 허브와 머스터드를 발라 감자와 함께 굽는 요리.",
+          "flavorLevels": {
+            "savory": 3,
+            "light": 3
+          }
+        },
+        {
+          "id": "western_pork_pork_pepper_skewers",
+          "name": "돼지고기 파프리카 허브꼬치",
+          "ingredients": [
+            "돼지고기",
+            "파프리카",
+            "양파",
+            "주키니"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "로즈마리"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "돼지고기와 채소를 꼬치에 꿰어 허브를 발라 굽는 요리."
         }
       ]
     },
@@ -12193,6 +13199,55 @@
             "savory": 4,
             "rich": 4
           }
+        },
+        {
+          "id": "western_seafood_scallop_pea_puree",
+          "name": "가리비 완두콩 퓌레",
+          "ingredients": [
+            "가리비",
+            "완두콩",
+            "생크림",
+            "레몬"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "버터에 구운 가리비를 부드럽게 간 완두콩 퓌레 위에 올리는 요리."
+        },
+        {
+          "id": "western_seafood_scallop_lemon_risotto",
+          "name": "가리비 레몬 리소토",
+          "ingredients": [
+            "가리비",
+            "쌀",
+            "양파",
+            "파르메산 치즈",
+            "레몬"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "레몬과 치즈로 마무리한 리소토에 구운 가리비를 올리는 요리."
         }
       ]
     },
@@ -12429,6 +13484,31 @@
           "flavorLevels": {
             "savory": 4,
             "rich": 4
+          }
+        },
+        {
+          "id": "western_cauliflower_steak",
+          "name": "콜리플라워 스테이크",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "콜리플라워",
+            "마늘",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "버터",
+            "소금",
+            "후추",
+            "레몬즙"
+          ],
+          "description": "두껍게 썬 콜리플라워를 노릇하게 굽고 마늘버터와 레몬즙을 곁들이는 채소요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "light": 3
           }
         }
       ]
@@ -12825,6 +13905,31 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_octopus_paprika_skewer",
+          "name": "문어 파프리카 꼬치",
+          "ingredients": [
+            "문어",
+            "파프리카",
+            "양파",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "파프리카가루",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "삶은 문어와 채소를 꼬치에 꿰어 향신료를 발라 굽는 요리."
         }
       ]
     },
@@ -12955,6 +14060,31 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_squid_chickpea_stew",
+          "name": "오징어 병아리콩 스튜",
+          "ingredients": [
+            "오징어",
+            "병아리콩",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "오징어와 삶은 병아리콩을 토마토소스에 함께 익히는 스튜."
         }
       ]
     },
@@ -13832,6 +14962,31 @@
             "rich": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_pork_orange_roast",
+          "name": "오렌지 돼지목살 로스트",
+          "ingredients": [
+            "돼지목살",
+            "오렌지",
+            "마늘",
+            "로즈마리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "돼지목살을 오렌지와 허브에 재워 오븐에 굽는 요리."
         }
       ]
     },
@@ -14051,6 +15206,31 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "western_sweet_potato_gnocchi",
+          "name": "고구마 뇨키",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "고구마",
+            "밀가루",
+            "계란",
+            "파르메산 치즈",
+            "세이지"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "description": "으깬 고구마로 빚은 뇨키를 삶아 세이지 버터에 버무리는 요리.",
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          }
         }
       ]
     },
@@ -14108,6 +15288,54 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "western_wheat_whole_wheat_flatbread",
+          "name": "통밀 팬 플랫브레드",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "통밀가루",
+            "밀가루",
+            "요거트"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "베이킹파우더"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "통밀가루와 요거트로 만든 반죽을 얇게 펴 팬에 굽는 납작빵."
+        },
+        {
+          "id": "western_wheat_whole_wheat_crepe",
+          "name": "통밀 버섯 크레페",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "통밀가루",
+            "우유",
+            "계란",
+            "양송이버섯",
+            "치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 3
+          },
+          "description": "통밀 반죽을 얇게 부쳐 볶은 버섯과 치즈를 넣고 접어 굽는 크레페."
         }
       ]
     },
@@ -14689,6 +15917,31 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "western_seafood_crab_spinach_quiche",
+          "name": "게살 시금치 키슈",
+          "ingredients": [
+            "게살",
+            "시금치",
+            "계란",
+            "생크림",
+            "타르트지"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "타르트지에 게살과 시금치를 담고 계란 크림물을 부어 굽는 키슈."
         }
       ]
     },
@@ -14743,6 +15996,554 @@
             "savory": 4,
             "umami": 3
           }
+        }
+      ]
+    },
+    "돼지머리고기": {
+      "name": "돼지머리고기",
+      "recipes": [
+        {
+          "id": "western_pork_head_terrine",
+          "name": "돼지머리고기 테린",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "양파",
+            "당근",
+            "셀러리",
+            "파슬리"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "월계수잎",
+            "디종 머스터드"
+          ],
+          "description": "돼지머리고기를 향신채와 푹 삶아 다진 뒤 틀에서 굳혀 머스터드를 곁들이는 테린.",
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "western_pork_head_croquettes",
+          "name": "돼지머리고기 크로켓",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지머리고기",
+            "감자",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "식용유",
+            "디종 머스터드"
+          ],
+          "description": "삶아 다진 돼지머리고기와 감자를 섞어 빵가루를 입히고 튀기는 크로켓.",
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 3
+          }
+        }
+      ]
+    },
+    "돼지껍데기": {
+      "name": "돼지껍데기",
+      "recipes": [
+        {
+          "id": "western_pork_rind_cracklings",
+          "name": "돼지껍데기 크래클링",
+          "flavors": [
+            "savory",
+            "greasy"
+          ],
+          "ingredients": [
+            "돼지껍데기"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "파프리카가루",
+            "식용유"
+          ],
+          "description": "삶은 돼지껍데기의 수분을 충분히 제거한 뒤 바삭하게 튀겨 소금과 향신료를 뿌리는 간식.",
+          "flavorLevels": {
+            "savory": 5,
+            "greasy": 4
+          }
+        }
+      ]
+    },
+    "피자 도우": {
+      "name": "피자 도우",
+      "recipes": [
+        {
+          "id": "western_pizza_bbq_chicken",
+          "name": "바비큐 치킨 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "닭고기",
+            "양파",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "바비큐소스",
+            "올리브유"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "바비큐소스에 버무린 닭고기와 양파를 도우에 올려 치즈와 함께 굽는 피자."
+        },
+        {
+          "id": "western_pizza_shrimp_garlic",
+          "name": "갈릭 쉬림프 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "새우",
+            "마늘",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "마늘버터에 익힌 새우를 도우 위에 올려 굽는 피자."
+        },
+        {
+          "id": "western_pizza_anchovy_olive",
+          "name": "앤초비 올리브 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "앤초비",
+            "블랙올리브",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "토마토소스",
+            "올리브유",
+            "오레가노"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "앤초비와 올리브를 토마토소스 위에 올려 짭조름하게 굽는 피자."
+        },
+        {
+          "id": "western_pizza_eggplant_ricotta",
+          "name": "가지 리코타 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "가지",
+            "리코타 치즈",
+            "바질"
+          ],
+          "seasonings": [
+            "토마토소스",
+            "올리브유",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "구운 가지와 리코타 치즈를 올리고 바질로 마무리하는 피자."
+        },
+        {
+          "id": "western_pizza_pear_blue_cheese",
+          "name": "배 블루치즈 피자",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "배",
+            "블루치즈",
+            "호두"
+          ],
+          "seasonings": [
+            "꿀",
+            "올리브유",
+            "후추"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 4
+          },
+          "description": "얇게 썬 배와 블루치즈, 호두를 올려 굽고 꿀을 곁들이는 피자."
+        },
+        {
+          "id": "western_pizza_four_mushroom",
+          "name": "모둠버섯 크림 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "양송이버섯",
+            "표고버섯",
+            "느타리버섯",
+            "생크림",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "볶은 모둠버섯과 크림소스, 치즈를 함께 올려 굽는 피자."
+        },
+        {
+          "id": "western_pizza_sausage_pepper",
+          "name": "소시지 파프리카 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "소시지",
+            "파프리카",
+            "양파",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "토마토소스",
+            "올리브유",
+            "오레가노"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "소시지와 파프리카를 넉넉하게 올려 굽는 피자."
+        },
+        {
+          "id": "western_pizza_smoked_salmon",
+          "name": "훈제연어 크림치즈 피자",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "피자 도우",
+            "훈제연어",
+            "크림치즈",
+            "양파",
+            "루콜라"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          },
+          "description": "구운 도우에 크림치즈와 훈제연어, 루콜라를 올리는 피자."
+        }
+      ]
+    },
+    "농어": {
+      "name": "농어",
+      "recipes": [
+        {
+          "id": "western_seafood_sea_bass_papillote",
+          "name": "농어 파피요트",
+          "ingredients": [
+            "농어",
+            "주키니",
+            "방울토마토",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "화이트와인"
+          ],
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          },
+          "description": "농어와 채소를 종이로 감싸 수분을 가두고 촉촉하게 굽는 요리."
+        }
+      ]
+    },
+    "돼지안심": {
+      "name": "돼지안심",
+      "recipes": [
+        {
+          "id": "western_pork_plum_tenderloin",
+          "name": "돼지안심 자두소스구이",
+          "ingredients": [
+            "돼지안심",
+            "자두",
+            "양파"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "발사믹식초",
+            "꿀"
+          ],
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
+          },
+          "description": "구운 돼지안심에 자두를 졸여 만든 소스를 곁들이는 요리."
+        },
+        {
+          "id": "western_pork_mushroom_tenderloin",
+          "name": "돼지안심 버섯 크림스튜",
+          "ingredients": [
+            "돼지안심",
+            "양송이버섯",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "돼지안심과 버섯을 볶아 크림소스에 부드럽게 익히는 스튜."
+        }
+      ]
+    },
+    "다진 소고기": {
+      "name": "다진 소고기",
+      "recipes": [
+        {
+          "id": "western_beef_lentil_bake",
+          "name": "소고기 렌틸 오븐구이",
+          "ingredients": [
+            "다진 소고기",
+            "렌틸콩",
+            "토마토",
+            "양파",
+            "체더 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "익힌 소고기와 렌틸콩을 토마토소스에 섞어 치즈를 올리고 굽는 요리."
+        }
+      ]
+    },
+    "닭다리": {
+      "name": "닭다리",
+      "recipes": [
+        {
+          "id": "western_chicken_lemon_thyme",
+          "name": "레몬 타임 닭다리구이",
+          "ingredients": [
+            "닭다리",
+            "레몬",
+            "마늘",
+            "타임"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          },
+          "description": "닭다리를 레몬과 타임에 재워 속까지 익도록 굽는 요리."
+        }
+      ]
+    },
+    "양정강이": {
+      "name": "양정강이",
+      "recipes": [
+        {
+          "id": "western_lamb_rosemary_shank",
+          "name": "로즈마리 양정강이찜",
+          "ingredients": [
+            "양정강이",
+            "당근",
+            "셀러리",
+            "양파",
+            "로즈마리"
+          ],
+          "seasonings": [
+            "레드와인",
+            "토마토페이스트",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "양정강이를 와인과 채소, 로즈마리와 함께 천천히 익히는 찜."
+        }
+      ]
+    },
+    "다진 양고기": {
+      "name": "다진 양고기",
+      "recipes": [
+        {
+          "id": "western_lamb_mint_meatballs",
+          "name": "양고기 민트 미트볼",
+          "ingredients": [
+            "다진 양고기",
+            "민트",
+            "양파",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "다진 마늘"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "다진 양고기에 민트를 섞어 빚은 미트볼을 노릇하게 익히는 요리."
+        },
+        {
+          "id": "western_lamb_eggplant_bake",
+          "name": "양고기 가지 치즈구이",
+          "ingredients": [
+            "다진 양고기",
+            "가지",
+            "토마토",
+            "양파",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "오레가노"
+          ],
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          },
+          "description": "가지에 양고기 토마토소스를 채워 치즈를 올리고 굽는 요리."
+        }
+      ]
+    },
+    "양등심": {
+      "name": "양등심",
+      "recipes": [
+        {
+          "id": "western_lamb_mustard_loin",
+          "name": "머스터드 양등심구이",
+          "ingredients": [
+            "양등심",
+            "마늘",
+            "타임"
+          ],
+          "seasonings": [
+            "디종 머스터드",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 4
+          },
+          "description": "양등심에 머스터드와 타임을 발라 굽는 요리."
         }
       ]
     }
