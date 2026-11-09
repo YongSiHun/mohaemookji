@@ -32,6 +32,28 @@ function SearchActions({
         </p>
       )}
       <button
+        type="button"
+        className="secondary-button search-reset"
+        onClick={onReset}
+        aria-label="검색 조건 초기화"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M3 4v6h6" />
+          <path d="M3.5 10a8.5 8.5 0 1 1 1.8 8" />
+        </svg>
+        <span className="search-reset-tooltip" aria-hidden="true">
+          검색 조건 초기화
+        </span>
+      </button>
+      <button
         type="submit"
         className="primary-button"
         disabled={isLoading}
@@ -39,9 +61,6 @@ function SearchActions({
         aria-describedby={error ? 'search-data-error' : undefined}
       >
         {getSearchButtonLabel(isLoading, error)}
-      </button>
-      <button type="button" className="secondary-button" onClick={onReset}>
-        검색 조건 초기화
       </button>
     </div>
   );
@@ -124,7 +143,7 @@ export function MenuSearchPanel({
           </div>
         </div>
         <div className="search-divider" />
-        <div className="section-label">
+        <div className="section-label flavor-section-label">
           <span className="step">02</span>
           <h2>어떤 맛이 당기세요?</h2>
           <div className="flavor-selection-info">

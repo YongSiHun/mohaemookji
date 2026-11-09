@@ -25,6 +25,7 @@ body {
 }
 body {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 button,
 input,
@@ -66,18 +67,24 @@ button:disabled {
   border-bottom: 1px solid var(--border);
 }
 .header-inner {
-  height: 88px;
+  min-height: 88px;
+  padding-block: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .brand {
+  min-width: 0;
+  max-width: 100%;
   display: inline-flex;
   gap: 10px;
   align-items: center;
   font-size: var(--text-brand);
   font-weight: var(--weight-heading);
   letter-spacing: -1px;
+}
+.brand img {
+  flex-shrink: 0;
 }
 .hero {
   display: flex;
@@ -216,6 +223,8 @@ h1 {
   color: var(--muted);
 }
 .primary-button {
+  max-width: 100%;
+  min-width: 0;
   height: 56px;
   border: 0;
   border-radius: 11px;
@@ -323,10 +332,11 @@ h1 {
   min-width: 0;
 }
 .card-top {
+  gap: var(--space-2);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 24px;
+  min-height: 24px;
 }
 .cuisine {
   font-size: var(--text-caption);
@@ -338,6 +348,7 @@ h1 {
   border-radius: 5px;
 }
 .card-decoration {
+  flex-shrink: 0;
   color: #cebda6;
   font-size: var(--icon-large);
   line-height: var(--leading-icon);
@@ -406,6 +417,8 @@ mark {
   margin: 30px 0 0;
 }
 .secondary-button {
+  max-width: 100%;
+  min-width: 0;
   border: 1px solid #d9c7b6;
   border-radius: 10px;
   background: white;
@@ -513,6 +526,7 @@ mark {
 }
 .loading-state {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 14px;
@@ -520,6 +534,7 @@ mark {
   color: var(--muted);
 }
 .spinner {
+  flex-shrink: 0;
   width: 22px;
   height: 22px;
   border: 2px solid #ead4bd;
@@ -567,9 +582,6 @@ mark {
   }
 }
 @media (max-width: 600px) {
-  .header-inner {
-    height: 72px;
-  }
   .hero {
     padding: 27px 3px 30px;
   }
@@ -712,7 +724,7 @@ mark {
   .recipe-overlay {
     opacity: 1;
     background: transparent;
-    align-items: start;
+    align-items: end;
     justify-items: end;
     padding: 16px;
   }
@@ -724,6 +736,9 @@ mark {
   .recipe-overlay-label svg {
     width: 15px;
     height: 12px;
+  }
+  .recipe-card {
+    padding-bottom: 64px;
   }
   .recipe-card .card-decoration {
     visibility: hidden;
@@ -740,20 +755,18 @@ mark {
 }
 
 .search-actions {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: minmax(44px, 1fr) minmax(0, 260px) minmax(44px, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 13px;
+  gap: var(--space-2);
   border-top: 1px solid var(--border);
   margin-top: 25px;
   padding-top: 23px;
 }
 @media (max-width: 600px) {
   .search-actions {
-    flex-direction: column;
-    gap: 13px;
-    align-items: center;
+    gap: var(--space-2);
     margin-top: 22px;
     padding-top: 20px;
   }
@@ -765,7 +778,6 @@ mark {
 }
 @media (max-width: 600px) {
   .header-inner {
-    height: auto;
     min-height: 90px;
     flex-wrap: wrap;
     gap: var(--space-2);
@@ -828,13 +840,14 @@ mark {
   color: #6b4b35;
 }
 .flavor-options {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: var(--space-3);
 }
 .flavor-option {
+  container: flavor-card / inline-size;
   display: grid;
-  grid-template-columns: max-content minmax(0, 160px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 160px);
   justify-content: start;
   align-items: center;
   gap: 8px;
@@ -864,6 +877,7 @@ mark {
   background: #b93d1508;
 }
 .flavor-option-heading {
+  min-width: 0;
   position: relative;
   pointer-events: none;
   display: flex;
@@ -892,6 +906,7 @@ mark {
   color: var(--color-muted);
 }
 .flavor-level-input {
+  min-width: 0;
   position: relative;
   display: flex;
   margin-block: 4px;
@@ -932,7 +947,7 @@ mark {
   }
   .flavor-option {
     display: grid;
-    grid-template-columns: max-content minmax(0, 150px);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 150px);
     align-items: center;
     gap: 0 8px;
     padding: 8px;
@@ -944,6 +959,18 @@ mark {
   }
   .flavor-star-button {
     min-height: 44px;
+  }
+}
+
+/* 좁은 카드에서는 맛 이름과 별이 서로 밀리지 않도록 두 줄로 배치합니다. */
+@container flavor-card (max-width: 280px) {
+  .flavor-option-heading,
+  .flavor-level-input {
+    grid-column: 1 / -1;
+  }
+  .flavor-option-heading {
+    flex-direction: row;
+    align-items: center;
   }
 }
 
@@ -986,25 +1013,99 @@ mark {
   line-height: var(--leading-control);
 }
 .search-actions .primary-button {
-  width: clamp(220px, 26vw, 260px);
-  max-width: 100%;
+  width: 100%;
   min-width: 0;
-  height: clamp(48px, 5.6vw, 56px);
-  padding: 0 clamp(24px, 3vw, 32px);
+  height: auto;
+  min-height: 56px;
+  padding: 10px clamp(8px, 2vw, 24px);
   font-size: var(--text-action);
   line-height: var(--leading-display);
   letter-spacing: 0.2px;
   border-radius: clamp(10px, 1.2vw, 12px);
   font-weight: var(--weight-strong);
 }
-@media (max-width: 600px) {
-  .search-actions .primary-button {
-    width: 100%;
-    min-height: 52px;
+
+.search-actions .search-reset {
+  position: relative;
+  grid-column: 1;
+  justify-self: start;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+}
+.search-reset svg {
+  width: 20px;
+  height: 20px;
+}
+.search-reset-tooltip {
+  max-width: min(240px, calc(100vw - 64px));
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 0;
+  z-index: 10;
+  width: max-content;
+  padding: 10px 14px;
+  border: 1px solid #73513e;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #594031, #38251d);
+  color: #fff9f0;
+  font-size: var(--text-helper);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-control);
+  white-space: normal;
+  text-align: left;
+  box-shadow:
+    0 8px 20px #38251d24,
+    inset 0 1px 0 #ffffff14;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  pointer-events: none;
+  transition:
+    opacity 0.16s ease,
+    transform 0.16s ease,
+    visibility 0.16s;
+}
+.search-reset-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 16px;
+  border: 6px solid transparent;
+  border-top-color: #493225;
+}
+.search-reset:hover .search-reset-tooltip,
+.search-reset:focus-visible .search-reset-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .search-reset-tooltip {
+    transition: none;
+    transform: none;
   }
 }
 
+.flavor-section-label {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+@media (max-width: 1000px) {
+  .flavor-section-label {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .flavor-section-label .flavor-selection-info {
+    grid-column: 2;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+}
 .flavor-selection-info {
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -1038,8 +1139,6 @@ mark {
 }
 @media (max-width: 600px) {
   .flavor-selection-info {
-    flex-basis: 100%;
-    padding-left: 34px;
     gap: var(--space-2);
     justify-content: flex-start;
   }
@@ -1161,6 +1260,7 @@ mark {
   color: var(--color-supporting);
 }
 .refresh-button {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1361,6 +1461,10 @@ mark {
   border-radius: 14px;
   background: #fff;
 }
+.recipe-facts > div {
+  min-width: 0;
+  max-width: 100%;
+}
 .recipe-facts dt {
   font-size: var(--text-helper);
   color: var(--color-muted);
@@ -1376,7 +1480,7 @@ mark {
 }
 .detail-ingredients {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
   gap: var(--space-5);
 }
 .amount-list {
@@ -1386,12 +1490,21 @@ mark {
 }
 .amount-list li {
   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
-  gap: 18px;
+  gap: 4px 16px;
   padding-block: 10px;
   border-bottom: 1px solid var(--border);
 }
+.amount-list li > span {
+  flex: 1 1 8rem;
+  min-width: 0;
+}
 .amount-list strong {
+  min-width: 0;
+  max-width: 100%;
+  margin-left: auto;
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
   text-align: right;
@@ -1511,6 +1624,8 @@ mark {
   color: var(--color-muted);
 }
 .search-data-error {
+  min-width: 0;
+  grid-column: 1 / -1;
   margin: 0;
   font-size: var(--text-helper);
   line-height: var(--leading-helper);
