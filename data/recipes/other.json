@@ -574,6 +574,78 @@
             "savory": 4,
             "refreshing": 3
           }
+        },
+        {
+          "id": "fusion_gochujang_chickpea_wrap",
+          "name": "고추장 병아리콩 랩",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "토르티야",
+            "양배추",
+            "오이"
+          ],
+          "seasonings": [
+            "고추장",
+            "요거트",
+            "레몬즙",
+            "올리브유"
+          ],
+          "description": "삶은 병아리콩을 고추장에 볶아 채소와 요거트 소스에 싸는 퓨전 랩.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "fusion_sesame_oil_chickpea_bowl",
+          "name": "참기름 병아리콩 곡물볼",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩",
+            "현미밥",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "참기름",
+            "간장",
+            "레몬즙",
+            "깨"
+          ],
+          "description": "현미밥과 병아리콩, 채소를 담아 참기름 드레싱을 곁들이는 곡물볼.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_chili_powder_roast_chickpeas",
+          "name": "고춧가루 병아리콩구이",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "병아리콩"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "올리브유",
+            "소금",
+            "다진 마늘"
+          ],
+          "description": "삶아 물기를 뺀 병아리콩에 고춧가루 양념을 입혀 바삭하게 굽는 간식.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1137,6 +1209,31 @@
             "sour": 3
           },
           "description": "구운 소고기와 쿠스쿠스, 채소에 유자 간장 드레싱을 곁들이는 곡물볼."
+        },
+        {
+          "id": "fusion_pepper_udon",
+          "name": "흑후추 소고기 볶음우동",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "우동면",
+            "양배추",
+            "양파"
+          ],
+          "seasonings": [
+            "후추",
+            "간장",
+            "굴소스",
+            "식용유"
+          ],
+          "description": "소고기와 우동면을 채소와 볶고 후추로 알싸한 향을 더하는 볶음우동.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -1392,6 +1489,29 @@
             "savory": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "fusion_gochujang_butter_corn",
+          "name": "고추장 버터 옥수수구이",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "옥수수",
+            "쪽파"
+          ],
+          "seasonings": [
+            "고추장",
+            "버터",
+            "꿀",
+            "후추"
+          ],
+          "description": "익힌 옥수수에 고추장 버터를 발라 노릇하게 굽는 퓨전 간식.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -1492,6 +1612,31 @@
             "sour": 3
           },
           "description": "익힌 돼지고기와 채소를 라이스페이퍼에 싸고 유자 소스를 곁들이는 롤."
+        },
+        {
+          "id": "fusion_world_sauce_sweet_soy_pork",
+          "name": "케찹마니스 돼지고기덮밥",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "청경채",
+            "밥"
+          ],
+          "seasonings": [
+            "케찹마니스",
+            "식용유",
+            "다진 마늘",
+            "후추"
+          ],
+          "description": "돼지고기와 채소를 달콤한 간장 케찹마니스에 볶아 밥에 올리는 덮밥.",
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
         }
       ]
     },
@@ -1988,6 +2133,54 @@
             "savory": 4
           },
           "description": "익힌 닭고기와 볶은 김치를 크림소스에 섞어 페이스트리로 덮고 굽는 파이."
+        },
+        {
+          "id": "fusion_world_sauce_teriyaki_pumpkin",
+          "name": "데리야키 단호박 치킨",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "닭고기",
+            "단호박",
+            "양파"
+          ],
+          "seasonings": [
+            "데리야키소스",
+            "식용유",
+            "후추"
+          ],
+          "description": "닭고기와 단호박을 익혀 데리야키소스를 입히는 퓨전 요리.",
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
+        },
+        {
+          "id": "fusion_world_sauce_doubanjiang_potato",
+          "name": "두반장 감자 닭볶음",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "두반장",
+            "간장",
+            "식용유",
+            "다진 마늘"
+          ],
+          "description": "닭고기와 감자를 익혀 두반장 소스에 자작하게 볶는 요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -3053,6 +3246,31 @@
           "flavorLevels": {
             "umami": 4,
             "savory": 4
+          }
+        },
+        {
+          "id": "fusion_world_sauce_tahini_eggplant",
+          "name": "타히니 가지 곡물샐러드",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "가지",
+            "현미밥",
+            "토마토",
+            "파슬리"
+          ],
+          "seasonings": [
+            "타히니",
+            "레몬즙",
+            "올리브유",
+            "소금"
+          ],
+          "description": "구운 가지와 현미밥, 채소에 타히니 레몬 드레싱을 곁들이는 샐러드.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
           }
         }
       ]
@@ -4216,6 +4434,54 @@
             "savory": 4,
             "rich": 4
           }
+        },
+        {
+          "id": "fusion_potato_kimchi_waffle",
+          "name": "김치 감자 와플",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "김치",
+            "모차렐라 치즈",
+            "전분"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ],
+          "description": "채 썬 감자와 잘게 썬 김치를 섞어 와플 틀에 바삭하게 굽는 퓨전 요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "fusion_potato_curry_bake",
+          "name": "카레 요거트 감자구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "요거트",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "감자에 카레 요거트 소스를 묻혀 양파와 함께 굽는 퓨전 채소요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -4293,6 +4559,31 @@
           "flavorLevels": {
             "salty": 3,
             "savory": 4
+          }
+        },
+        {
+          "id": "fusion_ssamjang_chicken_sandwich",
+          "name": "쌈장 치킨 샌드위치",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "빵",
+            "닭고기",
+            "양배추",
+            "토마토"
+          ],
+          "seasonings": [
+            "쌈장",
+            "마요네즈",
+            "올리브유",
+            "후추"
+          ],
+          "description": "구운 닭고기와 채소를 쌈장 마요네즈와 함께 빵에 넣는 샌드위치.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
           }
         }
       ]
@@ -5496,6 +5787,54 @@
             "savory": 4
           },
           "description": "정어리와 마늘을 볶아 면과 섞고 들기름과 깻잎을 더하는 파스타."
+        },
+        {
+          "id": "fusion_ssamjang_shrimp_pasta",
+          "name": "쌈장 새우 오일파스타",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "스파게티",
+            "새우",
+            "마늘"
+          ],
+          "seasonings": [
+            "쌈장",
+            "올리브유",
+            "후추"
+          ],
+          "description": "마늘 오일에 볶은 새우와 면을 쌈장 소스로 버무리는 퓨전 파스타.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_sesame_oil_tomato_pasta",
+          "name": "참기름 토마토 냉파스타",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "스파게티",
+            "토마토",
+            "오이",
+            "쪽파"
+          ],
+          "seasonings": [
+            "참기름",
+            "간장",
+            "레몬즙",
+            "설탕"
+          ],
+          "description": "차게 식힌 면을 토마토와 함께 참기름 간장 드레싱에 버무리는 파스타.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
         }
       ]
     },
@@ -5584,6 +5923,127 @@
           "flavorLevels": {
             "umami": 4,
             "rich": 3
+          }
+        },
+        {
+          "id": "fusion_pepper_tofu_steak",
+          "name": "흑후추 두부스테이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "양파",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "후추",
+            "간장",
+            "버터",
+            "전분"
+          ],
+          "description": "구운 두부에 양파와 버섯을 넣은 후추 간장 소스를 끼얹는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_perilla_oil_tofu_caprese",
+          "name": "들기름 두부 카프레제",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "두부",
+            "토마토",
+            "깻잎"
+          ],
+          "seasonings": [
+            "들기름",
+            "간장",
+            "식초",
+            "깨"
+          ],
+          "description": "두부와 토마토를 겹쳐 담고 들기름 드레싱과 깻잎을 곁들이는 퓨전 샐러드.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
+        },
+        {
+          "id": "fusion_cooking_oil_crispy_tofu",
+          "name": "바삭한 두부 칠리바이트",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "전분",
+            "대파"
+          ],
+          "seasonings": [
+            "식용유",
+            "스위트칠리소스",
+            "간장",
+            "식초"
+          ],
+          "description": "물기를 뺀 두부에 전분을 입혀 튀긴 뒤 칠리소스에 버무리는 퓨전 안주.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "fusion_world_sauce_hoisin_mushroom",
+          "name": "호이신 버섯 두부덮밥",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "두부",
+            "표고버섯",
+            "양파",
+            "밥"
+          ],
+          "seasonings": [
+            "호이신소스",
+            "간장",
+            "식용유",
+            "다진 마늘"
+          ],
+          "description": "구운 두부와 버섯을 호이신소스에 볶아 밥에 올리는 덮밥.",
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
+        },
+        {
+          "id": "fusion_world_sauce_satay_tofu",
+          "name": "사테소스 두부꼬치",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "두부",
+            "파프리카",
+            "양파"
+          ],
+          "seasonings": [
+            "사테소스",
+            "식용유",
+            "간장",
+            "라임즙"
+          ],
+          "description": "단단한 두부와 채소를 꼬치에 꿰어 굽고 땅콩 사테소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
           }
         }
       ]
@@ -5854,6 +6314,56 @@
             "light": 3
           },
           "description": "차게 식힌 소면을 토마토와 바질, 간장 드레싱에 버무리는 퓨전 국수."
+        },
+        {
+          "id": "fusion_doenjang_tahini_noodles",
+          "name": "된장 타히니 비빔면",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "된장",
+            "타히니",
+            "식초",
+            "꿀",
+            "참기름"
+          ],
+          "description": "삶아 식힌 소면을 된장과 타히니를 섞은 소스에 채소와 비비는 퓨전 면요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_chili_powder_shrimp_oil_noodles",
+          "name": "고춧가루 새우 오일국수",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소면",
+            "새우",
+            "대파",
+            "마늘"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "식용유",
+            "간장",
+            "식초"
+          ],
+          "description": "마늘과 대파를 볶은 기름에 고춧가루를 넣고 익힌 새우와 면을 버무리는 국수.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -5885,6 +6395,155 @@
             "spicy": 3,
             "refreshing": 4,
             "umami": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_chicken_salad",
+          "name": "고수 닭고기 라임샐러드",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "고수",
+            "닭고기",
+            "오이",
+            "양파"
+          ],
+          "seasonings": [
+            "라임즙",
+            "피시소스",
+            "설탕",
+            "식용유"
+          ],
+          "description": "익힌 닭고기를 고수와 채소에 라임 드레싱으로 버무리는 샐러드.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_shrimp_rice",
+          "name": "고수 새우 라임볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "고수",
+            "새우",
+            "밥",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "피시소스",
+            "라임즙",
+            "후추"
+          ],
+          "description": "새우와 밥을 볶고 고수와 라임즙을 더해 마무리하는 퓨전 볶음밥.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_tofu_wrap",
+          "name": "고수 두부 라이스페이퍼롤",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "고수",
+            "두부",
+            "라이스페이퍼",
+            "오이",
+            "당근"
+          ],
+          "seasonings": [
+            "식용유",
+            "스위트칠리소스",
+            "라임즙"
+          ],
+          "description": "구운 두부와 고수, 채소를 라이스페이퍼로 말아 칠리소스를 곁들이는 롤.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_corn_pancake",
+          "name": "고수 옥수수전",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "고수",
+            "옥수수",
+            "밀가루",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "소금",
+            "후추"
+          ],
+          "description": "고수와 옥수수를 반죽에 섞어 작게 부치는 향긋한 퓨전 전.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_beef_noodles",
+          "name": "고수 소고기 비빔쌀국수",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "고수",
+            "소고기",
+            "쌀국수면",
+            "오이"
+          ],
+          "seasonings": [
+            "피시소스",
+            "라임즙",
+            "설탕",
+            "식용유"
+          ],
+          "description": "익힌 소고기와 삶은 쌀국수를 고수와 라임 소스에 비비는 퓨전 국수.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
+        },
+        {
+          "id": "fusion_cilantro_potato_yogurt",
+          "name": "고수 감자 요거트샐러드",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "고수",
+            "감자",
+            "요거트",
+            "양파"
+          ],
+          "seasonings": [
+            "레몬즙",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "삶은 감자에 고수와 요거트 드레싱을 넣어 버무리는 샐러드.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
           }
         }
       ]
@@ -6339,6 +6998,56 @@
             "umami": 4
           },
           "description": "마늘버터에 익힌 새우를 유자청과 간장으로 마무리하는 퓨전 구이."
+        },
+        {
+          "id": "fusion_pepper_shrimp_rice",
+          "name": "흑후추 새우볶음밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "밥",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "후추",
+            "굴소스",
+            "간장",
+            "식용유"
+          ],
+          "description": "새우와 밥을 볶아 굴소스로 간하고 굵게 간 후추로 향을 더하는 볶음밥.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_world_sauce_sriracha_shrimp",
+          "name": "스리라차 새우 또띠아롤",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "새우",
+            "토르티야",
+            "양배추",
+            "오이"
+          ],
+          "seasonings": [
+            "스리라차소스",
+            "마요네즈",
+            "식용유",
+            "라임즙"
+          ],
+          "description": "익힌 새우와 채소를 스리라차 마요네즈와 함께 또띠아에 싸는 롤.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -6424,6 +7133,30 @@
             "umami": 4
           },
           "description": "다진 오징어와 김치를 반죽에 넣어 한입 크기로 튀기는 퓨전 요리."
+        },
+        {
+          "id": "fusion_world_sauce_sambal_squid",
+          "name": "삼발 오징어볶음",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "오징어",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "삼발소스",
+            "식용유",
+            "간장",
+            "설탕"
+          ],
+          "description": "오징어와 채소를 삼발소스에 빠르게 볶아내는 매콤한 요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -6454,6 +7187,30 @@
             "sour": 3
           },
           "description": "삶은 문어와 감자를 깻잎페스토와 레몬즙에 버무리는 퓨전 샐러드."
+        },
+        {
+          "id": "fusion_world_sauce_ponzu_octopus",
+          "name": "폰즈 문어 오이샐러드",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "문어",
+            "오이",
+            "양파",
+            "쪽파"
+          ],
+          "seasonings": [
+            "폰즈소스",
+            "참기름",
+            "깨"
+          ],
+          "description": "삶은 문어와 채소를 폰즈와 참기름에 가볍게 버무리는 샐러드.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
         }
       ]
     },
@@ -6796,6 +7553,363 @@
             "savory": 4
           },
           "description": "오리고기와 볶은 김치를 쌀과 익히고 치즈로 마무리하는 퓨전 리소토."
+        }
+      ]
+    },
+    "고구마": {
+      "name": "고구마",
+      "recipes": [
+        {
+          "id": "fusion_sweet_potato_gochujang_gangjeong",
+          "name": "고추장 고구마강정",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "고구마",
+            "전분",
+            "땅콩"
+          ],
+          "seasonings": [
+            "고추장",
+            "물엿",
+            "식초",
+            "식용유"
+          ],
+          "description": "전분을 묻혀 튀긴 고구마를 고추장 강정 소스에 버무리는 퓨전 간식.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "fusion_sweet_potato_ssamjang_melt",
+          "name": "고구마 쌈장 치즈구이",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "고구마",
+            "모차렐라 치즈",
+            "쪽파"
+          ],
+          "seasonings": [
+            "쌈장",
+            "버터",
+            "꿀"
+          ],
+          "description": "찐 고구마를 갈라 쌈장 버터와 치즈를 올려 굽는 퓨전 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        }
+      ]
+    },
+    "대파": {
+      "name": "대파",
+      "recipes": [
+        {
+          "id": "fusion_scallion_cream_udon",
+          "name": "대파 크림 우동",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "대파",
+            "우동면",
+            "생크림",
+            "베이컨"
+          ],
+          "seasonings": [
+            "버터",
+            "간장",
+            "후추"
+          ],
+          "description": "대파를 볶아 단맛을 내고 크림과 우동면을 넣어 버무리는 퓨전 우동.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        },
+        {
+          "id": "fusion_scallion_oil_tofu",
+          "name": "파기름 두부덮밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "대파",
+            "두부",
+            "밥",
+            "계란"
+          ],
+          "seasonings": [
+            "식용유",
+            "간장",
+            "굴소스",
+            "후추"
+          ],
+          "description": "대파를 볶아 낸 기름에 두부와 계란을 익혀 밥에 올리는 덮밥.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        }
+      ]
+    },
+    "양파": {
+      "name": "양파",
+      "recipes": [
+        {
+          "id": "fusion_onion_gochujang_soup",
+          "name": "고추장 양파수프",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "양파",
+            "소고기",
+            "모차렐라 치즈",
+            "빵"
+          ],
+          "seasonings": [
+            "고추장",
+            "버터",
+            "간장",
+            "후추"
+          ],
+          "description": "양파와 소고기를 끓인 국물에 고추장을 풀고 빵과 치즈를 올리는 퓨전 수프.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        }
+      ]
+    },
+    "마늘": {
+      "name": "마늘",
+      "recipes": [
+        {
+          "id": "fusion_garlic_miso_gnocchi",
+          "name": "마늘 미소 뇨키",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "마늘",
+            "감자 뇨키",
+            "양송이버섯"
+          ],
+          "seasonings": [
+            "미소",
+            "버터",
+            "후추"
+          ],
+          "description": "마늘과 버섯을 볶아 미소 버터 소스에 뇨키를 버무리는 퓨전 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_garlic_soy_yogurt_pork",
+          "name": "마늘 요거트 돼지고기구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "마늘",
+            "돼지고기",
+            "요거트",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "마늘 요거트에 재운 돼지고기를 간장으로 간해 굽는 퓨전 구이.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        }
+      ]
+    },
+    "콜리플라워": {
+      "name": "콜리플라워",
+      "recipes": [
+        {
+          "id": "fusion_doenjang_cauliflower_roast",
+          "name": "된장 콜리플라워구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "콜리플라워",
+            "마늘"
+          ],
+          "seasonings": [
+            "된장",
+            "올리브유",
+            "꿀",
+            "후추"
+          ],
+          "description": "콜리플라워에 된장 소스를 묻혀 노릇하게 굽는 퓨전 채소요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "fusion_world_sauce_sweet_chili_cauliflower",
+          "name": "스위트칠리 콜리플라워튀김",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "콜리플라워",
+            "전분",
+            "밀가루"
+          ],
+          "seasonings": [
+            "스위트칠리소스",
+            "식용유",
+            "간장",
+            "식초"
+          ],
+          "description": "콜리플라워에 반죽을 입혀 튀긴 뒤 스위트칠리소스에 버무리는 요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        }
+      ]
+    },
+    "플랫브레드": {
+      "name": "플랫브레드",
+      "recipes": [
+        {
+          "id": "fusion_ssamjang_mushroom_flatbread",
+          "name": "쌈장 버섯 플랫브레드",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "플랫브레드",
+            "양송이버섯",
+            "양파",
+            "모차렐라 치즈"
+          ],
+          "seasonings": [
+            "쌈장",
+            "요거트",
+            "올리브유"
+          ],
+          "description": "쌈장 요거트를 바른 납작빵에 버섯과 치즈를 올려 굽는 퓨전 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        }
+      ]
+    },
+    "오르조": {
+      "name": "오르조",
+      "recipes": [
+        {
+          "id": "fusion_perilla_oil_mushroom_orzo",
+          "name": "들기름 버섯 오르조",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "오르조",
+            "표고버섯",
+            "양파",
+            "쪽파"
+          ],
+          "seasonings": [
+            "들기름",
+            "간장",
+            "후추"
+          ],
+          "description": "삶은 오르조를 볶은 버섯과 섞어 들기름으로 향을 더하는 퓨전 면요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        }
+      ]
+    },
+    "당근": {
+      "name": "당근",
+      "recipes": [
+        {
+          "id": "fusion_world_sauce_harissa_carrot",
+          "name": "하리사 당근 병아리콩구이",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "당근",
+            "병아리콩"
+          ],
+          "seasonings": [
+            "하리사소스",
+            "올리브유",
+            "레몬즙",
+            "소금"
+          ],
+          "description": "당근과 삶은 병아리콩에 하리사를 묻혀 함께 굽는 매콤한 채소요리.",
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        }
+      ]
+    },
+    "중화면": {
+      "name": "중화면",
+      "recipes": [
+        {
+          "id": "fusion_world_sauce_oyster_cabbage_noodles",
+          "name": "굴소스 양배추 볶음면",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "양배추",
+            "계란",
+            "대파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "식용유",
+            "후추"
+          ],
+          "description": "면과 양배추, 계란을 센 불에 볶아 굴소스로 간하는 볶음면.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     }

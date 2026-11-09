@@ -3538,6 +3538,55 @@
             "rich": 4,
             "savory": 4
           }
+        },
+        {
+          "id": "western_potato_lemon_smash",
+          "name": "레몬 허브 으깬 감자구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "레몬",
+            "파슬리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "삶은 감자를 납작하게 눌러 굽고 레몬즙과 파슬리를 곁들이는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "western_potato_tuna_cakes",
+          "name": "감자 참치 케이크",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "감자",
+            "참치",
+            "계란",
+            "빵가루",
+            "쪽파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "디종 머스터드"
+          ],
+          "description": "으깬 감자와 참치를 둥글게 빚어 팬에 굽는 짭짤한 감자 케이크.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -8206,6 +8255,30 @@
             "savory": 4,
             "umami": 4
           }
+        },
+        {
+          "id": "western_pepper_mushroom_toast",
+          "name": "후추 버섯 크림토스트",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "빵",
+            "양송이버섯",
+            "생크림",
+            "양파"
+          ],
+          "seasonings": [
+            "후추",
+            "버터",
+            "소금"
+          ],
+          "description": "버섯 크림소스에 후추를 넉넉하게 더해 구운 빵 위에 올리는 토스트.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -8815,6 +8888,55 @@
             "umami": 4
           },
           "description": "닭고기를 토마토와 함께 굽고 발사믹 소스로 마무리하는 요리."
+        },
+        {
+          "id": "western_pepper_chicken_cream",
+          "name": "흑후추 크림 치킨",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "닭고기",
+            "생크림",
+            "양파"
+          ],
+          "seasonings": [
+            "후추",
+            "버터",
+            "소금",
+            "디종 머스터드"
+          ],
+          "description": "구운 닭고기에 굵게 간 후추를 넣은 크림소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        },
+        {
+          "id": "western_world_sauce_tzatziki_chicken",
+          "name": "차지키 치킨 곡물볼",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "닭고기",
+            "쿠스쿠스",
+            "오이",
+            "토마토"
+          ],
+          "seasonings": [
+            "차지키소스",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 닭고기와 쿠스쿠스, 채소에 오이 요거트 차지키소스를 곁들이는 곡물볼.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
         }
       ]
     },
@@ -9213,6 +9335,55 @@
             "rich": 4,
             "umami": 3
           }
+        },
+        {
+          "id": "western_onion_stuffed_beef",
+          "name": "소고기 속 양파구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "양파",
+            "다진 소고기",
+            "토마토",
+            "빵가루"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추",
+            "오레가노"
+          ],
+          "description": "속을 파낸 양파에 소고기와 토마토 소를 채워 오븐에 굽는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "western_onion_balsamic_tart",
+          "name": "발사믹 양파 타르트",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "양파",
+            "퍼프 페이스트리",
+            "염소 치즈"
+          ],
+          "seasonings": [
+            "발사믹식초",
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "description": "천천히 볶은 양파를 페이스트리에 펴고 치즈와 함께 굽는 타르트.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -9445,6 +9616,30 @@
           "flavorLevels": {
             "light": 4,
             "rich": 4
+          }
+        },
+        {
+          "id": "western_world_sauce_hollandaise_asparagus",
+          "name": "홀랜다이즈 아스파라거스 달걀접시",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "아스파라거스",
+            "계란",
+            "빵"
+          ],
+          "seasonings": [
+            "홀랜다이즈소스",
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "description": "익힌 아스파라거스와 수란에 홀랜다이즈소스를 끼얹고 빵을 곁들이는 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
           }
         }
       ]
@@ -10249,6 +10444,29 @@
             "umami": 4
           },
           "description": "대구에 머스터드를 바르고 허브 빵가루를 얹어 바삭하게 굽는 요리."
+        },
+        {
+          "id": "western_world_sauce_romesco_fish",
+          "name": "로메스코 흰살생선구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "대구",
+            "주키니"
+          ],
+          "seasonings": [
+            "로메스코소스",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 대구와 주키니에 견과와 파프리카 맛의 로메스코소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -10470,6 +10688,54 @@
             "umami": 4
           },
           "description": "깍둑 썬 감자와 연어를 팬에 노릇하게 볶는 해시."
+        },
+        {
+          "id": "western_pepper_salmon_crust",
+          "name": "후추 크러스트 연어",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "연어",
+            "레몬",
+            "아스파라거스"
+          ],
+          "seasonings": [
+            "후추",
+            "올리브유",
+            "소금"
+          ],
+          "description": "연어 표면에 굵게 간 후추를 입혀 노릇하게 굽는 생선요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "western_world_sauce_tartar_salmon",
+          "name": "타르타르 연어커틀릿",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "연어",
+            "밀가루",
+            "계란",
+            "빵가루"
+          ],
+          "seasonings": [
+            "타르타르소스",
+            "식용유",
+            "소금",
+            "후추"
+          ],
+          "description": "연어에 빵가루 옷을 입혀 튀긴 뒤 타르타르소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
         }
       ]
     },
@@ -13510,6 +13776,29 @@
             "savory": 4,
             "light": 3
           }
+        },
+        {
+          "id": "western_world_sauce_pesto_cauliflower",
+          "name": "바질페스토 콜리플라워구이",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "콜리플라워",
+            "파르메산 치즈"
+          ],
+          "seasonings": [
+            "바질페스토",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 콜리플라워를 바질페스토에 버무려 치즈를 곁들이는 요리.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     },
@@ -15231,6 +15520,78 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "western_sweet_potato_leek_soup",
+          "name": "고구마 대파 크림수프",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "고구마",
+            "대파",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "버터",
+            "소금",
+            "후추"
+          ],
+          "description": "볶은 대파와 고구마를 우유에 끓여 곱게 간 크림수프.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        },
+        {
+          "id": "western_sweet_potato_feta_bake",
+          "name": "고구마 페타구이",
+          "flavors": [
+            "sweet",
+            "savory"
+          ],
+          "ingredients": [
+            "고구마",
+            "페타 치즈",
+            "호두"
+          ],
+          "seasonings": [
+            "올리브유",
+            "후추",
+            "꿀"
+          ],
+          "description": "구운 고구마에 페타 치즈와 호두를 올려 따뜻하게 먹는 요리.",
+          "flavorLevels": {
+            "sweet": 3,
+            "savory": 3
+          }
+        },
+        {
+          "id": "western_sweet_potato_chickpea_salad",
+          "name": "고구마 병아리콩 샐러드",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "고구마",
+            "병아리콩",
+            "루콜라",
+            "양파"
+          ],
+          "seasonings": [
+            "올리브유",
+            "레몬즙",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 고구마와 삶은 병아리콩을 채소와 레몬 드레싱에 버무리는 샐러드.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
         }
       ]
     },
@@ -16366,6 +16727,29 @@
             "savory": 4
           },
           "description": "돼지안심과 버섯을 볶아 크림소스에 부드럽게 익히는 스튜."
+        },
+        {
+          "id": "western_world_sauce_chimichurri_pork",
+          "name": "치미추리 돼지안심구이",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "돼지안심",
+            "감자"
+          ],
+          "seasonings": [
+            "치미추리소스",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 돼지안심과 감자에 허브 향의 치미추리소스를 곁들이는 요리.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
         }
       ]
     },
@@ -16544,6 +16928,86 @@
             "umami": 4
           },
           "description": "양등심에 머스터드와 타임을 발라 굽는 요리."
+        }
+      ]
+    },
+    "대파": {
+      "name": "대파",
+      "recipes": [
+        {
+          "id": "western_scallion_mustard_roast",
+          "name": "대파 머스터드구이",
+          "flavors": [
+            "refreshing",
+            "sour"
+          ],
+          "ingredients": [
+            "대파",
+            "레몬"
+          ],
+          "seasonings": [
+            "디종 머스터드",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "큼직한 대파를 노릇하게 구워 머스터드 레몬 드레싱을 곁들이는 요리.",
+          "flavorLevels": {
+            "refreshing": 4,
+            "sour": 3
+          }
+        }
+      ]
+    },
+    "마늘": {
+      "name": "마늘",
+      "recipes": [
+        {
+          "id": "western_garlic_cauliflower_soup",
+          "name": "구운 마늘 콜리플라워수프",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "마늘",
+            "콜리플라워",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 마늘과 익힌 콜리플라워를 우유와 곱게 갈아 끓이는 수프.",
+          "flavorLevels": {
+            "rich": 4,
+            "savory": 4
+          }
+        },
+        {
+          "id": "western_garlic_chickpea_spread",
+          "name": "구운 마늘 흰콩 스프레드",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "마늘",
+            "흰강낭콩",
+            "레몬"
+          ],
+          "seasonings": [
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "description": "구운 마늘과 삶은 흰콩을 갈아 빵에 곁들이는 부드러운 스프레드.",
+          "flavorLevels": {
+            "savory": 4,
+            "umami": 3
+          }
         }
       ]
     }

@@ -129,7 +129,7 @@ test('추천 개수 제한·중복 방지·기존 제안 교체', () => {
   assert.deepEqual(pickRecommendedKeywords([], 6), []);
   assert.equal(pickRecommendedKeywords(['두부', '두부'], 6).length, 1);
 });
-test('실제 2,340개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
+test('실제 2,450개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
   const content = await readFile(
     new URL('../public/data/recipe_index.json', import.meta.url),
     'utf8',
@@ -138,10 +138,10 @@ test('실제 2,340개 데이터 버전·권역·동일 메뉴 중복 검증', as
   const manifest = JSON.parse(
     await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'),
   );
-  assert.equal(data.length, 2340);
-  assert.equal(manifest.count, 2340);
+  assert.equal(data.length, 2450);
+  assert.equal(manifest.count, 2450);
   assert.equal(manifest.version, createHash('sha256').update(content).digest('hex'));
-  assert.equal(new Set(data.map((r) => r.id)).size, 2340);
+  assert.equal(new Set(data.map((r) => r.id)).size, 2450);
   assert.equal(
     new Set(
       data.map((r) =>
@@ -151,7 +151,7 @@ test('실제 2,340개 데이터 버전·권역·동일 메뉴 중복 검증', as
           .toLowerCase(),
       ),
     ).size,
-    2340,
+    2450,
   );
   const counts: Record<string, number> = {};
   for (const recipe of data) counts[recipe.cuisine] = (counts[recipe.cuisine] ?? 0) + 1;
@@ -159,13 +159,13 @@ test('실제 2,340개 데이터 버전·권역·동일 메뉴 중복 검증', as
     chinese: 220,
     indian: 130,
     japanese: 250,
-    korean: 665,
-    other: 266,
+    korean: 712,
+    other: 310,
     southeast_asian: 140,
-    western: 669,
+    western: 688,
   });
 });
-test('실제 2,340개 검색 결과 Cursor 전체 순회', async () => {
+test('실제 2,450개 검색 결과 Cursor 전체 순회', async () => {
   const data = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
@@ -184,7 +184,7 @@ test('실제 2,340개 검색 결과 Cursor 전체 순회', async () => {
       assert.ok(page.items.length <= 30);
       ids.push(...page.items.map((r) => r.id));
       cursor = page.nextCursor;
-      assert.ok(++pages < 80);
+      assert.ok(++pages <= Math.max(1, Math.ceil(sorted.length / 30)));
     } while (cursor);
     assert.deepEqual(
       ids,
@@ -216,6 +216,13 @@ test('퓨전·이색 메뉴를 재료와 소스 조합으로 찾고 초장 별�
   ) as Recipe[];
   for (const [ingredient, name] of [
     ['소고기,참소스', '참소스 소고기 샐러드'],
+    ['고수,옥수수', '고수 옥수수전'],
+    ['당근,하리사소스', '하리사 당근 병아리콩구이'],
+    ['소면,된장,타히니', '된장 타히니 비빔면'],
+    ['문어,폰즈소스', '폰즈 문어 오이샐러드'],
+    ['두부,스위트칠리소스,식용유', '바삭한 두부 칠리바이트'],
+    ['닭고기,데리야키소스', '데리야키 단호박 치킨'],
+    ['밥,케찹마니스', '케찹마니스 돼지고기덮밥'],
     ['김,스파게티,참기름', '김파스타'],
     ['돼지껍데기,토르티야', '돼지껍데기 퀘사디아'],
     ['피자 도우,명란', '명란 감자 피자'],
@@ -260,6 +267,20 @@ test('한식의 다양한 주재료·양념 조합과 맛 강도로 새 메뉴�
   ) as Recipe[];
   for (const [ingredient, name] of [
     ['톳,쌀', '톳밥'],
+    ['감자,새우,쪽파', '감자 새우전'],
+    ['고구마,간장,호두', '고구마 간장조림'],
+    ['대파,두부', '대파 두부조림'],
+    ['양파,된장', '양파 된장무침'],
+    ['쌀,마늘,표고버섯', '마늘 버섯솥밥'],
+    ['고추장,메추리알', '고추장 메추리알 감자조림'],
+    ['단호박,된장', '된장 단호박조림'],
+    ['오이,쌈장', '쌈장 오이비빔밥'],
+    ['막장,두부', '막장 두부찌개'],
+    ['새송이버섯,막장,들기름', '막장 새송이구이'],
+    ['바지락,참기름', '참기름 바지락찜'],
+    ['무,들기름', '들기름 무찜'],
+    ['연근,식용유', '연근칩'],
+    ['느타리버섯,고추가루', '고춧가루 버섯볶음'],
     ['돼지머리고기,새우젓', '돼지머리수육'],
     ['돼지껍데기,콩가루', '돼지껍데기구이'],
     ['라면,바지락', '바지락 라면'],
