@@ -15,7 +15,15 @@ function getSearchButtonLabel(isLoading: boolean, error: string): string {
   if (error) return '데이터 다시 불러오기';
   return '메뉴 찾아보기';
 }
-function SearchActions({ isLoading, error }: { isLoading: boolean; error: string }) {
+function SearchActions({
+  isLoading,
+  error,
+  onReset,
+}: {
+  isLoading: boolean;
+  error: string;
+  onReset: () => void;
+}) {
   return (
     <div className="search-actions">
       {error && (
@@ -32,6 +40,9 @@ function SearchActions({ isLoading, error }: { isLoading: boolean; error: string
       >
         {getSearchButtonLabel(isLoading, error)}
       </button>
+      <button type="button" className="secondary-button" onClick={onReset}>
+        검색 조건 초기화
+      </button>
     </div>
   );
 }
@@ -47,6 +58,7 @@ export function MenuSearchPanel({
   onDraftChange,
   onSearch,
   onRefreshKeywords,
+  onReset,
 }: MenuSearchPanelProps) {
   const isLoading = !isReady && !error;
   return (
@@ -127,7 +139,7 @@ export function MenuSearchPanel({
           많을수록 강한 맛이며, 별 0개는 강도와 관계없이 검색해요.
         </p>
         <FlavorSelector query={draft} onChange={onDraftChange} />
-        <SearchActions isLoading={isLoading} error={error} />
+        <SearchActions isLoading={isLoading} error={error} onReset={onReset} />
       </form>
     </section>
   );

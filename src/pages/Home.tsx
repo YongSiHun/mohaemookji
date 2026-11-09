@@ -69,6 +69,7 @@ export default function Home() {
           onDraftChange={search.setDraft}
           onSearch={apply}
           onRefreshKeywords={recommended.refresh}
+          onReset={reset}
         />
         <section
           className="results"

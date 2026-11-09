@@ -42,6 +42,7 @@ export interface MenuSearchPanelProps {
   onDraftChange: (query: SearchQuery) => void;
   onSearch: (query: SearchQuery) => void;
   onRefreshKeywords: () => void;
+  onReset: () => void;
 }
 
 export interface ActiveConditionsProps {
