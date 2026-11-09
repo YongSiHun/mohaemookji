@@ -911,6 +911,248 @@
             "salty": 3,
             "umami": 4
           }
+        },
+        {
+          "id": "pork_cabbage_doenjang_stir_fry",
+          "name": "돼지고기 양배추 된장볶음",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양배추",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "맛술",
+            "들기름"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "pork_perilla_sprout_stir_fry",
+          "name": "돼지고기 깻잎 숙주볶음",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "깻잎",
+            "숙주",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 2
+          }
+        },
+        {
+          "id": "pork_radish_gochujang_braise",
+          "name": "돼지고기 무 고추장조림",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 4
+          }
+        },
+        {
+          "id": "pork_potato_perilla_stew",
+          "name": "돼지고기 감자 들깨탕",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "감자",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "rich": 4
+          }
+        },
+        {
+          "id": "pork_buchu_egg_stir_fry",
+          "name": "돼지고기 부추 계란볶음",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "부추",
+            "계란",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "후추",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "pork_yuja_soy_grill",
+          "name": "돼지고기 유자간장구이",
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "유자청",
+            "간장",
+            "다진 마늘",
+            "맛술",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 3
+          }
+        },
+        {
+          "id": "pork_eggplant_gochujang_bowl",
+          "name": "돼지고기 가지 고추장덮밥",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "가지",
+            "밥",
+            "양파"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "다진 마늘",
+            "설탕",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "pork_sweet_potato_gangjeong",
+          "name": "돼지고기 고구마강정",
+          "flavors": [
+            "sweet",
+            "spicy"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "고구마",
+            "전분"
+          ],
+          "seasonings": [
+            "고추장",
+            "케첩",
+            "올리고당",
+            "간장",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "sweet": 4,
+            "spicy": 2
+          }
+        },
+        {
+          "id": "pork_mushroom_steam",
+          "name": "돼지고기 버섯 배추찜",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "배추",
+            "팽이버섯",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "식초",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "pork_deulkkae_bibim_noodles",
+          "name": "돼지고기 들깨 비빔국수",
+          "flavors": [
+            "savory",
+            "sour"
+          ],
+          "ingredients": [
+            "돼지고기",
+            "소면",
+            "오이",
+            "깻잎"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "간장",
+            "식초",
+            "설탕",
+            "들기름"
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "sour": 2
+          }
         }
       ]
     },
@@ -2401,6 +2643,248 @@
             "umami": 4
           },
           "description": "소고기와 두부를 끓인 국물에 들깻가루를 풀어 구수하게 만드는 탕."
+        },
+        {
+          "id": "beef_cabbage_doenjang_hotpot",
+          "name": "소고기 배추 된장전골",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "배추",
+            "표고버섯",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "beef_garlic_scape_stir_fry",
+          "name": "소고기 마늘종볶음",
+          "flavors": [
+            "umami",
+            "salty"
+          ],
+          "ingredients": [
+            "소고기",
+            "마늘종",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "설탕",
+            "참기름",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "salty": 3
+          }
+        },
+        {
+          "id": "beef_pumpkin_braise",
+          "name": "소고기 단호박조림",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "단호박",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "다진 마늘",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 4
+          }
+        },
+        {
+          "id": "beef_sprout_spicy_soup",
+          "name": "소고기 숙주 얼큰탕",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "숙주",
+            "대파",
+            "무"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "국간장",
+            "다진 마늘",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "beef_perilla_steam",
+          "name": "소고기 깻잎찜",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "소고기",
+            "깻잎",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "참기름",
+            "맛술"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
+        },
+        {
+          "id": "beef_tofu_egg_bowl",
+          "name": "소고기 두부 계란덮밥",
+          "flavors": [
+            "savory",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "두부",
+            "계란",
+            "밥",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "설탕",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "beef_cheonggyeongchae_soup",
+          "name": "소고기 청경채 맑은국",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "소고기",
+            "청경채",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "beef_mushroom_rice_pot",
+          "name": "소고기 버섯솥밥",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "소고기",
+            "쌀",
+            "표고버섯",
+            "새송이버섯",
+            "쪽파"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "맛술"
+          ],
+          "flavorLevels": {
+            "umami": 5,
+            "savory": 3
+          }
+        },
+        {
+          "id": "beef_gochujang_potato_stir_fry",
+          "name": "소고기 감자 고추장볶음",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "소고기",
+            "감자",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "다진 마늘",
+            "설탕",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 4
+          }
+        },
+        {
+          "id": "beef_yuja_mustard_salad",
+          "name": "소고기 유자겨자냉채",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "소고기",
+            "오이",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "유자청",
+            "연겨자",
+            "식초",
+            "간장"
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -2933,6 +3417,247 @@
             "umami": 3
           },
           "description": "닭고기와 무를 함께 푹 끓여 맑게 간하는 탕."
+        },
+        {
+          "id": "chicken_soy_butter_braise",
+          "name": "닭고기 간장버터조림",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "감자",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "버터",
+            "설탕",
+            "다진 마늘",
+            "맛술"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
+        },
+        {
+          "id": "chicken_sweet_potato_gochujang",
+          "name": "닭고기 고구마 고추장찜",
+          "flavors": [
+            "spicy",
+            "sweet"
+          ],
+          "ingredients": [
+            "닭고기",
+            "고구마",
+            "양배추",
+            "대파"
+          ],
+          "seasonings": [
+            "고추장",
+            "고춧가루",
+            "간장",
+            "다진 마늘",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "sweet": 3
+          }
+        },
+        {
+          "id": "chicken_sprout_stir_fry",
+          "name": "닭고기 숙주볶음",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "닭고기",
+            "숙주",
+            "부추",
+            "양파"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 2
+          }
+        },
+        {
+          "id": "chicken_cabbage_doenjang_soup",
+          "name": "닭고기 배추 된장국",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "닭고기",
+            "배추",
+            "대파",
+            "두부"
+          ],
+          "seasonings": [
+            "된장",
+            "국간장",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
+        },
+        {
+          "id": "chicken_burdock_rice_pot",
+          "name": "닭고기 우엉솥밥",
+          "flavors": [
+            "umami",
+            "savory"
+          ],
+          "ingredients": [
+            "닭고기",
+            "우엉",
+            "쌀",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "간장",
+            "참기름",
+            "맛술",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "savory": 3
+          }
+        },
+        {
+          "id": "chicken_yuja_pepper_grill",
+          "name": "닭고기 유자후추구이",
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "ingredients": [
+            "닭고기",
+            "대파",
+            "양파"
+          ],
+          "seasonings": [
+            "유자청",
+            "간장",
+            "후추",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 3
+          }
+        },
+        {
+          "id": "chicken_perilla_mushroom_soup",
+          "name": "닭고기 깻잎 버섯탕",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "깻잎",
+            "느타리버섯",
+            "대파"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "rich": 4
+          }
+        },
+        {
+          "id": "chicken_cheese_kimchi_braise",
+          "name": "닭고기 치즈 김치찜",
+          "flavors": [
+            "spicy",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "김치",
+            "모차렐라치즈",
+            "양파"
+          ],
+          "seasonings": [
+            "고춧가루",
+            "간장",
+            "설탕",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "rich": 5
+          }
+        },
+        {
+          "id": "chicken_mustard_vegetable_salad",
+          "name": "닭고기 겨자 채소냉채",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "닭고기",
+            "오이",
+            "당근",
+            "양배추"
+          ],
+          "seasonings": [
+            "연겨자",
+            "식초",
+            "설탕",
+            "간장",
+            "참기름"
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "light": 4
+          }
+        },
+        {
+          "id": "chicken_radish_scallion_braise",
+          "name": "닭고기 무 대파조림",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "닭고기",
+            "무",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "다진 마늘",
+            "생강",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
         }
       ]
     },
@@ -3077,6 +3802,32 @@
             "spicy": 1,
             "greasy": 3,
             "savory": 3
+          }
+        },
+        {
+          "id": "jjajang_tteokbokki",
+          "name": "짜장떡볶이",
+          "flavors": [
+            "sweet",
+            "umami"
+          ],
+          "ingredients": [
+            "떡",
+            "어묵",
+            "양배추",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "춘장",
+            "설탕",
+            "간장",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "umami": 4
           }
         }
       ]
@@ -3841,6 +4592,82 @@
           "flavorLevels": {
             "savory": 4,
             "umami": 3
+          }
+        },
+        {
+          "id": "chicken_breast_jjajang_rice",
+          "name": "닭가슴살 짜장밥",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "닭가슴살",
+            "양파",
+            "애호박",
+            "감자"
+          ],
+          "seasonings": [
+            "춘장",
+            "다진 마늘",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "beef_jjajang_rice",
+          "name": "소고기 짜장밥",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "소고기",
+            "양파",
+            "양배추"
+          ],
+          "seasonings": [
+            "춘장",
+            "간장",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 4
+          }
+        },
+        {
+          "id": "tofu_mushroom_jjajang_rice",
+          "name": "두부 버섯짜장밥",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "밥",
+            "두부",
+            "표고버섯",
+            "양파",
+            "애호박"
+          ],
+          "seasonings": [
+            "춘장",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
           }
         }
       ]
@@ -17678,6 +18505,128 @@
             "umami": 3
           },
           "description": "양고기와 채소를 끓인 국물에 미나리를 넣어 향을 더하는 전골."
+        },
+        {
+          "id": "lamb_doenjang_grill",
+          "name": "양고기 된장구이",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "대파",
+            "양파"
+          ],
+          "seasonings": [
+            "된장",
+            "다진 마늘",
+            "맛술",
+            "참기름",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "lamb_perilla_stir_fry",
+          "name": "양고기 깻잎볶음",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "깻잎",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "간장",
+            "고춧가루",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "lamb_potato_soy_braise",
+          "name": "양고기 감자 간장조림",
+          "flavors": [
+            "salty",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "감자",
+            "당근",
+            "양파"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "설탕",
+            "다진 마늘",
+            "생강"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "rich": 4
+          }
+        },
+        {
+          "id": "lamb_cabbage_hotpot",
+          "name": "양고기 배추전골",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "양고기",
+            "배추",
+            "표고버섯",
+            "두부",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "다진 마늘",
+            "후추",
+            "소금"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "light": 3
+          }
+        },
+        {
+          "id": "lamb_buchu_rice_bowl",
+          "name": "양고기 부추덮밥",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "부추",
+            "양파",
+            "밥"
+          ],
+          "seasonings": [
+            "간장",
+            "굴소스",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
         }
       ]
     },
@@ -17787,6 +18736,180 @@
           "flavorLevels": {
             "light": 4,
             "umami": 3
+          }
+        }
+      ]
+    },
+    "닭가슴살": {
+      "name": "닭가슴살",
+      "recipes": [
+        {
+          "id": "chicken_breast_soy_braise",
+          "name": "닭가슴살 간장조림",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "메추리알",
+            "꽈리고추"
+          ],
+          "seasonings": [
+            "간장",
+            "맛술",
+            "다진 마늘",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "chicken_breast_broccoli_stir_fry",
+          "name": "닭가슴살 브로콜리볶음",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "브로콜리",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "굴소스",
+            "간장",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "umami": 3,
+            "light": 3
+          }
+        },
+        {
+          "id": "chicken_breast_tofu_patties",
+          "name": "닭가슴살 두부완자",
+          "flavors": [
+            "savory",
+            "light"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "두부",
+            "계란",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "소금",
+            "후추",
+            "참기름",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "light": 4
+          }
+        },
+        {
+          "id": "chicken_breast_perilla_noodles",
+          "name": "닭가슴살 들깨국수",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "소면",
+            "애호박",
+            "표고버섯"
+          ],
+          "seasonings": [
+            "들깻가루",
+            "국간장",
+            "다진 마늘",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 5,
+            "rich": 3
+          }
+        },
+        {
+          "id": "chicken_breast_cabbage_rolls",
+          "name": "닭가슴살 양배추말이찜",
+          "flavors": [
+            "light",
+            "umami"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "양배추",
+            "두부",
+            "당근"
+          ],
+          "seasonings": [
+            "간장",
+            "다진 마늘",
+            "참기름",
+            "후추"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "umami": 3
+          }
+        },
+        {
+          "id": "chicken_breast_gochujang_bowl",
+          "name": "닭가슴살 고추장덮밥",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "밥",
+            "양파",
+            "양배추"
+          ],
+          "seasonings": [
+            "고추장",
+            "간장",
+            "설탕",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "spicy": 3,
+            "umami": 3
+          }
+        },
+        {
+          "id": "chicken_breast_oat_porridge",
+          "name": "닭가슴살 오트밀죽",
+          "flavors": [
+            "light",
+            "savory"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "오트밀",
+            "당근",
+            "대파"
+          ],
+          "seasonings": [
+            "국간장",
+            "참기름",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "light": 4,
+            "savory": 2
           }
         }
       ]

@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { menuSearchReducer } from '../src/services/menuSearchState.ts';
+import type { MenuSearchState } from '../src/types/search.ts';
 import {
   INITIAL_MENU_SEARCH_STATE,
   PAGE_SIZE,
@@ -48,4 +49,18 @@ test('새로고침은 조건을 보존하고 페이지·후보 순서만 갱신�
   assert.equal(next.visibleCount, PAGE_SIZE);
   const reset = menuSearchReducer(next, { type: 'apply', query: EMPTY_SEARCH_QUERY });
   assert.deepEqual(reset.applied, EMPTY_SEARCH_QUERY);
+});
+
+test('초기화는 미적용 입력·적용 조건·맛 강도·더 보기 위치를 함께 비운다', () => {
+  const state: MenuSearchState = {
+    draft: { flavors: ['spicy'], flavorLevels: { spicy: 5 }, ingredient: '닭가슴살' },
+    applied: { flavors: ['savory'], flavorLevels: { savory: 3 }, ingredient: '돼지고기' },
+    visibleCount: PAGE_SIZE * 3,
+  };
+  const next = menuSearchReducer(state, { type: 'apply', query: EMPTY_SEARCH_QUERY });
+  assert.deepEqual(next.draft, EMPTY_SEARCH_QUERY);
+  assert.deepEqual(next.applied, EMPTY_SEARCH_QUERY);
+  assert.equal(next.visibleCount, PAGE_SIZE);
+  assert.equal(state.draft.ingredient, '닭가슴살');
+  assert.equal(state.applied.ingredient, '돼지고기');
 });

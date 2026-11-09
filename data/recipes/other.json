@@ -2971,6 +2971,57 @@
             "umami": 4
           },
           "description": "양념해 익힌 양고기와 볶은 김치를 또띠아에 담는 퓨전 타코."
+        },
+        {
+          "id": "lamb_cumin_fried_rice",
+          "name": "양고기 큐민볶음밥",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "양고기",
+            "밥",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "큐민",
+            "간장",
+            "식용유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 4,
+            "rich": 3
+          }
+        },
+        {
+          "id": "lamb_yogurt_cucumber_wrap",
+          "name": "양고기 요거트 오이랩",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "양고기",
+            "토르티야",
+            "오이",
+            "양상추",
+            "플레인요거트"
+          ],
+          "seasonings": [
+            "레몬즙",
+            "다진 마늘",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "light": 3
+          }
         }
       ]
     },
@@ -6131,6 +6182,30 @@
             "savory": 4,
             "umami": 4
           }
+        },
+        {
+          "id": "jjajang_stir_fried_udon",
+          "name": "짜장 볶음우동",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "우동면",
+            "돼지고기",
+            "양파",
+            "숙주"
+          ],
+          "seasonings": [
+            "춘장",
+            "굴소스",
+            "식용유",
+            "설탕"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
         }
       ]
     },
@@ -7909,6 +7984,36 @@
           "flavorLevels": {
             "savory": 4,
             "umami": 3
+          }
+        }
+      ]
+    },
+    "당면": {
+      "name": "당면",
+      "recipes": [
+        {
+          "id": "jjajang_glass_noodles",
+          "name": "짜장당면",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "당면",
+            "돼지고기",
+            "양파",
+            "양배추"
+          ],
+          "seasonings": [
+            "춘장",
+            "간장",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "umami": 4
           }
         }
       ]

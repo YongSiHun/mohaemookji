@@ -10185,6 +10185,78 @@
             "savory": 4
           },
           "description": "얇게 편 닭가슴살에 시금치와 리코타를 넣어 말아 굽는 요리."
+        },
+        {
+          "id": "chicken_breast_lemon_garlic_pan",
+          "name": "닭가슴살 레몬마늘구이",
+          "flavors": [
+            "sour",
+            "light"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "마늘",
+            "아스파라거스"
+          ],
+          "seasonings": [
+            "레몬즙",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "sour": 3,
+            "light": 3
+          }
+        },
+        {
+          "id": "chicken_breast_tomato_bean_soup",
+          "name": "닭가슴살 토마토 콩수프",
+          "flavors": [
+            "umami",
+            "light"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "토마토",
+            "흰강낭콩",
+            "양파",
+            "셀러리"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 3,
+            "light": 4
+          }
+        },
+        {
+          "id": "chicken_breast_pesto_penne",
+          "name": "닭가슴살 바질페스토 펜네",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "닭가슴살",
+            "펜네",
+            "방울토마토",
+            "파르메산치즈"
+          ],
+          "seasonings": [
+            "바질페스토",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 4
+          }
         }
       ]
     },
@@ -10285,6 +10357,80 @@
           "flavorLevels": {
             "savory": 3,
             "umami": 3
+          }
+        },
+        {
+          "id": "lamb_rosemary_lemon_grill",
+          "name": "양고기 로즈마리 레몬구이",
+          "flavors": [
+            "rich",
+            "sour"
+          ],
+          "ingredients": [
+            "양고기",
+            "감자",
+            "마늘"
+          ],
+          "seasonings": [
+            "로즈마리",
+            "레몬즙",
+            "올리브유",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "sour": 2
+          }
+        },
+        {
+          "id": "lamb_tomato_white_bean_stew",
+          "name": "양고기 토마토 흰콩스튜",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "양고기",
+            "토마토",
+            "흰강낭콩",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "올리브유",
+            "다진 마늘",
+            "월계수잎",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "lamb_mushroom_cream_pan",
+          "name": "양고기 버섯 크림볶음",
+          "flavors": [
+            "rich",
+            "savory"
+          ],
+          "ingredients": [
+            "양고기",
+            "양송이버섯",
+            "양파",
+            "생크림"
+          ],
+          "seasonings": [
+            "버터",
+            "다진 마늘",
+            "소금",
+            "후추"
+          ],
+          "flavorLevels": {
+            "rich": 5,
+            "savory": 3
           }
         }
       ]

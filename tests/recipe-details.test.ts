@@ -139,7 +139,7 @@ test('대표 3종과 기존 요리 모두 상세 화면에서 렌더링하며 �
   const recipes = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
-  assert.equal(recipes.length, 2450);
+  assert.equal(recipes.length, 2520);
   assert.equal(recipes.filter((r) => r.content).length, 3);
   const server = await createServer({
     configFile: false,

@@ -129,7 +129,7 @@ test('추천 개수 제한·중복 방지·기존 제안 교체', () => {
   assert.deepEqual(pickRecommendedKeywords([], 6), []);
   assert.equal(pickRecommendedKeywords(['두부', '두부'], 6).length, 1);
 });
-test('실제 2,450개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
+test('실제 2,520개 데이터 버전·권역·동일 메뉴 중복 검증', async () => {
   const content = await readFile(
     new URL('../public/data/recipe_index.json', import.meta.url),
     'utf8',
@@ -138,10 +138,10 @@ test('실제 2,450개 데이터 버전·권역·동일 메뉴 중복 검증', as
   const manifest = JSON.parse(
     await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'),
   );
-  assert.equal(data.length, 2450);
-  assert.equal(manifest.count, 2450);
+  assert.equal(data.length, 2520);
+  assert.equal(manifest.count, 2520);
   assert.equal(manifest.version, createHash('sha256').update(content).digest('hex'));
-  assert.equal(new Set(data.map((r) => r.id)).size, 2450);
+  assert.equal(new Set(data.map((r) => r.id)).size, 2520);
   assert.equal(
     new Set(
       data.map((r) =>
@@ -151,21 +151,21 @@ test('실제 2,450개 데이터 버전·권역·동일 메뉴 중복 검증', as
           .toLowerCase(),
       ),
     ).size,
-    2450,
+    2520,
   );
   const counts: Record<string, number> = {};
   for (const recipe of data) counts[recipe.cuisine] = (counts[recipe.cuisine] ?? 0) + 1;
   assert.deepEqual(counts, {
-    chinese: 220,
+    chinese: 224,
     indian: 130,
-    japanese: 250,
-    korean: 712,
-    other: 310,
+    japanese: 260,
+    korean: 758,
+    other: 314,
     southeast_asian: 140,
-    western: 688,
+    western: 694,
   });
 });
-test('실제 2,450개 검색 결과 Cursor 전체 순회', async () => {
+test('실제 2,520개 검색 결과 Cursor 전체 순회', async () => {
   const data = JSON.parse(
     await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
   ) as Recipe[];
@@ -321,4 +321,38 @@ test('한식의 다양한 주재료·양념 조합과 맛 강도로 새 메뉴�
     }).some(({ recipe }) => recipe.name === '들깨토란탕'),
   );
   assert.ok(suggestSearchTerms(buildSuggestionIndex(data), '콜라비생').includes('콜라비생채'));
+});
+
+test('추가한 카레·짜장·육류 메뉴를 재료와 양념 조합으로 찾는다', async () => {
+  const data = JSON.parse(
+    await readFile(new URL('../public/data/recipe_index.json', import.meta.url), 'utf8'),
+  ) as Recipe[];
+  for (const [ingredient, name] of [
+    ['돼지고기,감자,카레가루', '돼지고기 감자카레'],
+    ['양고기,가지,카레가루', '양고기 가지카레'],
+    ['중화면,춘장,양파', '간짜장'],
+    ['닭가슴살,춘장,밥', '닭가슴살 짜장밥'],
+    ['돼지고기,깻잎,숙주', '돼지고기 깻잎 숙주볶음'],
+    ['소고기,마늘종,굴소스', '소고기 마늘종볶음'],
+    ['양고기,된장', '양고기 된장구이'],
+    ['닭고기,유자청,후추', '닭고기 유자후추구이'],
+    ['닭가슴살,양배추,두부', '닭가슴살 양배추말이찜'],
+  ]) {
+    assert.ok(
+      searchRecipes(data, { ...q, ingredient }).some(({ recipe }) => recipe.name === name),
+      ingredient,
+    );
+  }
+  assert.ok(
+    searchRecipes(data, {
+      flavors: ['spicy', 'umami'],
+      flavorLevels: { spicy: 4, umami: 4 },
+      ingredient: '춘장,청양고추',
+    }).some(({ recipe }) => recipe.name === '매운 고추짜장'),
+  );
+  assert.ok(
+    suggestSearchTerms(buildSuggestionIndex(data), '닭가슴살 양배추').includes(
+      '닭가슴살 양배추말이찜',
+    ),
+  );
 });

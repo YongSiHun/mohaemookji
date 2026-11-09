@@ -3153,6 +3153,242 @@
             "sweet": 3,
             "savory": 4
           }
+        },
+        {
+          "id": "pork_potato_curry_rice",
+          "name": "돼지고기 감자카레",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "돼지고기",
+            "감자",
+            "양파",
+            "당근"
+          ],
+          "seasonings": [
+            "카레가루",
+            "식용유",
+            "후추"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 4
+          }
+        },
+        {
+          "id": "beef_mushroom_curry_rice",
+          "name": "소고기 버섯카레",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "소고기",
+            "양송이버섯",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "버터",
+            "간장"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 5
+          }
+        },
+        {
+          "id": "chicken_tomato_curry_rice",
+          "name": "닭고기 토마토카레",
+          "flavors": [
+            "rich",
+            "sour"
+          ],
+          "ingredients": [
+            "밥",
+            "닭고기",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "식용유",
+            "다진 마늘"
+          ],
+          "flavorLevels": {
+            "rich": 3,
+            "sour": 2
+          }
+        },
+        {
+          "id": "chicken_breast_spinach_curry",
+          "name": "닭가슴살 시금치카레",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "닭가슴살",
+            "시금치",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "카레가루",
+            "버터",
+            "소금"
+          ],
+          "flavorLevels": {
+            "savory": 3,
+            "rich": 3
+          }
+        },
+        {
+          "id": "shrimp_coconut_curry_rice",
+          "name": "새우 코코넛카레",
+          "flavors": [
+            "rich",
+            "sweet"
+          ],
+          "ingredients": [
+            "밥",
+            "새우",
+            "코코넛밀크",
+            "양파",
+            "파프리카"
+          ],
+          "seasonings": [
+            "카레가루",
+            "식용유",
+            "소금"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "sweet": 2
+          }
+        },
+        {
+          "id": "pumpkin_chickpea_curry",
+          "name": "단호박 병아리콩카레",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "단호박",
+            "병아리콩",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "올리브유",
+            "소금"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3
+          }
+        },
+        {
+          "id": "egg_mushroom_curry_rice",
+          "name": "계란 버섯카레",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "계란",
+            "새송이버섯",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "식용유",
+            "후추"
+          ],
+          "flavorLevels": {
+            "umami": 3,
+            "rich": 3
+          }
+        },
+        {
+          "id": "apple_onion_curry_rice",
+          "name": "사과 양파카레",
+          "flavors": [
+            "sweet",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "사과",
+            "양파",
+            "감자",
+            "당근"
+          ],
+          "seasonings": [
+            "카레가루",
+            "버터",
+            "소금"
+          ],
+          "flavorLevels": {
+            "sweet": 3,
+            "rich": 3
+          }
+        },
+        {
+          "id": "cheese_baked_curry_rice",
+          "name": "치즈 카레도리아",
+          "flavors": [
+            "savory",
+            "rich"
+          ],
+          "ingredients": [
+            "밥",
+            "모차렐라치즈",
+            "돼지고기",
+            "양파",
+            "우유"
+          ],
+          "seasonings": [
+            "카레가루",
+            "버터",
+            "후추"
+          ],
+          "flavorLevels": {
+            "savory": 4,
+            "rich": 5
+          }
+        },
+        {
+          "id": "lamb_eggplant_curry_rice",
+          "name": "양고기 가지카레",
+          "flavors": [
+            "rich",
+            "umami"
+          ],
+          "ingredients": [
+            "밥",
+            "양고기",
+            "가지",
+            "토마토",
+            "양파"
+          ],
+          "seasonings": [
+            "카레가루",
+            "다진 마늘",
+            "식용유"
+          ],
+          "flavorLevels": {
+            "rich": 4,
+            "umami": 4
+          }
         }
       ]
     },

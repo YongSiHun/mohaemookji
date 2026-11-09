@@ -2003,6 +2003,108 @@
             "savory": 3,
             "umami": 3
           }
+        },
+        {
+          "id": "gan_jjajang",
+          "name": "간짜장",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "양파",
+            "양배추",
+            "대파"
+          ],
+          "seasonings": [
+            "춘장",
+            "설탕",
+            "식용유",
+            "간장"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "samsun_jjajang",
+          "name": "삼선짜장",
+          "flavors": [
+            "umami",
+            "rich"
+          ],
+          "ingredients": [
+            "중화면",
+            "새우",
+            "오징어",
+            "돼지고기",
+            "양파"
+          ],
+          "seasonings": [
+            "춘장",
+            "굴소스",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "umami": 5,
+            "rich": 3
+          }
+        },
+        {
+          "id": "uni_jjajang",
+          "name": "유니짜장",
+          "flavors": [
+            "salty",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "다진 돼지고기",
+            "양파",
+            "대파"
+          ],
+          "seasonings": [
+            "춘장",
+            "간장",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "salty": 3,
+            "umami": 4
+          }
+        },
+        {
+          "id": "spicy_jjajang_noodles",
+          "name": "매운 고추짜장",
+          "flavors": [
+            "spicy",
+            "umami"
+          ],
+          "ingredients": [
+            "중화면",
+            "돼지고기",
+            "양파",
+            "청양고추",
+            "대파"
+          ],
+          "seasonings": [
+            "춘장",
+            "고춧가루",
+            "설탕",
+            "식용유",
+            "전분"
+          ],
+          "flavorLevels": {
+            "spicy": 4,
+            "umami": 4
+          }
         }
       ]
     },
