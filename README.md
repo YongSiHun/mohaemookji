@@ -1,9 +1,13 @@
-# 모해묵지
+# 모해묵지 (https://mohaemookji.com/)
 
 ## 개요
 
 - 맛·재료 기반 메뉴 검색 → YouTube 레시피 연결
 - 메뉴 2,520종 · 맛·강도·검색어 AND 필터
+
+![alt text](docs/mohaemookji-01-hook.png)
+![alt text](docs/mohaemookji-02-find-a-menu.png)
+![alt text](docs/mohaemookji-03-menu-detail.png)
 
 ## 기술스택
 
