@@ -1,4 +1,4 @@
-import { SiteHeader, SiteFooter } from '../components/SiteLayout';
+import { SiteFooter } from '../components/SiteLayout';
 import { Hero } from '../components/Hero';
 import { RecipeGuide } from '../components/RecipeGuide';
 import { RecipeCard } from '../components/RecipeCard';
@@ -8,7 +8,6 @@ import type { Recipe } from '../types/recipe';
 export function StaticHome({ recipes }: { recipes: Recipe[] }) {
   return (
     <>
-      <SiteHeader />
       <main className="shell">
         <Hero />
         <noscript>

@@ -4,7 +4,7 @@ import { EMPTY_SEARCH_QUERY, EMPTY_RECIPES } from '../constants/recipes';
 import { useRecipeData } from '../hooks/useRecipeData';
 import { useMenuSearch } from '../hooks/useMenuSearch';
 import { useRecommendedKeywords } from '../hooks/useRecommendedKeywords';
-import { SiteHeader, SiteFooter } from '../components/SiteLayout';
+import { SiteFooter } from '../components/SiteLayout';
 import { Hero } from '../components/Hero';
 import { MenuSearchPanel } from '../components/MenuSearchPanel';
 import { ActiveConditions } from '../components/ActiveConditions';
@@ -56,7 +56,6 @@ export default function Home() {
       <a className="skip-link" href="#search">
         메뉴 검색으로 건너뛰기
       </a>
-      <SiteHeader />
       <main className="shell">
         <Hero />
         <MenuSearchPanel
